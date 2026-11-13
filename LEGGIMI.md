@@ -22,6 +22,7 @@ Non serve toccare codice: si compilano dei moduli.
 | 🗺️ Itinerario e mappa | timeline e mappa della home, mappa delle tappe |
 | 🍲 Piatti | Informazioni pratiche → Mangiare e bere |
 | 🦁 Fauna | le 106 schede dell'atlante |
+| ✏️ Testi delle pagine | tutti i testi di Home, Informazioni pratiche, Guida per tappe e Fauna, divisi per capitolo |
 
 ### Come si salva
 Modifica i campi e clicca **Save**. Dopo 1–3 minuti il sito è aggiornato (se non vedi la modifica, ricarica la pagina).
@@ -32,7 +33,7 @@ Modifica i campi e clicca **Save**. Dopo 1–3 minuti il sito è aggiornato (se 
 > ⚠️ **Il sito è pubblico**: chiunque abbia il link può vederlo.
 > Non inserire mai numeri di telefono, nomi e cognomi dei partecipanti, foto di bambini del villaggio, indirizzi esatti degli alloggi.
 
-I testi lunghi delle pagine (introduzione, informazioni pratiche, racconti delle tappe) non sono ancora nel pannello: per cambiarli chiedi a chi ha costruito il sito.
+Nei «Testi delle pagine» ogni capitolo contiene i suoi blocchi (paragrafi, voci di elenco, titoli, box), in ordine. Il campo grigio «Dove si trova» indica quale blocco stai modificando. Per far sparire un blocco, svuota il testo.
 
 ---
 

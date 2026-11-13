@@ -1,0 +1,562 @@
+{
+  "apertura": [
+    {
+      "dove": "Paragrafo: Parte 2 · Fauna",
+      "testo": "Parte 2 · Fauna"
+    },
+    {
+      "dove": "Titolo grande: Chi vive qui",
+      "testo": "Chi vive qui"
+    },
+    {
+      "dove": "Paragrafo: Un atlante tascabile per i tre luoghi selvaggi del nostro viaggio: chi…",
+      "testo": "Un atlante tascabile per i tre luoghi selvaggi del nostro viaggio: chi incontreremo, come riconoscerlo, dove guardare."
+    }
+  ],
+  "intro": [
+    {
+      "dove": "Paragrafo: Prima di salire in jeep",
+      "testo": "Prima di salire in jeep"
+    },
+    {
+      "dove": "Titolo: Tre parchi, tre modi di essere Africa",
+      "testo": "Tre parchi, tre modi di essere Africa"
+    },
+    {
+      "dove": "Paragrafo: Il Ruaha è il pezzo forte. È uno dei parchi più grandi della Tanzania,…",
+      "testo": "Il <strong>Ruaha</strong> è il pezzo forte. È uno dei parchi più grandi della Tanzania, circa 20.000 km², e in molti punti non incontrerete altre jeep per ore. Si trova in una zona di confine biologico: qui la fauna dell'Africa orientale incontra quella dell'Africa australe. Per questo è uno dei pochi posti dove si vedono insieme il kudu maggiore e il kudu minore, l'antilope nera e la roana, e dove la gazzella di Grant è all'estremo sud del suo areale. Il cuore del parco è il Grande Ruaha, un fiume largo e sabbioso che nella stagione secca diventa una catena di pozze. Intorno ci sono baobab, colline di miombo e pianure di acacia."
+    },
+    {
+      "dove": "Paragrafo: Mikumi è più piccolo (circa 3.230 km²) e più accessibile: la statale A…",
+      "testo": "<strong>Mikumi</strong> è più piccolo (circa 3.230 km²) e più accessibile: la statale A7 Dar es Salaam–Iringa lo attraversa da parte a parte. Il cuore del parco è la piana alluvionale del fiume Mkata, una prateria aperta che molti chiamano il «piccolo Serengeti». È il posto ideale per vedere giraffe, zebre, gnu ed elefanti contro un orizzonte aperto. A sud confina con l'enorme ecosistema di Nyerere (l'ex Selous). Nel nostro programma Mikumi non ha un safari dedicato: lo attraversiamo in bus il 10 dicembre, sui circa 50 km di statale che tagliano il parco. Dal finestrino si vedono spesso elefanti, giraffe, zebre, impala e babbuini."
+    },
+    {
+      "dove": "Paragrafo: Mpanga Kipengere è un'altra storia. È una riserva d'altura, tra circa …",
+      "testo": "<strong>Mpanga Kipengere</strong> è un'altra storia. È una riserva d'altura, tra circa 1.100 e 2.800 metri, fatta di foresta montana, praterie e cascate. Qui non si viene per i grandi mammiferi: si viene per i fiori, gli uccelli e i camaleonti che vivono solo su questi altopiani. Gli animali sono più piccoli e più schivi: duiker, klipspringer, cercopitechi, babbuini."
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Paragrafo: Arriviamo all'inizio della stagione delle piogge, e la savana cambia s…",
+      "testo": "Arriviamo all'inizio della stagione delle piogge, e la savana cambia sotto i nostri occhi:"
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Voce di elenco: Animali più sparsi. Le prime pozze di pioggia liberano gli animali dal…",
+      "testo": "<strong>Animali più sparsi.</strong> Le prime pozze di pioggia liberano gli animali dalla dipendenza dal fiume. Gli avvistamenti restano buoni, ma serve più pazienza che a ottobre."
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Voce di elenco: Stagione delle nascite. Impala, zebre, facoceri: è il momento dei picc…",
+      "testo": "<strong>Stagione delle nascite.</strong> Impala, zebre, facoceri: è il momento dei piccoli, e di conseguenza dei predatori in caccia."
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Voce di elenco: Erba ancora bassa. All'inizio della stagione la vegetazione non nascon…",
+      "testo": "<strong>Erba ancora bassa.</strong> All'inizio della stagione la vegetazione non nasconde ancora gli animali."
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Voce di elenco: Gli uccelli dall'Europa. Gruccioni, rondini, cicogne bianche, rapaci m…",
+      "testo": "<strong>Gli uccelli dall'Europa.</strong> Gruccioni, rondini, cicogne bianche, rapaci migratori: da ottobre ad aprile la lista delle specie si allunga."
+    },
+    {
+      "dove": "Box «Dicembre nella savana» · Voce di elenco: Temporali. Arrivano di solito nel pomeriggio, brevi e violenti. Il mat…",
+      "testo": "<strong>Temporali.</strong> Arrivano di solito nel pomeriggio, brevi e violenti. Il mattino è quasi sempre il momento migliore."
+    },
+    {
+      "dove": "Box «In gruppo» · Paragrafo: Ogni jeep nomini un «avvistatore di turno» per ogni lato. Chi vede qua…",
+      "testo": "Ogni jeep nomini un «avvistatore di turno» per ogni lato. Chi vede qualcosa dice <em>il lato e l'ora</em> come un orologio («destra, ore due, sotto l'albero»): funziona molto meglio di «lì, lì!»."
+    }
+  ],
+  "come_leggere": [
+    {
+      "dove": "Paragrafo: Come si leggono le schede",
+      "testo": "Come si leggono le schede"
+    },
+    {
+      "dove": "Titolo: Probabilità di avvistamento",
+      "testo": "Probabilità di avvistamento"
+    },
+    {
+      "dove": "Paragrafo: Ogni specie ha un indice per ciascuno dei tre luoghi. È una stima per …",
+      "testo": "Ogni specie ha un indice per ciascuno dei tre luoghi. È una stima per un viaggio come il nostro, a dicembre: nel Ruaha un pomeriggio, una notte e un'alba di game drive; a Mpanga Kipengere una giornata a piedi e in jeep; a Mikumi l'attraversamento in bus, quindi per Mikumi le probabilità valgono per chi ci fa un safari e dal bus vanno ridimensionate. Niente safari notturni: nei parchi nazionali non sono previsti. Le specie notturne sono segnate con ☾: con un po' di fortuna si vedono all'alba, al tramonto o intorno ai campi."
+    },
+    {
+      "dove": "Paragrafo: Fonti: TAWA (Mpanga Kipengere), percentuali di avvistamento raccolte d…",
+      "testo": "Fonti: <a href=\"https://www.tawa.go.tz/attraction-details/mpangakipengere-game-reserve\" target=\"_blank\" rel=\"noopener\">TAWA (Mpanga Kipengere)</a>, <a href=\"https://www.expertafrica.com/tanzania/ruaha-national-park/in-detail\" target=\"_blank\" rel=\"noopener\">percentuali di avvistamento raccolte da Expert Africa nel Ruaha</a>, studi con fototrappole del Ruaha Carnivore Project e della Rufford Foundation, guide di campo (Kingdon). Gli indici sono valutazioni dell'autore, verificate l'11/11/2026. Per Mikumi i dati pubblicati sono più scarsi: le stime sono più prudenti."
+    },
+    {
+      "dove": "Sottotitolo: Ruaha",
+      "testo": "Ruaha"
+    },
+    {
+      "dove": "Paragrafo: Grandi branchi di leoni, licaoni, kudu, antilopi nere e roane. Il fium…",
+      "testo": "Grandi branchi di leoni, licaoni, kudu, antilopi nere e roane. Il fiume è il filo conduttore di ogni game drive."
+    },
+    {
+      "dove": "Sottotitolo: Mikumi",
+      "testo": "Mikumi"
+    },
+    {
+      "dove": "Paragrafo: La piana del Mkata: praterie aperte, ippopotami nelle pozze, giraffe e…",
+      "testo": "La piana del Mkata: praterie aperte, ippopotami nelle pozze, giraffe ed elefanti ben visibili."
+    },
+    {
+      "dove": "Sottotitolo: Mpanga Kipengere",
+      "testo": "Mpanga Kipengere"
+    },
+    {
+      "dove": "Paragrafo: Altopiani, cascate e foreste: piccoli mammiferi, uccelli che vivono so…",
+      "testo": "Altopiani, cascate e foreste: piccoli mammiferi, uccelli che vivono solo qui, fioriture."
+    }
+  ],
+  "atlante": [
+    {
+      "dove": "Paragrafo: L'atlante",
+      "testo": "L'atlante"
+    },
+    {
+      "dove": "Titolo: Le specie",
+      "testo": "Le specie"
+    },
+    {
+      "dove": "Paragrafo: Tocca una scheda per aprirla. Il cerchio tratteggiato sulla foto segna…",
+      "testo": "Tocca una scheda per aprirla. Il cerchio tratteggiato sulla foto segna la specie come «avvistata»: la lista resta salvata solo su questo telefono e funziona anche senza rete."
+    },
+    {
+      "dove": "Box «Prima di partire, con il wifi» · Paragrafo: La guida funziona anche senza connessione. Le foto grandi delle schede…",
+      "testo": "La guida funziona anche senza connessione. Le foto grandi delle schede però si salvano solo quando le aprite. Toccate qui per salvarle tutte adesso (circa 12 MB): al villaggio e nel Ruaha il segnale sarà scarso."
+    }
+  ],
+  "checklist": [
+    {
+      "dove": "Paragrafo: Avvistati!",
+      "testo": "Avvistati!"
+    },
+    {
+      "dove": "Titolo: La nostra checklist",
+      "testo": "La nostra checklist"
+    },
+    {
+      "dove": "Box «In gruppo» · Paragrafo: La sera, prima di cena, confrontate le liste e fate la classifica di c…",
+      "testo": "La sera, prima di cena, confrontate le liste e fate la classifica di chi ha visto più specie. Chi avvista per primo un leopardo ha diritto a una Kilimanjaro offerta dal gruppo (sì, è anche il nome di una birra)."
+    }
+  ],
+  "birdwatching": [
+    {
+      "dove": "Paragrafo: Birdwatching",
+      "testo": "Birdwatching"
+    },
+    {
+      "dove": "Titolo: Guardare in alto",
+      "testo": "Guardare in alto"
+    },
+    {
+      "dove": "Paragrafo: Arrivate in Tanzania pensando ai leoni e ripartirete parlando di ghian…",
+      "testo": "Arrivate in Tanzania pensando ai leoni e ripartirete parlando di ghiandaie marine. Succede a quasi tutti. Il Ruaha è una <em>Important Bird Area</em> di BirdLife International, e le liste di specie del parco vanno da circa 450 a oltre 570, secondo la fonte. Dicembre è il momento migliore dell'anno: da novembre ad aprile alle specie residenti si aggiungono i migratori arrivati dall'Europa e dall'Asia e quelli che si spostano all'interno dell'Africa. Con le prime piogge, in più, molti uccelli indossano il piumaggio nuziale."
+    },
+    {
+      "dove": "Paragrafo: Non serve essere esperti. Bastano un binocolo nella jeep, la pazienza …",
+      "testo": "Non serve essere esperti. Bastano un binocolo nella jeep, la pazienza di fermarsi due minuti in più vicino a un albero di acacia fiorito e l'abitudine di chiedere alla guida «<em>what's that bird?</em>». Le guide tanzaniane sono quasi sempre ottimi birdwatcher e conoscono i nomi inglesi di centinaia di specie."
+    },
+    {
+      "dove": "Sottotitolo: Le specialità tanzaniane del Ruaha",
+      "testo": "Le specialità tanzaniane del Ruaha"
+    },
+    {
+      "dove": "Paragrafo: Tre specie vivono solo in Tanzania, e il Ruaha è uno dei posti miglior…",
+      "testo": "Tre specie vivono solo in Tanzania, e il Ruaha è uno dei posti migliori per vederle: il <a href=\"#ruahae\">bucero dal becco rosso della Tanzania</a>, che porta il nome del parco, lo <a href=\"#cenerino\">storno cenerino</a> e l'<a href=\"#inseparabile\">inseparabile dal collare giallo</a>. Gli uccelli degli altopiani di Kipengere e Kitulo, alcuni dei quali vivono solo lì, sono nel prossimo capitolo."
+    },
+    {
+      "dove": "Sottotitolo: Chi arriva dall'Europa a dicembre",
+      "testo": "Chi arriva dall'Europa a dicembre"
+    },
+    {
+      "dove": "Paragrafo: Molti uccelli che vedrete li conoscete già, magari senza saperlo: pass…",
+      "testo": "Molti uccelli che vedrete li conoscete già, magari senza saperlo: passano l'estate in Italia e l'inverno qui. Tra i più facili da notare ci sono la <a href=\"#cicogna-bianca\">cicogna bianca</a>, il <a href=\"#gruccione-eu\">gruccione</a>, la <a href=\"#ghiandaia-eu\">ghiandaia marina</a>, l'<a href=\"#steppe\">aquila delle steppe</a>, la rondine, l'averla piccola, la cutrettola gialla, il luì grosso, il culbianco e il piro piro boschereccio nelle pozze. Secondo alcune fonti, a dicembre e gennaio il Ruaha ospita anche il raro falco della regina, che nidifica sulle isole del Mediterraneo, Sardegna compresa."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Voce di elenco: Binocolo: un 8×42 o un 10×42 è l'ideale. Ne basta uno ogni due persone…",
+      "testo": "<strong>Binocolo</strong>: un 8×42 o un 10×42 è l'ideale. Ne basta uno ogni due persone, ma almeno uno per jeep è indispensabile."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Voce di elenco: App: prima di partire scaricate Merlin Bird ID (Cornell Lab, gratuita)…",
+      "testo": "<strong>App</strong>: prima di partire scaricate <em>Merlin Bird ID</em> (Cornell Lab, gratuita) con il pacchetto di specie per la Tanzania o l'Africa orientale: così funziona anche offline. Con <em>eBird</em> potete registrare le vostre liste e contribuire alla scienza."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Voce di elenco: Guida da campo: il riferimento classico è Birds of East Africa di Stev…",
+      "testo": "<strong>Guida da campo</strong>: il riferimento classico è <em>Birds of East Africa</em> di Stevenson e Fanshawe (Helm). Ne basta una copia per gruppo."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Voce di elenco: Orari: la prima ora dopo l'alba e l'ultima prima del tramonto. A mezzo…",
+      "testo": "<strong>Orari</strong>: la prima ora dopo l'alba e l'ultima prima del tramonto. A mezzogiorno restano solo i rapaci in volo."
+    },
+    {
+      "dove": "Box «In gruppo» · Paragrafo: Proponete una sfida tra jeep: ogni sera si contano le specie di uccell…",
+      "testo": "Proponete una sfida tra jeep: ogni sera si contano le specie di uccelli viste da ciascun gruppo. Chi vince sceglie il posto per il game drive del mattino dopo."
+    },
+    {
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Niente richiami registrati riprodotti dal telefono per attirare gli uc…",
+      "testo": "Niente richiami registrati riprodotti dal telefono per attirare gli uccelli: nei parchi stressano le coppie in piena stagione riproduttiva, e per molte specie dicembre lo è."
+    }
+  ],
+  "altopiani": [
+    {
+      "dove": "Paragrafo: Altopiani e Kitulo",
+      "testo": "Altopiani e Kitulo"
+    },
+    {
+      "dove": "Titolo: Il giardino sopra le nuvole",
+      "testo": "Il giardino sopra le nuvole"
+    },
+    {
+      "dove": "Paragrafo: Lasciata la savana, la strada sale per ore tra campi di mais, piantagi…",
+      "testo": "Lasciata la savana, la strada sale per ore tra campi di mais, piantagioni di tè e boschi di pini ed eucalipti, e l'aria cambia. A Mpanga Kipengere, tra circa 1.100 e 2.800 metri, il mondo si fa verde, umido e fresco. Le colline sono coperte di praterie e di lembi di foresta montana (la riserva ne conta più di 17 tipi diversi), e dappertutto scende acqua. La più famosa è quella delle <strong>cascate Kimani</strong>, il luogo più visitato della riserva. Qui non si viene per i grandi mammiferi. Si viene per la luce, la nebbia che sale dalle valli, gli uccelli che non vivono da nessun'altra parte e i fiori."
+    },
+    {
+      "dove": "Paragrafo: Poco più a sud-ovest, dove la catena dei Kipengere incontra i Monti Po…",
+      "testo": "Poco più a sud-ovest, dove la catena dei Kipengere incontra i Monti Poroto, c'è l'<strong>altopiano di Kitulo</strong>, a circa 2.600 metri. Gli abitanti lo chiamano <em lang=\"sw\">Bustani ya Mungu</em>, «il giardino di Dio», e dal 2005 è un parco nazionale di circa 413 km². È stato il primo parco dell'Africa tropicale istituito soprattutto per proteggere la flora. Sulle sue praterie crescono circa 350 specie di piante, tra cui circa 45 orchidee terrestri. Alcune specie, come <em>Impatiens rosulata</em> o <em>Brachystelma kituloensis</em>, esistono solo qui. La fioritura va da novembre ad aprile, con il picco tra dicembre e marzo: nelle settimane del nostro viaggio."
+    },
+    {
+      "dove": "Paragrafo: Nella foresta di Livingstone, la più grande della catena, vive il kipu…",
+      "testo": "Nella foresta di Livingstone, la più grande della catena, vive il <a href=\"#kipunji\">kipunji</a>, una scimmia che gli scienziati hanno scoperto solo nel 2003. Nelle stesse foreste vivono camaleonti presenti solo su questi monti. Negli altopiani c'è ancora molto da scoprire."
+    },
+    {
+      "dove": "Box «Da non perdere» · Paragrafo: Se il programma lo permette, la mattina presto alle cascate Kimani. Se…",
+      "testo": "Se il programma lo permette, la mattina presto alle cascate Kimani. Se invece siete nella zona di Kitulo, una passeggiata tra i fiori del plateau: a dicembre è il momento migliore dell'anno."
+    },
+    {
+      "dove": "Box «Attenzione» · Voce di elenco: Sopra i 2.000 metri, di notte e nelle giornate di pioggia, la temperat…",
+      "testo": "Sopra i 2.000 metri, di notte e nelle giornate di pioggia, la temperatura può scendere sotto i 10 °C: portate pile, giacca impermeabile e calze di lana."
+    },
+    {
+      "dove": "Box «Attenzione» · Voce di elenco: Con le piogge di dicembre le strade sterrate degli altopiani diventano…",
+      "testo": "Con le piogge di dicembre le strade sterrate degli altopiani diventano scivolose e fangose: i tempi di trasferimento sono sempre indicativi."
+    },
+    {
+      "dove": "Box «Attenzione» · Voce di elenco: La nebbia arriva in fretta: non allontanatevi dai sentieri e dal grupp…",
+      "testo": "La nebbia arriva in fretta: non allontanatevi dai sentieri e dal gruppo."
+    },
+    {
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Non raccogliete fiori né bulbi. I tuberi delle orchidee di questi alto…",
+      "testo": "Non raccogliete fiori né bulbi. I tuberi delle orchidee di questi altopiani vengono estratti illegalmente a milioni per preparare il <em>chikanda</em>, un piatto molto popolare in Zambia, e alcune specie sono in forte declino. Anche camminare fuori dal sentiero sull'erba umida danneggia le piante giovani."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Per i fiori basta lo smartphone, ma usate la modalità macro e mettetev…",
+      "testo": "Per i fiori basta lo smartphone, ma usate la modalità macro e mettetevi all'altezza del fiore. Caricate le foto più belle su iNaturalist, con data e luogo: per alcune specie di Kitulo ogni segnalazione ha un valore scientifico."
+    },
+    {
+      "dove": "Paragrafo: Fonti: Wikipedia (Kitulo), Tanzania Tourist Board, American Orchid Soc…",
+      "testo": "Fonti: <a href=\"https://en.wikipedia.org/wiki/Kitulo_National_Park\" target=\"_blank\" rel=\"noopener\">Wikipedia (Kitulo)</a>, <a href=\"https://www.tanzaniatourism.com/destination/kitulo-national-park\" target=\"_blank\" rel=\"noopener\">Tanzania Tourist Board</a>, <a href=\"https://www.aos.org/orchids/articles/chikanda-orchids-conservation-in-the-highlands-of-southern-tanzania\" target=\"_blank\" rel=\"noopener\">American Orchid Society (chikanda)</a>, <a href=\"https://www.tawa.go.tz/attraction-details/mpangakipengere-game-reserve\" target=\"_blank\" rel=\"noopener\">TAWA</a>, BirdLife International. Per filtrare le specie di questo capitolo usate i filtri «Altopiani» e «Fiori e piante» dell'atlante."
+    }
+  ],
+  "savana": [
+    {
+      "dove": "Paragrafo: Come si legge la savana",
+      "testo": "Come si legge la savana"
+    },
+    {
+      "dove": "Titolo: Indizi, impronte, voci",
+      "testo": "Indizi, impronte, voci"
+    },
+    {
+      "dove": "Paragrafo: Le guide tanzaniane trovano gli animali prima di vederli. Una fila di …",
+      "testo": "Le guide tanzaniane trovano gli animali prima di vederli. Una fila di impronte fresche sulla pista all'alba, un gruppo di impala che fissa un cespuglio, gli avvoltoi immobili su un albero secco, un babbuino che abbaia: per loro la savana è un giornale da leggere. Non diventerete tracker in due settimane, ma imparare le basi cambia il modo di stare in jeep: si smette di aspettare che gli animali compaiano e si comincia a cercarli."
+    },
+    {
+      "dove": "Paragrafo: Dicembre è un buon mese per imparare. Dopo i temporali della notte il …",
+      "testo": "Dicembre è un buon mese per imparare. Dopo i temporali della notte il fango e la sabbia umida delle piste conservano impronte nitidissime, e la mattina presto sono tutte fresche: qualsiasi orma vediate è passata da lì poche ore prima."
+    },
+    {
+      "dove": "Box «Attenzione» · Paragrafo: Nei parchi nazionali non si scende dalla jeep, se non nei punti autori…",
+      "testo": "Nei parchi nazionali non si scende dalla jeep, se non nei punti autorizzati e con il ranger. Le orme si leggono dal finestrino: chiedete all'autista di fermarsi e di indicarvele."
+    },
+    {
+      "dove": "Box «In gruppo» · Paragrafo: Il gioco dell'orma: chi vede per primo un'impronta sulla pista prova a…",
+      "testo": "Il gioco dell'orma: chi vede per primo un'impronta sulla pista prova a indovinare l'animale prima della guida. Un punto per la famiglia giusta (felino, canide, antilope…), due per la specie."
+    },
+    {
+      "dove": "Sottotitolo: 1 · Le orme",
+      "testo": "1 · Le orme"
+    },
+    {
+      "dove": "Paragrafo: Quattro forme di base bastano per orientarsi. Le misure sono indicativ…",
+      "testo": "Quattro forme di base bastano per orientarsi. Le misure sono indicative e si riferiscono all'impronta anteriore di un adulto."
+    },
+    {
+      "dove": "Didascalia: Felini · leone 11–13 cm, leopardo 7–9 cm, ghepardo 7–8 cmDita tonde, n…",
+      "testo": "<strong>Felini</strong> · leone 11–13 cm, leopardo 7–9 cm, ghepardo 7–8 cm<br>Dita tonde, <em>niente unghie</em> (sono retrattili). Impronta più larga che lunga e un po' asimmetrica. Cuscinetto grande, con tre lobi alla base. Il ghepardo fa eccezione: le sue unghie, solo in parte retrattili, spesso si vedono."
+    },
+    {
+      "dove": "Didascalia: Canidi e iene · iena macchiata 9–12 cm, licaone 7–8 cm, sciacallo 4–5 …",
+      "testo": "<strong>Canidi e iene</strong> · iena macchiata 9–12 cm, licaone 7–8 cm, sciacallo 4–5 cm<br>Impronta più lunga che larga e simmetrica, con <em>le unghie ben visibili</em> davanti alle dita. Nella iena il piede anteriore è molto più grande del posteriore, perché porta il peso del torace massiccio."
+    },
+    {
+      "dove": "Didascalia: Antilopi, bufali, giraffe, facoceri · dik-dik 2–3 cm, impala 5–6 cm, b…",
+      "testo": "<strong>Antilopi, bufali, giraffe, facoceri</strong> · dik-dik 2–3 cm, impala 5–6 cm, bufalo 12–14 cm, giraffa fino a 20 cm<br>Due mezzi zoccoli affiancati, come un cuore rovesciato. Le punte più strette indicano la direzione di marcia. Le orme di bufalo sono tonde e massicce; quelle di giraffa grandi, allungate e molto distanziate."
+    },
+    {
+      "dove": "Didascalia: Elefante · 40–50 cm di diametro negli adultiUn grande cerchio, con una…",
+      "testo": "<strong>Elefante</strong> · 40–50 cm di diametro negli adulti<br>Un grande cerchio, con una trama di «crepe» della pianta del piede, unica per ogni individuo. Il piede posteriore lascia un ovale più allungato. La regola dei tracker: <em>la circonferenza del piede anteriore moltiplicata per due è circa uguale all'altezza al garrese</em>."
+    },
+    {
+      "dove": "Didascalia: Orme di leopardo su una pista del Ruaha. Foto: Richard Mortel · CC BY …",
+      "testo": "Orme di leopardo su una pista del Ruaha. Foto: Richard Mortel · <a href=\"https://commons.wikimedia.org/wiki/File:Leopard_tracks,_Ruaha_National_Park_(2)_(28946995241).jpg\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a>"
+    },
+    {
+      "dove": "Paragrafo: Altre orme da riconoscere: l'ippopotamo lascia quattro dita tonde a ve…",
+      "testo": "Altre orme da riconoscere: l'<strong>ippopotamo</strong> lascia quattro dita tonde a ventaglio e scava nei canneti «sentieri» profondi che portano all'acqua; lo <strong>struzzo</strong> due sole dita, una molto più grande dell'altra; il <strong>coccodrillo</strong> e il <strong>varano</strong> una scia della coda tra le impronte dei piedi; i <strong>serpenti</strong> una traccia ondulata continua."
+    },
+    {
+      "dove": "Sottotitolo: 2 · I segni di presenza",
+      "testo": "2 · I segni di presenza"
+    },
+    {
+      "dove": "Paragrafo: Avvoltoi in cerchio nel cielo cercano. Avvoltoi posati sugli alberi vi…",
+      "testo": "Avvoltoi <em>in cerchio</em> nel cielo cercano. Avvoltoi <em>posati sugli alberi</em> vicino al suolo aspettano: c'è una carcassa sotto, spesso ancora sorvegliata da leoni o iene che impediscono loro di scendere."
+    },
+    {
+      "dove": "Paragrafo: Bianco come il gesso, quando è secco: le iene digeriscono le ossa e ne…",
+      "testo": "Bianco come il gesso, quando è secco: le iene digeriscono le ossa e ne eliminano il calcio. Le iene usano sempre le stesse latrine."
+    },
+    {
+      "dove": "Paragrafo: Piccoli mucchi di palline sempre negli stessi punti, ai bordi del terr…",
+      "testo": "Piccoli mucchi di palline sempre negli stessi punti, ai bordi del territorio di una coppia."
+    },
+    {
+      "dove": "Paragrafo: Segni verticali sulla corteccia ad altezza d'uomo, sugli alberi inclin…",
+      "testo": "Segni verticali sulla corteccia ad altezza d'uomo, sugli alberi inclinati: sono le «affilature» di un leopardo. Se tra i rami c'è una carcassa appesa, il leopardo è vicino."
+    },
+    {
+      "dove": "Paragrafo: Erba appiattita e piste larghe che portano all'acqua: un passaggio reg…",
+      "testo": "Erba appiattita e piste larghe che portano all'acqua: un passaggio regolare di bufali o elefanti. Dove l'erba è schiacciata in un cerchio, qualcuno ha dormito."
+    },
+    {
+      "dove": "Paragrafo: Un odore dolciastro e penetrante vicino a un cespuglio può essere la m…",
+      "testo": "Un odore dolciastro e penetrante vicino a un cespuglio può essere la marcatura di un leopardo o di una civetta. L'odore di carogna si sente prima di vedere la carcassa."
+    },
+    {
+      "dove": "Sottotitolo: 3 · I versi",
+      "testo": "3 · I versi"
+    },
+    {
+      "dove": "Paragrafo: Molti animali li sentirete prima di vederli, soprattutto di notte nei …",
+      "testo": "Molti animali li sentirete prima di vederli, soprattutto di notte nei campi tendati. Ecco i versi da riconoscere, con una trascrizione approssimativa e il momento migliore per ascoltarli."
+    },
+    {
+      "dove": "Tabella (intestazione): Chi",
+      "testo": "Chi"
+    },
+    {
+      "dove": "Tabella (intestazione): Come suona",
+      "testo": "Come suona"
+    },
+    {
+      "dove": "Tabella (intestazione): Quando e perché",
+      "testo": "Quando e perché"
+    },
+    {
+      "dove": "Tabella: Leone",
+      "testo": "<a href=\"#leone\">Leone</a>"
+    },
+    {
+      "dove": "Tabella: Una serie di ruggiti profondi, che vanno spegnendosi in grugniti: «ooo…",
+      "testo": "Una serie di ruggiti profondi, che vanno spegnendosi in grugniti: «oooh-OOOH… uh-uh-uh»."
+    },
+    {
+      "dove": "Tabella: Di notte e all'alba. Segna il territorio: si sente fino a 8 km.",
+      "testo": "Di notte e all'alba. Segna il territorio: si sente fino a 8 km."
+    },
+    {
+      "dove": "Tabella: Leopardo",
+      "testo": "<a href=\"#leopardo\">Leopardo</a>"
+    },
+    {
+      "dove": "Tabella: Un raschio ritmico e rauco, come una sega sul legno: «hrr-hrr-hrr».",
+      "testo": "Un raschio ritmico e rauco, come una sega sul legno: «hrr-hrr-hrr»."
+    },
+    {
+      "dove": "Tabella: Di notte, raramente. Segnala la propria presenza agli altri leopardi.",
+      "testo": "Di notte, raramente. Segnala la propria presenza agli altri leopardi."
+    },
+    {
+      "dove": "Tabella: Iena macchiata",
+      "testo": "<a href=\"#iena-macchiata\">Iena macchiata</a>"
+    },
+    {
+      "dove": "Tabella: Un «uuu-uup» che sale di tono, ripetuto. Le «risate» sono rare e acute…",
+      "testo": "Un «uuu-uup» che sale di tono, ripetuto. Le «risate» sono rare e acute."
+    },
+    {
+      "dove": "Tabella: Tutta la notte. Il richiamo serve a radunare il clan.",
+      "testo": "Tutta la notte. Il richiamo serve a radunare il clan."
+    },
+    {
+      "dove": "Tabella: Sciacallo",
+      "testo": "<a href=\"#sciacallo-gualdrappa\">Sciacallo</a>"
+    },
+    {
+      "dove": "Tabella: Un ululato acuto e tremolante, seguito da guaiti.",
+      "testo": "Un ululato acuto e tremolante, seguito da guaiti."
+    },
+    {
+      "dove": "Tabella: Al tramonto e di notte.",
+      "testo": "Al tramonto e di notte."
+    },
+    {
+      "dove": "Tabella: Ippopotamo",
+      "testo": "<a href=\"#ippopotamo\">Ippopotamo</a>"
+    },
+    {
+      "dove": "Tabella: Grugniti profondi e cavernosi, come una risata grassa: «HUH-huh-huh-hu…",
+      "testo": "Grugniti profondi e cavernosi, come una risata grassa: «HUH-huh-huh-huh»."
+    },
+    {
+      "dove": "Tabella: A qualsiasi ora vicino al fiume, più forte al tramonto.",
+      "testo": "A qualsiasi ora vicino al fiume, più forte al tramonto."
+    },
+    {
+      "dove": "Tabella: Elefante",
+      "testo": "<a href=\"#elefante\">Elefante</a>"
+    },
+    {
+      "dove": "Tabella: Il barrito è uno squillo di tromba. Più spesso si sente un brontolio b…",
+      "testo": "Il barrito è uno squillo di tromba. Più spesso si sente un brontolio basso, come uno stomaco affamato."
+    },
+    {
+      "dove": "Tabella: Il barrito indica eccitazione o allarme; il brontolio è un modo per re…",
+      "testo": "Il barrito indica eccitazione o allarme; il brontolio è un modo per restare in contatto."
+    },
+    {
+      "dove": "Tabella: Zebra",
+      "testo": "<a href=\"#zebra\">Zebra</a>"
+    },
+    {
+      "dove": "Tabella: Un abbaio ansimante, a scatti: «kwa-ha, kwa-ha».",
+      "testo": "Un abbaio ansimante, a scatti: «kwa-ha, kwa-ha»."
+    },
+    {
+      "dove": "Tabella: Durante il giorno, per tenere unito il gruppo.",
+      "testo": "Durante il giorno, per tenere unito il gruppo."
+    },
+    {
+      "dove": "Tabella: Babbuino",
+      "testo": "<a href=\"#babbuino\">Babbuino</a>"
+    },
+    {
+      "dove": "Tabella: Un abbaio a due tempi: «wa-HOO!».",
+      "testo": "Un abbaio a due tempi: «wa-HOO!»."
+    },
+    {
+      "dove": "Tabella: È un allarme: spesso indica un leopardo vicino.",
+      "testo": "È un allarme: spesso indica un leopardo vicino."
+    },
+    {
+      "dove": "Tabella: Impala",
+      "testo": "<a href=\"#impala\">Impala</a>"
+    },
+    {
+      "dove": "Tabella: Uno sbuffo nasale e secco. Nella stagione degli amori i maschi «ruggis…",
+      "testo": "Uno sbuffo nasale e secco. Nella stagione degli amori i maschi «ruggiscono» con una serie di sbuffi rauchi."
+    },
+    {
+      "dove": "Tabella: Lo sbuffo è l'allarme: c'è un predatore.",
+      "testo": "Lo sbuffo è l'allarme: c'è un predatore."
+    },
+    {
+      "dove": "Tabella: Kudu",
+      "testo": "<a href=\"#kudu-maggiore\">Kudu</a>"
+    },
+    {
+      "dove": "Tabella: Un abbaio fortissimo e secco, che sembra quello di un cane.",
+      "testo": "Un abbaio fortissimo e secco, che sembra quello di un cane."
+    },
+    {
+      "dove": "Tabella: Allarme, nel fitto della boscaglia.",
+      "testo": "Allarme, nel fitto della boscaglia."
+    },
+    {
+      "dove": "Tabella: Cercopiteco verde",
+      "testo": "<a href=\"#vervet\">Cercopiteco verde</a>"
+    },
+    {
+      "dove": "Tabella: Squittii acuti, diversi per ogni predatore: aquila, leopardo, serpente…",
+      "testo": "Squittii acuti, diversi per ogni predatore: aquila, leopardo, serpente."
+    },
+    {
+      "dove": "Tabella: Allarme: guardate dove guardano le scimmie.",
+      "testo": "Allarme: guardate dove guardano le scimmie."
+    },
+    {
+      "dove": "Tabella: Aquila pescatrice",
+      "testo": "<a href=\"#pescatrice\">Aquila pescatrice</a>"
+    },
+    {
+      "dove": "Tabella: Uno squillo acuto e ripetuto, «uii-a-kiu-kiu-kiu», a testa all'indietr…",
+      "testo": "Uno squillo acuto e ripetuto, «uii-a-kiu-kiu-kiu», a testa all'indietro."
+    },
+    {
+      "dove": "Tabella: Soprattutto al mattino, in coppia. Ascolta su xeno-canto",
+      "testo": "Soprattutto al mattino, in coppia. <a href=\"https://xeno-canto.org/species/Haliaeetus-vocifer\" target=\"_blank\" rel=\"noopener\">Ascolta su xeno-canto</a>"
+    },
+    {
+      "dove": "Tabella: Bucorvo cafro",
+      "testo": "<a href=\"#bucorvo\">Bucorvo cafro</a>"
+    },
+    {
+      "dove": "Tabella: Un «bum… bum-bum» profondo, come un tamburo lontano.",
+      "testo": "Un «bum… bum-bum» profondo, come un tamburo lontano."
+    },
+    {
+      "dove": "Tabella: All'alba, si sente a chilometri. Ascolta su xeno-canto",
+      "testo": "All'alba, si sente a chilometri. <a href=\"https://xeno-canto.org/species/Bucorvus-leadbeateri\" target=\"_blank\" rel=\"noopener\">Ascolta su xeno-canto</a>"
+    },
+    {
+      "dove": "Tabella: Galagone",
+      "testo": "<a href=\"#galago-grande\">Galagone</a>"
+    },
+    {
+      "dove": "Tabella: Un pianto lamentoso, come quello di un neonato.",
+      "testo": "Un pianto lamentoso, come quello di un neonato."
+    },
+    {
+      "dove": "Tabella: Di notte, vicino alle tende.",
+      "testo": "Di notte, vicino alle tende."
+    },
+    {
+      "dove": "Tabella: Faraona",
+      "testo": "<a href=\"#faraone\">Faraona</a>"
+    },
+    {
+      "dove": "Tabella: Un coro metallico e rumoroso di «kek-kek-kek».",
+      "testo": "Un coro metallico e rumoroso di «kek-kek-kek»."
+    },
+    {
+      "dove": "Tabella: All'alba e al tramonto. Esplode quando il gruppo vede un predatore.",
+      "testo": "All'alba e al tramonto. Esplode quando il gruppo vede un predatore."
+    },
+    {
+      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Prima di partire, una sera, ascoltate su YouTube o su xeno-canto i ver…",
+      "testo": "Prima di partire, una sera, ascoltate su YouTube o su xeno-canto i versi di leone, iena e ippopotamo. La prima notte in tenda nel Ruaha, quando li sentirete a pochi metri, saprete chi sta parlando e dormirete molto meglio."
+    },
+    {
+      "dove": "Sottotitolo: 4 · Il linguaggio del corpo",
+      "testo": "4 · Il linguaggio del corpo"
+    },
+    {
+      "dove": "Paragrafo: Impala, zebre o giraffe immobili, con le orecchie dritte e lo sguardo …",
+      "testo": "Impala, zebre o giraffe immobili, con le orecchie dritte e lo sguardo fisso nello stesso punto: c'è un predatore. Seguite i loro occhi."
+    },
+    {
+      "dove": "Paragrafo: Orecchie spalancate, testa alta, un passo avanti, magari un barrito: è…",
+      "testo": "Orecchie spalancate, testa alta, un passo avanti, magari un barrito: è un avvertimento. La jeep deve allontanarsi con calma, senza accelerare di colpo."
+    },
+    {
+      "dove": "Paragrafo: Non ha sonno: mostra i canini. È una minaccia.",
+      "testo": "Non ha sonno: mostra i canini. È una minaccia."
+    },
+    {
+      "dove": "Paragrafo: Un leone sdraiato che muove la coda a scatti è infastidito. Se la jeep…",
+      "testo": "Un leone sdraiato che muove la coda a scatti è infastidito. Se la jeep è troppo vicina, è il momento di indietreggiare."
+    },
+    {
+      "dove": "Paragrafo: Tre o quattro jeep ferme in mezzo al nulla di solito significano un fe…",
+      "testo": "Tre o quattro jeep ferme in mezzo al nulla di solito significano un felino. Ma il Ruaha è grande: spesso il meglio lo trovate da soli."
+    }
+  ]
+}

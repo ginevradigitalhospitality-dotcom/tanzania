@@ -202,5 +202,301 @@ content:
       - { name: migratore, label: Migratore, type: boolean }
       - { name: fuori, label: Non presente nel nostro itinerario, type: boolean }
 
+
+  - name: testi
+    label: "✏️ Testi delle pagine"
+    type: group
+    items:
+      - name: testi_index
+        label: "Home e Introduzione"
+        type: file
+        path: data/testi/index.json
+        format: json
+        fields:
+          - name: apertura
+            label: "Apertura della pagina"
+            type: object
+            list: { min: 4, max: 4, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: benvenuti
+            label: "Benvenuti in Tanzania"
+            type: object
+            list: { min: 13, max: 13, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: itinerario
+            label: "Dall'oceano agli altopiani, e ritorno"
+            type: object
+            list: { min: 5, max: 5, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: consigli
+            label: "Diciotto cose che vorrete sapere prima"
+            type: object
+            list: { min: 20, max: 20, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: partire
+            label: "Valigia, documenti, salute, soldi"
+            type: object
+            list: { min: 22, max: 22, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: sostenibile
+            label: "Lasciare tracce leggere"
+            type: object
+            list: { min: 43, max: 43, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+      - name: testi_info
+        label: "Informazioni pratiche"
+        type: file
+        path: data/testi/info.json
+        format: json
+        fields:
+          - name: apertura
+            label: "Apertura della pagina"
+            type: object
+            list: { min: 4, max: 4, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: arrivare
+            label: "Atterrare a Dar es Salaam"
+            type: object
+            list: { min: 9, max: 9, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: muoversi
+            label: "Jeep, bus, bajaji"
+            type: object
+            list: { min: 11, max: 11, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: dormire
+            label: "Dalla guest house alla tenda nel parco"
+            type: object
+            list: { min: 8, max: 8, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: mangiare
+            label: "Karibu chakula: a tavola"
+            type: object
+            list: { min: 34, max: 34, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: salute
+            label: "Stare bene in viaggio"
+            type: object
+            list: { min: 11, max: 11, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: connessione
+            label: "Restare connessi (e staccare)"
+            type: object
+            list: { min: 10, max: 10, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: feste
+            label: "Il 9 dicembre, Uhuru Day"
+            type: object
+            list: { min: 9, max: 9, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: safari
+            label: "Come funziona un game drive"
+            type: object
+            list: { min: 17, max: 17, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: aperto
+            label: "A piedi, oltre la jeep"
+            type: object
+            list: { min: 7, max: 7, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: sicurezza
+            label: "Prudenti, non spaventati"
+            type: object
+            list: { min: 19, max: 19, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: cultura
+            label: "Saluti lunghi e tempi lenti"
+            type: object
+            list: { min: 13, max: 13, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: acquisti
+            label: "Cosa portare a casa (e cosa no)"
+            type: object
+            list: { min: 16, max: 16, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: gruppo
+            label: "Quindici sconosciuti in una jeep"
+            type: object
+            list: { min: 11, max: 11, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: dasapere
+            label: "Tutto in una tabella"
+            type: object
+            list: { min: 31, max: 31, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+      - name: testi_tappe
+        label: "Guida per tappe"
+        type: file
+        path: data/testi/tappe.json
+        format: json
+        fields:
+          - name: apertura
+            label: "Apertura della pagina"
+            type: object
+            list: { min: 4, max: 4, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: percorso
+            label: "Sette tappe, circa 2.000 km tra volo e strada"
+            type: object
+            list: { min: 5, max: 5, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: dar
+            label: "Dar es Salaam"
+            type: object
+            list: { min: 37, max: 37, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: mpanga
+            label: "Mbeya e Mpanga Kipengere"
+            type: object
+            list: { min: 34, max: 34, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: mavanga
+            label: "Mavanga"
+            type: object
+            list: { min: 32, max: 32, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: iringa
+            label: "Iringa"
+            type: object
+            list: { min: 31, max: 31, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: ruaha
+            label: "Parco Nazionale del Ruaha"
+            type: object
+            list: { min: 33, max: 33, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: masai
+            label: "Cultura masai"
+            type: object
+            list: { min: 27, max: 27, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: mikumi
+            label: "Parco Nazionale di Mikumi"
+            type: object
+            list: { min: 28, max: 28, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+      - name: testi_fauna
+        label: "Fauna (testi della pagina)"
+        type: file
+        path: data/testi/fauna.json
+        format: json
+        fields:
+          - name: apertura
+            label: "Apertura della pagina"
+            type: object
+            list: { min: 3, max: 3, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: intro
+            label: "Tre parchi, tre modi di essere Africa"
+            type: object
+            list: { min: 12, max: 12, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: come_leggere
+            label: "Probabilità di avvistamento"
+            type: object
+            list: { min: 10, max: 10, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: atlante
+            label: "Le specie"
+            type: object
+            list: { min: 4, max: 4, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: checklist
+            label: "La nostra checklist"
+            type: object
+            list: { min: 3, max: 3, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: birdwatching
+            label: "Guardare in alto"
+            type: object
+            list: { min: 14, max: 14, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: altopiani
+            label: "Il giardino sopra le nuvole"
+            type: object
+            list: { min: 12, max: 12, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - name: savana
+            label: "Indizi, impronte, voci"
+            type: object
+            list: { min: 78, max: 78, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+
 settings:
   content: true

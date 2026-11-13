@@ -50,6 +50,27 @@ KT.dati = function (nomi, cb) {
   }
   window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
   if (top) top.addEventListener('click', function () { window.scrollTo({ top: 0 }); });
+  // testi delle pagine modificati dal pannello (data/testi/<pagina>.json)
+  var blocchi = document.querySelectorAll('[data-t]');
+  if (blocchi.length && window.fetch) {
+    var nome = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
+    fetch('data/testi/' + nome + '.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (J) {
+      if (!J) return;
+      Array.prototype.forEach.call(blocchi, function (el) {
+        var k = el.getAttribute('data-t').split('.'), b = J[k[0]] && J[k[0]][+k[1]];
+        if (!b || typeof b.testo !== 'string') return;
+        var h = b.testo.trim();
+        if (/^<p[\s>]/i.test(h)) { // l'editor racchiude il testo in paragrafi: li togliamo
+          var tmp = document.createElement('div'); tmp.innerHTML = h;
+          var figli = Array.prototype.slice.call(tmp.children);
+          if (figli.every(function (p) { return p.tagName === 'P'; })) h = figli.map(function (p) { return p.innerHTML; }).filter(function (x) { return x.replace(/<br\s*\/?>/g, '').trim(); }).join('<br><br>');
+        }
+        if (!h.replace(/<br\s*\/?>/g, '').trim()) { el.hidden = true; return; }
+        el.hidden = false;
+        if (el.innerHTML.trim() !== h) el.innerHTML = h;
+      });
+    }).catch(function () {});
+  }
   // uso offline: registra il service worker (funziona solo su https o localhost)
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
