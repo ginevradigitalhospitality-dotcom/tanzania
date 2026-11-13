@@ -1,0 +1,26 @@
+/* Crediti fotografici – blocco 2 (Wikimedia Commons). */
+window.FOTO = Object.assign(window.FOTO || {}, {
+  'giraffa': { luogo: 'Parco Nazionale del Ruaha, Tanzania', autore: 'Richard Mortel', licenza: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Giraffe,_Ruaha_National_Park_(13)_(28633607342).jpg' },
+  'ippopotamo': { luogo: 'Parco Nazionale del Ruaha, Tanzania', autore: 'Richard Mortel', licenza: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Hippo,_Ruaha_National_Park_(16)_(28456889100).jpg' },
+  'zebra': { luogo: 'Parco Nazionale di Mikumi, Tanzania', autore: 'Rasheedhrasheed', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:ZEBRA_IN_MIKUMI_NATIONAL_PARK_TANZANIA.jpg' },
+  'facocero': { luogo: 'Tswalu Kalahari, Sudafrica', autore: 'Charles J. Sharp', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Southern_warthog_(Phacochoerus_africanus_sundevallii)_male.jpg' },
+  'potamochero': { luogo: 'Hluhluwe-iMfolozi, Sudafrica', autore: 'Bernard Dupont', licenza: 'CC BY-SA 2.0', page: 'https://commons.wikimedia.org/wiki/File:Bushpig_(Potamochoerus_larvatus)_(31484039654).jpg' },
+  'impala': { luogo: 'Parco Nazionale del Ruaha, Tanzania', autore: 'Richard Mortel', licenza: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Impala,_Ruaha_National_Park_(6)_(28711686026).jpg' },
+  'kudu-maggiore': { luogo: 'Parco Nazionale del Ruaha, Tanzania', autore: 'Brian Harries', licenza: 'CC BY 2.0', page: 'https://commons.wikimedia.org/wiki/File:Greater_Kudu_(15986278642).jpg' },
+  'kudu-minore': { luogo: 'Parco Nazionale di Tsavo Est, Kenya', autore: 'Lip Kee Yap', licenza: 'CC BY-SA 2.0', page: 'https://commons.wikimedia.org/wiki/File:Lesser_Kudu_Male_(Tragelaphus_imberbis).jpg' },
+  'antilope-nera': { luogo: 'Tswalu Kalahari, Sudafrica', autore: 'Charles J. Sharp', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Sable_antelope_(Hippotragus_niger)_adult_male.jpg' },
+  'antilope-roana': { luogo: 'Mlilwane, Eswatini', autore: 'Charles J. Sharp', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Roan_antelope_(Hippotragus_equinus_equinus)_Mlilwane.jpg' },
+  'eland': { luogo: 'Area di conservazione di Ngorongoro, Tanzania', autore: 'Diego Delso', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Eland_com%C3%BAn_(Taurotragus_oryx),_zona_de_conservaci%C3%B3n_de_Ngorongoro,_Tanzania,_2024-05-27,_DD_26.jpg' },
+  'alcelafo': { luogo: 'Sudafrica', autore: 'Punkus', licenza: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Alcelaphus_buselaphus_lichtensteinii_341658335.jpg' },
+  'gnu': { luogo: 'Parco Nazionale di Mikumi, Tanzania', autore: 'Adam Jones', licenza: 'CC BY-SA 2.0', page: 'https://commons.wikimedia.org/wiki/File:Wildebeest_-_Mikumi_National_Park_-_Tanzania_-_02_(8892350318).jpg' },
+  'cobo': { luogo: 'Queen Elizabeth National Park, Uganda (forma defassa)', autore: 'Giles Laurent', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:069_Waterbuck_at_Queen_Elizabeth_National_Park_Photo_by_Giles_Laurent.jpg' },
+  'redunca': { luogo: 'Parco Nazionale del Serengeti, Tanzania', autore: 'Charles J. Sharp', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Bohor_reedbuck_(Redunca_redunca_wardi)_male_Serengeti.jpg' },
+  'puku': { luogo: 'Luogo non indicato (osservazione iNaturalist)', autore: 'Lukas Zangl', licenza: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Kobus_vardonii_-_Lukas_Zangl_-_462859354.jpeg' },
+  'bushbuck': { luogo: 'Luogo non indicato nella pagina Commons', autore: 'Steve Garvie', licenza: 'CC BY-SA 2.0', page: 'https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Imbabala_Bushbuck_(Tragelaphus_sylvaticus).jpg' },
+  'dikdik': { luogo: 'Parco Nazionale del Serengeti, Tanzania', autore: 'Giles Laurent', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:047_Kirk%27s_dik-dik_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg' },
+  'klipspringer': { luogo: 'Parco Nazionale del Serengeti, Tanzania', autore: 'Charles J. Sharp', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:Maasai_klipspringer_(Oreotragus_oreotragus_schillingsi)_male_Serengeti.jpg' },
+  'duiker': { luogo: 'Esemplare in un centro di recupero, Monte Kenya, Kenya', autore: 'Chuckupd', licenza: 'Pubblico dominio', page: 'https://commons.wikimedia.org/wiki/File:Common_duiker_kenya.jpg' },
+  'steenbok': { luogo: 'Deserto del Kalahari, Namibia', autore: 'Giles Laurent', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:115_Male_Steenbok_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg' },
+  'oribi': { luogo: 'Uganda', autore: 'Martin Gutewort', licenza: 'CC BY 4.0', page: 'https://commons.wikimedia.org/wiki/File:Ourebia_ourebi_345554771.jpg' },
+  'grant': { luogo: 'Parco Nazionale del Serengeti, Tanzania', autore: 'Giles Laurent', licenza: 'CC BY-SA 4.0', page: 'https://commons.wikimedia.org/wiki/File:022_Grant%27s_gazelle_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg' }
+});

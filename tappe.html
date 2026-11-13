@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La guida per tappe · Karibu Tanzania</title>
+<meta name="description" content="Le sette tappe del viaggio: Dar es Salaam, Mpanga Kipengere, Mavanga, Iringa, Ruaha, la cultura masai e Mikumi. Storia, cosa vedere, come arrivare, consigli e animali.">
+<meta name="theme-color" content="#F6F0E6">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="img/icone/icona-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23A9472F'/%3E%3Cpath d='M6 22h20M16 22V12M10 13c2-3 10-3 12 0' stroke='%23F6F0E6' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/guida.css">
+<style>
+.capitoli{position:sticky;top:54px;z-index:30;background:color-mix(in srgb,var(--sabbia) 96%,transparent);border-bottom:1px solid var(--linea)}
+.capitoli .wrap{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+.capitoli .wrap::-webkit-scrollbar{display:none}
+.capitoli a{flex:none;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--inchiostro);border-radius:99px;padding:5px 13px;font:600 .85rem "Source Sans 3",sans-serif;color:var(--inchiostro);text-decoration:none;white-space:nowrap}
+.capitoli a i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.capitoli a.attivo{background:var(--c);border-color:var(--c);color:#fff}
+.capitoli a.attivo i{background:#fff}
+section{scroll-margin-top:110px}
+.testo ul{padding-left:1.15em}
+.testo li{margin-bottom:.45em}
+h3.sotto{font-size:1.3rem;margin:28px 0 10px}
+#mappa-tappe{height:min(62vh,480px);border-radius:12px;border:1px solid var(--linea);background:var(--linea);z-index:0}
+.pin{width:30px;height:30px;border-radius:50%;color:#fff;font:700 13px/30px "Source Sans 3",sans-serif;text-align:center;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)}
+.legenda{display:flex;flex-wrap:wrap;gap:6px 16px;margin:12px 0 0;padding:0;list-style:none;font-size:.9rem}
+.legenda a{display:inline-flex;align-items:center;gap:7px;color:var(--inchiostro);text-decoration:none}
+.legenda b{width:22px;height:22px;border-radius:50%;background:var(--c);color:#fff;font:700 12px/22px "Source Sans 3",sans-serif;text-align:center}
+/* testata di ogni tappa */
+.tappa{padding-top:0}
+.tappa+.tappa{border-top:0}
+.testata{position:relative;color:#fff;background:var(--c);min-height:min(62vh,520px);display:flex;align-items:flex-end;overflow:hidden}
+.testata img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.testata::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(10,8,5,.78) 100%)}
+.testata .wrap{position:relative;z-index:1;width:100%;padding-bottom:26px}
+.testata .num{display:inline-flex;align-items:center;gap:10px;font:700 .78rem/1 "Source Sans 3",sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:0 0 .7em}
+.testata .num b{width:34px;height:34px;border-radius:50%;background:var(--c);border:2px solid #fff;display:inline-flex;align-items:center;justify-content:center;font-size:.95rem;letter-spacing:0}
+.testata h2{font-size:clamp(2.2rem,8.5vw,4rem);font-weight:800;margin:0 0 .15em}
+.testata p{margin:0;max-width:36em;font-size:1.05rem}
+.testata .credito{font-size:.7rem;opacity:.85;margin-top:14px}
+.testata .credito a{color:#fff}
+.fascia{height:6px;background:var(--c)}
+.dati{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:10px;margin:26px 0 24px}
+.dati div{background:var(--carta);border:1px solid var(--linea);border-top:4px solid var(--c);border-radius:10px;padding:10px 12px}
+.dati dt{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--grigio)}
+.dati dd{margin:2px 0 0;font-weight:600;line-height:1.3}
+.tappa h3.sotto{border-left:5px solid var(--c);padding-left:10px}
+.tappa .drop::first-letter{color:var(--c)}
+:root[data-theme="dark"] .tappa .drop::first-letter{color:color-mix(in srgb,var(--c) 60%,#fff)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tappa .drop::first-letter{color:color-mix(in srgb,var(--c) 60%,#fff)}}
+.foto-testo{margin:18px 0}
+.foto-testo img{border-radius:10px;width:100%}
+.foto-testo figcaption{font-size:.74rem;color:var(--grigio);margin-top:6px}
+.foto-testo.alta{max-width:300px}
+.specie{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(46%,150px),1fr));margin:12px 0 0}
+.specie a{display:block;background:var(--carta);border:1px solid var(--linea);border-radius:10px;overflow:hidden;color:var(--inchiostro);text-decoration:none;font-size:.86rem;font-weight:600;line-height:1.25}
+.specie img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--linea)}
+.specie span{display:block;padding:7px 9px 9px}
+.specie a:hover{border-color:var(--c)}
+.mappa-btn{margin-top:4px}
+.verifica{font-size:.8rem;color:var(--grigio);margin-top:20px}
+/* Mavanga: progetto compilabile */
+.progetto{background:var(--carta);border:1px solid var(--linea);border-radius:12px;padding:18px 18px 8px;margin:18px 0}
+.progetto h4{font:700 .78rem/1.2 "Source Sans 3",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--grigio);margin:14px 0 6px}
+.progetto h4:first-child{margin-top:0}
+.manca{display:inline-block;border:1px dashed var(--grigio);border-radius:6px;padding:2px 8px;color:var(--grigio);font-size:.85rem;font-style:italic}
+.progetto dl{margin:0}
+.progetto dt{font-weight:700;margin-top:8px}
+.progetto dd{margin:2px 0 0}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="index.html">Karibu <span>Tanzania</span></a>
+  <div class="nav-btns">
+    <button class="btn" data-tema aria-label="Cambia tema chiaro o scuro">◐</button>
+    <button class="btn" data-apri-menu aria-haspopup="true">☰ Indice</button>
+  </div>
+</div></header>
+<nav id="menu" class="menu" aria-label="Indice della guida"></nav>
+
+<main>
+<div class="hero">
+  <img src="img/tappe/ruaha.jpg" alt="Il fiume Grande Ruaha con banchi di sabbia e massi, alberi sulle rive e colline sullo sfondo" fetchpriority="high">
+  <div class="wrap">
+    <p class="kicker">Parte 4 · La guida per tappe</p>
+    <h1>Tappa per tappa</h1>
+    <p>Dall'oceano agli altopiani, dal villaggio alla savana e ritorno. Sette capitoli, uno per ogni luogo del viaggio, ciascuno con il suo colore: storia, cosa vedere, come ci si arriva, i consigli e gli animali da cercare.</p>
+    <p class="credito">Foto: Il fiume Grande Ruaha, Parco Nazionale del Ruaha · Richard Mortel · <a href="https://commons.wikimedia.org/wiki/File:Ruaha_River,_Ruaha_National_Park_(1)_(28996636076).jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
+  </div>
+</div>
+
+<nav class="capitoli" aria-label="Tappe della pagina"><div class="wrap">
+  <a href="#percorso" style="--c:var(--inchiostro)"><i></i>Mappa</a>
+  <a href="#dar" style="--c:var(--t-dar)"><i></i>Dar es Salaam</a>
+  <a href="#mpanga" style="--c:var(--t-mpanga)"><i></i>Mpanga Kipengere</a>
+  <a href="#mavanga" style="--c:var(--t-mavanga)"><i></i>Mavanga</a>
+  <a href="#iringa" style="--c:var(--t-iringa)"><i></i>Iringa</a>
+  <a href="#ruaha" style="--c:var(--t-ruaha)"><i></i>Ruaha</a>
+  <a href="#masai" style="--c:var(--t-masai)"><i></i>Cultura masai</a>
+  <a href="#mikumi" style="--c:var(--t-mikumi)"><i></i>Mikumi</a>
+</div></nav>
+
+<!-- MAPPA -->
+<section id="percorso"><div class="wrap">
+  <p class="kicker">Il percorso</p>
+  <h2>Sette tappe, circa 2.000 km tra volo e strada</h2>
+  <div class="colonne">
+    <div class="testo">
+      <p>Il viaggio disegna un grande anello nel sud della Tanzania. Un volo porta da Dar es Salaam a Mbeya. Da lì si sale in jeep sugli altopiani meridionali, fino al villaggio di Mavanga, dove resteremo una settimana. Poi si risale verso nord, a Iringa e nel Ruaha. Infine, in bus, si torna verso la costa attraverso il Parco di Mikumi.</p>
+      <p>Tocca un numero sulla mappa o nella legenda per andare al capitolo di quella tappa. Le distanze e i tempi di ogni capitolo sono stime: in Tanzania il tempo di viaggio dipende da strada, pioggia, traffico e controlli di polizia, più che dai chilometri.</p>
+    </div>
+    <aside>
+      <div class="box b-sap"><h4>Lo sapevi che…</h4><p>Il viaggio attraversa due bacini fluviali. Gran parte dell'acqua che scende dagli altopiani di Mpanga Kipengere va nella pianura di Usangu e alimenta il Grande Ruaha, lo stesso fiume che vedremo una settimana dopo nel parco.</p></div>
+    </aside>
+  </div>
+  <div id="mappa-tappe" role="region" aria-label="Mappa delle tappe"><p class="nota" style="padding:16px">La mappa ha bisogno della connessione la prima volta che si apre.</p></div>
+  <ul class="legenda">
+    <li><a href="#dar" style="--c:var(--t-dar)"><b>1</b>Dar es Salaam</a></li>
+    <li><a href="#mpanga" style="--c:var(--t-mpanga)"><b>2</b>Mbeya e Mpanga Kipengere</a></li>
+    <li><a href="#mavanga" style="--c:var(--t-mavanga)"><b>3</b>Mavanga</a></li>
+    <li><a href="#iringa" style="--c:var(--t-iringa)"><b>4</b>Iringa</a></li>
+    <li><a href="#ruaha" style="--c:var(--t-ruaha)"><b>5</b>Ruaha</a></li>
+    <li><a href="#masai" style="--c:var(--t-masai)"><b>6</b>Cultura masai</a></li>
+    <li><a href="#mikumi" style="--c:var(--t-mikumi)"><b>7</b>Mikumi</a></li>
+  </ul>
+</div></section>
+
+<!-- ============ 1 · DAR ES SALAAM ============ -->
+<section id="dar" class="tappa" style="--c:var(--t-dar)">
+  <div class="testata">
+    <img src="img/tappe/dar.jpg" alt="Il mercato del pesce di Kivukoni a Dar es Salaam: una tettoia con il tetto rosso sul porto, piena di gente e di banchi" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>1</b>Giorni 1 e 12–13 · 29 novembre, 10–11 dicembre</p>
+      <h2>Dar es Salaam</h2>
+      <p>La porta sull'oceano: caotica, calda, umida e piena di energia. Qui inizia e finisce il viaggio.</p>
+      <p class="credito">Foto: Mercato del pesce di Kivukoni, Dar es Salaam (2012) · Development Planning Unit, University College London · <a href="https://commons.wikimedia.org/wiki/File:Kivukoni_Fish_Market_Dar_es_Salaam,_2012.jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Abitanti</dt><dd>oltre 5 milioni (regione, censimento 2022)</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>caldo umido, 25–32 °C, acquazzoni brevi</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>sera del giorno 1, poi giorni 12–13</dd></div>
+      <div><dt>Il nome</dt><dd lang="ar">«dimora della pace»</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Si arriva di notte o nel caldo appiccicoso del pomeriggio, e la prima impressione è il traffico. Una corrente continua di minibus <em lang="sw">daladala</em> dipinti, bajaji, moto e camion che vanno al porto. Poi, sul lungomare, il vento dell'oceano Indiano, le palme e i dhow che rientrano. Dar es Salaam non è una città da cartolina, e non ha monumenti da fila. È una città da vivere: un mercato all'alba, un piatto di <em lang="sw">mishkaki</em> la sera a una bancarella, la folla di Kariakoo, un tramonto a Coco Beach.</p>
+        <p>Ci passeremo poche ore all'andata e quasi due giorni al ritorno. È il momento giusto per guardarla con occhi diversi: dopo tre settimane di altopiani e savana, il ritorno in città è un piccolo choc.</p>
+
+        <h3 class="sotto">Un po' di storia</h3>
+        <p>La costa swahili commercia con l'Arabia, la Persia e l'India da più di mille anni, ma Dar es Salaam è giovane. La fondò negli anni '60 dell'Ottocento il sultano Majid di Zanzibar, che le diede un nome arabo, <em>Dār as-Salām</em>, «dimora della pace». Alla sua morte la città fu quasi abbandonata. Rinacque con i tedeschi, che nel 1891 ne fecero la capitale dell'Africa Orientale Tedesca. Dopo la Prima guerra mondiale passò agli inglesi e nel 1961 divenne la capitale del Tanganica indipendente.</p>
+        <p>Nel 1973 il governo decise di spostare la capitale a Dodoma, nel centro del paese. Il trasferimento è durato decenni, e solo negli ultimi anni ministeri e presidenza si sono trasferiti davvero. Dar resta però il cuore economico del paese, il suo porto principale e la città più grande dell'Africa orientale di lingua swahili.</p>
+
+        <h3 class="sotto">Cosa vedere e fare</h3>
+        <ul>
+          <li><strong>Il mercato del pesce di Kivukoni</strong>, all'alba: le aste del pesce appena sbarcato, i venditori che puliscono e friggono sul posto. Si va presto, con scarpe chiuse e poco in tasca.</li>
+          <li><strong>Il centro storico</strong>, a piedi: il monumento all'Askari, la cattedrale di San Giuseppe e la chiesa luterana di Azania Front, entrambe dell'epoca tedesca, con il lungomare a pochi passi.</li>
+          <li><strong>Kariakoo</strong>, il grande mercato: tessuti <em lang="sw">kanga</em>, spezie, pentole, telefoni. Il nome viene da <em>Carrier Corps</em>, il corpo dei portatori africani della Prima guerra mondiale, che aveva qui le sue caserme.</li>
+          <li><strong>Il Museo Nazionale</strong>, accanto all'orto botanico, con una sezione sulle origini dell'uomo in Tanzania e una sulla storia coloniale. Al <strong>Village Museum</strong> (<em lang="sw">Makumbusho ya Kijiji</em>), sulla Bagamoyo Road, si vedono invece le case tradizionali di diversi popoli del paese.</li>
+          <li><strong>Mwenge</strong>, il mercato degli intagliatori: sculture makonde, quadri tingatinga, scatole e utensili in legno. È il posto migliore per gli ultimi acquisti, il giorno 13.</li>
+          <li><strong>Coco Beach</strong> e la penisola di Msasani al tramonto, con le bancarelle di mais arrosto e cocco fresco. Se c'è mezza giornata libera, una barca porta all'isoletta di <strong>Bongoyo</strong>, nella riserva marina davanti alla città.</li>
+          <li><strong>Il traghetto per Kigamboni</strong>, dal molo di Kivukoni: dieci minuti di traversata tra pendolari, bancarelle e biciclette, con la vista più bella sul porto.</li>
+        </ul>
+        <figure class="foto-testo alta"><img src="img/tappe/askari.jpg" alt="Il monumento all'Askari: la statua in bronzo di un soldato africano con il fucile e la baionetta, su un piedistallo di pietra con un bassorilievo" loading="lazy" width="480" height="785"><figcaption>Il monumento all'Askari (1927), dedicato ai soldati e ai portatori africani della Prima guerra mondiale · Moongateclimber · <a href="https://commons.wikimedia.org/wiki/File:Askari_monument_dar_es_salaam.jpg" target="_blank" rel="noopener">Pubblico dominio</a></figcaption></figure>
+
+        <h3 class="sotto">Dormire e mangiare</h3>
+        <p>L'albergo lo sceglie l'organizzazione e lo trovate nei documenti di viaggio. Per orientarsi: il <strong>centro</strong> (zona di Posta e Kisutu) è pratico e vicino al porto, ma la sera si svuota. Le zone di <strong>Masaki e Oyster Bay</strong>, sulla penisola, sono più tranquille e più care, con molti ristoranti internazionali.</p>
+        <p>Per mangiare come i <em lang="sw">wabongo</em>, gli abitanti di Dar: la sera cercate le griglie di <em lang="sw">mishkaki</em> e <em lang="sw">nyama choma</em> sui marciapiedi, le bancarelle di <em lang="sw">chipsi mayai</em>, la frittata con le patatine, e i <em lang="sw">mandazi</em> con il chai al mattino. Sulla costa la cucina swahili usa cocco, tamarindo e spezie, e la comunità di origine indiana ha lasciato biryani, samosa e chapati. Le schede dei piatti sono nel capitolo <a href="info.html#mangiare">Mangiare e bere</a>.</p>
+
+        <h3 class="sotto">Come arrivare e muoversi</h3>
+        <p>L'aeroporto internazionale Julius Nyerere è a circa 12 km dal centro: da mezz'ora a un'ora e mezza di strada, a seconda del traffico (<em lang="sw">foleni</em>). Dallo stesso aeroporto parte il volo per Mbeya del giorno 2. In città si usano i bajaji, i taxi e le app di trasporto come Bolt e Uber, che mostrano il prezzo prima di partire. Il <em lang="sw">mwendokasi</em>, il bus rapido su corsia riservata, collega il centro a Kariakoo e Kimara. Il giorno 12 si arriva da Iringa in bus, di sera.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Il giorno 13 non riempitelo di acquisti. Tenete un'ora per sedervi sul lungomare con un cocco fresco e guardare i dhow: è il modo migliore per salutare il paese.</p></div>
+        <div class="box b-top"><h4>Da non perdere</h4><p>Il mercato di Kivukoni all'alba. È il posto che racconta meglio la città: lavoro, rumore, odori, contrattazioni, e il porto che si sveglia.</p></div>
+        <div class="box b-sap"><h4>Lo sapevi che…</h4><p>Il monumento all'Askari sta dove prima c'era la statua di Hermann von Wissmann, l'ufficiale che represse le rivolte della costa per conto della Germania. Gli inglesi la tolsero e al suo posto misero un soldato africano: un cambio di simboli che dice molto della storia della città.</p></div>
+        <div class="box b-att"><h4>Attenzione</h4><ul>
+          <li>Telefono e borsa sempre dal lato del muro, mai verso la strada: gli scippi dalle moto sono il furto più comune.</li>
+          <li>Di sera, anche per brevi tratti, usate un taxi o un'app invece di camminare.</li>
+          <li>Non fotografate porto, edifici governativi, polizia e militari.</li>
+        </ul></div>
+        <div class="box b-gru"><h4>In gruppo</h4><p>Al ritorno da Mikumi siamo stanchi e la serata del giorno 12 è l'ultima tutti insieme: è il momento della cena di saluto. Decidete prima chi pensa al regalo per guide e autisti (vedi <a href="index.html#sostenibile">le mance</a>).</p></div>
+      </aside>
+    </div>
+    <p class="verifica">Informazioni verificate il 12/11/2026. Orari e prezzi dei musei e dei traghetti cambiano spesso: chiedete in albergo. <a href="#percorso" class="mappa-btn" data-zoom="dar">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+
+<!-- ============ 2 · MPANGA KIPENGERE ============ -->
+<section id="mpanga" class="tappa" style="--c:var(--t-mpanga)">
+  <div class="testata">
+    <img src="img/kimani.jpg" alt="Le cascate Kimani: l'acqua scende a gradini su rocce stratificate, tra alberi e cespugli" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>2</b>Giorni 2–3 · 30 novembre – 1 dicembre</p>
+      <h2>Mbeya e Mpanga Kipengere</h2>
+      <p>Caffè, nebbia e cascate: il primo assaggio degli altopiani meridionali, tra i 1.700 e i 2.800 metri.</p>
+      <p class="credito">Foto: Cascate Kimani, riserva di Mpanga Kipengere · Thomas veroza · <a href="https://commons.wikimedia.org/wiki/File:The_Kimani_waterfalls_01.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Riserva</dt><dd>circa 1.574 km², istituita nel 2002</dd></div>
+      <div><dt>Gestione</dt><dd>TAWA, l'autorità per la fauna</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>fresco, 10–22 °C, piogge frequenti</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>un giorno a Mbeya, una mattina nella riserva</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Si scende dall'aereo a Songwe e l'aria è un'altra. Dopo il caldo umido di Dar, qui si respira: siamo a oltre 1.500 metri, tra montagne verdi coltivate fino in cima. Mbeya è una città di commercio e di passaggio, sulla strada e sulla ferrovia per lo Zambia, ed è uno dei centri del caffè arabica tanzaniano. Il giorno dopo si parte presto in jeep verso est, e la strada sale tra campi di mais, patate e pini, verso la riserva di Mpanga Kipengere.</p>
+        <p>La riserva protegge la parte settentrionale della catena dei Kipengere, tra le regioni di Njombe e Mbeya: praterie d'alta quota, valli di foresta montana e moltissima acqua. Non è un posto da Big Five. È un posto da nebbia che sale dalle valli, da cascate e piscine naturali, da uccelli e fiori che non vivono da nessun'altra parte.</p>
+
+        <h3 class="sotto">Un po' di storia</h3>
+        <p>Mbeya nacque intorno al 1927, quando la scoperta dell'oro nei vicini campi del Lupa attirò cercatori da tutta l'Africa orientale. L'oro finì presto, ma la città restò, grazie al caffè, al tè e alla posizione sulla grande strada per il sud.</p>
+        <p>Le foreste dei Kipengere sono protette dal 1958, quando nacque la riserva forestale della catena. Nel 2002 la riserva forestale è stata inglobata nella nuova riserva faunistica di Mpanga Kipengere, oggi gestita dalla TAWA. Il motivo principale è l'acqua: da queste montagne nascono i fiumi che riempiono la pianura di Usangu e il Grande Ruaha, da cui dipendono le risaie, le centrali idroelettriche più a valle e il Parco del Ruaha.</p>
+
+        <h3 class="sotto">Cosa vedere e fare</h3>
+        <ul>
+          <li><strong>Una piantagione di caffè</strong> intorno a Mbeya (giorno 2): la raccolta, la tostatura, la degustazione. Dicembre è nel pieno della stagione delle piogge, quindi le piante sono in fiore o con le bacche ancora verdi.</li>
+          <li><strong>Il mercato della frutta di Mbeya</strong>: avocado, banane di tante varietà, frutto della passione, ananas. Gli altopiani sono l'orto della Tanzania.</li>
+          <li><strong>Le cascate Kimani</strong> e le piscine naturali sul fiume Kimani, il luogo più visitato della riserva.</li>
+          <li><strong>Il birdwatching</strong> lungo i margini della foresta e nelle praterie: nectarinie, vedove, beccamoschini degli altopiani e, se si è fortunati, l'aquila coronata sopra le valli.</li>
+          <li><strong>I fiori</strong> delle praterie d'alta quota, che a dicembre iniziano a fiorire: orchidee di terra, protee, lobelie. Lo stesso spettacolo, ancora più ricco, è sul vicino altopiano di Kitulo (vedi <a href="fauna.html#altopiani">Altopiani e Kitulo</a>).</li>
+        </ul>
+
+        <h3 class="sotto">Dormire e mangiare</h3>
+        <p>A Mbeya si dorme in città, nell'albergo scelto dall'organizzazione. Nella riserva non si dorme: si fa la visita e nel pomeriggio si prosegue verso il villaggio. Portate acqua e qualcosa da mangiare per la giornata in jeep. Dentro la riserva non ci sono negozi, e i villaggi lungo la strada hanno solo piccoli chioschi (<em lang="sw">duka</em>) con bibite, biscotti e frutta.</p>
+
+        <h3 class="sotto">Come arrivare</h3>
+        <p>Il volo Dar es Salaam → Mbeya atterra all'aeroporto di Songwe, a circa 20 km dalla città. Il giorno 3 si va in jeep verso est sulla statale per Njombe, poi su strade secondarie, in parte sterrate, fino alla riserva. Dalla riserva al villaggio di Mavanga la strada è lunga: è la giornata di trasferimento più impegnativa della prima parte del viaggio.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Il giorno 3 tenete a portata di mano, non nello zaino grande, una giacca impermeabile e un pile. In quota il tempo cambia in mezz'ora, e alle cascate si arriva bagnati anche quando non piove.</p></div>
+        <div class="box b-top"><h4>Da non perdere</h4><p>Il caffè di Mbeya, bevuto dove cresce. Se vi piace, compratene un pacco alla piantagione: costa meno che in città, e i soldi vanno direttamente a chi lo coltiva.</p></div>
+        <div class="box b-att"><h4>Attenzione</h4><ul>
+          <li>Le rocce intorno alle cascate sono bagnate e scivolose: scarpe con una buona suola, non sandali.</li>
+          <li>Fate il bagno nelle piscine naturali solo dove la guida dice che è sicuro: la corrente può essere forte dopo le piogge, e in alcune acque ferme c'è il rischio di bilharzia (vedi <a href="info.html#salute">Salute</a>).</li>
+          <li>Sopra i 2.000 metri il sole brucia anche con le nuvole: crema solare e cappello.</li>
+        </ul></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><p>Non raccogliete fiori, bulbi o tuberi di orchidea: sugli altopiani vengono estratti illegalmente per il commercio, e diverse specie sono in declino.</p></div>
+      </aside>
+    </div>
+    <h3 class="sotto">Gli animali e le piante di questa tappa</h3>
+    <p class="nota">Tocca una scheda per aprirla nell'atlante della fauna.</p>
+    <div class="specie" data-specie="cisticola,rondine-blu,vedova-montana,abbott,colobo,klipspringer,tempeli,msuyae,orchidee,protea,lobelia,gloriosa"></div>
+    <p class="verifica">Fonti: <a href="https://www.tawa.go.tz/attraction-details/mpangakipengere-game-reserve" target="_blank" rel="noopener">TAWA</a>, <a href="https://en.wikipedia.org/wiki/Mpanga-Kipengere_Game_Reserve" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.thecitizen.co.tz/tanzania/oped/stunning-revelations-from-the-mpanga-kipengere-game-reserve-4265086" target="_blank" rel="noopener">The Citizen</a>. Verificato il 12/11/2026. <a href="#percorso" data-zoom="mpanga">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+
+<!-- ============ 3 · MAVANGA ============ -->
+<section id="mavanga" class="tappa" style="--c:var(--t-mavanga)">
+  <div class="testata">
+    <img src="img/tappe/mavanga.jpg" alt="Una piantagione di tè verde brillante in primo piano, con persone al lavoro tra i filari, e colline boscose sullo sfondo" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>3</b>Giorni 3–9 · 1–7 dicembre</p>
+      <h2>Mavanga</h2>
+      <p>Una settimana in un villaggio degli altopiani di Ludewa: il cuore del viaggio.</p>
+      <p class="credito">Foto: Piantagioni di tè nel distretto di Ludewa, regione di Njombe (2014) · Gumtau · <a href="https://commons.wikimedia.org/wiki/File:Tea_plantations_in_Luewa_District,_Njombe_Region,_Tanzania.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Non è una foto di Mavanga.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Dove</dt><dd>distretto di Ludewa, regione di Njombe</dd></div>
+      <div><dt>Abitanti</dt><dd>9.738 nel circondario (censimento 2022)</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>piogge frequenti, notti fresche</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>6 notti</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Gli altopiani di Ludewa sono tra le zone meno visitate della Tanzania. Colline ondulate, campi di mais e patate, boschi di pini ed eucalipti, piantagioni di tè. Più a ovest, la scarpata dei Monti Livingstone precipita di oltre mille metri verso il lago Nyasa. Mavanga è uno dei villaggi di questi altopiani, e qui il turismo non esiste: per una settimana non saremo visitatori, ma ospiti.</p>
+        <p>È la parte del viaggio più difficile da raccontare prima. Le giornate seguiranno i ritmi del villaggio: la scuola al mattino, il lavoro nei campi, le partite di calcio nel pomeriggio, il buio presto la sera. Si impara a salutare tutti, a mangiare l'ugali con la mano destra, ad aspettare senza fretta. Molti viaggiatori, a distanza di anni, ricordano soprattutto questi giorni.</p>
+
+        <h3 class="sotto">Il villaggio e la zona</h3>
+        <p>Il distretto di Ludewa fa parte della regione di Njombe, istituita nel 2012 separandola da quella di Iringa. È una regione agricola e d'alta quota, conosciuta in Tanzania per il tè, le patate, gli avocado e il legname, e per le notti tra le più fredde del paese. Nel distretto, a Liganga e Mchuchuma, ci sono grandi giacimenti di ferro e carbone, di cui si parla da decenni come di una futura miniera.</p>
+        <p>Non abbiamo dati affidabili sull'altitudine esatta del villaggio, sulla sua storia e sui popoli che lo abitano: chiedetelo in loco, è un ottimo modo per iniziare una conversazione. Sugli altopiani di Njombe e Ludewa vivono soprattutto popolazioni bantu come i bena, i pangwa e i kinga, ognuna con la propria lingua. Tra loro, e con noi, si parla swahili.</p>
+
+        <h3 class="sotto">Il progetto</h3>
+        <p class="nota">Questa parte la compila la coordinatrice del viaggio, nel file <code>data/mavanga.js</code>. Le voci tratteggiate sono ancora da completare.</p>
+        <div class="progetto" id="progetto"><p class="nota">Caricamento…</p></div>
+
+        <h3 class="sotto">Giorno 9: il tè e la partenza</h3>
+        <p>La mattina del 7 dicembre si salutano il villaggio e chi ci ha ospitato. Lungo la strada verso Iringa è prevista la visita a una piantagione di tè degli altopiani: la raccolta delle foglie a mano, la lavorazione, e una tazza di tè dove cresce. Poi la strada scende per ore verso nord, passando per Njombe e Mafinga, fino a Iringa.</p>
+
+        <h3 class="sotto">Come arrivare</h3>
+        <p>Dalla riserva di Mpanga Kipengere si va a sud-est in jeep, passando per Njombe, l'ultima città grande prima del villaggio: è lì che conviene prelevare e fare gli ultimi acquisti. Poi si prosegue su strade secondarie, in gran parte sterrate. Con la pioggia i tempi si allungano molto.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Imparate venti parole di swahili prima di arrivare, e usatele tutte, anche sbagliando. <em lang="sw">Shikamoo</em> agli anziani, <em lang="sw">mambo?</em> ai ragazzi, <em lang="sw">asante sana</em> a chi cucina. Al villaggio aprono più porte di qualsiasi regalo. Il frasario è nel capitolo <a href="info.html#cultura">Cultura</a>.</p></div>
+        <div class="box b-att"><h4>Attenzione</h4><ul>
+          <li>A Njombe prelevate tutto il contante che serve per la settimana: al villaggio non ci sono bancomat e probabilmente non si paga con il telefono.</li>
+          <li>Corrente, campo e acqua corrente potrebbero mancare. Portate un power bank carico, una frontale e pastiglie per potabilizzare l'acqua.</li>
+          <li>Le notti a dicembre sono fresche e umide: sacco lenzuolo, pile e calze di lana.</li>
+        </ul></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><ul>
+          <li>Non pubblicate foto dei bambini del villaggio sui social, nemmeno con il volto coperto.</li>
+          <li>Le donazioni passano dal progetto, mai dalle mani dei bambini: un regalo a uno crea problemi a tutti gli altri.</li>
+          <li>Non promettete ciò che non potete mantenere, come tornare, scrivere o mandare soldi. Le promesse dei viaggiatori pesano.</li>
+        </ul>
+        <p>Il capitolo <a href="index.html#sostenibile">Viaggio sostenibile</a> spiega perché.</p></div>
+        <div class="box b-gru"><h4>In gruppo</h4><p>Una settimana in un posto senza svaghi mette alla prova anche il gruppo più affiatato. Dividetevi i compiti (scuola, lavori, giochi) e ruotate. Tenete una sera libera per stare tra voi a raccontarvi la giornata.</p></div>
+        <div class="box b-sap"><h4>Lo sapevi che…</h4><p>La messa di domenica 6 dicembre può durare due o tre ore, con cori, danze e l'offertorio in natura: c'è chi porta uova, galline o sacchi di mais. Vestitevi con cura, e preparatevi a essere presentati alla comunità.</p></div>
+      </aside>
+    </div>
+    <p class="verifica">Fonti: Ufficio nazionale di statistica della Tanzania (censimento 2022), OpenStreetMap. Verificato il 12/11/2026. Le informazioni sul progetto sono a cura della coordinatrice. <a href="#percorso" data-zoom="mavanga">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+
+<!-- ============ 4 · IRINGA ============ -->
+<section id="iringa" class="tappa" style="--c:var(--t-iringa)">
+  <div class="testata">
+    <img src="img/tappe/iringa.jpg" alt="Veduta dall'alto di un quartiere di Iringa: case basse con i tetti di lamiera, alberi e una strada in fondo" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>4</b>Giorni 9 e 11 · 7 e 9 dicembre</p>
+      <h2>Iringa</h2>
+      <p>La città degli hehe, sul bordo di una scarpata: la storia di Mkwawa, un sito dell'Età della Pietra e la porta del Ruaha.</p>
+      <p class="credito">Foto: Il quartiere di Kihesa, Iringa · Ernst G. Ulz · <a href="https://commons.wikimedia.org/wiki/File:Detail_of_Iringa_Town_1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Altitudine</dt><dd>circa 1.600 m</dd></div>
+      <div><dt>Abitanti</dt><dd>circa 200.000 (comune)</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>mite, 15–28 °C, temporali</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>2 notti, il 7 e il 9 dicembre</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Iringa sta su un altopiano che finisce di colpo in una scarpata sopra la valle del Little Ruaha. Dal bordo si vede la pianura molto più in basso. È una cittadina tranquilla e ordinata, con un grande mercato coperto, edifici dell'epoca tedesca, chiese e moschee, e molti studenti universitari. Per noi è un punto di appoggio: ci dormiamo all'andata e al ritorno dal Ruaha, e la sera del 9 dicembre ci sarà il clima di festa dell'Uhuru Day.</p>
+
+        <h3 class="sotto">Un po' di storia: Mkwawa e gli hehe</h3>
+        <p>Nella seconda metà dell'Ottocento gli hehe, guidati dal capo <strong>Mkwawa</strong>, erano la potenza militare degli altopiani meridionali. Quando arrivarono i tedeschi, Mkwawa scelse di combattere. Nell'agosto del 1891, a Lugalo, i suoi guerrieri tesero un'imboscata a una colonna tedesca e la distrussero, uccidendone il comandante. Fu una delle sconfitte più gravi subite da un esercito coloniale in Africa orientale.</p>
+        <p>Nel 1894 i tedeschi presero e distrussero la sua fortezza di Kalenga, ma Mkwawa continuò la guerriglia per quattro anni. Nel 1898, circondato, si tolse la vita per non essere catturato. I tedeschi gli tagliarono la testa e mandarono il cranio in Germania. Il trattato di Versailles del 1919 ne chiese la restituzione, che però avvenne solo nel 1954. Oggi il cranio è conservato nel piccolo museo di Kalenga, a circa 15 km dalla città, accanto alla tomba di Mkwawa. Per gli hehe, e per molti tanzaniani, Mkwawa è un eroe nazionale.</p>
+        <p>Secondo la spiegazione più diffusa, il nome Iringa viene dalla parola hehe <em>lilinga</em>, «fortezza». La città nacque come presidio militare tedesco dopo la caduta di Kalenga.</p>
+
+        <h3 class="sotto">Cosa vedere e fare</h3>
+        <ul>
+          <li><strong>Il mercato centrale</strong>: frutta e verdura degli altopiani, cestini e tessuti, il reparto delle spezie. Al mattino è al massimo dell'animazione.</li>
+          <li><strong>Gangilonga</strong>, la grande roccia sopra la città. Il nome significa «la pietra che parla» e la tradizione dice che Mkwawa vi saliva per riflettere. Dall'alto la vista sulla città e sulla valle è la migliore. Andateci con una guida locale, non da soli.</li>
+          <li><strong>Kalenga</strong> e il museo di Mkwawa, per capire la storia della città.</li>
+          <li><strong>Il sito dell'Età della Pietra di Isimila</strong>, a circa 20 km verso sud: uno dei siti più ricchi dell'Africa orientale di strumenti acheuleani, le asce a mano scheggiate da esseri umani di un'altra specie. Intorno, una piccola valle erosa di pinnacoli di arenaria.</li>
+          <li>La sera del 9 dicembre, <strong>l'Uhuru Day in città</strong>: bandiere, musica, famiglie per strada (vedi <a href="info.html#feste">Feste</a>).</li>
+        </ul>
+        <figure class="foto-testo"><img src="img/tappe/isimila.jpg" alt="I pinnacoli di arenaria di Isimila: colonne rosse e ocra scolpite dall'erosione, con cactus e alberi secchi, sotto un cielo blu" loading="lazy" width="960" height="540"><figcaption>I pinnacoli di arenaria del sito di Isimila · Dingilai · <a href="https://commons.wikimedia.org/wiki/File:Isimila_stone_age_site.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a></figcaption></figure>
+
+        <h3 class="sotto">Dormire e mangiare</h3>
+        <p>L'albergo lo sceglie l'organizzazione. In centro ci sono semplici ristoranti locali, caffè e locali di griglia. Iringa e Njombe sono la patria dell'<a href="info.html#mangiare"><em lang="sw">ulanzi</em></a>, il vino di bambù, la cui stagione coincide con le piogge: se ve lo offrono, assaggiatelo, ma con prudenza, perché fermenta in fretta e la forza varia molto da un giorno all'altro.</p>
+
+        <h3 class="sotto">Come arrivare</h3>
+        <p>Da Mavanga si risale a nord sulla statale che passa per Njombe e Mafinga: una lunga giornata di strada, con la sosta alla piantagione di tè. Il giorno 10 si parte presto verso il Ruaha, a ovest. Il giorno 11 si torna a Iringa, e il 12 si parte in bus per Dar es Salaam sulla statale A7.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Se all'arrivo il 7 dicembre resta un'ora di luce, andate sul bordo della scarpata al tramonto. La valle del Little Ruaha diventa rossa, e si capisce perché i tedeschi, e prima di loro Mkwawa, scelsero questo posto.</p></div>
+        <div class="box b-top"><h4>Da non perdere</h4><p>Isimila, se il programma lascia mezza giornata. Pochi siti al mondo permettono di vedere, appoggiati sul terreno, strumenti di pietra lavorati da ominidi decine di migliaia di anni fa.</p></div>
+        <div class="box b-sap"><h4>Lo sapevi che…</h4><p>La restituzione del cranio di Mkwawa compare nell'articolo 246 del trattato di Versailles, accanto a quella di un Corano antico al re dell'Hegiaz. Il cranio arrivò in Tanzania solo trentacinque anni dopo, e la sua autenticità è ancora discussa.</p></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><p>A Isimila non raccogliete e non spostate le pietre lavorate: sono reperti protetti. Toccarle e fotografarle va bene; portarle via è un reato.</p></div>
+      </aside>
+    </div>
+    <p class="verifica">Verificato il 12/11/2026. Orari e biglietti di Kalenga e Isimila: chiedete in albergo o alle guide. <a href="#percorso" data-zoom="iringa">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+
+<!-- ============ 5 · RUAHA ============ -->
+<section id="ruaha" class="tappa" style="--c:var(--t-ruaha)">
+  <div class="testata">
+    <img src="img/hero-intro.jpg" alt="Elefanti al tramonto in una pianura del Ruaha, con acacie in controluce e il cielo arancione" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>5</b>Giorni 10–11 · 8–9 dicembre</p>
+      <h2>Parco Nazionale del Ruaha</h2>
+      <p>Il grande parco selvaggio del sud: baobab, leoni, elefanti e pochissime jeep.</p>
+      <p class="credito">Foto: Elefanti al tramonto, Ruaha · Brian Harries · <a href="https://commons.wikimedia.org/wiki/File:Elephants_At_Sunset,_Ruaha_National_Park.jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Superficie</dt><dd>circa 20.226 km², il secondo parco della Tanzania</dd></div>
+      <div><dt>Istituito</dt><dd>nel 1964, ampliato nel 2008</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>caldo, 20–33 °C, primi temporali</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>un pomeriggio, una notte nel parco, un'alba</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Il Ruaha è più grande della Puglia (circa 20.200 km² contro 19.500), ma riceve solo una piccola parte dei visitatori del Serengeti. Qui le jeep si incontrano di rado, e un leone sdraiato sulla pista può essere tutto vostro. Il paesaggio cambia di continuo: le colline rocciose, i baobab giganti, la savana di acacie e, verso l'esterno, il bosco di <em>miombo</em>. In mezzo scorre il Grande Ruaha, il fiume che dà il nome al parco e che a dicembre, dopo mesi di secca, aspetta le prime piogge.</p>
+        <p>Il Ruaha sta a cavallo tra due mondi: è il punto in cui gli ambienti dell'Africa orientale incontrano quelli dell'Africa australe. Per questo si vedono insieme specie che altrove non si incontrano mai: il kudu maggiore e il kudu minore, l'antilope nera e l'antilope roana, la gazzella di Grant. È anche uno dei luoghi migliori al mondo per i grandi predatori. Secondo il Ruaha Carnivore Project, nel paesaggio Ruaha-Rungwa vive circa un decimo dei leoni rimasti in natura, insieme a leopardi, iene, ghepardi e licaoni.</p>
+
+        <h3 class="sotto">Un po' di storia</h3>
+        <p>Il nome viene dalla parola hehe che indica il fiume. Nel 1910 i tedeschi istituirono qui la riserva di caccia di Saba, che gli inglesi trasformarono nella riserva di Rungwa. Nel 1964 la parte meridionale divenne parco nazionale, e nel 2008 il parco è stato ampliato fino alle zone umide di Usangu, raddoppiando la sua superficie. Fino al 2019, quando è nato il Parco Nazionale Nyerere, era il parco più grande della Tanzania.</p>
+        <p>Il Ruaha ha attraversato anni difficili. Tra il 2009 e il 2014 il bracconaggio per l'avorio ha più che dimezzato gli elefanti dell'ecosistema Ruaha-Rungwa. Da allora i controlli sono aumentati e la situazione è migliorata. Il fiume è invece un problema ancora aperto: dagli anni '90, per l'acqua prelevata a monte per le risaie di Usangu, nella stagione secca il Grande Ruaha smette di scorrere per settimane.</p>
+
+        <h3 class="sotto">Il nostro programma nel parco</h3>
+        <ul>
+          <li><strong>Giorno 10, 8 dicembre</strong>: partenza presto da Iringa, ingresso nel parco e primo game drive in jeep 4x4 con guida. Pranzo e cena inclusi, e la notte dentro il parco, la «notte wow» del programma.</li>
+          <li><strong>Giorno 11, 9 dicembre, Uhuru Day</strong>: game drive all'alba, il momento migliore per i predatori. Poi l'uscita dal parco, la visita al villaggio masai e il rientro a Iringa.</li>
+        </ul>
+        <p>Le zone migliori per gli avvistamenti sono quelle lungo il fiume e i suoi affluenti stagionali, dove si concentrano gli animali alla fine della secca. Le probabilità di vedere ogni specie sono nell'<a href="fauna.html#come-leggere">atlante della fauna</a>.</p>
+
+        <h3 class="sotto">Dormire e mangiare</h3>
+        <p>Il campo o il lodge dentro il parco li sceglie l'organizzazione. Nei campi tendati di solito la corrente c'è solo poche ore al giorno, con generatore o pannelli solari, e il wifi può mancare del tutto. La cena è spesso intorno al fuoco, e di notte si sentono iene, leoni e ippopotami.</p>
+
+        <h3 class="sotto">Come arrivare</h3>
+        <p>Da Iringa al parco ci sono circa 110–130 km, verso ovest: tre o quattro ore di strada, con un lungo tratto sterrato. La sede del parco è a Msembe, vicino al fiume.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Durante l'alba del 9 dicembre mettete via il telefono per dieci minuti. Spegnete il motore, se la guida è d'accordo, e ascoltate. Il francolino, le tortore, un leone lontano: è la colonna sonora del Ruaha, e nessuna foto la restituisce.</p></div>
+        <div class="box b-top"><h4>Da non perdere</h4><p>I baobab del Ruaha. Molti portano sul tronco profondi segni lasciati dagli elefanti, che a fine stagione secca ne mangiano la corteccia per l'acqua. Alcuni hanno molti secoli.</p></div>
+        <div class="box b-att"><h4>Attenzione</h4><ul>
+          <li>Le mosche tse-tse del miombo sono attratte dal blu scuro e dal nero: vestiti chiari, color sabbia o kaki.</li>
+          <li>Nel campo, di notte, non uscite mai dalla tenda senza un accompagnatore. Animali selvatici passano anche tra le tende.</li>
+          <li>Con i primi temporali alcune piste possono diventare impraticabili: il programma dei game drive può cambiare.</li>
+        </ul></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><p>Se una jeep segnala un leopardo, non chiedete alla guida di avvicinarsi troppo o di uscire dalla pista. Il Ruaha è ancora un parco tranquillo perché pochi lo frequentano e le regole vengono rispettate.</p></div>
+        <div class="box b-gru"><h4>In gruppo</h4><p>Ruotate i posti in jeep a ogni game drive: davanti, dietro, ai finestrini. E aggiornate tutti insieme la checklist <a href="fauna.html#checklist">«Avvistati!»</a> la sera al campo.</p></div>
+      </aside>
+    </div>
+    <h3 class="sotto">Gli animali da cercare</h3>
+    <p class="nota">Tocca una scheda per aprirla nell'atlante della fauna.</p>
+    <div class="specie" data-specie="leone,leopardo,elefante,bufalo,licaone,iena-macchiata,giraffa,ippopotamo,kudu-maggiore,kudu-minore,antilope-nera,antilope-roana,grant,coccodrillo,ruahae,bucorvo,pettolilla,sellata"></div>
+    <p class="verifica">Fonti: <a href="https://en.wikipedia.org/wiki/Ruaha_National_Park" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.expertafrica.com/tanzania/ruaha-national-park/in-detail" target="_blank" rel="noopener">Expert Africa</a>, Ruaha Carnivore Project. Verificato il 12/11/2026. Le tariffe d'ingresso sono incluse nella quota. <a href="#percorso" data-zoom="ruaha">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+
+<!-- ============ 6 · CULTURA MASAI ============ -->
+<section id="masai" class="tappa" style="--c:var(--t-masai)">
+  <div class="testata">
+    <img src="img/tappe/masai.jpg" alt="Un villaggio masai di capanne rotonde con i tetti di paglia, in una piana erbosa ai piedi delle colline" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>6</b>Giorno 11 · 9 dicembre</p>
+      <h2>Cultura masai</h2>
+      <p>Un popolo di pastori, il bestiame al centro di tutto, e una cultura che cambia senza scomparire.</p>
+      <p class="credito">Foto: Villaggio masai ai piedi del monte Lolmalasin, altopiani di Ngorongoro (non è il villaggio che visiteremo) · Guillaume Baviere · <a href="https://commons.wikimedia.org/wiki/File:Maasai_village,_Lolmalasin.jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Lingua</dt><dd>maa (e swahili)</dd></div>
+      <div><dt>Il saluto</dt><dd lang="mas"><em>Supa!</em> · risposta: <em>Ipa!</em></dd></div>
+      <div><dt>Dove</dt><dd>vicino al Ruaha, villaggio scelto dall'organizzazione</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>una visita di qualche ora</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">Il cuore del territorio masai è più a nord, tra il Kenya meridionale e le pianure del Serengeti e di Ngorongoro. Ma i masai sono pastori, e da molti decenni diverse famiglie si sono spostate verso sud in cerca di pascoli, fino alle regioni di Iringa, Mbeya e Morogoro. Le comunità che vivono ai margini del Ruaha sono nate da queste migrazioni. Visiteremo una di loro il giorno 11, dopo il game drive dell'alba.</p>
+        <p>Al centro di tutto c'è il bestiame. Le vacche sono ricchezza, cibo, dote, prestigio, e il loro latte, la carne e un tempo anche il sangue erano la base della dieta. Il villaggio tradizionale, l'<em lang="mas">enkang</em>, è un cerchio di case basse circondato da un recinto di rami spinosi, che di notte protegge gli animali dai predatori. Le case le costruiscono le donne, con rami, fango e sterco.</p>
+
+        <h3 class="sotto">Le età della vita</h3>
+        <p>La società masai è organizzata in classi d'età. I ragazzi circoncisi nello stesso periodo formano un gruppo che resta unito per tutta la vita. Da giovani sono <em lang="mas">ilmurran</em>, i guerrieri, responsabili della difesa del bestiame. Poi diventano anziani, e insieme prendono le decisioni della comunità. Le danze in cui i giovani saltano in alto, a turno, al ritmo del canto del gruppo, fanno parte delle cerimonie che segnano questi passaggi. Ai visitatori se ne mostra spesso una versione breve.</p>
+        <p>Anche gli ornamenti hanno un significato: le collane e i grandi collari di perline colorate, fatti dalle donne, indicano l'età, lo stato civile e il gruppo. Il rosso della <em lang="sw">shuka</em>, la coperta a quadri o a tinta unita che i masai portano sulle spalle, è diventato il colore simbolo del popolo.</p>
+
+        <h3 class="sotto">Una cultura che cambia</h3>
+        <p>Oggi molti masai vanno a scuola, coltivano mais accanto al pascolo, usano il cellulare per sapere dove ha piovuto e per vendere il bestiame, e lavorano in città, spesso come guardiani o guide. Sono in maggioranza cristiani. La vita da pastori è sempre più difficile, tra la siccità, la crescita della popolazione e i conflitti per la terra con agricoltori e aree protette. Dal 2022 le ricollocazioni di comunità masai dall'area di Ngorongoro e la creazione di nuove riserve a Loliondo hanno suscitato proteste e critiche internazionali.</p>
+        <p>Il turismo culturale porta un reddito importante, ma pone anche domande. Una visita può essere un incontro vero o una messinscena. La differenza la fanno soprattutto il modo in cui ci si comporta e il fatto che i soldi arrivino davvero alla comunità.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Fate domande: sulla scuola, sulle piogge, su quante vacche servono per sposarsi, su come si vive da masai lontano dal Serengeti. Una visita in cui si chiacchiera vale dieci volte una visita in cui si guarda soltanto.</p></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><ul>
+          <li>Chiedete sempre prima di fotografare una persona, e accettate un no.</li>
+          <li>Chiedete agli organizzatori come viene divisa la quota della visita e a chi va.</li>
+          <li>Se comprate perline o bracciali, fatelo direttamente dalle donne che li hanno fatti, senza contrattare troppo.</li>
+          <li>Niente caramelle, penne o soldi dati ai bambini.</li>
+        </ul></div>
+        <div class="box b-sap"><h4>Lo sapevi che…</h4><p>Tradizionalmente i masai non mangiano la carne degli animali selvatici, perché il cibo «vero» viene dal bestiame. Per questo, nei secoli, la loro presenza ha convissuto abbastanza bene con la grande fauna della savana.</p></div>
+        <div class="box b-gru"><h4>In gruppo</h4><p>Siamo un gruppo numeroso, e in un villaggio piccolo un gruppo grande può sembrare un'invasione. Dividetevi, parlate a voce bassa, non entrate nelle case se non siete invitati.</p></div>
+      </aside>
+    </div>
+    <p class="verifica">Verificato il 12/11/2026. Il villaggio della visita e le sue regole li comunica la guida in loco.</p>
+  </div>
+</section>
+
+<!-- ============ 7 · MIKUMI ============ -->
+<section id="mikumi" class="tappa" style="--c:var(--t-mikumi)">
+  <div class="testata">
+    <img src="img/tappe/mikumi.jpg" alt="Una pozza d'acqua nella pianura del Mikumi con un gruppo di bufali e gnu al pascolo, sotto un cielo con grandi nuvole e montagne all'orizzonte" loading="lazy">
+    <div class="wrap">
+      <p class="num"><b>7</b>Giorno 12 · 10 dicembre</p>
+      <h2>Parco Nazionale di Mikumi</h2>
+      <p>Un safari dal finestrino: cinquanta chilometri di savana attraversati dalla statale per Dar es Salaam.</p>
+      <p class="credito">Foto: Parco Nazionale di Mikumi · mwanasimba · <a href="https://commons.wikimedia.org/wiki/File:Mikumi_National_Park_(3181092173).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a></p>
+    </div>
+  </div>
+  <div class="wrap">
+    <dl class="dati">
+      <div><dt>Superficie</dt><dd>circa 3.230 km²</dd></div>
+      <div><dt>Istituito</dt><dd>nel 1964</dd></div>
+      <div><dt>Clima a dicembre</dt><dd>caldo, 22–32 °C, temporali</dd></div>
+      <div><dt>Quanto restiamo</dt><dd>circa un'ora di bus dentro il parco</dd></div>
+    </dl>
+    <div class="colonne">
+      <div class="testo">
+        <p class="drop">L'ultimo giorno di strada è il più lungo: circa 500 km in bus, da Iringa fino a Dar es Salaam. Ma a metà percorso c'è una sorpresa. La statale A7, la grande strada che collega il porto di Dar es Salaam allo Zambia, taglia per una cinquantina di chilometri il Parco Nazionale di Mikumi, e dal finestrino del bus si vedono elefanti, giraffe, zebre, impala, bufali e babbuini a bordo strada, tra camion e cisterne.</p>
+        <p>Il cuore del parco è la pianura alluvionale del fiume Mkata, una savana aperta chiusa tra i monti Uluguru e Rubeho. A sud, il Mikumi confina con il Parco Nazionale Nyerere, l'ex riserva del Selous: insieme formano uno degli ecosistemi protetti più grandi d'Africa.</p>
+
+        <h3 class="sotto">La strada del giorno 12</h3>
+        <ul>
+          <li><strong>La gola del Little Ruaha</strong>: appena lasciata Iringa, la strada scende dalla scarpata lungo la valle del fiume, tra rocce e centinaia di baobab. È uno dei paesaggi più belli di tutto il viaggio: tenete pronta la macchina fotografica, dal lato destro del bus.</li>
+          <li><strong>Mikumi</strong>, la cittadina e poi il parco: la statale entra nella pianura e per circa un'ora si guarda fuori.</li>
+          <li><strong>Morogoro</strong>, ai piedi dei monti Uluguru, e poi la pianura verso la costa, sempre più calda e umida.</li>
+          <li>L'arrivo a Dar es Salaam, di sera, nel traffico.</li>
+        </ul>
+
+        <h3 class="sotto">Cosa vedere dal bus</h3>
+        <p>Gli animali più facili sono quelli che pascolano vicino alla strada: impala, zebre, giraffe, gnu e bufali, e i babbuini che camminano sull'asfalto. Gli elefanti attraversano spesso la statale, soprattutto al mattino e verso sera. Guardate anche i fili della luce e i rami secchi: la ghiandaia marina pettolilla e i rapaci si posano spesso proprio a bordo strada. Leoni e altri predatori dalla statale sono rari.</p>
+        <p>Il bus non si ferma dentro il parco. Le foto si fanno dal finestrino, con lo zoom e la raffica, e accettando che molte vengano mosse.</p>
+      </div>
+      <aside>
+        <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p>Quando si parte da Iringa, scegliete un posto vicino al finestrino, dal lato destro per la gola dei baobab. Poi scambiatevi i posti prima di Mikumi: gli animali possono comparire da entrambi i lati.</p></div>
+        <div class="box b-att"><h4>Attenzione</h4><ul>
+          <li>Sulla A7 viaggiano molti camion e bus veloci, e gli incidenti sono frequenti. Allacciate la cintura, e se la guida vi sembra pericolosa ditelo subito al coordinatore (vedi <a href="info.html#muoversi">Muoversi</a>).</li>
+          <li>È una giornata di 10–12 ore: acqua, snack, power bank, e una giacca leggera per l'aria condizionata.</li>
+        </ul></div>
+        <div class="box b-resp"><h4>Viaggio responsabile</h4><p>Ogni anno sulla statale che attraversa Mikumi vengono investiti molti animali. Per questo dentro il parco ci sono dossi e limiti di velocità ridotti: se il bus li ignora, segnalatelo. E non buttate niente dal finestrino, nemmeno la buccia di una banana: abitua babbuini ed elefanti a cercare cibo sulla strada.</p></div>
+        <div class="box b-sap"><h4>Lo sapevi che…</h4><p>La statale che attraversa il Mikumi fa parte della «Tanzam Highway», asfaltata tra gli anni '60 e '70 per dare allo Zambia, che non ha sbocco sul mare, una strada fino al porto di Dar es Salaam. Nello stesso periodo, con l'aiuto della Cina, fu costruita anche la ferrovia TAZARA, che fa lo stesso percorso più a sud.</p></div>
+      </aside>
+    </div>
+    <h3 class="sotto">Gli animali da cercare dal bus</h3>
+    <p class="nota">Tocca una scheda per aprirla nell'atlante della fauna.</p>
+    <div class="specie" data-specie="elefante,giraffa,zebra,impala,bufalo,gnu,babbuino,facocero,eland,pettolilla,marabu,leone"></div>
+    <p class="verifica">Fonti: <a href="https://en.wikipedia.org/wiki/Mikumi_National_Park" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://www.keybiodiversityareas.org/site/factsheet/6969" target="_blank" rel="noopener">Key Biodiversity Areas</a>. Verificato il 12/11/2026. <a href="#percorso" data-zoom="mikumi">Vedi sulla mappa ↑</a></p>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap">
+  <p>Karibu Tanzania · guida di viaggio non commerciale per il gruppo del 29/11–11/12/2026. Foto da Wikimedia Commons con licenze libere; autore e licenza sotto ogni immagine. Non indichiamo nomi di alberghi e ristoranti che non abbiamo potuto verificare.</p>
+</div></footer>
+<button class="top-btn" aria-label="Torna su">↑</button>
+
+<script src="assets/guida.js"></script>
+<script src="data/itinerario.js"></script>
+<script src="data/mavanga.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function () {
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  /* Schede delle specie collegate all'atlante */
+  var NOMI = { leone: 'Leone', leopardo: 'Leopardo', elefante: 'Elefante africano', bufalo: 'Bufalo cafro', licaone: 'Licaone', 'iena-macchiata': 'Iena macchiata', giraffa: 'Giraffa masai', ippopotamo: 'Ippopotamo', zebra: 'Zebra comune', impala: 'Impala', 'kudu-maggiore': 'Kudu maggiore', 'kudu-minore': 'Kudu minore', 'antilope-nera': 'Antilope nera', 'antilope-roana': 'Antilope roana', grant: 'Gazzella di Grant', gnu: 'Gnu striato', eland: 'Eland', babbuino: 'Babbuino giallo', facocero: 'Facocero', coccodrillo: 'Coccodrillo del Nilo', ruahae: 'Bucero dal becco rosso della Tanzania', bucorvo: 'Bucorvo cafro', pettolilla: 'Ghiandaia marina pettolilla', marabu: 'Marabù', sellata: 'Cicogna sellata', abbott: 'Cefalofo di Abbott', 'rondine-blu': 'Rondine blu', 'vedova-montana': 'Vedova di palude montana', cisticola: 'Beccamoschino di Njombe', tempeli: 'Camaleonte dal naso tubercolato', msuyae: 'Camaleonte di Msuya', orchidee: 'Orchidee di terra', protea: 'Protee', lobelia: 'Lobelia di Mildbraed', gloriosa: 'Gloriosa', colobo: 'Colobo bianco e nero', klipspringer: 'Klipspringer' };
+  Array.prototype.forEach.call(document.querySelectorAll('[data-specie]'), function (box) {
+    box.innerHTML = box.getAttribute('data-specie').split(',').map(function (id) {
+      return '<a href="fauna.html#' + id + '"><img src="img/fauna/thumb/' + id + '.jpg" alt="" loading="lazy" width="480" height="360"><span>' + esc(NOMI[id] || id) + '</span></a>';
+    }).join('');
+  });
+
+  /* Mavanga: il progetto, dai dati di data/mavanga.js */
+  var M = window.MAVANGA, P = document.getElementById('progetto');
+  if (P) {
+    if (!M) { P.innerHTML = '<p class="manca">Il file data/mavanga.js non si è caricato (forse manca una virgola o un apice).</p>'; }
+    else {
+      var manca = function (cosa) { return '<span class="manca">Da completare: ' + esc(cosa) + '</span>'; };
+      var val = function (v, cosa) { return v ? esc(v) : manca(cosa); };
+      var lista = function (arr, cosa) { arr = (arr || []).filter(function (x) { return x; }); return arr.length ? '<ul>' + arr.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '<p>' + manca(cosa) + '</p>'; };
+      var p = M.progetto || {};
+      var h = '<h4>Il progetto</h4><p><strong>' + val(p.titolo, 'nome del progetto') + '</strong></p>' +
+        '<p>Con: ' + val(p.associazione, 'organizzazione o parrocchia') + '</p>' +
+        '<p>' + val(p.descrizione, 'chi sono e a cosa serve il nostro aiuto') + '</p>' +
+        '<h4>Le attività</h4>' + lista(M.attivita, 'le attività previste') +
+        '<h4>Una giornata tipo</h4><p>' + val(M.giornata, 'gli orari di una giornata') + '</p>' +
+        '<h4>Dove dormiamo e mangiamo</h4><p>' + val(M.alloggio, 'l\'alloggio (senza indirizzo)') + '</p>' +
+        '<h4>Le regole del villaggio</h4>' + lista(M.regole, 'le regole concordate') +
+        '<h4>Cosa portare per il progetto</h4>' + lista(M.portare, 'materiali concordati con il progetto') +
+        '<h4>Domande frequenti</h4><dl>' + (M.domande || []).map(function (q) { return '<dt>' + esc(q.d) + '</dt><dd>' + val(q.r, 'risposta') + '</dd>'; }).join('') + '</dl>' +
+        (M.aggiornato ? '<p class="nota">Aggiornato il ' + esc(M.aggiornato) + '.</p>' : '');
+      P.innerHTML = h;
+    }
+  }
+
+  /* Mappa delle tappe, dai dati di data/itinerario.js */
+  var D = window.ITINERARIO, el = document.getElementById('mappa-tappe');
+  if (D && window.L && el) {
+    el.innerHTML = '';
+    var col = getComputedStyle(document.documentElement);
+    var c = function (k) { return col.getPropertyValue('--t-' + k).trim() || col.getPropertyValue('--' + k).trim() || '#A9472F'; };
+    var SEZ = { dar: 'dar', songwe: 'mpanga', mbeya: 'mpanga', mpanga: 'mpanga', njombe: 'mavanga', mavanga: 'mavanga', iringa: 'iringa', ruaha: 'ruaha', mikumi: 'mikumi' };
+    var NUM = { dar: '1', mbeya: '2', mpanga: '2', mavanga: '3', iringa: '4', ruaha: '5', mikumi: '7' };
+    var touch = L.Browser.mobile || ('ontouchstart' in window);
+    var map = L.map(el, { scrollWheelZoom: false, dragging: !touch, tap: false, zoomSnap: 0.25 }).setView([-8.3, 36], 6);
+    if (touch) {
+      var nota = L.control({ position: 'bottomleft' });
+      nota.onAdd = function () { var d = L.DomUtil.create('div'); d.style.cssText = 'background:rgba(255,253,249,.9);padding:3px 8px;border-radius:6px;font-size:12px;color:#231E1A'; d.textContent = 'Usa + e − per lo zoom · tocca le tappe'; return d; };
+      nota.addTo(map);
+    }
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap' }).addTo(map);
+    var P2 = {};
+    D.tappe.forEach(function (t) {
+      P2[t.id] = t;
+      var n = NUM[t.id] || '', sez = SEZ[t.id];
+      var icon = L.divIcon({ className: '', html: '<div class="pin" style="background:' + c(t.colore) + (n ? '' : ';width:16px;height:16px;line-height:16px;font-size:0') + '">' + esc(n) + '</div>', iconSize: n ? [30, 30] : [16, 16], iconAnchor: n ? [15, 15] : [8, 8] });
+      L.marker(t.ll, { icon: icon, title: t.nome }).addTo(map).bindPopup('<strong>' + esc(t.nome) + '</strong><br>' + esc(t.quando) + (sez ? '<br><a href="#' + sez + '">Leggi il capitolo →</a>' : ''));
+    });
+    D.percorsi.forEach(function (r) {
+      var pts = r.tappe.filter(function (id) { return P2[id]; }).map(function (id) { return P2[id].ll; });
+      L.polyline(pts, r.volo ? { color: c('oceano'), weight: 3, dashArray: '8 8' } : { color: c('terracotta'), weight: 3, opacity: .85 }).addTo(map);
+    });
+    var bounds = L.latLngBounds(D.tappe.map(function (t) { return t.ll; })).pad(0.08);
+    var adatta = function () { map.invalidateSize(); map.fitBounds(bounds); };
+    adatta(); window.addEventListener('load', adatta);
+    window.addEventListener('resize', function () { clearTimeout(adatta.t); adatta.t = setTimeout(adatta, 200); });
+    // «Vedi sulla mappa»: centra la tappa
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-zoom]'); if (!a) return;
+      var t = P2[a.getAttribute('data-zoom')]; if (!t) return;
+      setTimeout(function () { map.invalidateSize(); map.setView(t.ll, 9); }, 350);
+    });
+  }
+
+  /* Evidenzia la tappa corrente nella barra */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.capitoli a'));
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) {
+          var on = a.getAttribute('href') === '#' + e.target.id;
+          a.classList.toggle('attivo', on);
+          if (on) a.parentNode.scrollTo({ left: a.offsetLeft - 16, behavior: 'smooth' });
+        });
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    links.forEach(function (a) { var s = document.querySelector(a.getAttribute('href')); if (s) obs.observe(s); });
+  }
+})();
+</script>
+</body>
+</html>

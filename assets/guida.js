@@ -1,0 +1,48 @@
+/* Karibu Tanzania – comportamenti comuni: menu, barra di lettura, torna su, tema */
+(function () {
+  var INDICE = [
+    { t: '1 · Introduzione', voci: [['Benvenuti in Tanzania', 'index.html#benvenuti'], ['Il nostro itinerario', 'index.html#itinerario'], ['Consigli d\'autore', 'index.html#consigli'], ['Prima di partire', 'index.html#partire'], ['Viaggio sostenibile', 'index.html#sostenibile']] },
+    { t: '2 · Fauna', voci: [['Atlante delle specie', 'fauna.html#atlante'], ['Checklist «Avvistati!»', 'fauna.html#checklist'], ['Birdwatching', 'fauna.html#birdwatching'], ['Altopiani e Kitulo', 'fauna.html#altopiani'], ['Come si legge la savana', 'fauna.html#savana']] },
+    { t: '3 · Informazioni pratiche', voci: [['Arrivare e muoversi', 'info.html#arrivare'], ['Dove alloggiare', 'info.html#dormire'], ['Mangiare e bere', 'info.html#mangiare'], ['Salute', 'info.html#salute'], ['Connessione', 'info.html#connessione'], ['Feste: Uhuru Day e Natale', 'info.html#feste'], ['Safari e galateo', 'info.html#safari'], ['Attività all\'aperto', 'info.html#aperto'], ['Sicurezza', 'info.html#sicurezza'], ['Cultura, usi e costumi', 'info.html#cultura'], ['Acquisti', 'info.html#acquisti'], ['Viaggiare in gruppo', 'info.html#gruppo'], ['Da sapere', 'info.html#dasapere']] },
+    { t: '4 · La guida per tappe', voci: [['La mappa delle tappe', 'tappe.html#percorso'], ['Dar es Salaam', 'tappe.html#dar'], ['Mbeya e Mpanga Kipengere', 'tappe.html#mpanga'], ['Mavanga', 'tappe.html#mavanga'], ['Iringa', 'tappe.html#iringa'], ['Ruaha', 'tappe.html#ruaha'], ['Cultura masai', 'tappe.html#masai'], ['Mikumi', 'tappe.html#mikumi']] },
+    { t: '5 · Approfondimenti', voci: [['Storia'], ['Letture'], ['Musica'], ['Frasario swahili'], ['Glossario']] }
+  ];
+  var menu = document.getElementById('menu');
+  if (menu) {
+    var html = '<div class="wrap"><div><span class="logo">Karibu <span>Tanzania</span></span><button class="btn" data-chiudi>✕ Chiudi</button></div><ol>';
+    INDICE.forEach(function (g) {
+      html += '<li><h3>' + g.t + '</h3><ul>';
+      g.voci.forEach(function (v) {
+        html += v[1] ? '<li><a href="' + v[1] + '">' + v[0] + '</a></li>' : '<li class="presto">' + v[0] + ' <small>(in arrivo)</small></li>';
+      });
+      html += '</ul></li>';
+    });
+    menu.innerHTML = html + '</ol></div>';
+    var apri = document.querySelector('[data-apri-menu]');
+    function chiudi() { menu.classList.remove('aperto'); document.body.style.overflow = ''; if (apri) apri.focus(); }
+    if (apri) apri.addEventListener('click', function () { menu.classList.add('aperto'); document.body.style.overflow = 'hidden'; menu.querySelector('[data-chiudi]').focus(); });
+    menu.addEventListener('click', function (e) { if (e.target.closest('[data-chiudi]') || e.target.closest('a')) chiudi(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.classList.contains('aperto')) chiudi(); });
+  }
+  var bar = document.querySelector('.progress'), top = document.querySelector('.top-btn');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    if (bar) bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+    if (top) top.classList.toggle('vis', h.scrollTop > 700);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  if (top) top.addEventListener('click', function () { window.scrollTo({ top: 0 }); });
+  // uso offline: registra il service worker (funziona solo su https o localhost)
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+  }
+  // tema chiaro/scuro (preferenza salvata solo su questo telefono)
+  var tb = document.querySelector('[data-tema]');
+  try { var t = localStorage.getItem('kt-tema'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  if (tb) tb.addEventListener('click', function () {
+    var cur = document.documentElement.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var nuovo = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', nuovo);
+    try { localStorage.setItem('kt-tema', nuovo); } catch (e) {}
+  });
+})();
