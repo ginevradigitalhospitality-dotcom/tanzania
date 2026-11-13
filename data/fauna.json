@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "leone",
+    "cat": "big5",
+    "it": "Leone",
+    "en": "Lion",
+    "sw": "Simba",
+    "sci": "Panthera leo",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha i branchi sono spesso molto numerosi, a volte più di venti individui. Le zone più frequentate sono le sponde del Grande Ruaha e del Mwagusi. A Mikumi si vedono nella piana del Mkata, spesso all'ombra delle acacie o sui tumuli di termiti. Dal 2005 Mpanga Kipengere è classificata come «Lion Conservation Unit», un'area importante per la conservazione del leone, ma per gli altopiani non risultano avvistamenti turistici.",
+    "misure": "Maschio 150–225 kg, femmina 110–150 kg · altezza al garrese circa 1,2 m · lunghezza fino a 2,5 m più la coda.",
+    "riconoscere": "È l'unico grande felino africano a mantello uniforme, color sabbia. La coda termina con un ciuffo nero. Il maschio adulto ha la criniera, che si scurisce con l'età e nelle zone calde può essere rada. I cuccioli hanno macchie leggere sulle zampe e sulla pancia, che sbiadiscono entro il primo anno.",
+    "simili": "Una leonessa distesa nell'erba alta, vista da lontano, può sembrare un puma o una iena: guardate la coda con il ciuffo nero e le orecchie arrotondate con il retro nero.",
+    "comportamento": "Dormono o riposano fino a 20 ore al giorno: aspettatevi più spesso un mucchio di leoni addormentati che una caccia. Si attivano al tramonto e all'alba. Il ruggito si sente fino a 8 km di distanza e serve a segnalare il territorio al branco e ai rivali.",
+    "alimentazione": "Carnivoro: zebre, gnu, impala, bufali e, nel Ruaha, anche giraffe. Le femmine cacciano in modo coordinato; i maschi intervengono soprattutto con le prede grandi come i bufali. Sfruttano anche le carcasse e rubano prede alle iene, ricambiati spesso nello stesso modo.",
+    "sociale": "È l'unico felino davvero sociale. Il branco è formato da femmine imparentate e dai loro piccoli, con una coalizione di 1–4 maschi che resta qualche anno, finché non viene cacciata da maschi più giovani.",
+    "curiosita": "Secondo il Ruaha Carnivore Project, il paesaggio Ruaha–Rungwa ospita circa il 10% dei leoni rimasti in natura. È una delle popolazioni più importanti del pianeta, ma vive a stretto contatto con villaggi di pastori, e i conflitti per il bestiame sono la principale minaccia.",
+    "consiglio": "Se trovate un branco addormentato, valutate di aspettare 15–20 minuti a motore spento verso le 17: è l'ora in cui i leoni si stirano, sbadigliano e cominciano a muoversi."
+  },
+  {
+    "id": "leopardo",
+    "cat": "big5",
+    "it": "Leopardo",
+    "en": "Leopard",
+    "sw": "Chui",
+    "sci": "Panthera pardus",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "notturno": true,
+    "doveNota": "Il Ruaha ha una buona reputazione per i leopardi: guardate tra i rami delle acacie e dei sicomori lungo i fiumi e sulle colline rocciose (kopje). A Mikumi è presente ma difficile da vedere. In molte zone montane il leopardo vive, ma per Mpanga Kipengere non ci sono dati pubblicati affidabili.",
+    "misure": "Maschio 37–90 kg, femmina 28–60 kg · altezza al garrese 60–70 cm · coda lunga quasi quanto il corpo.",
+    "riconoscere": "È robusto e muscoloso, con la testa grande e le zampe corte. Il mantello è coperto di rosette, cioè macchie a forma di anello con il centro più scuro del fondo. La coda è lunga e la punta, bianca sotto, si incurva verso l'alto.",
+    "simili": "Il ghepardo è più snello e alto sulle zampe, ha macchie piene e non rosette, e due «lacrime» nere dagli occhi alla bocca. Il serval è molto più piccolo, ha orecchie enormi e la coda corta.",
+    "comportamento": "Solitario, prudente, attivo soprattutto di notte e nelle ore più fresche. Durante il giorno riposa spesso disteso su un ramo, con le zampe penzoloni: è lì che lo avvisterete, se siete fortunati.",
+    "alimentazione": "Mangia di tutto, dagli scarabei alle antilopi di 60 kg: impala, facoceri, babbuini, lepri, uccelli. Trascina le prede sugli alberi per sottrarle a leoni e iene. È capace di issare una carcassa più pesante di lui.",
+    "sociale": "Vive da solo. Maschi e femmine si incontrano solo per l'accoppiamento. La madre cresce da sola 2–3 cuccioli, che restano con lei per circa un anno e mezzo.",
+    "curiosita": "Il leopardo ha l'areale più vasto di qualsiasi felino selvatico: vive dalle savane africane alle foreste dell'Asia e alle montagne del Caucaso. In Africa si adatta anche alle zone vicine ai villaggi.",
+    "consiglio": "Se vedete una carcassa di impala appesa su un albero, chiedete alla guida di tornare lì al tramonto: il proprietario non è lontano."
+  },
+  {
+    "id": "elefante",
+    "cat": "big5",
+    "it": "Elefante africano di savana",
+    "en": "African bush elephant",
+    "sw": "Tembo, ndovu",
+    "sci": "Loxodonta africana",
+    "iucn": "EN",
+    "alias": [
+      "elefante"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Si vede facilmente in entrambi i parchi. Nel Ruaha frequenta i boschi di baobab e il letto del fiume, dove scava nella sabbia per trovare l'acqua. A Mikumi attraversa la piana del Mkata e a volte si avvicina alla statale: attenzione se guidate di sera.",
+    "misure": "Maschio fino a 6 t e 3,5–4 m al garrese, femmina circa 3 t e 2,5 m · zanne fino a 2 m nei maschi anziani.",
+    "riconoscere": "È il più grande animale terrestre. Le orecchie sono enormi e hanno vagamente la forma del continente africano; la proboscide finisce con due «dita». Le zanne crescono in entrambi i sessi. Il dorso è incavato a metà, mentre quello dell'elefante asiatico è arrotondato.",
+    "comportamento": "Mangia per 16–18 ore al giorno e percorre decine di chilometri. Comunica con brontolii a bassa frequenza, in parte non udibili all'orecchio umano, che viaggiano per chilometri. Le orecchie sventolate servono a raffreddarsi. Orecchie spalancate, testa alta e passi in avanti sono invece un avvertimento.",
+    "alimentazione": "Erba, foglie, corteccia, frutti e radici: fino a 150 kg di vegetali al giorno. Beve fino a 200 litri. Nel Ruaha scortecciano i baobab per mangiarne il tronco spugnoso e ricco d'acqua, lasciando le cicatrici che vedrete ovunque.",
+    "sociale": "Le femmine vivono in famiglie guidate dalla matriarca, la femmina più anziana ed esperta, che ricorda dove trovare l'acqua negli anni secchi. I maschi lasciano la famiglia verso i 12–15 anni e vivono da soli o in gruppi di «scapoli».",
+    "curiosita": "All'inizio degli anni 2010 il bracconaggio ha fatto crollare la popolazione di elefanti dell'ecosistema Ruaha–Rungwa. È uno dei casi più gravi documentati in Africa. Da allora i controlli sono aumentati e la situazione è migliorata, ma l'avorio resta una minaccia: per questo non si compra mai, in nessuna forma.",
+    "consiglio": "Un elefante che vi viene incontro sulla pista ha sempre la precedenza. Non chiedete all'autista di avvicinarsi di più: lasciate che sia l'animale a decidere la distanza."
+  },
+  {
+    "id": "bufalo",
+    "cat": "big5",
+    "it": "Bufalo cafro",
+    "en": "African buffalo",
+    "sw": "Nyati, mbogo",
+    "sci": "Syncerus caffer",
+    "iucn": "NT",
+    "alias": [
+      "bufalo"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "A Mikumi si vedono grandi mandrie nella piana del Mkata. Nel Ruaha, all'inizio di novembre, molte mandrie si spostano sulle colline della scarpata: a dicembre lungo il fiume restano soprattutto maschi solitari o piccoli gruppi.",
+    "misure": "500–900 kg · altezza al garrese 1,4–1,7 m · corna fino a 1 m di apertura.",
+    "riconoscere": "Massiccio, nero o bruno scuro. Le corna, nel maschio, si saldano alla base in una placca ossea compatta chiamata «elmo» (in inglese boss). Le orecchie sono larghe e frangiate, spesso con un airone guardabuoi appollaiato sul dorso.",
+    "simili": "Gli gnu, che vedrete a Mikumi, sono più snelli, hanno la barba e la criniera e il muso lungo. Il bestiame domestico che vedrete fuori dai parchi ha invece la gobba.",
+    "comportamento": "Pascola soprattutto di notte e nelle ore fresche, e nel caldo si rotola nel fango. È considerato uno degli animali più pericolosi d'Africa per l'uomo: i maschi anziani soli, chiamati dalle guide *dagga boys* (da *dagga*, fango), sono irascibili e imprevedibili.",
+    "alimentazione": "Erbivoro di erba alta e grossolana, deve bere ogni giorno: per questo non si allontana mai molto dall'acqua.",
+    "sociale": "Le mandrie miste, formate da femmine, piccoli e maschi, possono contare centinaia di capi. Le femmine sembrano «votare» la direzione verso cui muoversi, alzandosi e guardando in quella direzione. Quando un predatore attacca, la mandria fa quadrato e difende i piccoli.",
+    "curiosita": "I leoni del Ruaha sono tra i pochi in Africa che cacciano regolarmente i bufali. Un adulto sano però può uccidere un leone: per questo i leoni attaccano quasi sempre in gruppo."
+  },
+  {
+    "id": "rinoceronte-nero",
+    "cat": "big5",
+    "it": "Rinoceronte nero",
+    "en": "Black rhinoceros",
+    "sw": "Kifaru",
+    "sci": "Diceros bicornis",
+    "iucn": "CR",
+    "alias": [
+      "rinoceronte"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "fuori": true,
+    "doveNota": "Non è presente nel nostro itinerario. Nel Ruaha, come in gran parte della Tanzania meridionale, il rinoceronte nero è stato sterminato dal bracconaggio negli ultimi decenni del Novecento. Oggi in Tanzania si vede soprattutto nel cratere di Ngorongoro e in alcune zone del Serengeti (in particolare nell'area dei Moru Kopjes). Vive anche nel santuario di Mkomazi, che però non è aperto al turismo libero.",
+    "misure": "800–1.400 kg · altezza al garrese 1,4–1,7 m · due corni, l'anteriore fino a 1,2 m.",
+    "riconoscere": "Il labbro superiore è appuntito e prensile, come un piccolo dito, e serve a strappare foglie e rami. La testa è tenuta alta. Nonostante il nome, non è nero: è grigio, e prende il colore del fango in cui si rotola.",
+    "simili": "Il rinoceronte bianco, che in natura non vive in Tanzania, ha un labbro largo e squadrato per brucare l'erba e una gobba sul collo. «Bianco» non indica il colore: secondo un'ipotesi molto diffusa ma non provata, deriverebbe da una storpiatura dell'olandese *wijd*, «largo».",
+    "comportamento": "Solitario e miope, si affida all'olfatto e all'udito. Se si sente minacciato può caricare a più di 40 km/h.",
+    "alimentazione": "Brucatore di cespugli, rami e foglie, comprese specie spinose e velenose per altri animali.",
+    "sociale": "Le madri restano con il piccolo per 2–3 anni. Gli adulti si incontrano alle pozze e marcano il territorio con mucchi di sterco condivisi.",
+    "curiosita": "Il corno non è osso: è cheratina compatta, la stessa sostanza delle nostre unghie. Non ha alcun potere medicinale, ma è ancora contrabbandato a prezzi più alti dell'oro."
+  },
+  {
+    "id": "ghepardo",
+    "cat": "predatori",
+    "it": "Ghepardo",
+    "en": "Cheetah",
+    "sw": "Duma",
+    "sci": "Acinonyx jubatus",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha caccia nelle pianure aperte, ma è poco comune. A Mikumi gli avvistamenti sono sporadici: se capita, è una giornata da ricordare.",
+    "misure": "21–72 kg · altezza al garrese 70–90 cm · corpo molto snello, zampe lunghe.",
+    "riconoscere": "Snello come un levriero, con la testa piccola e arrotondata. Il mantello ha macchie nere piene e una linea nera, la «lacrima», scende dall'angolo dell'occhio alla bocca. La coda termina con anelli neri e la punta bianca.",
+    "simili": "Il leopardo è più massiccio e ha rosette, non macchie piene. Il serval è molto più piccolo, con le orecchie grandi e la coda corta.",
+    "comportamento": "Caccia di giorno, soprattutto al mattino e nel tardo pomeriggio, per evitare la concorrenza di leoni e iene. Si apposta su un tumulo o su un albero caduto per osservare la pianura. Gli artigli sono solo in parte retrattili e fanno presa come i tacchetti delle scarpe da corsa.",
+    "alimentazione": "Gazzelle, impala, piccoli di gnu e di altre antilopi, lepri. Deve mangiare in fretta: perde spesso la preda a favore di leoni, iene e persino gruppi di sciacalli.",
+    "sociale": "Le femmine vivono da sole con i piccoli. I maschi, spesso fratelli, formano coalizioni di 2–3 individui che difendono insieme un territorio.",
+    "curiosita": "Raggiunge i 100 km/h, ma solo per 20–30 secondi: dopo uno scatto deve riposare per riprendere fiato e abbassare la temperatura. Non ruggisce: miagola, cinguetta e fa le fusa come un gatto."
+  },
+  {
+    "id": "licaone",
+    "cat": "predatori",
+    "it": "Licaone",
+    "en": "African wild dog",
+    "sw": "Mbwa mwitu",
+    "sci": "Lycaon pictus",
+    "iucn": "EN",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Il Ruaha è una delle ultime grandi roccaforti della specie, con oltre un centinaio di individui. I branchi però percorrono distanze enormi e a dicembre non sono legati alla tana (che usano tra giugno e agosto). A Mikumi compaiono branchi che arrivano dall'ecosistema di Nyerere.",
+    "misure": "18–36 kg · altezza al garrese 60–75 cm · orecchie grandi e tonde.",
+    "riconoscere": "Il mantello è una macchia irregolare di nero, giallo, marrone e bianco, diverso in ogni individuo, come un'impronta digitale. Le orecchie sono grandi e arrotondate, il muso scuro, la coda folta con la punta bianca. Ha quattro dita per zampa, a differenza degli altri canidi che ne hanno cinque sulle anteriori.",
+    "simili": "Le iene hanno il dorso inclinato, con le zampe anteriori più lunghe, e non hanno la coda folta con la punta bianca. Gli sciacalli sono molto più piccoli e uniformi.",
+    "comportamento": "Si muove molto e caccia all'alba e al tramonto, inseguendo le prede per chilometri a 50–60 km/h. È uno dei predatori più efficienti d'Africa: molti studi indicano che la maggioranza delle cacce va a buon fine.",
+    "alimentazione": "Soprattutto impala, che nel Ruaha sono la preda principale, poi kudu, piccoli di gnu e duiker.",
+    "sociale": "Il branco ha di solito tra 6 e 20 adulti e ha una sola coppia riproduttiva. Tutti nutrono i piccoli e i membri malati o feriti, rigurgitando la carne. Prima di partire per la caccia c'è un rituale di saluti, squittii e «starnuti»: secondo uno studio gli starnuti funzionano come un voto per decidere se partire.",
+    "curiosita": "In tutta l'Africa ne restano circa 6.600, di cui forse solo 1.400 adulti riproduttivi. La Tanzania meridionale (Ruaha, Nyerere) ospita una parte significativa della popolazione mondiale."
+  },
+  {
+    "id": "iena-macchiata",
+    "cat": "predatori",
+    "it": "Iena macchiata",
+    "en": "Spotted hyena",
+    "sw": "Fisi",
+    "sci": "Crocuta crocuta",
+    "iucn": "LC",
+    "notturno": true,
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Comune in entrambi i parchi. Si vede spesso all'alba, mentre rientra alla tana, oppure riposa nelle pozze fangose nelle ore calde.",
+    "misure": "40–86 kg · altezza al garrese 70–90 cm · le femmine sono più grandi dei maschi.",
+    "riconoscere": "Il dorso è inclinato verso il posteriore, perché le zampe anteriori sono più lunghe delle posteriori. Il mantello è sabbia o grigiastro con macchie scure irregolari. Le orecchie sono arrotondate, il collo e le mascelle potentissimi.",
+    "simili": "La iena striata è più piccola, ha strisce verticali, orecchie appuntite e una criniera lunga sul dorso. Il protele è ancora più piccolo e slanciato.",
+    "comportamento": "Attiva soprattutto di notte. Il suo verso più tipico è un «uuu-uup» che sale di tono e si sente a chilometri: nei campi tendati vi farà compagnia molte notti. La famosa «risata» è invece un segnale di tensione o di sottomissione.",
+    "alimentazione": "Non è solo uno spazzino. In molte aree caccia da sola o in gruppo la maggior parte di ciò che mangia: gnu, zebre, antilopi. Digerisce anche le ossa, e i suoi escrementi sono bianchi di calcio.",
+    "sociale": "Vive in clan fino a 80 individui, guidati da una femmina. Le femmine dominano i maschi e la gerarchia si eredita di madre in figlia.",
+    "curiosita": "Il morso della iena macchiata è tra i più potenti dei mammiferi terrestri: spezza ossa di giraffa. Nella cultura swahili *fisi* è anche un insulto per una persona avida."
+  },
+  {
+    "id": "iena-striata",
+    "cat": "predatori",
+    "it": "Iena striata",
+    "en": "Striped hyena",
+    "sw": "Fisi miraba",
+    "sci": "Hyaena hyaena",
+    "iucn": "NT",
+    "notturno": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Il Ruaha è al limite sud dell'areale della specie. È presente, come confermano gli studi con fototrappole, ma viene vista molto raramente: secondo le statistiche dei viaggiatori, in meno di un viaggio su dieci.",
+    "misure": "26–41 kg · altezza al garrese 65–80 cm.",
+    "riconoscere": "Il mantello è grigio chiaro con strisce nere verticali sul corpo e sulle zampe. Le orecchie sono grandi e appuntite, il muso scuro. Lungo il dorso corre una criniera lunga che si drizza quando l'animale è spaventato o aggressivo, facendolo sembrare più grande del 30–40%.",
+    "simili": "Il protele, che vive anche nel Ruaha, ha lo stesso disegno a strisce, ma è molto più piccolo (8–14 kg), ha il muso sottile e i denti minuscoli.",
+    "comportamento": "Notturna e silenziosa, molto meno vocale della iena macchiata. Durante il giorno si nasconde in tane, grotte o fitti cespugli.",
+    "alimentazione": "Soprattutto carcasse, ma anche insetti, frutti e piccoli animali. Percorre grandi distanze da sola per trovare cibo.",
+    "sociale": "Per lo più solitaria, ma in alcune aree vive in piccoli gruppi familiari.",
+    "curiosita": "Il suo areale arriva fino all'India e al Caucaso. È la iena più diffusa del mondo, ma anche la meno studiata."
+  },
+  {
+    "id": "sciacallo-gualdrappa",
+    "cat": "predatori",
+    "it": "Sciacallo dalla gualdrappa",
+    "en": "Black-backed jackal",
+    "sw": "Bweha mgongo-mweusi",
+    "sci": "Lupulella mesomelas",
+    "iucn": "LC",
+    "alias": [
+      "sciacallo",
+      "Canis mesomelas"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha è molto comune e si vede facilmente, spesso in coppia. A Mikumi si alterna con lo sciacallo striato.",
+    "misure": "6–13 kg · altezza al garrese 38–48 cm.",
+    "riconoscere": "Ha i fianchi e le zampe rossicce e una «gualdrappa» nera e argentata sul dorso, come una coperta, che dà il nome alla specie. La coda è folta e nera alla punta, le orecchie grandi e appuntite.",
+    "simili": "Lo sciacallo striato è più grigio, ha una linea chiara sui fianchi e la coda con la punta bianca. La volpe dalle orecchie di pipistrello (otocione) è più piccola e ha orecchie enormi e una maschera nera.",
+    "comportamento": "Attivo di giorno e di notte. Spesso è il primo ad arrivare a una carcassa o il primo a seguire i leoni. Di notte emette un ululato acuto e tremolante.",
+    "alimentazione": "Opportunista: roditori, insetti, uccelli, piccoli di antilope, frutti e avanzi delle prede dei grandi predatori.",
+    "sociale": "Coppie monogame che durano tutta la vita. I figli dell'anno precedente spesso restano per aiutare a crescere la nuova cucciolata.",
+    "curiosita": "Fino a pochi anni fa era classificato nel genere *Canis*, come i lupi. Le analisi genetiche hanno mostrato che è una linea più antica e diversa, oggi chiamata *Lupulella*."
+  },
+  {
+    "id": "sciacallo-striato",
+    "cat": "predatori",
+    "it": "Sciacallo striato",
+    "en": "Side-striped jackal",
+    "sw": "Bweha miraba",
+    "sci": "Lupulella adusta",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "sciacallo",
+      "Canis adustus"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Preferisce i boschi e la savana alberata allo spazio aperto ed è più notturno del cugino: si vede soprattutto all'alba. A Mikumi è segnalato dalle guide locali. Stima prudente.",
+    "misure": "6,5–14 kg · altezza al garrese 40–50 cm.",
+    "riconoscere": "Il mantello è grigio-brunastro, con una linea chiara bordata di scuro lungo i fianchi. La coda è scura e quasi sempre con la punta bianca. Il muso è più corto e meno appuntito rispetto allo sciacallo dalla gualdrappa.",
+    "simili": "Lo sciacallo dalla gualdrappa ha un dorso nero e argento ben netto e la coda con la punta nera.",
+    "comportamento": "Schivo, attivo soprattutto al crepuscolo e di notte. Il verso è una serie di guaiti bassi, diversi dall'ululato dell'altro sciacallo.",
+    "alimentazione": "Il più vegetariano tra gli sciacalli: frutti, insetti, piccoli roditori, carcasse.",
+    "sociale": "Vive in coppie stabili, con cuccioli che nascono in tane scavate da altri animali, spesso dagli oritteropi.",
+    "curiosita": "In swahili *miraba* significa «a strisce»: lo stesso aggettivo si usa per la iena striata."
+  },
+  {
+    "id": "caracal",
+    "cat": "predatori",
+    "it": "Caracal",
+    "en": "Caracal",
+    "sw": "Simbamangu",
+    "sci": "Caracal caracal",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Documentato nel Ruaha e nelle aree comunitarie confinanti dalle fototrappole, ma raramente visto dai turisti. Per Mikumi non ho trovato dati affidabili, anche se l'habitat è adatto.",
+    "misure": "8–19 kg · altezza al garrese 40–50 cm.",
+    "riconoscere": "Mantello uniforme color mattone o sabbia, senza macchie. Le orecchie sono lunghe, nere sul retro e terminano con un ciuffo di peli neri. Le zampe posteriori sono lunghe e muscolose.",
+    "simili": "Il serval ha macchie e strisce nere e orecchie grandi ma senza ciuffi. Il gatto selvatico africano è molto più piccolo e ha il retro delle orecchie rossiccio.",
+    "comportamento": "Solitario e notturno, ma nelle giornate fresche e nuvolose, come quelle di dicembre, si muove anche di giorno. È un saltatore formidabile.",
+    "alimentazione": "Roditori, iraci, uccelli, piccole antilopi. Salta fino a 3 metri in verticale per afferrare uccelli in volo.",
+    "sociale": "Vive da solo. La madre cresce 1–4 piccoli in tane nascoste tra le rocce.",
+    "curiosita": "Il nome viene dal turco *karakulak*, «orecchie nere». I ciuffi delle orecchie servono probabilmente a comunicare: il caracal li muove per segnalare agli altri il suo stato d'animo."
+  },
+  {
+    "id": "serval",
+    "cat": "predatori",
+    "it": "Serval",
+    "en": "Serval",
+    "sw": "Mondo",
+    "sci": "Leptailurus serval",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha è tra i piccoli felini più registrati dalle fototrappole, con densità più alte nei boschi di miombo. Ama le zone erbose e umide: a dicembre cercatelo all'alba nelle praterie vicino alle pozze. Le praterie d'altura degli altopiani meridionali sono un habitat adatto, ma per Mpanga Kipengere mancano dati pubblicati.",
+    "misure": "9–18 kg · altezza al garrese 54–62 cm · in proporzione, le zampe più lunghe tra tutti i felini.",
+    "riconoscere": "Il mantello è dorato con macchie e strisce nere. Ha zampe lunghissime, orecchie enormi e arrotondate, con una macchia bianca sul retro, e la coda corta ad anelli neri.",
+    "simili": "Il ghepardo è molto più grande e ha la coda lunga. Il gatto selvatico è più piccolo e senza macchie nette.",
+    "comportamento": "Caccia all'alba e al tramonto ascoltando i roditori nell'erba alta. Quando li localizza fa un salto ad arco e li schiaccia con le zampe anteriori.",
+    "alimentazione": "Roditori soprattutto, ma anche rane, uccelli e insetti.",
+    "sociale": "Solitario. Maschi e femmine si incontrano per l'accoppiamento.",
+    "curiosita": "È uno dei felini più efficienti: secondo diversi studi, circa la metà dei suoi salti va a segno, contro meno di un terzo delle cacce del leone."
+  },
+  {
+    "id": "gatto-selvatico",
+    "cat": "predatori",
+    "it": "Gatto selvatico africano",
+    "en": "African wildcat",
+    "sw": "Paka pori",
+    "sci": "Felis lybica",
+    "iucn": "LC",
+    "notturno": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Documentato dalle fototrappole nel Ruaha. Si vede occasionalmente al crepuscolo lungo le piste.",
+    "misure": "3–6,5 kg · poco più grande di un gatto domestico.",
+    "riconoscere": "Sembra un gatto tigrato grigio-sabbia, ma con zampe più lunghe e strisce leggere. Il retro delle orecchie è rosso-arancio, la coda sottile con anelli neri e la punta nera.",
+    "simili": "Fuori dai parchi può essere confuso con i gatti domestici, con cui purtroppo si ibrida. Il caracal è più grande, senza strisce e con i ciuffi sulle orecchie.",
+    "comportamento": "Notturno e solitario. Di giorno si nasconde nei cespugli o nelle tane.",
+    "alimentazione": "Topi, ratti, uccelli, rettili, insetti.",
+    "sociale": "Solitario e territoriale.",
+    "curiosita": "È l'antenato di tutti i gatti domestici del mondo. Il suo addomesticamento è iniziato nel Vicino Oriente circa 10.000 anni fa, quando i gatti selvatici si avvicinavano ai primi granai per cacciare i topi."
+  },
+  {
+    "id": "otocione",
+    "cat": "predatori",
+    "it": "Otocione (volpe dalle orecchie di pipistrello)",
+    "en": "Bat-eared fox",
+    "sw": "Mbweha masikio",
+    "sci": "Otocyon megalotis",
+    "iucn": "LC",
+    "alias": [
+      "volpe"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha si vede soprattutto nelle zone aperte e nelle aree comunitarie confinanti, all'alba o al tramonto vicino alle tane. Per Mikumi non ci sono segnalazioni affidabili.",
+    "misure": "3–5 kg · orecchie lunghe fino a 13 cm.",
+    "riconoscere": "Piccola volpe grigio-sabbia con orecchie enormi, una maschera nera sugli occhi, le zampe nere e la coda folta con la punta nera.",
+    "simili": "Lo sciacallo dalla gualdrappa è più grande e ha il dorso nero e argento.",
+    "comportamento": "Con le orecchie ascolta gli insetti sottoterra, poi scava velocissima. Al caldo è più attiva di notte, nelle giornate fresche anche di giorno.",
+    "alimentazione": "Insetti per oltre l'80% della dieta, soprattutto termiti e scarabei stercorari. In più frutti e piccoli animali.",
+    "sociale": "Coppie monogame con i piccoli. Il maschio fa la guardia alla tana e gioca con i cuccioli più della madre.",
+    "curiosita": "Ha fino a 48 denti, più di qualsiasi altro canide: piccoli e numerosi, adatti a sminuzzare il guscio degli insetti."
+  },
+  {
+    "id": "protele",
+    "cat": "predatori",
+    "it": "Protele",
+    "en": "Aardwolf",
+    "sw": "Fisi ndogo",
+    "sci": "Proteles cristatus",
+    "iucn": "LC",
+    "notturno": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Lo studio con fototrappole del Ruaha l'ha registrato con frequenza sia nel parco sia nelle aree comunitarie confinanti. Ai turisti si mostra però raramente, perché è strettamente notturno.",
+    "misure": "8–14 kg · altezza al garrese 40–50 cm.",
+    "riconoscere": "Sembra una piccola iena striata: mantello giallo-sabbia con strisce nere verticali, criniera sul dorso, zampe anteriori più lunghe. Il muso è sottile, quasi da volpe, e le orecchie sono grandi e appuntite.",
+    "simili": "La iena striata ha lo stesso disegno ma pesa il triplo e ha mascelle robuste.",
+    "comportamento": "Notturno e solitario. Di giorno dorme in tane, spesso scavate dagli oritteropi.",
+    "alimentazione": "Quasi solo termiti, che raccoglie con una lingua larga e appiccicosa: fino a 300.000 in una notte. Ha denti piccolissimi, inadatti alla carne.",
+    "sociale": "Coppie territoriali, che marcano il confine con il secreto delle ghiandole.",
+    "curiosita": "Fa parte della famiglia delle iene, ma non mangia carne: è l'unico membro insettivoro della famiglia."
+  },
+  {
+    "id": "mangusta-striata",
+    "cat": "predatori",
+    "it": "Mangusta striata",
+    "en": "Banded mongoose",
+    "sw": "Nguchiro miraba",
+    "sci": "Mungos mungo",
+    "iucn": "LC",
+    "alias": [
+      "mangusta"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Si incontra di giorno in gruppi rumorosi che attraversano la pista o frugano tra le foglie, spesso vicino ai tumuli di termiti.",
+    "misure": "1,5–2,3 kg · lunghezza 30–45 cm più la coda.",
+    "riconoscere": "Grigio-brunastra con 10–12 bande scure trasversali sul dorso posteriore. Il muso è appuntito, la coda sottile.",
+    "simili": "La mangusta nana è molto più piccola, uniforme, senza bande. La mangusta snella è solitaria, rossiccia e ha la coda con la punta nera.",
+    "comportamento": "Diurna, vive in gruppo, molto vocale: il gruppo si muove compatto emettendo continui cinguettii di contatto.",
+    "alimentazione": "Insetti, millepiedi, uova, piccoli rettili. Spacca le uova e i gusci lanciandoli tra le zampe posteriori contro una pietra.",
+    "sociale": "Gruppi di 10–40 individui. Le femmine partoriscono quasi tutte lo stesso giorno e i piccoli vengono allattati e accuditi da tutti. Ogni piccolo ha un adulto «scorta» dedicato.",
+    "curiosita": "Se attaccate da un predatore, le manguste striate si stringono in un'unica massa che si muove e ringhia, così da sembrare un solo animale grande."
+  },
+  {
+    "id": "mangusta-nana",
+    "cat": "predatori",
+    "it": "Mangusta nana",
+    "en": "Common dwarf mongoose",
+    "sw": "Kitafi",
+    "sci": "Helogale parvula",
+    "iucn": "LC",
+    "alias": [
+      "mangusta"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Comunissima nel Ruaha: guardate i tumuli di termiti, dove i gruppi prendono il sole al mattino e scappano dentro al primo allarme.",
+    "misure": "210–350 g · circa 20 cm più la coda: il più piccolo carnivoro africano.",
+    "riconoscere": "Minuscola, bruno scuro uniforme, muso corto, orecchie piccole. Si alza spesso sulle zampe posteriori per fare la sentinella.",
+    "simili": "La mangusta striata è più grande e ha le bande sul dorso.",
+    "comportamento": "Diurna. Il gruppo ha sempre una sentinella che sorveglia il cielo e lancia l'allarme per i rapaci.",
+    "alimentazione": "Insetti, ragni, scorpioni, piccoli rettili.",
+    "sociale": "Gruppi di 8–30 individui guidati da una coppia dominante, con la femmina al comando. Gli altri membri aiutano a crescere i piccoli.",
+    "curiosita": "Le manguste nane hanno un'alleanza con i buceri, studiata soprattutto in Kenya. I buceri le seguono per catturare gli insetti che le manguste scovano, e in cambio danno l'allarme quando vedono un rapace. A volte i buceri aspettano alla tana che le manguste escano."
+  },
+  {
+    "id": "mangusta-egiziana",
+    "cat": "predatori",
+    "it": "Mangusta egiziana (icneumone)",
+    "en": "Egyptian mongoose",
+    "sw": "Nguchiro",
+    "sci": "Herpestes ichneumon",
+    "iucn": "LC",
+    "alias": [
+      "mangusta"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Legata a zone umide, canneti e boschi lungo i fiumi. È presente in gran parte della Tanzania, ma non ci sono dati di avvistamento specifici per i nostri parchi: stima prudente.",
+    "misure": "1,7–4 kg · fino a 60 cm più la coda.",
+    "riconoscere": "Grande, slanciata, con il mantello grigio brizzolato e lungo, le zampe scure e la coda lunga che termina con un ciuffo nero.",
+    "simili": "La mangusta dalla coda bianca ha la coda bianca e folta. La mangusta snella è molto più piccola e rossiccia.",
+    "comportamento": "Attiva soprattutto di giorno. Si muove a testa bassa e la coda dritta dietro.",
+    "alimentazione": "Roditori, pesci, rane, uccelli, rettili, serpenti compresi.",
+    "sociale": "Solitaria o in piccoli gruppi familiari.",
+    "curiosita": "Era sacra nell'antico Egitto, dove la si rappresentava mentre combatteva i serpenti. Vive anche in Europa, nella penisola iberica."
+  },
+  {
+    "id": "mangusta-snella",
+    "cat": "predatori",
+    "it": "Mangusta snella",
+    "en": "Common slender mongoose",
+    "sw": "Kicheche",
+    "sci": "Herpestes sanguineus",
+    "iucn": "LC",
+    "alias": [
+      "mangusta",
+      "Galerella sanguinea"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "La vedrete quasi sempre di sfuggita, mentre attraversa la pista di corsa.",
+    "misure": "350–800 g · 30 cm più una coda quasi altrettanto lunga.",
+    "riconoscere": "Rossiccia o bruno-grigia, con il corpo allungato e la coda lunga con la punta nera, che tiene sollevata quando corre.",
+    "simili": "La mangusta striata vive in gruppo e ha le bande; la mangusta egiziana è più grande e grigia.",
+    "comportamento": "Diurna e solitaria. Si arrampica bene sugli alberi.",
+    "alimentazione": "Insetti, lucertole, roditori, uova, piccoli uccelli.",
+    "sociale": "Solitaria. I maschi a volte formano piccole coalizioni territoriali.",
+    "curiosita": "È uno dei pochi piccoli carnivori che le guide riescono a riconoscere al volo, anche solo da un lampo rosso che attraversa la pista: la punta nera della coda è la firma della specie."
+  },
+  {
+    "id": "mangusta-codabianca",
+    "cat": "predatori",
+    "it": "Mangusta dalla coda bianca",
+    "en": "White-tailed mongoose",
+    "sw": "Karasa",
+    "sci": "Ichneumia albicauda",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "mangusta"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Comune ma strettamente notturna: è una delle specie più viste nei safari notturni nelle aree esterne al Ruaha. Potreste incrociarla con le torce intorno al campo.",
+    "misure": "1,8–5 kg · la più grande delle manguste africane.",
+    "riconoscere": "Grigio scuro, zampe lunghe e nere, coda folta e bianca che si nota anche al buio.",
+    "simili": "La civetta africana è più grande, con maschera nera e mantello a macchie.",
+    "comportamento": "Notturna e solitaria. Percorre i suoi itinerari abituali a passo tranquillo.",
+    "alimentazione": "Soprattutto insetti (termiti, scarabei), più rane, roditori e frutti.",
+    "sociale": "Solitaria, ma le femmine condividono parzialmente il territorio.",
+    "curiosita": "Se minacciata, solleva il pelo e spruzza un liquido dall'odore pungente, un po' come una puzzola."
+  },
+  {
+    "id": "genetta",
+    "cat": "predatori",
+    "it": "Genetta macchiata",
+    "en": "Rusty-spotted genet",
+    "sw": "Kanu",
+    "sci": "Genetta maculata",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "genetta"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Le genette sono notturne ma si abituano facilmente all'uomo: in molti campi e lodge dell'Africa orientale passeggiano sui tetti e sulle travi la sera. Vale la pena guardare con la torcia.",
+    "misure": "1,3–3,2 kg · corpo 40–55 cm più una coda altrettanto lunga.",
+    "riconoscere": "Corpo lungo e flessuoso, come un gatto sottile. Mantello chiaro con macchie rugginose o scure in file, coda lunghissima ad anelli chiari e scuri, muso appuntito con macchie bianche sotto gli occhi.",
+    "simili": "La genetta comune (*Genetta genetta*), che vive anche in Tanzania, ha una cresta di pelo scuro lungo il dorso e la punta della coda bianca. La civetta è molto più grande e terricola.",
+    "comportamento": "Notturna e agile, si muove sugli alberi come un gatto.",
+    "alimentazione": "Roditori, uccelli, insetti, frutti.",
+    "sociale": "Solitaria.",
+    "curiosita": "Non è un gatto: appartiene ai viverridi, una famiglia antica di carnivori che comprende anche la civetta africana."
+  },
+  {
+    "id": "civetta",
+    "cat": "predatori",
+    "it": "Civetta africana",
+    "en": "African civet",
+    "sw": "Fungo",
+    "sci": "Civettictis civetta",
+    "iucn": "LC",
+    "notturno": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Documentata nel Ruaha dalle fototrappole. Notturna: avvistamento possibile solo alle prime luci dell'alba o con fortuna intorno ai campi.",
+    "misure": "7–20 kg · lunghezza 70–85 cm più la coda.",
+    "riconoscere": "Ha l'aspetto di un incrocio tra un procione e un cane: maschera nera intorno agli occhi, mantello grigio-crema a macchie e bande nere, zampe nere. Lungo il dorso ha una cresta di pelo che drizza quando si spaventa.",
+    "simili": "La genetta è molto più piccola e snella; la mangusta dalla coda bianca è uniforme e grigia.",
+    "comportamento": "Notturna e terricola, usa sempre gli stessi percorsi e le stesse latrine.",
+    "alimentazione": "Onnivora: insetti, millepiedi, frutti, roditori, carcasse. Mangia anche cibi tossici per altri animali.",
+    "sociale": "Solitaria. Marca il territorio con un secreto oleoso dall'odore fortissimo.",
+    "curiosita": "Quel secreto, lo zibetto, è stato per secoli un ingrediente di profumi celebri. Oggi la profumeria usa sostanze sintetiche. Nonostante il nome, la civetta africana non è un uccello: in italiano lo stesso nome indica anche il piccolo rapace notturno."
+  },
+  {
+    "id": "ratel",
+    "cat": "predatori",
+    "it": "Ratel (tasso del miele)",
+    "en": "Honey badger",
+    "sw": "Nyegere",
+    "sci": "Mellivora capensis",
+    "iucn": "LC",
+    "alias": [
+      "tasso del miele"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Registrato nel Ruaha e nelle aree comunitarie vicine. Attivo di giorno e di notte, ma sempre di passaggio: avvistamento fortunato.",
+    "misure": "6–14 kg (maschi fino a 16) · lunghezza 60–77 cm più la coda.",
+    "riconoscere": "Tozzo e basso. La parte superiore del corpo, dalla testa alla coda, è grigio argento o bianca; quella inferiore e le zampe sono nere. Ha artigli anteriori lunghi e potenti.",
+    "comportamento": "Ha una reputazione di animale senza paura. La pelle è spessa e molto lenta, tanto che può girarsi dentro e mordere chi lo ha afferrato. Affronta leoni e serpenti velenosi.",
+    "alimentazione": "Onnivoro: larve d'ape e miele, roditori, rettili compresi i cobra, uccelli, frutti, carcasse.",
+    "sociale": "Solitario, con territori enormi.",
+    "curiosita": "Si racconta da secoli che un uccello, l'indicatore golanera, guidi il ratel agli alveari, e che i due dividano il bottino. La collaborazione tra indicatore e uomo è ben documentata; quella con il ratel invece non è mai stata provata scientificamente."
+  },
+  {
+    "id": "lontra",
+    "cat": "predatori",
+    "it": "Lontra africana senza unghie",
+    "en": "African clawless otter",
+    "sw": "Fisi maji",
+    "sci": "Aonyx capensis",
+    "iucn": "NT",
+    "alias": [
+      "lontra"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "La TAWA indica le lontre tra i mammiferi della riserva di Mpanga Kipengere, senza precisare la specie. Nei torrenti d'altura dell'Africa orientale vivono sia la lontra africana senza unghie sia la lontra dal collo macchiato. Guardate le pozze sotto le cascate, all'alba.",
+    "misure": "10–21 kg · lunghezza 70–95 cm più la coda.",
+    "riconoscere": "Grande, bruno scuro, con la gola e il petto bianchi o crema. Le dita anteriori sono senza unghie e senza membrane, quasi come mani.",
+    "simili": "La lontra dal collo macchiato (*Hydrictis maculicollis*) è più piccola e ha macchie chiare irregolari sulla gola.",
+    "comportamento": "Attiva al crepuscolo. Usa le «mani» per cercare a tentoni sotto le pietre del fondale.",
+    "alimentazione": "Granchi d'acqua dolce, rane, pesci, molluschi.",
+    "sociale": "Solitaria o in piccoli gruppi familiari.",
+    "curiosita": "Lascia gusci di granchio e resti di pasto su rocce sempre uguali: per le guide sono il modo migliore di capire se le lontre sono nei paraggi."
+  },
+  {
+    "id": "giraffa",
+    "cat": "erbivori",
+    "it": "Giraffa masai",
+    "en": "Masai giraffe",
+    "sw": "Twiga",
+    "sci": "Giraffa tippelskirchi",
+    "iucn": "EN",
+    "alias": [
+      "giraffa",
+      "Giraffa camelopardalis tippelskirchi"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha la vedono praticamente tutti i viaggiatori. Frequenta le acacie e i boschi di baobab vicino al fiume. A Mikumi è spesso in gruppo ai margini della piana del Mkata, ben visibile anche dalla statale.",
+    "misure": "Maschio fino a 5,5 m e 1.200–1.900 kg, femmina circa 4,5 m e 700–1.000 kg · solo il collo misura fino a 2 m.",
+    "riconoscere": "La giraffa masai ha macchie scure dal contorno frastagliato, «a foglia di vite» o a stella, su un fondo crema. Il disegno continua fino agli zoccoli. Entrambi i sessi hanno gli ossiconi, i due piccoli corni coperti di pelle: nelle femmine sono sottili e con un ciuffo di peli, nei maschi più spessi e spesso spelacchiati in cima per i combattimenti.",
+    "simili": "Al nord della Tanzania non ci sono altre specie di giraffa. Nei documentari vedrete spesso la giraffa reticolata del Kenya, che ha macchie regolari e poligonali separate da linee bianche nette.",
+    "comportamento": "Dorme pochissimo, a brevi intervalli, spesso in piedi. Per bere deve allargare le zampe anteriori e abbassarsi: è il momento in cui è più vulnerabile, e lo fa con cautela. I maschi combattono con il collo (*necking*), colpendosi a vicenda con la testa.",
+    "alimentazione": "Brucatrice: foglie di acacia e di altri alberi, che strappa con una lingua scura e prensile lunga circa 45 cm. Le spine non la fermano: la saliva densa e le papille dure della bocca la proteggono.",
+    "sociale": "Gruppi a composizione variabile, che si formano e si sciolgono nel giro di ore. Le madri a volte lasciano i piccoli in un «asilo» sorvegliato da una femmina adulta.",
+    "curiosita": "È l'animale nazionale della Tanzania e compare nello stemma del paese. Ha sette vertebre cervicali, come noi: ognuna però può superare i 25 cm. Negli ultimi trent'anni la giraffa masai è diminuita di circa la metà, soprattutto per la perdita di habitat e il bracconaggio.",
+    "consiglio": "Al tramonto, con le acacie in controluce, il profilo di una giraffa è la foto che tutti vorranno. Chiedete all'autista di posizionarsi con il sole alle spalle della giraffa e abbassate l'esposizione."
+  },
+  {
+    "id": "ippopotamo",
+    "cat": "erbivori",
+    "it": "Ippopotamo",
+    "en": "Hippopotamus",
+    "sw": "Kiboko",
+    "sci": "Hippopotamus amphibius",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Nel Grande Ruaha i gruppi si stringono nelle pozze rimaste alla fine della stagione secca. A dicembre, con le prime piene, iniziano a disperdersi. A Mikumi la «Hippo Pool», vicino alla piana del Mkata, è una tappa quasi obbligata dei game drive.",
+    "misure": "1.300–3.200 kg (i maschi sono più grandi) · lunghezza 3–5 m · altezza al garrese circa 1,5 m.",
+    "riconoscere": "Corpo a barile, zampe corte, testa enorme con occhi, orecchie e narici in cima: può osservare e respirare restando quasi tutto immerso. La pelle è grigio-violacea, rosata sulle pieghe.",
+    "comportamento": "Di giorno resta in acqua per proteggere la pelle dal sole e dalla disidratazione. Di notte esce a pascolare, percorrendo anche diversi chilometri. Lo «sbadiglio» a bocca spalancata non è stanchezza: è una minaccia che mostra i canini, lunghi fino a 50 cm.",
+    "alimentazione": "Erba, fino a 40 kg a notte. È un erbivoro, ma molto territoriale in acqua e molto protettivo con i piccoli.",
+    "sociale": "Gruppi di 10–30 individui, a volte molti di più, con un maschio dominante che controlla un tratto di fiume. I maschi spargono lo sterco agitando la coda come un ventilatore, per marcare il territorio.",
+    "curiosita": "Dalla pelle secerne un liquido rossastro, a lungo chiamato «sudore di sangue». In realtà contiene pigmenti che fanno da crema solare e da antibatterico.",
+    "consiglio": "L'ippopotamo è tra gli animali che causano più incidenti mortali in Africa. Non mettetevi mai tra un ippopotamo e l'acqua, e di sera nei campi lungo il fiume muovetevi solo accompagnati dallo staff."
+  },
+  {
+    "id": "zebra",
+    "cat": "erbivori",
+    "it": "Zebra comune",
+    "en": "Plains zebra",
+    "sw": "Punda milia",
+    "sci": "Equus quagga",
+    "iucn": "NT",
+    "alias": [
+      "zebra di Crawshay",
+      "Equus burchellii"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Comunissima in entrambi i parchi. A Mikumi i branchi pascolano nella piana insieme a gnu e impala. Nel sud della Tanzania si incontra la forma di Crawshay, con strisce fitte e sottili che arrivano fino agli zoccoli e quasi senza «strisce d'ombra» brunastre tra quelle nere.",
+    "misure": "200–350 kg · altezza al garrese 1,2–1,4 m.",
+    "riconoscere": "Inconfondibile: strisce nere su fondo bianco, diverse in ogni individuo, con la criniera eretta e anch'essa striata.",
+    "comportamento": "Pascola di giorno e si sposta spesso. Il branco reagisce compatto ai predatori, e uno stallone può difendere le femmine scalciando e mordendo.",
+    "alimentazione": "Erba alta e grossolana. Spesso le zebre «aprono la strada» agli gnu e alle gazzelle, che preferiscono l'erba più corta lasciata dopo il loro passaggio.",
+    "sociale": "Harem stabili di uno stallone, alcune femmine e i piccoli, che possono riunirsi in grandi mandrie. I maschi giovani formano gruppi di scapoli.",
+    "curiosita": "A cosa servono le strisce? L'ipotesi oggi più supportata dagli esperimenti è che confondano mosche e tafani, che faticano ad atterrare sulle superfici a righe. Il nome swahili *punda milia* significa «asino a strisce»."
+  },
+  {
+    "id": "facocero",
+    "cat": "erbivori",
+    "it": "Facocero",
+    "en": "Common warthog",
+    "sw": "Ngiri",
+    "sci": "Phacochoerus africanus",
+    "iucn": "LC",
+    "alias": [
+      "warthog",
+      "Pumbaa"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Comune ovunque nelle zone aperte dei due parchi, spesso vicino alle piste. Dicembre è un buon periodo per vedere i piccoli, che seguono la madre in fila indiana.",
+    "misure": "50–150 kg (i maschi sono più grandi) · altezza al garrese 55–85 cm.",
+    "riconoscere": "Testa grande e piatta con due paia di «verruche», cioè protuberanze carnose (più grandi nei maschi). Zanne ricurve, criniera rada sul dorso, pelle grigia quasi nuda.",
+    "simili": "Il potamochero è più peloso, rossiccio o bruno, con le orecchie a pennello, ed è soprattutto notturno.",
+    "comportamento": "Attivo di giorno. Quando corre tiene la coda dritta come un'antenna, forse per farsi seguire dai piccoli nell'erba alta. Di notte dorme in tane scavate da altri animali, spesso dall'oritteropo, in cui entra in retromarcia per affrontare con le zanne un eventuale intruso.",
+    "alimentazione": "Erba corta, radici, tuberi. Per pascolare si inginocchia sulle zampe anteriori, protette da callosità.",
+    "sociale": "Le femmine vivono in piccoli gruppi familiari con i piccoli. I maschi adulti sono più solitari.",
+    "curiosita": "Le «verruche» non sono verruche: sono cuscinetti di pelle spessa che proteggono il muso durante i combattimenti tra maschi."
+  },
+  {
+    "id": "potamochero",
+    "cat": "erbivori",
+    "it": "Potamochero",
+    "en": "Bushpig",
+    "sw": "Nguruwe mwitu",
+    "sci": "Potamochoerus larvatus",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "cinghiale africano"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Presente nei boschi fitti e lungo i corsi d'acqua, ma notturno e molto schivo: lo vedono soprattutto gli ospiti dei campi tendati, all'alba o di notte vicino all'acqua. È diffuso anche negli altopiani meridionali, ma la TAWA non lo indica tra le specie di Mpanga Kipengere.",
+    "misure": "45–150 kg · altezza al garrese 55–100 cm.",
+    "riconoscere": "Mantello folto bruno-rossiccio o scuro, con una criniera chiara lungo il dorso. Muso allungato con una maschera chiara, orecchie appuntite con un ciuffo di peli.",
+    "simili": "Il facocero è grigio e quasi nudo, ha le verruche sul muso e grandi zanne ricurve, ed è attivo di giorno.",
+    "comportamento": "Notturno, vive nel folto della vegetazione. Se minacciato è aggressivo, e i maschi difendono con decisione il gruppo.",
+    "alimentazione": "Onnivoro: radici, tuberi, frutti caduti, larve, carcasse. Nei campi coltivati può fare grandi danni, per questo è spesso in conflitto con i contadini.",
+    "sociale": "Gruppi familiari di 4–10 individui guidati da un maschio e una femmina dominanti.",
+    "curiosita": "Insieme al babbuino, è uno degli animali che i contadini delle aree confinanti con i parchi temono di più: in una notte un gruppo di potamocheri può distruggere un campo di mais."
+  },
+  {
+    "id": "impala",
+    "cat": "antilopi",
+    "it": "Impala",
+    "en": "Impala",
+    "sw": "Swala pala",
+    "sci": "Aepyceros melampus",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "L'antilope più comune dei nostri parchi: ne vedrete centinaia. Nel sud della Tanzania le nascite sono concentrate all'inizio delle piogge, quindi a dicembre è facile vedere i piccoli appena nati.",
+    "misure": "40–76 kg · altezza al garrese 75–95 cm · corna dei maschi a lira, fino a 90 cm.",
+    "riconoscere": "Mantello bruno-rossiccio sul dorso, più chiaro sui fianchi, ventre bianco. Sul posteriore ha una «M» nera formata dalla coda e da due strisce verticali. Sulle zampe posteriori ha ciuffi di peli neri sopra gli zoccoli, che coprono ghiandole odorifere. Solo i maschi hanno le corna.",
+    "comportamento": "Saltatore straordinario: fino a 3 metri di altezza e 10 di lunghezza. In fuga tutto il branco salta in direzioni diverse per disorientare il predatore.",
+    "alimentazione": "Erba nella stagione delle piogge, foglie e germogli nella stagione secca. Questa flessibilità spiega perché sia così numeroso.",
+    "sociale": "Branchi di femmine e piccoli. Nella stagione degli amori i maschi territoriali difendono il loro harem ruggendo e scontrandosi; gli altri maschi formano gruppi di scapoli.",
+    "curiosita": "Le guide lo chiamano scherzosamente il «McDonald's della savana»: la «M» sul posteriore ricorda il logo, ed è la preda più comune per leoni, leopardi, licaoni e ghepardi.",
+    "consiglio": "Se un branco di impala si immobilizza e fissa tutto nella stessa direzione, sbuffando, seguite il loro sguardo: c'è quasi sempre un predatore."
+  },
+  {
+    "id": "kudu-maggiore",
+    "cat": "antilopi",
+    "it": "Kudu maggiore",
+    "en": "Greater kudu",
+    "sw": "Tandala mkubwa",
+    "sci": "Tragelaphus strepsiceros",
+    "iucn": "LC",
+    "alias": [
+      "kudu"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": "rara"
+    },
+    "doveNota": "Nel Ruaha frequenta le colline boscose e le macchie fitte. Il Ruaha è uno dei pochi parchi dove si possono vedere entrambe le specie di kudu. A Mikumi vive nei boschi di miombo delle colline meridionali, lontano dalla piana. A Mpanga Kipengere la TAWA lo indica tra i mammiferi della riserva.",
+    "misure": "Maschio 190–315 kg, femmina 120–215 kg · altezza al garrese 1,2–1,5 m · corna fino a 1,8 m.",
+    "riconoscere": "Grande, grigio-bruno, con 6–10 strisce bianche verticali sui fianchi e una striscia bianca a V tra gli occhi. Le orecchie sono enormi e arrotondate. I maschi hanno corna a spirale con due giri e mezzo e una frangia di peli sotto la gola. Le femmine sono più piccole, rossicce e senza corna.",
+    "simili": "Il kudu minore è più piccolo e ha più strisce (11–15), due macchie bianche ben separate sul collo e niente barba. L'eland è più massiccio, ha la giogaia e le corna dritte e ritorte.",
+    "comportamento": "Prudente, si muove nei boschi fitti e si immobilizza quando si sente osservato. L'allarme è un abbaio fortissimo, uno dei versi più forti tra le antilopi.",
+    "alimentazione": "Brucatore: foglie, germogli, frutti, fiori.",
+    "sociale": "Le femmine vivono in piccoli gruppi con i piccoli, i maschi da soli o in gruppi di scapoli. Si incontrano nella stagione degli amori.",
+    "curiosita": "Nonostante le dimensioni, salta recinzioni di oltre 2 metri da fermo. Le corna dei maschi richiedono circa sei anni per completare i due giri e mezzo."
+  },
+  {
+    "id": "kudu-minore",
+    "cat": "antilopi",
+    "it": "Kudu minore",
+    "en": "Lesser kudu",
+    "sw": "Tandala ndogo",
+    "sci": "Tragelaphus imberbis",
+    "iucn": "NT",
+    "alias": [
+      "kudu"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Il Ruaha è al limite sud dell'areale: il kudu minore vive tra le macchie di arbusti spinosi del parco, soprattutto nelle zone più secche. È una specie dell'Africa orientale e del Corno d'Africa, che non si vede negli altri parchi del sud del paese.",
+    "misure": "Maschio 90–108 kg, femmina 56–70 kg · altezza al garrese 90–110 cm · corna fino a 90 cm.",
+    "riconoscere": "Più piccolo ed elegante del kudu maggiore, con 11–15 strisce bianche sottili sui fianchi. Sul collo ha due macchie bianche nette, una sotto la gola e una sul petto. I maschi adulti diventano grigio-bluastri e hanno corna a spirale; le femmine sono rossicce e senza corna.",
+    "simili": "Il kudu maggiore è molto più grande, ha meno strisce e i maschi hanno la barba sotto la gola.",
+    "comportamento": "Molto schivo, attivo soprattutto all'alba e al tramonto. Quando fugge solleva la coda e mostra il retro bianco.",
+    "alimentazione": "Brucatore di foglie e germogli. Può resistere a lungo senza bere, ricavando l'acqua dalle piante.",
+    "sociale": "Piccoli gruppi di femmine e piccoli; i maschi sono più solitari.",
+    "curiosita": "Il nome scientifico *imberbis* significa «senza barba», proprio per distinguerlo dal cugino maggiore.",
+    "consiglio": "Se nella jeep qualcuno avvista un kudu minore, fatelo notare alla guida: non tutti i viaggiatori in Tanzania hanno la fortuna di vederlo."
+  },
+  {
+    "id": "antilope-nera",
+    "cat": "antilopi",
+    "it": "Antilope nera (sable)",
+    "en": "Sable antelope",
+    "sw": "Palahala",
+    "sci": "Hippotragus niger",
+    "iucn": "LC",
+    "alias": [
+      "sable",
+      "ippotrago nero"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Vive nei boschi di miombo, non nelle pianure aperte. Nel Ruaha la vede circa un viaggiatore su cinque. A Mikumi frequenta le colline meridionali, come le Vuma Hills, raramente raggiunte dai game drive più brevi.",
+    "misure": "190–270 kg · altezza al garrese 1,2–1,4 m · corna del maschio fino a 1,6 m.",
+    "riconoscere": "Il maschio adulto è nero lucido con il ventre bianco, una maschera facciale bianca e nera e corna ad arco all'indietro, lunghe e anellate. Le femmine e i giovani sono bruno-castani, con corna più corte.",
+    "simili": "L'antilope roana ha lo stesso profilo, ma è grigio-rossiccia, ha corna più corte e orecchie molto lunghe con un ciuffo.",
+    "comportamento": "Fiera e nervosa. Se attaccata si difende con le corna, e si sa di leoni feriti a morte da un maschio. I maschi si sfidano inginocchiati, incrociando le corna.",
+    "alimentazione": "Erba e foglie. Visita le termitiere per leccarne il terreno ricco di sali minerali.",
+    "sociale": "Branchi di 10–30 femmine con i piccoli, guidati da una femmina anziana, nel territorio di un maschio dominante.",
+    "curiosita": "Le femmine nascondono il piccolo nell'erba alta per le prime settimane e tornano ad allattarlo solo una o due volte al giorno."
+  },
+  {
+    "id": "antilope-roana",
+    "cat": "antilopi",
+    "it": "Antilope roana",
+    "en": "Roan antelope",
+    "sw": "Korongo",
+    "sci": "Hippotragus equinus",
+    "iucn": "LC",
+    "alias": [
+      "roan",
+      "ippotrago equino"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha la vede circa un viaggiatore su tre, nei boschi aperti di miombo e nelle radure erbose. Per Mikumi non ho trovato dati affidabili.",
+    "misure": "220–300 kg · altezza al garrese 1,3–1,5 m · corna fino a 1 m.",
+    "riconoscere": "Una delle antilopi più grandi d'Africa. Mantello grigio-rossiccio, con una maschera nera e bianca sul muso. Orecchie lunghe e strette con un ciuffo all'estremità. Corna anellate, più corte e meno arcuate di quelle dell'antilope nera. Ha una criniera eretta sul collo.",
+    "simili": "L'antilope nera è più scura, ha le corna più lunghe e le orecchie più corte. L'eland è più massiccio e ha la giogaia.",
+    "comportamento": "Vive in zone con erba alta e acqua vicina. È aggressiva quando è minacciata e si difende con le corna.",
+    "alimentazione": "Pascolatore selettivo di erbe di media altezza.",
+    "sociale": "Branchi di 5–15 femmine e piccoli con un maschio territoriale.",
+    "curiosita": "Il nome viene dal colore «roano» dei cavalli, un mantello in cui peli chiari e scuri si mescolano. Anche il nome scientifico *equinus* ricorda il cavallo."
+  },
+  {
+    "id": "eland",
+    "cat": "antilopi",
+    "it": "Eland (antilope alcina)",
+    "en": "Common eland",
+    "sw": "Pofu",
+    "sci": "Taurotragus oryx",
+    "iucn": "LC",
+    "alias": [
+      "antilope alcina"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha la vedono circa sei viaggiatori su dieci. A Mikumi si vedono branchi nella piana, ma è molto diffidente: si allontana appena la jeep si avvicina.",
+    "misure": "Maschio 400–940 kg, femmina 300–600 kg · altezza al garrese fino a 1,8 m.",
+    "riconoscere": "Massiccio come un bovino. Mantello fulvo con sottili strisce bianche verticali sui fianchi, che sbiadiscono con l'età. Ha una grande giogaia, la piega di pelle che pende dalla gola. Entrambi i sessi hanno corna dritte e ritorte a spirale; nei maschi anziani il pelo della fronte diventa scuro e ispido.",
+    "simili": "Il kudu maggiore ha corna a spirale larga e orecchie enormi; l'antilope roana non ha la giogaia.",
+    "comportamento": "Nonostante il peso, salta da fermo ostacoli alti fino a 2 metri. Molto diffidente, è difficile avvicinarlo.",
+    "alimentazione": "Brucatore e pascolatore: foglie, germogli, frutti, erba. Può fare a meno di bere a lungo.",
+    "sociale": "Branchi mobili, da poche decine a centinaia di individui.",
+    "curiosita": "Quando camminano, i maschi adulti emettono un «clic» ritmato dalle zampe anteriori, che si sente a decine di metri. Secondo alcuni studi segnala agli altri maschi le dimensioni e la forza dell'animale."
+  },
+  {
+    "id": "alcelafo",
+    "cat": "antilopi",
+    "it": "Alcelafo di Lichtenstein",
+    "en": "Lichtenstein's hartebeest",
+    "sw": "Kongoni",
+    "sci": "Alcelaphus lichtensteinii",
+    "iucn": "LC",
+    "alias": [
+      "kongoni",
+      "Sigmoceros lichtensteinii",
+      "Alcelaphus buselaphus lichtensteinii"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "È l'alcelafo del sud della Tanzania: frequenta i margini tra miombo e prateria. A Mikumi si vede ai bordi della piana del Mkata e si sposta tra il parco e il vicino ecosistema di Nyerere. Nel Ruaha è più legato alle zone boscose.",
+    "misure": "120–200 kg · altezza al garrese 1,2–1,3 m.",
+    "riconoscere": "Muso molto allungato, dorso inclinato verso il posteriore. Mantello fulvo-rossiccio, più scuro sul dorso, con una macchia chiara sul posteriore e strisce nere sulle zampe anteriori. Entrambi i sessi hanno corna corte, a forma di Z, che partono da una base comune.",
+    "simili": "L'alcelafo di Coke del nord della Tanzania ha corna diverse. Lo gnu è più scuro, con barba, criniera e corna simili a quelle di un bufalo.",
+    "comportamento": "Spesso un individuo sale su una termitiera per osservare la pianura e fare da sentinella.",
+    "alimentazione": "Pascolatore di erba media e alta.",
+    "sociale": "Piccoli gruppi di 5–10 animali con un maschio territoriale.",
+    "curiosita": "La classificazione è discussa: per alcuni autori è una specie a sé, per altri una sottospecie dell'alcelafo comune. La IUCN lo valuta insieme all'alcelafo comune, con lo stato complessivo di «minor preoccupazione»."
+  },
+  {
+    "id": "gnu",
+    "cat": "antilopi",
+    "it": "Gnu striato",
+    "en": "Blue wildebeest",
+    "sw": "Nyumbu",
+    "sci": "Connochaetes taurinus",
+    "iucn": "LC",
+    "alias": [
+      "gnu"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "A Mikumi è uno degli animali più comuni della piana del Mkata. Qui vive la forma del sud della Tanzania, lo gnu del Niassa, riconoscibile da una banda bianca a V sul muso. Nel Ruaha è assente o comunque non viene segnalato.",
+    "misure": "170–270 kg · altezza al garrese 1,15–1,4 m.",
+    "riconoscere": "Testa grande e massiccia, criniera e barba nere, dorso inclinato. Mantello grigio-bluastro con strisce verticali più scure sul collo e sulle spalle, come pieghe della pelle. Entrambi i sessi hanno corna ricurve, simili a quelle del bufalo.",
+    "simili": "Il bufalo è più massiccio, nero e senza criniera né barba. L'alcelafo è rossiccio e ha corna a Z.",
+    "comportamento": "Nervoso e rumoroso, emette un verso nasale e metallico. A Mikumi non c'è la grande migrazione del Serengeti: le mandrie si spostano su scala locale, seguendo l'erba e l'acqua.",
+    "alimentazione": "Erba corta e fresca, quella che spunta dopo le prime piogge.",
+    "sociale": "Mandrie di femmine e piccoli; i maschi difendono piccoli territori durante la stagione degli amori.",
+    "curiosita": "Un vitello di gnu riesce a stare in piedi pochi minuti dopo la nascita e a correre con la mandria dopo meno di un'ora."
+  },
+  {
+    "id": "cobo",
+    "cat": "antilopi",
+    "it": "Cobo dell'acqua (defassa)",
+    "en": "Waterbuck",
+    "sw": "Kuro",
+    "sci": "Kobus ellipsiprymnus",
+    "iucn": "LC",
+    "alias": [
+      "waterbuck",
+      "defassa"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Sempre vicino all'acqua: lungo il Grande Ruaha e il Mwagusi, e intorno alle pozze di Mikumi. Nel Ruaha vive la forma *defassa*.",
+    "misure": "160–250 kg · altezza al garrese 1,2–1,3 m · corna dei maschi fino a 1 m.",
+    "riconoscere": "Robusto, con il mantello lungo, ispido e grigio-bruno. Ha una gorgiera bianca sotto la gola. Nella forma *defassa* il posteriore è coperto da una grande macchia bianca piena; nella forma comune, più a est, c'è invece un anello bianco attorno alla coda. Solo i maschi hanno le corna, lunghe, anellate e incurvate in avanti.",
+    "simili": "La redunca è molto più piccola, chiara e con le corna più corte.",
+    "comportamento": "Quando è minacciato si rifugia in acqua. Non si allontana mai molto da fiumi e paludi.",
+    "alimentazione": "Erba alta e grossolana, a volte piante acquatiche.",
+    "sociale": "Gruppi di femmine e piccoli; i maschi adulti difendono territori lungo il fiume.",
+    "curiosita": "Il pelo secerne un olio dall'odore forte e muschiato, che lo rende quasi impermeabile. Si dice che questo lo renda poco gradito ai predatori, ma non esistono prove: leoni e coccodrilli lo cacciano comunque."
+  },
+  {
+    "id": "redunca",
+    "cat": "antilopi",
+    "it": "Redunca bohor",
+    "en": "Bohor reedbuck",
+    "sw": "Tohe",
+    "sci": "Redunca redunca",
+    "iucn": "LC",
+    "alias": [
+      "redunca",
+      "reedbuck"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Ama l'erba alta e le zone paludose vicino all'acqua. A Mikumi si vede ai bordi delle pozze. Nel sud della Tanzania vive anche la redunca meridionale (*Redunca arundinum*), più grande, nelle praterie umide tra i boschi di miombo.",
+    "misure": "35–65 kg · altezza al garrese 70–90 cm.",
+    "riconoscere": "Mantello fulvo-dorato, ventre e gola chiari. Sotto le orecchie ha una piccola macchia scura e nuda. I maschi hanno corna corte, anellate, che si piegano in avanti a uncino.",
+    "simili": "Il cobo dell'acqua è molto più grande, grigio, con la gorgiera bianca. L'oribi è più piccolo e ha una macchia nera tonda sotto l'orecchio.",
+    "comportamento": "Si nasconde accucciandosi nell'erba e scatta solo all'ultimo momento. L'allarme è un fischio acuto, seguito da salti con la coda alzata.",
+    "alimentazione": "Erba fresca e germogli.",
+    "sociale": "Coppie o piccoli gruppi, a volte gruppi più grandi nella stagione secca.",
+    "curiosita": "Quando scappa, il salto è accompagnato da un sonoro «pop», prodotto da una ghiandola inguinale: probabilmente un segnale d'allarme per i compagni."
+  },
+  {
+    "id": "puku",
+    "cat": "antilopi",
+    "it": "Puku",
+    "en": "Puku",
+    "sw": "Sheshe",
+    "sci": "Kobus vardonii",
+    "iucn": "NT",
+    "fuori": true,
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Non è presente nel nostro itinerario. In Tanzania vive quasi solo nella valle del Kilombero, a sud di Mikumi, che secondo alcuni studi ospita circa tre quarti dei puku del mondo. La popolazione locale è in forte calo a causa dell'espansione di pascoli e coltivazioni nelle piane alluvionali. Fuori dalla Tanzania vive soprattutto in Zambia.",
+    "misure": "60–90 kg · altezza al garrese circa 80 cm.",
+    "riconoscere": "Simile a un impala robusto, di colore uniforme arancio-dorato, senza la «M» nera sul posteriore. I maschi hanno corna anellate a forma di lira.",
+    "simili": "L'impala ha la «M» nera sul posteriore e i ciuffi neri sulle zampe posteriori.",
+    "comportamento": "Vive nelle praterie umide vicino all'acqua permanente. Nella stagione delle piogge si sposta ai margini della piana alluvionale.",
+    "alimentazione": "Erba delle praterie umide.",
+    "sociale": "Gruppi di femmine nel territorio di un maschio.",
+    "curiosita": "In Tanzania è il simbolo del dilemma della conservazione fuori dai parchi: la valle del Kilombero è una delle zone agricole e di allevamento più dinamiche del paese, e la convivenza con la fauna è difficile."
+  },
+  {
+    "id": "bushbuck",
+    "cat": "antilopi",
+    "it": "Tragelafo striato (bushbuck)",
+    "en": "Bushbuck",
+    "sw": "Pongo, mbawala",
+    "sci": "Tragelaphus sylvaticus",
+    "iucn": "LC",
+    "alias": [
+      "bushbuck",
+      "Tragelaphus scriptus"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha vive nella vegetazione fitta lungo i fiumi: guardate tra i cespugli ai bordi del Grande Ruaha. A Mikumi è presente, ma difficile da vedere.",
+    "misure": "25–80 kg · altezza al garrese 65–90 cm.",
+    "riconoscere": "Antilope di media taglia, bruno-rossiccia (i maschi adulti sono più scuri), con macchie bianche sui fianchi e talvolta strisce sottili. Ha macchie bianche sulla gola e sul petto. I maschi hanno corna corte, quasi dritte, con un solo giro di spirale.",
+    "simili": "Il kudu minore è molto più grande, con molte più strisce, e i maschi hanno corna lunghe a spirale.",
+    "comportamento": "Solitario e schivo, attivo all'alba e al tramonto. L'allarme è un abbaio rauco.",
+    "alimentazione": "Brucatore: foglie, germogli, fiori, frutti caduti.",
+    "sociale": "Solitario o in coppia. Non è territoriale.",
+    "curiosita": "Le analisi genetiche hanno mostrato che sotto il nome «bushbuck» si nascondono due specie: quella del nord e dell'ovest (*T. scriptus*) e quella del sud e dell'est (*T. sylvaticus*), a cui appartiene il bushbuck della Tanzania meridionale."
+  },
+  {
+    "id": "dikdik",
+    "cat": "antilopi",
+    "it": "Dik-dik di Kirk",
+    "en": "Kirk's dik-dik",
+    "sw": "Digidigi",
+    "sci": "Madoqua kirkii",
+    "iucn": "LC",
+    "alias": [
+      "dik dik",
+      "dikdik"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Nel Ruaha è frequente nelle macchie fitte, spesso in coppia a bordo pista. La TAWA lo indica anche per Mpanga Kipengere, ma in un ambiente d'altura sembra insolito: forse vive nelle parti più basse e secche della riserva.",
+    "misure": "3–6 kg · altezza al garrese 35–45 cm: poco più di una lepre.",
+    "riconoscere": "Minuscola antilope grigio-bruna con zampe sottili, occhi grandi cerchiati di bianco e un musetto allungato e mobile, quasi una piccola proboscide. I maschi hanno corna corte e appuntite, spesso nascoste da un ciuffo di peli sulla fronte.",
+    "simili": "Il raficero campestre è più grande, rossiccio, con orecchie enormi. Il cefalofo comune è più grande e ha una striscia nera sul muso.",
+    "comportamento": "Fugge a zig-zag emettendo un fischio, «zik-zik», da cui forse deriva il nome. Marca il territorio con il secreto di una ghiandola davanti agli occhi, strofinandolo sui rametti.",
+    "alimentazione": "Foglie, germogli, frutti. Ricava quasi tutta l'acqua dalle piante.",
+    "sociale": "Coppie fedeli per la vita, che difendono un territorio di pochi ettari.",
+    "curiosita": "Le coppie depositano lo sterco sempre negli stessi punti, creando piccoli mucchi ai confini del territorio: sono «cartelli» che le guide riconoscono al volo.",
+    "consiglio": "Le coppie di dik-dik si muovono quasi sempre insieme: se ne vedete uno, cercate l'altro a pochi metri."
+  },
+  {
+    "id": "klipspringer",
+    "cat": "antilopi",
+    "it": "Klipspringer (oreotrago)",
+    "en": "Klipspringer",
+    "sw": "Mbuzi mawe",
+    "sci": "Oreotragus oreotragus",
+    "iucn": "LC",
+    "alias": [
+      "oreotrago"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Vive solo sulle rocce. Nel Ruaha cercatelo sui kopje e sulle colline rocciose; la TAWA lo indica anche per Mpanga Kipengere, tra i rilievi rocciosi della riserva.",
+    "misure": "10–18 kg · altezza al garrese 45–60 cm.",
+    "riconoscere": "Piccolo e compatto, con il mantello grigio-giallastro brizzolato, folto e ispido. Sta in punta di zoccoli, piccoli e cilindrici, come una ballerina. I maschi hanno corna corte e dritte.",
+    "comportamento": "Saltatore di rocce eccezionale. In caso di pericolo sale sul punto più alto e fischia. Spesso un partner fa la guardia mentre l'altro mangia.",
+    "alimentazione": "Foglie, germogli, fiori e frutti delle piante che crescono tra le rocce.",
+    "sociale": "Coppie fedeli con un territorio intorno a un affioramento roccioso.",
+    "curiosita": "Il nome è afrikaans e significa «saltatore di rocce». Quello swahili, *mbuzi mawe*, vuol dire «capra delle rocce». In passato il suo pelo cavo e leggero era usato per imbottire le selle."
+  },
+  {
+    "id": "duiker",
+    "cat": "antilopi",
+    "it": "Cefalofo comune (duiker)",
+    "en": "Common duiker",
+    "sw": "Nsya",
+    "sci": "Sylvicapra grimmia",
+    "iucn": "LC",
+    "alias": [
+      "duiker",
+      "cefalofo"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": "rara"
+    },
+    "doveNota": "Diffuso ma schivo, nei boschi aperti e nelle zone cespugliose di tutti e tre i luoghi: la TAWA lo indica anche per Mpanga Kipengere. Si vede soprattutto all'alba e al tramonto.",
+    "misure": "12–25 kg · altezza al garrese 45–70 cm.",
+    "riconoscere": "Piccola antilope grigio-bruna, con il dorso arcuato. Ha una striscia nera lungo la canna del naso e un ciuffo di peli tra le orecchie. I maschi hanno corna corte, dritte e appuntite.",
+    "simili": "Il dik-dik è molto più piccolo e ha un musetto mobile. Il raficero campestre è rossiccio e ha orecchie grandi.",
+    "comportamento": "Quando è disturbato si tuffa nei cespugli con una corsa a zig-zag.",
+    "alimentazione": "Foglie, frutti, fiori, semi. A volte mangia anche insetti, piccoli animali e uova: è una delle poche antilopi onnivore.",
+    "sociale": "Solitario.",
+    "curiosita": "Il nome *duiker* in afrikaans significa «tuffatore», proprio per il modo in cui si getta nella vegetazione."
+  },
+  {
+    "id": "steenbok",
+    "cat": "antilopi",
+    "it": "Raficero campestre (steenbok)",
+    "en": "Steenbok",
+    "sw": "Dondoro",
+    "sci": "Raphicerus campestris",
+    "iucn": "LC",
+    "alias": [
+      "steenbok",
+      "steinbuck",
+      "raficero"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Vive nelle zone aperte con cespugli. La TAWA lo indica tra i mammiferi di Mpanga Kipengere («steinbuck»). Nel Ruaha è presente nelle zone più aperte, ma poco comune.",
+    "misure": "7–16 kg · altezza al garrese 45–60 cm.",
+    "riconoscere": "Mantello rosso-mattone uniforme, ventre bianco, orecchie molto grandi con il bordo interno bianco, naso nero. I maschi hanno corna corte, dritte e appuntite.",
+    "simili": "Il cefalofo comune è grigio-bruno, con il ciuffo sulla fronte e la striscia nera sul naso. L'oribi ha una macchia nera tonda sotto l'orecchio.",
+    "comportamento": "Spesso si appiattisce nell'erba invece di fuggire, e scatta solo quando il pericolo è vicinissimo.",
+    "alimentazione": "Foglie, germogli, frutti, radici, che dissotterra con gli zoccoli.",
+    "sociale": "Solitario o in coppia, ma la coppia si incontra solo occasionalmente.",
+    "curiosita": "Copre le proprie feci e l'urina con la terra, come un gatto: un comportamento raro tra le antilopi, forse per non lasciare tracce ai predatori."
+  },
+  {
+    "id": "oribi",
+    "cat": "antilopi",
+    "it": "Oribi",
+    "en": "Oribi",
+    "sw": "Taya",
+    "sci": "Ourebia ourebi",
+    "iucn": "LC",
+    "fuori": true,
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Per i nostri tre luoghi non ho trovato segnalazioni affidabili: lo considero assente dall'itinerario. È una specie di prateria aperta, distribuita in modo discontinuo in Africa. In Tanzania è presente, ma localizzata e in calo.",
+    "misure": "12–20 kg · altezza al garrese 50–65 cm.",
+    "riconoscere": "Snello, con il collo lungo e il mantello fulvo-dorato, il ventre bianco. Sotto l'orecchio ha una macchia nera nuda e tonda, che è il segno distintivo. La coda è corta e nera. I maschi hanno corna corte e dritte.",
+    "simili": "La redunca è più robusta e ha le corna ricurve. Il raficero campestre è rossiccio e non ha la macchia nera sotto l'orecchio.",
+    "comportamento": "Quando scappa fa salti a zampe rigide (in inglese *stotting*), per segnalare al predatore di averlo visto.",
+    "alimentazione": "Erba fresca e corta.",
+    "sociale": "Coppie o piccoli gruppi di un maschio con alcune femmine.",
+    "curiosita": "È una delle prime specie a scomparire quando le praterie vengono convertite in campi: per questo in molti paesi è considerata un indicatore dello stato di salute delle praterie."
+  },
+  {
+    "id": "grant",
+    "cat": "antilopi",
+    "it": "Gazzella di Grant",
+    "en": "Grant's gazelle",
+    "sw": "Swala granti",
+    "sci": "Nanger granti",
+    "iucn": "LC",
+    "alias": [
+      "gazzella"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha è all'estremo sud del suo areale ed è localizzata nelle zone più aperte e secche. È una delle specie dell'Africa orientale che fanno del Ruaha un punto d'incontro tra due faune. A Mikumi non ci sono gazzelle.",
+    "misure": "35–80 kg · altezza al garrese 75–90 cm · corna fino a 80 cm.",
+    "riconoscere": "Gazzella elegante, fulva sul dorso e bianca sul ventre. La macchia bianca del posteriore sale fin sopra la coda. I maschi hanno corna lunghe, anellate e a forma di lira; le femmine le hanno più sottili.",
+    "simili": "L'impala non ha la macchia bianca sopra la coda e ha la «M» nera sul posteriore. La gazzella di Thomson, assente dal nostro itinerario, è più piccola e ha una banda nera sui fianchi.",
+    "comportamento": "Ben adattata alle zone aride: può fare a meno di bere per lunghi periodi.",
+    "alimentazione": "Foglie, germogli ed erba.",
+    "sociale": "Branchi di femmine con un maschio territoriale; i maschi giovani formano gruppi di scapoli.",
+    "curiosita": "Prende il nome dall'esploratore scozzese James Augustus Grant, che nel 1860–63 accompagnò John Hanning Speke nella spedizione alla ricerca delle sorgenti del Nilo."
+  },
+  {
+    "id": "babbuino",
+    "cat": "primati",
+    "it": "Babbuino giallo",
+    "en": "Yellow baboon",
+    "sw": "Nyani",
+    "sci": "Papio cynocephalus",
+    "iucn": "LC",
+    "alias": [
+      "babbuino"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": "media"
+    },
+    "doveNota": "Ovunque: nei parchi, lungo le strade e intorno ai campi. La TAWA lo indica anche tra i mammiferi di Mpanga Kipengere. Nel Ruaha i gruppi scendono a bere al fiume in fila, al mattino presto.",
+    "misure": "Maschio 22–30 kg, femmina 11–15 kg · lunghezza 60–85 cm più la coda.",
+    "riconoscere": "Grande scimmia terricola, giallo-bruna con il ventre più chiaro e il muso lungo, simile a quello di un cane. La coda è piegata ad angolo, «spezzata», alla base. I maschi adulti hanno canini lunghi e una mantellina di pelo sulle spalle.",
+    "simili": "Il cercopiteco verde è molto più piccolo, grigio-verdastro, con il muso nero circondato da un collare bianco.",
+    "comportamento": "Passa la giornata a terra, la notte sugli alberi o sulle rocce. È molto intelligente e opportunista: impara in fretta ad aprire tende, zaini e cassette dei rifiuti.",
+    "alimentazione": "Onnivoro: erba, semi, radici, frutti, insetti, uova e a volte piccoli mammiferi, compresi i piccoli di antilope.",
+    "sociale": "Gruppi di 30–80 individui con gerarchie complesse. Le femmine restano nel gruppo di nascita, i maschi cambiano gruppo da adulti. Ci si spulcia a vicenda (*grooming*) per rinsaldare amicizie e alleanze.",
+    "curiosita": "Il babbuino giallo è una delle scimmie più studiate al mondo: il progetto di Amboseli, in Kenya, lo segue ininterrottamente dal 1971.",
+    "consiglio": "Mai mangiare all'aperto con i babbuini in vista, e chiudete sempre la tenda e i finestrini della jeep quando vi allontanate. Non guardate negli occhi un maschio adulto: per lui è una sfida."
+  },
+  {
+    "id": "vervet",
+    "cat": "primati",
+    "it": "Cercopiteco verde (vervet)",
+    "en": "Vervet monkey",
+    "sw": "Tumbili",
+    "sci": "Chlorocebus pygerythrus",
+    "iucn": "LC",
+    "alias": [
+      "vervet",
+      "cercopiteco grigioverde"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": "media"
+    },
+    "doveNota": "Comune soprattutto lungo i fiumi alberati e intorno ai campi. Ci sono foto di gruppi sulle rocce del Grande Ruaha. La TAWA lo indica anche per Mpanga Kipengere.",
+    "misure": "3–8 kg · lunghezza 40–60 cm più una coda ancora più lunga.",
+    "riconoscere": "Piccola scimmia grigio-verdastra, con la faccia nera e un collare di pelo bianco intorno al muso. Le mani e i piedi sono scuri. I maschi adulti hanno lo scroto di un azzurro turchese ben visibile.",
+    "simili": "Il cercopiteco dal diadema è più scuro, quasi blu-nerastro, e vive nelle foreste. Il babbuino è molto più grande e ha il muso lungo.",
+    "comportamento": "Passa molto tempo sia a terra sia sugli alberi. È curiosissimo e abile a rubare cibo.",
+    "alimentazione": "Frutti, fiori, foglie, semi, insetti, uova.",
+    "sociale": "Gruppi di 10–50 individui con una gerarchia femminile.",
+    "curiosita": "I vervet hanno richiami d'allarme diversi per i diversi predatori: uno per il leopardo (tutti salgono sugli alberi), uno per l'aquila (tutti guardano in alto e si nascondono nei cespugli), uno per il serpente (tutti si alzano sulle zampe posteriori e scrutano a terra). È uno dei primi casi documentati di «parole» negli animali.",
+    "consiglio": "Il colore azzurro dei maschi indica il loro rango: più è intenso, più è alto il loro posto nella gerarchia."
+  },
+  {
+    "id": "diadema",
+    "cat": "primati",
+    "it": "Cercopiteco dal diadema (scimmia di Sykes)",
+    "en": "Blue monkey / Sykes' monkey",
+    "sw": "Kima",
+    "sci": "Cercopithecus mitis",
+    "iucn": "LC",
+    "alias": [
+      "scimmia blu",
+      "Sykes"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "È una scimmia di foresta. Non ci sono segnalazioni affidabili per Ruaha e Mikumi, e la TAWA non la indica per Mpanga Kipengere, anche se le foreste montane degli altopiani meridionali sono un habitat adatto. La possibilità più concreta di vederla è nei Monti Udzungwa, che costeggiano la strada tra Mikumi e Iringa, e nelle foreste vicino a Iringa.",
+    "misure": "4–12 kg · lunghezza 50–65 cm più la coda.",
+    "riconoscere": "Mantello scuro, grigio-bluastro o nerastro, con le spalle e le zampe più scure. La sottospecie della Tanzania, chiamata scimmia di Sykes, ha la gola bianca. Sopra gli occhi ha una banda chiara, il «diadema» che le dà il nome.",
+    "simili": "Il cercopiteco verde è più chiaro e vive nella savana alberata.",
+    "comportamento": "Vive sugli alberi della foresta e scende raramente a terra.",
+    "alimentazione": "Frutti, foglie, fiori, insetti.",
+    "sociale": "Gruppi familiari di 10–40 femmine con i piccoli e un solo maschio adulto.",
+    "curiosita": "Il nome *mitis* significa «mite»: rispetto al babbuino e al vervet è una scimmia tranquilla e poco aggressiva. In Tanzania ne esistono diverse sottospecie, e nelle foreste a volte si ibrida con il cercopiteco dalla coda rossa."
+  },
+  {
+    "id": "colobo",
+    "cat": "primati",
+    "it": "Colobo bianco e nero dell'Angola",
+    "en": "Angola colobus",
+    "sw": "Mbega",
+    "sci": "Colobus angolensis",
+    "iucn": "VU",
+    "alias": [
+      "colobo",
+      "colobus"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Alcuni operatori segnalano colobi bianchi e neri a Mpanga Kipengere, ma la lista TAWA non li cita: dato da verificare. In Tanzania meridionale la sottospecie *palliatus* vive nelle foreste dei Monti Udzungwa e lungo i fiumi di Nyerere. Il nostro itinerario non tocca queste zone.",
+    "misure": "7–20 kg · lunghezza 50–70 cm più una coda lunga fino a 90 cm.",
+    "riconoscere": "Mantello nero lucido, con una lunga mantellina bianca sulle spalle, il volto incorniciato di bianco e la coda nera con la punta bianca. Non ha il pollice, da cui il nome (in greco *kolobos* significa «mutilato»).",
+    "simili": "Il colobo guereza del nord della Tanzania ha un mantello bianco più ampio, a forma di «U» lungo i fianchi.",
+    "comportamento": "Passa gran parte della giornata immobile sugli alberi a digerire. Quando salta da un albero all'altro la mantellina bianca si apre come un paracadute.",
+    "alimentazione": "Foglie, soprattutto. Ha uno stomaco con più camere, come quello di un ruminante, per digerirle.",
+    "sociale": "Piccoli gruppi di 2–15 individui.",
+    "curiosita": "In passato la pelliccia dei colobi era usata per i copricapi dei guerrieri e dei capi. Oggi la minaccia principale è la perdita delle foreste."
+  },
+  {
+    "id": "galago",
+    "cat": "primati",
+    "it": "Galago del Senegal",
+    "en": "Northern lesser galago (bushbaby)",
+    "sw": "Komba",
+    "sci": "Galago senegalensis",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "bushbaby",
+      "galagone"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": "rara"
+    },
+    "doveNota": "La TAWA lo indica tra i mammiferi di Mpanga Kipengere. Nel Ruaha i viaggiatori lo vedono durante le uscite notturne nelle aree esterne al parco. Cercate con la torcia i due puntini arancioni degli occhi tra i rami, intorno ai campi.",
+    "misure": "150–300 g · lunghezza circa 15 cm più una coda di 20–30 cm.",
+    "riconoscere": "Minuscolo primate grigio, con occhi enormi, orecchie grandi e mobili come quelle di un pipistrello e una coda lunga e folta.",
+    "simili": "Il galagone dalla coda grossa è molto più grande (fino a 2 kg) e bruno.",
+    "comportamento": "Notturno. Salta da un ramo all'altro fino a 3–5 metri, grazie alle zampe posteriori lunghissime. Di giorno dorme in gruppo nelle cavità degli alberi.",
+    "alimentazione": "Insetti catturati al volo con le mani, e la gomma che cola dalle acacie.",
+    "sociale": "Le femmine dormono in piccoli gruppi con i piccoli; di notte ognuno cerca il cibo per conto proprio.",
+    "curiosita": "Si bagna le mani e i piedi con l'urina: secondo gli studiosi serve sia a lasciare tracce odorose sia a migliorare la presa sui rami."
+  },
+  {
+    "id": "galago-grande",
+    "cat": "primati",
+    "it": "Galagone dalla coda grossa",
+    "en": "Thick-tailed greater galago",
+    "sw": "Komba mkubwa",
+    "sci": "Otolemur crassicaudatus",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "galagone",
+      "bushbaby"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "È il galago più grande e il più «domestico»: nei campi e nei lodge del sud della Tanzania spesso si avvicina di notte agli alberi intorno alle tende. Probabilità stimata con prudenza.",
+    "misure": "1–2 kg · lunghezza 30–35 cm più una coda folta di 40 cm.",
+    "riconoscere": "Delle dimensioni di un gatto piccolo, bruno-grigio, con il muso appuntito, grandi orecchie e una coda lunga e voluminosa.",
+    "simili": "Il galago del Senegal è molto più piccolo e grigio chiaro.",
+    "comportamento": "Notturno. Più lento del galago minore: cammina sui rami più che saltare.",
+    "alimentazione": "Frutti, gomma degli alberi, insetti, a volte uova e piccoli uccelli.",
+    "sociale": "Vive in piccoli gruppi familiari che di notte si separano.",
+    "curiosita": "Il nome inglese *bushbaby*, «bambino della boscaglia», viene dal suo verso: un pianto lamentoso che sembra quello di un neonato. Se di notte lo sentite vicino alla tenda, non preoccupatevi."
+  },
+  {
+    "id": "coccodrillo",
+    "cat": "rettili",
+    "it": "Coccodrillo del Nilo",
+    "en": "Nile crocodile",
+    "sw": "Mamba",
+    "sci": "Crocodylus niloticus",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Nel Grande Ruaha si vedono spesso sulle sponde sabbiose, al sole, accanto agli ippopotami. A Mikumi frequentano le pozze permanenti, come la Hippo Pool.",
+    "misure": "Maschi 3,5–5 m e fino a 700 kg, femmine circa 3 m · esistono individui eccezionali oltre i 5,5 m.",
+    "riconoscere": "Grande rettile verde-oliva o bruno-grigio, con il dorso coperto di placche ossee. Il muso è lungo e affusolato, e i denti della mascella inferiore restano visibili a bocca chiusa.",
+    "comportamento": "Nelle ore fresche prende il sole a bocca aperta sulle rive per regolare la temperatura. Caccia in agguato, immobile sotto la superficie, poi trascina la preda in acqua.",
+    "alimentazione": "Pesci soprattutto, ma anche antilopi, zebre, gnu e qualsiasi animale che si avvicini troppo all'acqua.",
+    "sociale": "Tollerante con i suoi simili: più individui possono dividere la stessa carcassa. La femmina sorveglia il nido e porta i piccoli in acqua nella bocca.",
+    "curiosita": "In swahili coccodrillo si dice *mamba*. Il serpente che noi chiamiamo «mamba» ha in swahili un altro nome: se una guida vi dice «mamba!» indicando il fiume, cercate un coccodrillo.",
+    "consiglio": "Il coccodrillo è il motivo per cui nei fiumi della Tanzania non si fa il bagno, nemmeno dove l'acqua sembra bassa. E non sedetevi mai sul bordo di una riva fangosa."
+  },
+  {
+    "id": "varano",
+    "cat": "rettili",
+    "it": "Varano del Nilo",
+    "en": "Nile monitor",
+    "sw": "Kenge",
+    "sci": "Varanus niloticus",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Vicino all'acqua: sulle sponde dei fiumi, sui tronchi caduti e sulle rocce al sole.",
+    "misure": "1,2–2 m di lunghezza (fino a 2,4 m), fino a 15–20 kg.",
+    "riconoscere": "La più grande lucertola d'Africa. Il corpo è grigio-verde scuro, con bande e macchie gialle. Ha la lingua biforcuta come un serpente, il collo lungo e la coda compressa ai lati, che usa come un remo.",
+    "simili": "Il varano delle savane (*Varanus albigularis*), presente nelle zone secche, è più tozzo e meno legato all'acqua.",
+    "comportamento": "Ottimo nuotatore, si tuffa in acqua se disturbato. Se messo alle strette soffia, si gonfia e frusta con la coda.",
+    "alimentazione": "Granchi, pesci, rane, uccelli, uova (soprattutto di coccodrillo), piccoli mammiferi, carcasse.",
+    "sociale": "Solitario.",
+    "curiosita": "Le femmine depongono spesso le uova dentro i termitai attivi: le termiti richiudono il buco e il nido resta a temperatura e umidità costanti fino alla schiusa."
+  },
+  {
+    "id": "camaleonte",
+    "cat": "rettili",
+    "it": "Camaleonte dal collo a lembi",
+    "en": "Flap-necked chameleon",
+    "sw": "Kinyonga",
+    "sci": "Chamaeleo dilepis",
+    "iucn": "LC",
+    "notturno": true,
+    "alias": [
+      "camaleonte"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": "rara"
+    },
+    "doveNota": "Il camaleonte più diffuso della savana e dei boschi. Di giorno è quasi invisibile tra le foglie; di notte, con la torcia, diventa pallido e si riconosce facilmente sui rami bassi. Sugli altopiani di Mpanga Kipengere vivono anche camaleonti di montagna che esistono solo in queste zone: li tratteremo nel capitolo dedicato agli altopiani.",
+    "misure": "20–35 cm compresa la coda.",
+    "riconoscere": "Verde, giallo o bruno, con una striscia chiara sui fianchi. Ha due grandi lembi di pelle mobili dietro la testa, che apre quando si sente minacciato. Gli occhi ruotano indipendentemente l'uno dall'altro.",
+    "comportamento": "Si muove lentamente, dondolando come una foglia mossa dal vento. Se disturbato apre la bocca, mostra l'interno arancione e soffia.",
+    "alimentazione": "Insetti catturati con la lingua, che può essere lunga più del corpo.",
+    "sociale": "Solitario e territoriale.",
+    "curiosita": "In molte comunità della Tanzania il camaleonte è associato alla sfortuna o alla stregoneria, e molte persone hanno paura di toccarlo. Rispettate questa sensibilità: non prendetelo in mano e non avvicinatelo alle persone del posto."
+  },
+  {
+    "id": "agama",
+    "cat": "rettili",
+    "it": "Agama delle rocce",
+    "en": "Rock agama",
+    "sw": "Mjusi",
+    "sci": "Agama spp. (es. Agama lionotus)",
+    "iucn": "LC",
+    "alias": [
+      "agama",
+      "lucertola"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Sulle rocce, sui muri e intorno ai campi, nelle ore calde. Nel Ruaha le agame si vedono spesso sui massi vicino al fiume. In Tanzania vivono più specie di agama, difficili da distinguere tra loro senza esperienza.",
+    "misure": "20–35 cm compresa la coda.",
+    "riconoscere": "Lucertola robusta con la testa triangolare. I maschi dominanti, nelle ore calde, hanno la testa arancione o rossa e il corpo blu-violetto; le femmine e i giovani sono bruni e mimetici.",
+    "comportamento": "Fa ritmici «piegamenti» sulle zampe anteriori e muove la testa su e giù: sono segnali per i rivali e per le femmine.",
+    "alimentazione": "Insetti, soprattutto formiche e termiti.",
+    "sociale": "Un maschio dominante controlla un territorio con più femmine.",
+    "curiosita": "Il colore acceso del maschio non è fisso: se perde una lotta o fa freddo diventa bruno opaco in pochi minuti."
+  },
+  {
+    "id": "pitone",
+    "cat": "rettili",
+    "it": "Pitone delle rocce meridionale",
+    "en": "Southern African rock python",
+    "sw": "Chatu",
+    "sci": "Python natalensis",
+    "iucn": "LC",
+    "alias": [
+      "pitone di Seba",
+      "Python sebae",
+      "pitone"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Il pitone è indicato nelle liste di specie del Ruaha. Nel sud della Tanzania vive la forma meridionale, *Python natalensis*; il pitone di Seba in senso stretto (*Python sebae*) è diffuso più a nord. Lo si incontra di rado, a volte mentre attraversa una pista.",
+    "misure": "3–5 m (eccezionalmente oltre), fino a 50–60 kg.",
+    "riconoscere": "Il serpente più grande d'Africa. Corpo massiccio con macchie irregolari bruno scuro bordate di nero su fondo oliva o bruno chiaro. Sulla testa ha un disegno scuro a forma di punta di freccia.",
+    "comportamento": "Non è velenoso: uccide stritolando. Aspetta immobile la preda vicino all'acqua o lungo i sentieri degli animali.",
+    "alimentazione": "Roditori, iraci, uccelli, piccole antilopi, a volte giovani facoceri.",
+    "sociale": "Solitario. La femmina si avvolge intorno alle uova per proteggerle durante l'incubazione.",
+    "curiosita": "Dopo un pasto grande, come una piccola antilope, un pitone può restare senza mangiare per settimane, a volte mesi."
+  },
+  {
+    "id": "mamba",
+    "cat": "rettili",
+    "it": "Mamba nero",
+    "en": "Black mamba",
+    "sw": "Koboko",
+    "sci": "Dendroaspis polylepis",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Vive nelle savane e nei boschi aperti di gran parte della Tanzania, ma per i nostri parchi non ho trovato dati specifici: stima prudente. Gli incontri sono rarissimi, perché il mamba evita l'uomo e fugge velocemente.",
+    "misure": "2–3 m (fino a 4 m) · corpo sottile.",
+    "riconoscere": "Nonostante il nome non è nero, ma grigio-oliva o brunastro. «Nero» è l'interno della bocca, che spalanca quando si sente minacciato. Ha la testa allungata, a forma di bara.",
+    "simili": "Il mamba verde (*Dendroaspis angusticeps*), che vive nelle foreste costiere, è verde brillante e arboricolo.",
+    "comportamento": "Uno dei serpenti più veloci del mondo. Se messo alle strette solleva la parte anteriore del corpo, apre il cappuccio e la bocca nera e soffia.",
+    "alimentazione": "Roditori, iraci, uccelli.",
+    "sociale": "Solitario. Usa la stessa tana (un termitaio, un tronco cavo) per anni.",
+    "curiosita": "Il suo veleno è tra i più potenti d'Africa. Oggi però esistono sieri efficaci, e la maggior parte dei morsi si verifica quando qualcuno cerca di catturarlo o ucciderlo.",
+    "consiglio": "Se vedete un serpente, restate fermi o allontanatevi lentamente: nessun serpente africano insegue le persone. Chiamate lo staff del campo, non provate mai a scacciarlo da soli."
+  },
+  {
+    "id": "vipera",
+    "cat": "rettili",
+    "it": "Vipera soffiante",
+    "en": "Puff adder",
+    "sw": "Kifutu",
+    "sci": "Bitis arietans",
+    "iucn": "LC",
+    "notturno": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Diffusissima in tutta la savana tanzaniana, ma mimetica e lenta: si incontra soprattutto la sera, sui sentieri e vicino ai campi, quando esce a cacciare.",
+    "misure": "90 cm – 1,2 m · corpo molto tozzo.",
+    "riconoscere": "Corpo grosso e corto, con la testa larga e triangolare. Il dorso ha un disegno a V o a chevron giallo-bruni e scuri, che la rende quasi invisibile tra le foglie secche.",
+    "comportamento": "Invece di fuggire resta immobile, contando sul mimetismo. Per questo è il serpente più spesso calpestato. Se disturbata si gonfia e soffia forte, da cui il nome.",
+    "alimentazione": "Roditori, rane, uccelli, che caccia in agguato.",
+    "sociale": "Solitaria.",
+    "curiosita": "È considerata responsabile del maggior numero di morsi gravi in Africa, non perché sia aggressiva ma perché è comune, ben mimetizzata e non si sposta.",
+    "consiglio": "Al campo, dopo il tramonto, usate sempre la torcia e scarpe chiuse, anche per i pochi metri fino al bagno."
+  },
+  {
+    "id": "tartaruga-leopardo",
+    "cat": "rettili",
+    "it": "Testuggine leopardo",
+    "en": "Leopard tortoise",
+    "sw": "Kobe",
+    "sci": "Stigmochelys pardalis",
+    "iucn": "LC",
+    "alias": [
+      "tartaruga"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Con le prime piogge di dicembre le testuggini diventano molto più attive e si vedono spesso mentre attraversano le piste. È uno dei piccoli premi della stagione verde.",
+    "misure": "Carapace di 40–50 cm (fino a 70 cm), 10–20 kg (fino a 40 kg).",
+    "riconoscere": "Grande testuggine con il carapace alto a cupola, giallo-crema e macchiato di nero come un mantello di leopardo.",
+    "comportamento": "Più attiva nella stagione delle piogge, quando c'è erba fresca. Nei periodi secchi rallenta e si ripara tra i cespugli.",
+    "alimentazione": "Erba, piante grasse, frutti. Rosicchia anche ossa e gusci per assumere calcio.",
+    "sociale": "Solitaria. I maschi lottano tra loro spingendosi con il carapace.",
+    "curiosita": "Può vivere oltre 50 anni. Non ha denti: taglia l'erba con il bordo affilato del becco.",
+    "consiglio": "Se ne trovate una sulla pista, chiedete all'autista di aspettare che attraversi: non sollevatela. Le testuggini spaventate svuotano la vescica, e possono perdere le scorte d'acqua che servono loro per sopravvivere."
+  },
+  {
+    "id": "tartaruga-frittella",
+    "cat": "rettili",
+    "it": "Testuggine frittella",
+    "en": "Pancake tortoise",
+    "sw": "Kobe",
+    "sci": "Malacochersus tornieri",
+    "iucn": "CR",
+    "alias": [
+      "tartaruga piatta"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Secondo la scheda Key Biodiversity Areas del Ruaha, il parco è al limite sud del suo areale. Vive nascosta nelle fessure delle rocce sui kopje: vederla è un evento eccezionale.",
+    "misure": "Carapace di 15–18 cm, alto appena 3–4 cm.",
+    "riconoscere": "Testuggine piccola e piattissima, con il carapace morbido e flessibile, bruno con raggiature gialle su ogni placca.",
+    "comportamento": "Invece di ritirarsi nel guscio, corre veloce verso una fessura nella roccia e si incastra gonfiandosi, così che è quasi impossibile estrarla.",
+    "alimentazione": "Erba secca e piante succulente.",
+    "sociale": "A volte più individui condividono la stessa fessura.",
+    "curiosita": "È «in pericolo critico» soprattutto a causa del commercio illegale di animali da compagnia. Le femmine depongono un solo uovo alla volta: una popolazione saccheggiata impiega decenni a riprendersi.",
+    "consiglio": "Se ne vedete una, non toccatela e non dite a nessuno, al di fuori del gruppo, il luogo esatto dell'avvistamento."
+  },
+  {
+    "id": "pescatrice",
+    "cat": "uccelli",
+    "it": "Aquila pescatrice africana",
+    "en": "African fish eagle",
+    "sw": "Furukombe",
+    "sci": "Haliaeetus vocifer",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Lungo il Grande Ruaha si vede quasi a ogni game drive, appollaiata sugli alberi della riva. A Mikumi frequenta le pozze più grandi.",
+    "misure": "2–3,6 kg (la femmina è più grande) · apertura alare 2–2,4 m.",
+    "riconoscere": "Testa, petto e coda bianchi, ventre e spalle castani, ali nere, muso giallo. I giovani sono bruni e screziati, e impiegano circa cinque anni a raggiungere il piumaggio adulto.",
+    "comportamento": "Le coppie lanciano un richiamo squillante e ripetuto, a testa all'indietro: è considerato «la voce dell'Africa» e lo sentirete spesso al mattino.",
+    "alimentazione": "Pesci afferrati con gli artigli in un volo radente sull'acqua. Ruba spesso le prede ad aironi e cicogne.",
+    "sociale": "Coppie fedeli che occupano per anni lo stesso tratto di fiume.",
+    "curiosita": "È l'uccello nazionale di Zambia, Zimbabwe, Namibia e Sud Sudan."
+  },
+  {
+    "id": "marziale",
+    "cat": "uccelli",
+    "it": "Aquila marziale",
+    "en": "Martial eagle",
+    "sw": "Tai",
+    "sci": "Polemaetus bellicosus",
+    "iucn": "EN",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Presente in entrambi i parchi, ma con territori enormi e densità basse. Più facile vederla in volo altissimo, o posata su un albero isolato.",
+    "misure": "3–6 kg · apertura alare 1,9–2,6 m: la più grande aquila d'Africa.",
+    "riconoscere": "Testa, petto e dorso bruno scuro. Il ventre è bianco con piccole macchie scure, la cresta corta, gli occhi gialli. Le zampe sono piumate fino alle dita.",
+    "simili": "L'aquila pescatrice ha la testa bianca. Il biancone pettonero, più piccolo, ha il ventre bianco senza macchie.",
+    "comportamento": "Caccia da altezze enormi, a volte da oltre un chilometro, e scende in picchiata.",
+    "alimentazione": "Faraone, francolini, varani, dik-dik, piccoli di impala.",
+    "sociale": "Coppie territoriali. Allevano un solo piccolo ogni uno o due anni.",
+    "curiosita": "La sua vista è tre-quattro volte più acuta della nostra. Negli ultimi decenni la popolazione è calata molto, soprattutto per avvelenamenti e conflitti con gli allevatori."
+  },
+  {
+    "id": "rapace",
+    "cat": "uccelli",
+    "it": "Aquila rapace",
+    "en": "Tawny eagle",
+    "sw": "Tai",
+    "sci": "Aquila rapax",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "È l'aquila grande che si vede più spesso nella savana: in cima agli alberi o vicino alle carcasse con gli avvoltoi.",
+    "misure": "1,6–3 kg · apertura alare 1,6–1,9 m.",
+    "riconoscere": "Piumaggio molto variabile, dal fulvo chiaro al bruno scuro, spesso «trasandato». Zampe piumate, becco forte. La fessura gialla della bocca arriva solo fino a metà dell'occhio.",
+    "simili": "L'aquila delle steppe, migratrice presente a dicembre, è simile ma ha la fessura della bocca che arriva fino al retro dell'occhio.",
+    "comportamento": "Opportunista: caccia, ma ruba anche le prede ad altri rapaci e si nutre di carcasse.",
+    "alimentazione": "Piccoli mammiferi, uccelli, rettili, carogne.",
+    "sociale": "Coppie stabili, con il nido in cima a un albero isolato.",
+    "curiosita": "Fino a pochi anni fa era considerata comune; dal 2021 è classificata «vulnerabile» per il calo rapido delle popolazioni africane."
+  },
+  {
+    "id": "steppe",
+    "cat": "uccelli",
+    "it": "Aquila delle steppe",
+    "en": "Steppe eagle",
+    "sw": "Tai",
+    "sci": "Aquila nipalensis",
+    "iucn": "EN",
+    "migratore": true,
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Migratrice: arriva dall'Asia centrale e dalla Russia meridionale tra novembre e marzo. Con le prime piogge si raduna a volte a decine dove sciamano le termiti alate.",
+    "misure": "2,3–4,9 kg · apertura alare 1,7–2,1 m.",
+    "riconoscere": "Grande aquila bruna, più uniforme e scura dell'aquila rapace, con la fessura gialla della bocca che arriva fino al retro dell'occhio. In volo i giovani mostrano bande bianche sulle ali.",
+    "simili": "Con l'aquila rapace la confusione è facile: guardate la fessura della bocca.",
+    "comportamento": "In Africa, d'inverno, è spesso a terra a camminare tra l'erba in cerca di insetti e roditori.",
+    "alimentazione": "D'inverno soprattutto termiti alate e altri insetti, poi roditori e carcasse.",
+    "sociale": "Fuori dal periodo riproduttivo è tollerante: si vede in gruppi sciolti.",
+    "curiosita": "Percorre circa 7.000–10.000 km per arrivare qui. Negli ultimi decenni è crollata, soprattutto per le scariche elettriche sui tralicci nelle zone di nidificazione: per questo è «in pericolo»."
+  },
+  {
+    "id": "giocoliera",
+    "cat": "uccelli",
+    "it": "Aquila giocoliera (bateleur)",
+    "en": "Bateleur",
+    "sw": "Tai",
+    "sci": "Terathopius ecaudatus",
+    "iucn": "EN",
+    "alias": [
+      "bateleur",
+      "aquila saltimbanco"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Si vede soprattutto in volo, basso e ondeggiante sopra la savana, durante le ore calde.",
+    "misure": "1,8–3 kg · apertura alare 1,6–1,8 m · coda cortissima.",
+    "riconoscere": "Adulto nero, con il dorso castano, le spalle grigie, la faccia e le zampe rosso vivo. In volo la coda è quasi assente e le ali sono lunghe e appuntite, a forma di boomerang. Le femmine hanno una banda grigia sulle ali.",
+    "comportamento": "Vola per ore quasi senza battere le ali, dondolando lateralmente come un equilibrista: da qui il nome francese *bateleur*, «saltimbanco».",
+    "alimentazione": "Uccelli, piccoli mammiferi, rettili, carcasse.",
+    "sociale": "Coppie stabili. Un solo piccolo, che resta nel nido per oltre tre mesi.",
+    "curiosita": "Quando è agitata, la faccia rossa diventa ancora più accesa. Il nome scientifico *ecaudatus* significa «senza coda»."
+  },
+  {
+    "id": "serpentario",
+    "cat": "uccelli",
+    "it": "Serpentario (segretario)",
+    "en": "Secretarybird",
+    "sw": "Karani",
+    "sci": "Sagittarius serpentarius",
+    "iucn": "EN",
+    "alias": [
+      "segretario"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Preferisce le praterie aperte: a Mikumi nella piana del Mkata, nel Ruaha nelle zone meno alberate. Si vede di solito in coppia, mentre cammina tra l'erba.",
+    "misure": "Alto circa 1,3 m · 2,3–4,3 kg · apertura alare oltre 2 m.",
+    "riconoscere": "Un rapace su lunghe zampe da trampoliere. Grigio chiaro, con le «calze» nere sulle zampe, la faccia arancione nuda e un ciuffo di penne nere dietro la testa.",
+    "comportamento": "Percorre a piedi fino a 20–30 km al giorno. Quando trova una preda la colpisce con calci velocissimi.",
+    "alimentazione": "Serpenti (anche velenosi), lucertole, roditori, insetti.",
+    "sociale": "Coppie fedeli, che costruiscono un grande nido piatto sulla cima di un'acacia.",
+    "curiosita": "Le penne dietro la testa ricordano le penne d'oca che i segretari d'ufficio tenevano infilate dietro l'orecchio: da qui il nome. Anche in swahili si chiama *karani*, «impiegato». Uno studio ha misurato che il suo calcio dura circa 15 millisecondi e colpisce con una forza pari a cinque volte il suo peso."
+  },
+  {
+    "id": "dorsobianco",
+    "cat": "uccelli",
+    "it": "Grifone africano (avvoltoio dorsobianco)",
+    "en": "White-backed vulture",
+    "sw": "Tai",
+    "sci": "Gyps africanus",
+    "iucn": "CR",
+    "alias": [
+      "avvoltoio"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "È l'avvoltoio più comune dell'Africa orientale. Lo vedrete in volo circolare alto o radunato sugli alberi vicino a una carcassa.",
+    "misure": "4–7 kg · apertura alare circa 2,2 m.",
+    "riconoscere": "Avvoltoio bruno chiaro, con il collo lungo, sottile e quasi nudo, grigiastro, e un collare di piume chiare. In volo, quando vira, si vede sul dorso una macchia bianca.",
+    "simili": "L'avvoltoio orecchiuto è molto più grande, scuro, con la testa rosa e grandi pieghe di pelle.",
+    "comportamento": "Plana per ore cercando carcasse e osservando gli altri avvoltoi: quando uno scende, gli altri arrivano da chilometri di distanza.",
+    "alimentazione": "Muscoli e visceri delle carcasse. Non riesce a lacerare le pelli dure: aspetta che lo facciano iene o avvoltoi più grandi.",
+    "sociale": "Molto sociale alle carcasse. Nidifica in piccole colonie sparse sulle acacie.",
+    "curiosita": "In tre generazioni la popolazione africana è calata di oltre il 90%. La causa principale sono le carcasse avvelenate dai bracconieri, che vogliono evitare che gli avvoltoi rivelino ai ranger la posizione degli animali uccisi."
+  },
+  {
+    "id": "orecchiuto",
+    "cat": "uccelli",
+    "it": "Avvoltoio orecchiuto",
+    "en": "Lappet-faced vulture",
+    "sw": "Tai",
+    "sci": "Torgos tracheliotos",
+    "iucn": "EN",
+    "alias": [
+      "avvoltoio"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Presente, ma poco numeroso: di solito uno o due individui per carcassa.",
+    "misure": "5,4–9,4 kg · apertura alare fino a 2,9 m: il più grande avvoltoio africano.",
+    "riconoscere": "Enorme, bruno scuro, con le «cosce» bianche. La testa nuda è rosa-rossa, con grandi pieghe di pelle ai lati. Il becco è massiccio, giallastro.",
+    "comportamento": "Alle carcasse domina tutti gli altri avvoltoi. Con il becco potente riesce ad aprire le pelli più dure.",
+    "alimentazione": "Carcasse, ma anche piccoli animali vivi, uova, termiti.",
+    "sociale": "Solitario o in coppia. Nidifica da solo, lontano dalle colonie.",
+    "curiosita": "Gli altri avvoltoi spesso lo aspettano: senza di lui una carcassa di bufalo può restare chiusa per ore."
+  },
+  {
+    "id": "bucorvo",
+    "cat": "uccelli",
+    "it": "Bucorvo cafro",
+    "en": "Southern ground hornbill",
+    "sw": "Hondohondo (nome generico dei buceri)",
+    "sci": "Bucorvus leadbeateri",
+    "iucn": "VU",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Si vede a piedi nella savana, in gruppi di 3–8 individui. All'alba ascoltate il loro richiamo profondo.",
+    "misure": "Alto circa 1 m · 3–6 kg.",
+    "riconoscere": "Grande uccello nero da terra, con il becco robusto e ricurvo e la pelle nuda rosso vivo sulla faccia e sulla gola. Le femmine hanno una macchia blu-viola sulla gola. In volo mostra le penne bianche delle ali.",
+    "comportamento": "Cammina per ore, frugando nell'erba. Al mattino il gruppo lancia un «bum-bum» profondo che si sente fino a 3 km.",
+    "alimentazione": "Insetti, rane, lucertole, serpenti, piccoli mammiferi, persino tartarughe.",
+    "sociale": "Gruppi familiari con una sola coppia riproduttiva, aiutata dagli altri membri. Allevano in media un piccolo ogni tre anni.",
+    "curiosita": "Può vivere oltre 40 anni. In molte culture dell'Africa orientale e australe è un uccello legato alla pioggia: vederlo o sentirlo annuncerebbe l'arrivo dei temporali."
+  },
+  {
+    "id": "decken",
+    "cat": "uccelli",
+    "it": "Bucero di Von der Decken",
+    "en": "Von der Decken's hornbill",
+    "sw": "Hondohondo",
+    "sci": "Tockus deckeni",
+    "iucn": "LC",
+    "alias": [
+      "bucero",
+      "tucano"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Comune nelle zone secche e cespugliose del Ruaha. Spesso è il «tucano» che i viaggiatori fotografano per primo.",
+    "misure": "30–50 cm · 130–270 g.",
+    "riconoscere": "Testa e ventre bianchi, ali nere senza macchie bianche, coda lunga. Il maschio ha il becco rosso con la punta color avorio; la femmina lo ha completamente nero.",
+    "simili": "Il bucero dal becco rosso della Tanzania ha le ali macchiate di bianco e il becco rosso più sottile, in entrambi i sessi.",
+    "comportamento": "Si muove tra i cespugli e a terra, spesso insieme alle manguste nane. Il richiamo è una serie di «tok-tok-tok» che accelera.",
+    "alimentazione": "Insetti, frutti, semi, piccoli animali.",
+    "sociale": "Coppie territoriali.",
+    "curiosita": "Non è un tucano: i tucani vivono solo in America. Durante la cova la femmina si chiude nella cavità di un albero, sigillando l'ingresso con fango e feci. Resta solo una fessura, da cui il maschio la nutre per settimane."
+  },
+  {
+    "id": "ruahae",
+    "cat": "uccelli",
+    "it": "Bucero dal becco rosso della Tanzania",
+    "en": "Tanzanian red-billed hornbill",
+    "sw": "Hondohondo",
+    "sci": "Tockus ruahae",
+    "iucn": "LC",
+    "alias": [
+      "bucero",
+      "endemico"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Vive solo nella Tanzania centrale e il nome scientifico viene proprio dal Ruaha. È una delle specialità del parco per chi fa birdwatching.",
+    "misure": "35–40 cm · circa 150 g.",
+    "riconoscere": "Piccolo bucero bianco e nero, con le ali macchiate di bianco e un becco rosso sottile e ricurvo. Lo distingue dagli altri buceri dal becco rosso la pelle nera intorno all'occhio.",
+    "simili": "Il bucero di Von der Decken ha le ali nere senza macchie, e la femmina ha il becco nero.",
+    "comportamento": "Cerca il cibo a terra, spesso nelle radure sabbiose sotto le acacie.",
+    "alimentazione": "Insetti soprattutto, più semi e frutti.",
+    "sociale": "Coppie o piccoli gruppi familiari.",
+    "curiosita": "È stato riconosciuto come specie distinta solo nel 2002: prima si pensava fosse una popolazione del bucero dal becco rosso diffuso nel resto dell'Africa orientale. È un buon esempio di quanto ci sia ancora da scoprire sugli uccelli della Tanzania."
+  },
+  {
+    "id": "pettolilla",
+    "cat": "uccelli",
+    "it": "Ghiandaia marina pettolilla",
+    "en": "Lilac-breasted roller",
+    "sw": "—",
+    "sci": "Coracias caudatus",
+    "iucn": "LC",
+    "alias": [
+      "ghiandaia marina"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Comunissima: appollaiata su rami secchi e pali, ben in vista lungo le piste. Prima o poi la fotograferete.",
+    "misure": "28–38 cm compresa la coda · 90–140 g.",
+    "riconoscere": "Gola e petto lilla, ventre turchese, testa verde chiaro, ali blu elettrico che in volo diventano brillanti. Le due penne esterne della coda sono allungate in sottili «fili».",
+    "simili": "La ghiandaia marina europea, migratrice, ha la testa e il petto azzurri, senza lilla, e la coda senza fili.",
+    "comportamento": "Durante il corteggiamento si lancia in voli acrobatici, rollando da un lato all'altro: da qui il nome inglese *roller*.",
+    "alimentazione": "Grossi insetti, scorpioni, lucertole, piccoli serpenti, catturati a terra con una planata dal posatoio.",
+    "sociale": "Coppie territoriali, che difendono il posatoio con decisione.",
+    "curiosita": "È considerata da molti l'uccello simbolo non ufficiale del Kenya e del Botswana. Spesso è l'uccello più fotografato di tutto un safari."
+  },
+  {
+    "id": "ghiandaia-eu",
+    "cat": "uccelli",
+    "it": "Ghiandaia marina europea",
+    "en": "European roller",
+    "sw": "—",
+    "sci": "Coracias garrulus",
+    "iucn": "LC",
+    "migratore": true,
+    "alias": [
+      "ghiandaia marina"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Migratrice: attraversa la Tanzania in autunno, diretta verso l'Africa australe, e la ripassa in primavera. A dicembre se ne vedono ancora molte, posate sui fili e sui rami secchi.",
+    "misure": "29–32 cm · 130–160 g.",
+    "riconoscere": "Testa e petto azzurro-turchese, dorso color cannella, ali blu. Coda squadrata senza fili.",
+    "simili": "La ghiandaia marina pettolilla ha il petto lilla e la coda con i fili.",
+    "comportamento": "Caccia dal posatoio come la cugina africana.",
+    "alimentazione": "Grossi insetti, soprattutto coleotteri e cavallette.",
+    "sociale": "Durante la migrazione si spostano in gruppi sciolti.",
+    "curiosita": "Nidifica anche in Italia, soprattutto al Sud, in Sardegna e in Sicilia. Una ghiandaia marina vista nel Ruaha a dicembre potrebbe aver passato l'estate a pochi chilometri da casa vostra."
+  },
+  {
+    "id": "bianconero",
+    "cat": "uccelli",
+    "it": "Martin pescatore bianconero",
+    "en": "Pied kingfisher",
+    "sw": "Mdiria",
+    "sci": "Ceryle rudis",
+    "iucn": "LC",
+    "alias": [
+      "martin pescatore"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Sopra il Grande Ruaha e le pozze di Mikumi, spesso mentre fa lo «spirito santo» a mezz'aria.",
+    "misure": "25 cm · 70–100 g.",
+    "riconoscere": "Bianco e nero a macchie, con un ciuffo sulla testa e un becco nero lungo e appuntito. Il maschio ha due bande nere sul petto, la femmina una sola, interrotta.",
+    "comportamento": "È uno dei pochi uccelli capaci di restare sospesi in volo fermo sopra l'acqua per lunghi secondi, prima di tuffarsi.",
+    "alimentazione": "Piccoli pesci, che può mangiare in volo senza tornare al posatoio.",
+    "sociale": "Coppie e gruppi familiari; i giovani dell'anno prima aiutano ad allevare la nidiata.",
+    "curiosita": "Scava il nido in una galleria lunga fino a 2 metri sulle sponde sabbiose dei fiumi."
+  },
+  {
+    "id": "malachite",
+    "cat": "uccelli",
+    "it": "Martin pescatore malachite",
+    "en": "Malachite kingfisher",
+    "sw": "Mdiria",
+    "sci": "Corythornis cristatus",
+    "iucn": "LC",
+    "alias": [
+      "martin pescatore"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Sui rami bassi e sulle canne a filo d'acqua. È minuscolo: chiedete all'autista di fermarsi vicino alle rive e cercate un lampo blu.",
+    "misure": "13 cm · 12–19 g.",
+    "riconoscere": "Minuscolo, con il dorso blu brillante, il ventre arancione, la gola bianca, il becco rosso-arancio e una cresta azzurra a strisce nere.",
+    "simili": "Il martin pescatore pigmeo, che vive lontano dall'acqua, non ha la cresta e ha una macchia viola sulla guancia.",
+    "comportamento": "Resta immobile su un posatoio basso e si tuffa all'improvviso.",
+    "alimentazione": "Piccoli pesci, girini, insetti acquatici.",
+    "sociale": "Solitario o in coppia.",
+    "curiosita": "Prima di inghiottire un pesce lo sbatte ripetutamente contro il ramo per stordirlo e ammorbidirlo."
+  },
+  {
+    "id": "marabu",
+    "cat": "uccelli",
+    "it": "Marabù",
+    "en": "Marabou stork",
+    "sw": "Korongo (nome generico per cicogne e gru)",
+    "sci": "Leptoptilos crumenifer",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Nei parchi lo trovate vicino alle carcasse e alle pozze in secca. Fuori dai parchi, in molte città tanzaniane si raduna intorno alle discariche e ai mercati del pesce.",
+    "misure": "Alto fino a 1,5 m · apertura alare fino a 3 m e oltre · 4–9 kg.",
+    "riconoscere": "Grande cicogna con il dorso grigio scuro e il ventre bianco. Ha la testa calva e rosata, macchiata, e un sacco di pelle che pende dalla gola. Il becco è enorme e appuntito.",
+    "comportamento": "Spazzino formidabile: alle carcasse compete con gli avvoltoi. Gli inglesi lo chiamano *undertaker bird*, «uccello becchino», per la postura incurvata e il «mantello» scuro.",
+    "alimentazione": "Carcasse, rifiuti, pesci, rane, roditori, perfino altri uccelli.",
+    "sociale": "Gregario: nidifica in colonie e si raduna in gruppi numerosi.",
+    "curiosita": "La testa calva lo aiuta a restare pulito mentre si nutre dentro le carcasse. Il sacco della gola non serve a contenere il cibo: probabilmente ha un ruolo nel corteggiamento e nella regolazione della temperatura."
+  },
+  {
+    "id": "sellata",
+    "cat": "uccelli",
+    "it": "Cicogna sellata",
+    "en": "Saddle-billed stork",
+    "sw": "Korongo",
+    "sci": "Ephippiorhynchus senegalensis",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Lungo il Grande Ruaha e nelle pozze, di solito in coppia, mentre cammina lentamente nell'acqua bassa.",
+    "misure": "Alta 1,4–1,5 m · apertura alare 2,4–2,7 m: la cicogna più alta.",
+    "riconoscere": "Testa, collo, ali e coda neri, corpo bianco. Il becco è enorme, rosso con una banda nera, e alla base ha una placca gialla a forma di sella. Il maschio ha gli occhi scuri e due bargigli gialli sotto il becco; la femmina ha gli occhi gialli.",
+    "comportamento": "Caccia camminando nell'acqua bassa e colpendo all'improvviso con il becco.",
+    "alimentazione": "Pesci, rane, granchi, piccoli rettili e uccelli.",
+    "sociale": "Coppie fedeli e territoriali.",
+    "curiosita": "È uno dei pochi uccelli in cui basta guardare il colore degli occhi per distinguere il maschio dalla femmina."
+  },
+  {
+    "id": "cicogna-bianca",
+    "cat": "uccelli",
+    "it": "Cicogna bianca",
+    "en": "White stork",
+    "sw": "Korongo mweupe",
+    "sci": "Ciconia ciconia",
+    "iucn": "LC",
+    "migratore": true,
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Migratrice: da novembre a marzo grandi stormi seguono le piogge nelle praterie dell'Africa orientale, a caccia di cavallette e bruchi. Più facile nelle zone aperte di Mikumi.",
+    "misure": "Alta circa 1 m · apertura alare 1,5–2 m.",
+    "riconoscere": "Bianca con le remiganti nere, becco e zampe rossi. La conosciamo tutti dai campanili.",
+    "simili": "La cicogna di Abdim, migratrice africana, è nera con il ventre bianco e il becco verdastro.",
+    "comportamento": "Qui la vedrete in stormi, a volte di centinaia di individui, che camminano nell'erba o volteggiano nelle correnti calde.",
+    "alimentazione": "Insetti grandi, rane, roditori.",
+    "sociale": "Molto gregaria durante la migrazione.",
+    "curiosita": "Molte cicogne bianche hanno un anello alla zampa. Se riuscite a fotografarne uno leggibile, potete segnalarlo all'ISPRA o su EURING, e scoprire da dove arriva: magari dal Piemonte o dalla Germania."
+  },
+  {
+    "id": "gru",
+    "cat": "uccelli",
+    "it": "Gru coronata grigia",
+    "en": "Grey crowned crane",
+    "sw": "Korongo",
+    "sci": "Balearica regulorum",
+    "iucn": "EN",
+    "alias": [
+      "gru coronata"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": null
+    },
+    "doveNota": "Segnalata nelle liste del Ruaha, ma poco frequente. Vive nelle zone umide e nei prati allagati: dopo le prime piogge è più probabile incontrarla. Anche le zone umide degli altopiani meridionali sono un habitat adatto.",
+    "misure": "Alta circa 1 m · 3–4 kg.",
+    "riconoscere": "Corpo grigio, ali bianche e castane, guance bianche con una macchia rossa e un bargiglio rosso sulla gola. Sulla testa ha una corona dorata di penne rigide, inconfondibile.",
+    "comportamento": "Le coppie danzano saltando, inchinandosi e allargando le ali, anche fuori dalla stagione degli amori.",
+    "alimentazione": "Semi, erba, insetti, rane, piccoli rettili.",
+    "sociale": "Coppie fedeli, che si riuniscono in gruppi fuori dal periodo riproduttivo.",
+    "curiosita": "È l'uccello nazionale dell'Uganda e compare sulla sua bandiera. È una delle due sole gru al mondo capaci di posarsi sugli alberi."
+  },
+  {
+    "id": "struzzo",
+    "cat": "uccelli",
+    "it": "Struzzo",
+    "en": "Common ostrich",
+    "sw": "Mbuni",
+    "sci": "Struthio camelus",
+    "iucn": "LC",
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Nel Ruaha è presente in piccoli numeri nelle zone aperte, per esempio vicino a Msembe, dove ci sono avvistamenti documentati. Il nord della Tanzania (Serengeti, Tarangire) è molto più ricco di struzzi.",
+    "misure": "Alto fino a 2,7 m · 90–150 kg: il più grande uccello vivente.",
+    "riconoscere": "Il maschio è nero con le ali e la coda bianche; nella stagione degli amori il collo e le zampe diventano rosa acceso. La femmina è bruno-grigia.",
+    "comportamento": "Non vola, ma corre fino a 70 km/h. Si difende a calci, con un artiglio robusto sul dito più grande.",
+    "alimentazione": "Piante, semi, radici, insetti, piccoli animali.",
+    "sociale": "Gruppi di 5–50 individui. Più femmine depongono le uova in un unico nido, covato a turno dal maschio (di notte) e dalla femmina dominante (di giorno).",
+    "curiosita": "Non nasconde la testa sotto la sabbia: quando cova, abbassa il collo a terra per mimetizzarsi, e da lontano sembra senza testa. Un uovo pesa circa 1,4 kg, come due dozzine di uova di gallina."
+  },
+  {
+    "id": "faraone",
+    "cat": "uccelli",
+    "it": "Faraona elmata",
+    "en": "Helmeted guineafowl",
+    "sw": "Kanga",
+    "sci": "Numida meleagris",
+    "iucn": "LC",
+    "alias": [
+      "faraona"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "alta",
+      "mpanga": null
+    },
+    "doveNota": "Stormi rumorosi che attraversano le piste di corsa, ovunque nella savana. Nei boschi fitti del Ruaha vive anche la faraona crestata (*Guttera pucherani*), con un ciuffo di piume nere sulla testa.",
+    "misure": "50–60 cm · 1–1,6 kg.",
+    "riconoscere": "Corpo rotondo grigio scuro, fittamente punteggiato di bianco. Testa nuda blu e rossa, con un «elmo» osseo sopra.",
+    "comportamento": "Preferisce correre piuttosto che volare. Di notte dorme sugli alberi.",
+    "alimentazione": "Semi, insetti, zecche, piccoli invertebrati.",
+    "sociale": "Stormi che possono superare i 20 individui fuori dal periodo riproduttivo.",
+    "curiosita": "In swahili si chiama *kanga*, come il tessuto stampato che vedrete indossare a tante donne tanzaniane. Secondo una spiegazione molto diffusa, i primi *kanga* avevano un motivo a puntini che ricordava le piume della faraona."
+  },
+  {
+    "id": "gruccione-min",
+    "cat": "uccelli",
+    "it": "Gruccione minore",
+    "en": "Little bee-eater",
+    "sw": "—",
+    "sci": "Merops pusillus",
+    "iucn": "LC",
+    "alias": [
+      "gruccione"
+    ],
+    "dove": {
+      "ruaha": "alta",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Comune sui rami bassi e sulle erbe alte, spesso in coppia o in piccoli gruppi stretti l'uno all'altro.",
+    "misure": "15–17 cm · 14–15 g: il gruccione più piccolo.",
+    "riconoscere": "Verde sul dorso, petto arancione, gola gialla bordata da un collare nero, mascherina nera sugli occhi.",
+    "simili": "Il gruccione europeo, migratore, è più grande, con il dorso castano e il ventre azzurro.",
+    "comportamento": "Fa brevi voli dal posatoio per catturare un insetto e torna quasi sempre allo stesso rametto.",
+    "alimentazione": "Api, vespe e altri insetti volanti. Prima di mangiarli strofina l'insetto sul ramo per rimuovere il pungiglione.",
+    "sociale": "Coppie. Di notte i membri di una famiglia dormono stretti in fila sullo stesso ramo.",
+    "curiosita": "Scava il nido in piccole gallerie nelle scarpate sabbiose e nei tumuli di terra."
+  },
+  {
+    "id": "gruccione-eu",
+    "cat": "uccelli",
+    "it": "Gruccione europeo",
+    "en": "European bee-eater",
+    "sw": "—",
+    "sci": "Merops apiaster",
+    "iucn": "LC",
+    "migratore": true,
+    "alias": [
+      "gruccione"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Migratore: gli stormi attraversano l'Africa orientale tra settembre e novembre, diretti verso l'Africa australe. Alcuni si fermano in Tanzania per l'inverno. Spesso lo si sente prima di vederlo: un «prruip» liquido che viene dal cielo.",
+    "misure": "27–29 cm · 45–70 g.",
+    "riconoscere": "Arcobaleno: dorso castano e giallo, gola gialla con un collare nero, ventre azzurro-turchese, coda con due penne centrali allungate.",
+    "simili": "Il gruccione minore è piccolo e verde.",
+    "comportamento": "Caccia in volo, spesso in stormi che volteggiano alti nel cielo.",
+    "alimentazione": "Api, vespe, libellule.",
+    "sociale": "Gregario per tutto l'anno.",
+    "curiosita": "In Italia nidifica in quasi tutte le regioni, nelle scarpate e nelle cave di sabbia. È un altro «compatriota» che potreste incontrare qui."
+  },
+  {
+    "id": "superbo",
+    "cat": "uccelli",
+    "it": "Storno superbo",
+    "en": "Superb starling",
+    "sw": "—",
+    "sci": "Lamprotornis superbus",
+    "iucn": "LC",
+    "alias": [
+      "storno"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "È lo storno simbolo dei safari del nord (Serengeti, Tarangire). Nel Ruaha è al limite sud del suo areale e poco comune: qui il ruolo di storno «di casa» spetta allo storno cenerino. Stima prudente.",
+    "misure": "18 cm · 55–70 g.",
+    "riconoscere": "Dorso e ali blu-verde metallizzato, testa nera, ventre arancione separato dal petto blu da una sottile banda bianca. Occhi chiari, quasi bianchi.",
+    "simili": "Lo storno metallico (*Lamprotornis chalybaeus*), più diffuso nel sud, è tutto blu-verde, senza il ventre arancione.",
+    "comportamento": "Sfrontato e chiassoso, si avvicina ai picnic e ai campi.",
+    "alimentazione": "Insetti, frutti, semi, briciole.",
+    "sociale": "Gruppi familiari. Le coppie sono aiutate da altri membri del gruppo.",
+    "curiosita": "Il colore metallico non dipende da pigmenti: è prodotto dalla struttura microscopica delle piume, che riflette la luce come una bolla di sapone."
+  },
+  {
+    "id": "cenerino",
+    "cat": "uccelli",
+    "it": "Storno cenerino",
+    "en": "Ashy starling",
+    "sw": "—",
+    "sci": "Lamprotornis unicolor",
+    "iucn": "LC",
+    "alias": [
+      "storno",
+      "endemico"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "È endemico della Tanzania: vive solo qui, nelle savane secche del centro e del nord, Ruaha compreso.",
+    "misure": "30 cm compresa una coda lunghissima · circa 80 g.",
+    "riconoscere": "Uno storno «senza colori»: grigio-bruno uniforme, con una lunga coda graduata e gli occhi giallo chiaro.",
+    "comportamento": "Spesso a terra in piccoli gruppi, sotto le acacie.",
+    "alimentazione": "Insetti e frutti.",
+    "sociale": "Gruppi familiari che allevano i piccoli insieme.",
+    "curiosita": "Insieme al bucero dal becco rosso della Tanzania e all'inseparabile dal collare giallo, è una delle specie endemiche della Tanzania che si possono vedere nel Ruaha."
+  },
+  {
+    "id": "tessitore",
+    "cat": "uccelli",
+    "it": "Tessitore dei bufali beccorosso",
+    "en": "Red-billed buffalo weaver",
+    "sw": "—",
+    "sci": "Bubalornis niger",
+    "iucn": "LC",
+    "alias": [
+      "tessitore",
+      "tessitori"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": "media",
+      "mpanga": null
+    },
+    "doveNota": "Cercate i grandi nidi disordinati di rametti sui baobab e sulle acacie. Il Ruaha è pieno di tessitori di molte specie: questa è una delle più facili da riconoscere.",
+    "misure": "22–25 cm · 65–85 g.",
+    "riconoscere": "Il maschio è nero con il becco rosso-arancio e una macchia bianca sulle ali visibile in volo. Le femmine sono bruno-scure, striate.",
+    "simili": "Molti altri tessitori (genere *Ploceus*) sono gialli con la maschera nera: costruiscono nidi a palla, intrecciati con l'erba e appesi alle punte dei rami, spesso sopra l'acqua.",
+    "comportamento": "Colonie rumorose. I nidi formano masse di rami spinosi con molte «stanze».",
+    "alimentazione": "Insetti, semi, frutti, raccolti a terra.",
+    "sociale": "Coloniale. I maschi hanno più femmine.",
+    "curiosita": "Il nome viene dall'abitudine di seguire le mandrie di bufali e di bestiame per catturare gli insetti che gli animali sollevano camminando."
+  },
+  {
+    "id": "inseparabile",
+    "cat": "uccelli",
+    "it": "Inseparabile dal collare giallo",
+    "en": "Yellow-collared lovebird",
+    "sw": "Kasuku (nome generico dei pappagalli)",
+    "sci": "Agapornis personatus",
+    "iucn": "LC",
+    "alias": [
+      "pappagallo",
+      "endemico"
+    ],
+    "dove": {
+      "ruaha": "media",
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "È endemico della Tanzania centrale e settentrionale, ed è presente nel Ruaha, spesso in gruppetti rumorosi sui baobab e vicino alle pozze.",
+    "misure": "14,5 cm · 40–50 g.",
+    "riconoscere": "Piccolo pappagallo verde, con la testa nera, un collare giallo vivo, il becco rosso e un anello bianco intorno all'occhio.",
+    "comportamento": "Vola veloce in piccoli stormi stridenti. Ha bisogno di bere ogni giorno.",
+    "alimentazione": "Semi, soprattutto di erbe, e frutti.",
+    "sociale": "Coppie fedeli, che vivono in stormi. Nidificano nelle cavità degli alberi, spesso dei baobab.",
+    "curiosita": "Molti degli «inseparabili» venduti nei negozi di animali in Europa discendono da questa specie tanzaniana. Fuori dalla Tanzania esistono popolazioni inselvatichite, nate da uccelli fuggiti dalle gabbie, per esempio in Kenya."
+  },
+  {
+    "id": "kipunji",
+    "cat": "altopiani",
+    "it": "Kipunji",
+    "en": "Kipunji (highland mangabey)",
+    "sw": "Kipunji",
+    "sci": "Rungwecebus kipunji",
+    "iucn": "EN",
+    "alias": [
+      "mangabey"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Vive solo in due zone della Tanzania. Circa il 90% della popolazione si trova nel complesso forestale Rungwe–Livingstone, che comprende la foresta di Livingstone nel Parco Nazionale di Kitulo, il blocco forestale più grande della catena dei Kipengere. Il resto vive nella foresta di Ndundulu, sui Monti Udzungwa. Per Mpanga Kipengere non ci sono segnalazioni.",
+    "misure": "Circa 10–16 kg · lunghezza 85–90 cm più la coda.",
+    "riconoscere": "Scimmia di foresta bruno-grigiastra, con una cresta di pelo eretta sulla testa e lunghe basette ai lati della faccia scura. La coda è lunga, con la punta più chiara. La foto della scheda è un'illustrazione scientifica: le foto libere di questa specie sono rarissime.",
+    "comportamento": "Vive in alto, tra le chiome della foresta montana, tra 1.300 e 2.450 m. Ha un richiamo particolare, un «honk-bark» rauco e profondo, diverso da quello di tutte le altre scimmie africane.",
+    "alimentazione": "Foglie, frutti, germogli, corteccia, licheni, insetti.",
+    "sociale": "Gruppi di 25–40 individui con più maschi.",
+    "curiosita": "È stata scoperta dagli scienziati solo nel 2003, anche se le comunità locali la conoscevano da sempre. Nel 2006 è stata descritta come appartenente a un genere nuovo, *Rungwecebus*, dal nome del Monte Rungwe: era il primo genere nuovo di scimmia africana dal 1923. Grazie alla protezione delle foreste, dal primo censimento la popolazione è cresciuta di circa due terzi."
+  },
+  {
+    "id": "abbott",
+    "cat": "altopiani",
+    "it": "Cefalofo di Abbott",
+    "en": "Abbott's duiker",
+    "sw": "—",
+    "sci": "Cephalophus spadix",
+    "iucn": "EN",
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Endemico delle foreste montane della Tanzania: Kilimanjaro, Usambara, Udzungwa e la foresta di Livingstone a Kitulo. È schivissimo e quasi solo le fototrappole riescono a documentarlo. Per Mpanga Kipengere non ci sono dati.",
+    "misure": "50–60 kg · altezza al garrese circa 65 cm.",
+    "riconoscere": "Grande cefalofo bruno scuro, quasi nero, con la testa più chiara e una cresta di pelo rossiccio tra le corna, corte e appuntite.",
+    "simili": "Il cefalofo comune è molto più piccolo, grigio-bruno e vive nella savana.",
+    "comportamento": "Notturno e solitario, nel fitto della foresta.",
+    "alimentazione": "Frutti caduti, foglie, germogli.",
+    "sociale": "Solitario o in coppia.",
+    "curiosita": "È uno dei cefalofi più minacciati d'Africa, a causa della caccia con i lacci e del disboscamento. Nella foresta di Livingstone è stato documentato soprattutto con le fototrappole dei ricercatori che studiano il kipunji."
+  },
+  {
+    "id": "seedeater",
+    "cat": "altopiani",
+    "it": "Verzellino dei Kipengere",
+    "en": "Kipengere seedeater",
+    "sw": "—",
+    "sci": "Crithagra melanochroa",
+    "iucn": "LC",
+    "alias": [
+      "Tanzania seedeater",
+      "Serinus melanochrous",
+      "endemico"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Prende il nome proprio dalla catena dei Kipengere. È endemico della Tanzania: vive solo nei margini delle foreste montane e negli arbusteti degli altopiani di Njombe e Mbeya (Kipengere, Monte Rungwe) e dei Monti Udzungwa.",
+    "misure": "15 cm · circa 20 g.",
+    "riconoscere": "Piccolo fringillide (parente dei verzellini e dei canarini) bruno scuro e striato, con il becco conico e robusto e una sottile banda chiara sopra l'occhio. Va cercato ai margini della foresta. Non ho trovato foto con licenza libera.",
+    "comportamento": "Discreto, si muove tra i cespugli e le chiome basse in coppie o piccoli gruppi.",
+    "alimentazione": "Semi, gemme, frutti.",
+    "sociale": "Coppie e piccoli gruppi.",
+    "curiosita": "È classificato «a minor preoccupazione», ma BirdLife segnala che la popolazione non è mai stata stimata e probabilmente sta calando per la conversione delle foreste in campi e piantagioni di pini ed eucalipti. Un avvistamento documentato (con foto o su eBird) ha un vero valore scientifico."
+  },
+  {
+    "id": "rondine-blu",
+    "cat": "altopiani",
+    "it": "Rondine blu",
+    "en": "Blue swallow",
+    "sw": "Mbayuwayu (nome generico delle rondini)",
+    "sci": "Hirundo atrocaerulea",
+    "iucn": "VU",
+    "migratore": true,
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Si riproduce nelle praterie umide d'altura dell'Africa australe e orientale. Arriva a fine settembre e riparte ad aprile per svernare tra Kenya e Uganda. L'altopiano di Kitulo è un'area chiave per la specie. Nel resto della Tanzania meridionale la popolazione è stimata in circa mille individui, sparsi nelle praterie degli altopiani: un avvistamento a Mpanga Kipengere a dicembre è possibile, ma raro.",
+    "misure": "18–25 cm compresa la coda · circa 13 g.",
+    "riconoscere": "Rondine blu-nera metallizzata, uniforme, senza bianco. I maschi hanno filamenti della coda lunghissimi.",
+    "simili": "La rondine comune europea, presente in inverno, ha la gola rossa e il ventre chiaro.",
+    "comportamento": "Vola basso sopra le praterie di montagna e nidifica in buchi del terreno, doline e vecchie tane di oritteropo.",
+    "alimentazione": "Insetti catturati in volo.",
+    "sociale": "Coppie territoriali sparse.",
+    "curiosita": "È una delle rondini più minacciate d'Africa: secondo l'ultima stima la popolazione mondiale conta tra 1.169 e 1.338 coppie. Ogni ettaro di prateria d'altura convertito in pineta o in campo coltivato le toglie un pezzo di casa."
+  },
+  {
+    "id": "vedova-montana",
+    "cat": "altopiani",
+    "it": "Vedova di palude montana",
+    "en": "Mountain marsh widowbird",
+    "sw": "—",
+    "sci": "Euplectes psammacromius",
+    "iucn": "LC",
+    "alias": [
+      "vedova",
+      "Euplectes hartlaubi"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Vive nelle praterie umide d'altura del sud-ovest della Tanzania, del nord del Malawi e dello Zambia. È tra le specie che Wikipedia indica come caratteristiche della riserva di Mpanga Kipengere (come «marsh widowbird»).",
+    "misure": "Il maschio in abito nuziale misura fino a 35–40 cm, coda compresa.",
+    "riconoscere": "Il maschio in abito nuziale è nero, con le spalle giallo-arancio e una coda lunga e larga che sventola in volo. Le femmine e i maschi in abito invernale sono bruni e striati, simili a passeri.",
+    "comportamento": "Nella stagione delle piogge i maschi fanno voli di parata lenti e ondeggianti sopra le paludi, con la coda aperta.",
+    "alimentazione": "Semi di graminacee, insetti.",
+    "sociale": "I maschi difendono territori in cui nidificano più femmine.",
+    "curiosita": "A dicembre la stagione riproduttiva è nel pieno: è il momento migliore per vedere i maschi nell'abito più spettacolare."
+  },
+  {
+    "id": "cisticola",
+    "cat": "altopiani",
+    "it": "Beccamoschino di Njombe",
+    "en": "Churring cisticola",
+    "sw": "—",
+    "sci": "Cisticola njombe",
+    "iucn": "LC",
+    "alias": [
+      "cisticola"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "media"
+    },
+    "doveNota": "Vive solo nelle praterie d'altura del sud-ovest della Tanzania e del nord del Malawi. Il nome scientifico viene proprio da Njombe, la regione di Mpanga Kipengere e di Mavanga.",
+    "misure": "13 cm · circa 12 g.",
+    "riconoscere": "Piccolo uccellino bruno striato, con la testa rossiccia e la coda corta. Come tutti i beccamoschini si riconosce più dal canto che dall'aspetto.",
+    "comportamento": "Canta da un fusto d'erba o da un cespuglio, con un trillo ronzante, «churring», che gli dà il nome inglese.",
+    "alimentazione": "Piccoli insetti.",
+    "sociale": "Coppie territoriali.",
+    "curiosita": "Il genere *Cisticola* conta decine di specie quasi identiche, e i birdwatcher le distinguono soprattutto ascoltandole. È lo stesso genere del beccamoschino che vive nei canneti e nei campi italiani."
+  },
+  {
+    "id": "tempeli",
+    "cat": "altopiani",
+    "it": "Camaleonte dal naso tubercolato",
+    "en": "Tubercle-nosed chameleon",
+    "sw": "Kinyonga",
+    "sci": "Trioceros tempeli",
+    "iucn": "NE",
+    "alias": [
+      "camaleonte",
+      "Chamaeleo tempeli"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Vive sugli alberi e i cespugli delle foreste montane del sud-ovest della Tanzania, tra 1.500 e 2.400 m: Udzungwa, monti dell'Ubena (Njombe) e dell'Ukinga (Makete). La foto della scheda è stata scattata a Kitulo. Non ho trovato una valutazione IUCN pubblicata.",
+    "misure": "Circa 15–20 cm compresa la coda.",
+    "riconoscere": "Verde o bruno, con una piccola protuberanza tubercolata sul muso e due «barbe» di scaglie sotto la gola (in inglese è chiamato anche *double-bearded chameleon*).",
+    "simili": "Il camaleonte dal collo a lembi della savana è più grande, ha lembi mobili dietro la testa e non ha protuberanze sul muso.",
+    "comportamento": "Lento e mimetico. Di notte, con la torcia, appare pallido sui rami.",
+    "alimentazione": "Insetti.",
+    "sociale": "Solitario.",
+    "curiosita": "La Tanzania è uno dei paesi più ricchi di camaleonti al mondo, e molte specie vivono su una sola catena montuosa. Ogni altopiano è come un'isola."
+  },
+  {
+    "id": "msuyae",
+    "cat": "altopiani",
+    "it": "Camaleonte di Msuya",
+    "en": "Southern Highlands one-horned chameleon",
+    "sw": "Kinyonga",
+    "sci": "Kinyongia msuyae",
+    "iucn": "NE",
+    "alias": [
+      "camaleonte"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Descritto nel 2015 su quattro frammenti di foresta: due sui Monti Udzungwa e due sui Monti Livingstone, a sud-est degli altopiani di Njombe. Per Mpanga Kipengere non ci sono segnalazioni. Non risulta ancora una valutazione IUCN.",
+    "misure": "10–16 cm compresa la coda.",
+    "riconoscere": "Bruno o verde, punteggiato di piccole squame azzurre. I maschi hanno sul muso un corto «corno» che si biforca alla punta.",
+    "comportamento": "Vive sugli alberi nei margini della foresta montana.",
+    "alimentazione": "Insetti.",
+    "sociale": "Solitario.",
+    "curiosita": "Porta il nome di Charles A. Msuya, il naturalista tanzaniano che raccolse il primo esemplare. È un esempio di quante specie restino da scoprire negli altopiani meridionali, che gli studiosi considerano tra le zone meno esplorate dell'Africa orientale."
+  },
+  {
+    "id": "orchidee",
+    "cat": "flora",
+    "it": "Orchidee di terra (Disa)",
+    "en": "Ground orchids",
+    "sw": "—",
+    "sci": "Disa erubescens subsp. carsonii (sin. Disa stolzii) e altre",
+    "iucn": "NE",
+    "alias": [
+      "orchidea",
+      "orchidee",
+      "Satyrium",
+      "Habenaria",
+      "Holothrix"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "A Kitulo sono state censite circa 45 specie di orchidee terrestri. Secondo l'ente del turismo tanzaniano 31 sono endemiche della Tanzania, e almeno 3 vivono solo nel parco. La fioritura va da novembre ad aprile, con il picco tra dicembre e marzo: siamo nel momento giusto. Le praterie d'altura di Mpanga Kipengere hanno ambienti simili, ma non ci sono censimenti pubblicati.",
+    "misure": "Steli fiorali da 20 a 60 cm.",
+    "riconoscere": "Le Disa hanno fiori arancio, rossi o rosati, con un sepalo superiore a forma di cappuccio. A Kitulo crescono insieme a *Satyrium* (fiori con due speroni), *Habenaria* (fiori verdi-bianchi a frange) e *Holothrix*.",
+    "comportamento": "Crescono nell'erba delle praterie umide. Dopo la fioritura la pianta si ritira in un tubero sotterraneo fino alle piogge successive.",
+    "curiosita": "I tuberi di queste orchidee sono la base del *chikanda*, o *kinaka*, una specie di «salame vegetale» molto apprezzato in Zambia. La raccolta e il contrabbando di milioni di tuberi dagli altopiani della Tanzania meridionale sono una delle principali minacce per le orchidee della zona.",
+    "consiglio": "Fotografate, non raccogliete. Per le foto ravvicinate inginocchiatevi sul sentiero, invece di camminare nell'erba: è lì che crescono le piante più giovani."
+  },
+  {
+    "id": "gloriosa",
+    "cat": "flora",
+    "it": "Gloriosa (giglio di fuoco)",
+    "en": "Flame lily",
+    "sw": "—",
+    "sci": "Gloriosa superba",
+    "iucn": "NE",
+    "alias": [
+      "giglio"
+    ],
+    "dove": {
+      "ruaha": "rara",
+      "mikumi": "rara",
+      "mpanga": "rara"
+    },
+    "doveNota": "Diffusa in gran parte dell'Africa tropicale, dalla savana agli altopiani. Fiorisce con le piogge, arrampicandosi sui cespugli. La foto della scheda è stata scattata a Kitulo.",
+    "misure": "Pianta rampicante fino a 2–3 m · fiori di 8–10 cm.",
+    "riconoscere": "Fiori rosso fuoco bordati di giallo, con i petali ondulati e piegati all'indietro come fiamme. Le foglie terminano con un viticcio.",
+    "comportamento": "Si arrampica usando la punta delle foglie come viticci.",
+    "curiosita": "È il fiore nazionale dello Zimbabwe. Tutta la pianta, e in particolare il tubero, è molto velenosa: contiene colchicina.",
+    "consiglio": "Non toccatela e non lasciatela toccare ai bambini dei villaggi durante le attività. Lavatevi le mani se la maneggiate per sbaglio."
+  },
+  {
+    "id": "protea",
+    "cat": "flora",
+    "it": "Protea d'altura",
+    "en": "Protea",
+    "sw": "—",
+    "sci": "Protea sp.",
+    "iucn": "NE",
+    "alias": [
+      "protea"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Gli arbusti di protea crescono nelle praterie e sui pendii rocciosi d'altura. La foto è stata scattata a Kitulo. Non identifico la specie esatta: in Tanzania meridionale ne vivono diverse.",
+    "misure": "Arbusti da 1 a 4 m · infiorescenze di 6–12 cm.",
+    "riconoscere": "Arbusti con foglie dure e coriacee. Le grandi infiorescenze a coppa, crema o rosate, sono circondate da brattee simili a petali.",
+    "comportamento": "Resiste agli incendi stagionali delle praterie grazie alla corteccia spessa, e ricaccia dalla base.",
+    "curiosita": "Le protee sono il simbolo del Sudafrica e del Capo, ma la famiglia ha origini antichissime, nel supercontinente Gondwana. Le specie degli altopiani tanzaniani sono le «cugine» tropicali delle protee del Capo."
+  },
+  {
+    "id": "dierama",
+    "cat": "flora",
+    "it": "Dierama (canna d'angelo)",
+    "en": "Angel's fishing rod",
+    "sw": "—",
+    "sci": "Dierama pendulum",
+    "iucn": "NE",
+    "alias": [
+      "iris"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "La pianta della foto, scattata nelle praterie di Kitulo, è identificata dall'autore come *Dierama pendulum*; in Africa orientale vivono anche specie molto simili. Il genere appartiene alla famiglia degli iris ed è tipica delle praterie montane dell'Africa orientale e australe.",
+    "misure": "Steli sottili e arcuati, alti 60–150 cm.",
+    "riconoscere": "Fiori a campanula rosa-magenta, che pendono da steli lunghissimi e sottili, piegati come canne da pesca. Le foglie sono strette, simili all'erba.",
+    "curiosita": "In inglese si chiama *angel's fishing rod*, «canna da pesca degli angeli»: con il vento i fiori oscillano come esche appese a una lenza."
+  },
+  {
+    "id": "lobelia",
+    "cat": "flora",
+    "it": "Lobelia di Mildbraed",
+    "en": "Mildbraed's lobelia",
+    "sw": "—",
+    "sci": "Lobelia mildbraedii",
+    "iucn": "NE",
+    "alias": [
+      "lobelia"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Fotografata a Kitulo, nelle zone umide d'altura. Le lobelie giganti sono tra le piante più caratteristiche delle montagne dell'Africa orientale.",
+    "misure": "Rosetta di foglie da cui spunta una spiga fiorale alta 1–2 m.",
+    "riconoscere": "Una lunga colonna cilindrica, fitta di fiori e brattee verdi o bluastre, che si alza da una rosetta di foglie.",
+    "comportamento": "Cresce lentamente per anni prima di produrre la grande spiga fiorale, impollinata soprattutto da uccelli e insetti.",
+    "curiosita": "Le lobelie giganti si sono evolute in modo indipendente su diverse montagne africane: è un esempio classico di «evoluzione convergente». Anche sul Kilimanjaro e sul Kenya ne vivono specie simili."
+  },
+  {
+    "id": "moraea",
+    "cat": "flora",
+    "it": "Moraea di Kitulo",
+    "en": "Moraea",
+    "sw": "—",
+    "sci": "Moraea callista",
+    "iucn": "NE",
+    "alias": [
+      "iris",
+      "giaggiolo"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "Endemica della Tanzania, secondo le banche dati botaniche (POWO). I campioni noti vengono dall'area di Kitulo, nel distretto di Makete, nella stessa regione di Njombe.",
+    "misure": "Pianta erbacea alta 30–50 cm · fiori di 5–7 cm.",
+    "riconoscere": "Un piccolo iris selvatico: tre grandi petali esterni viola-azzurri, con una macchia gialla alla base, e tre petali interni più piccoli.",
+    "comportamento": "Ogni fiore dura spesso un solo giorno, ma la pianta ne produce molti in successione.",
+    "curiosita": "Il genere *Moraea* conta circa 200 specie, quasi tutte africane. È uno dei generi di bulbose più ricchi del continente."
+  },
+  {
+    "id": "commelina",
+    "cat": "flora",
+    "it": "Commelina di Kitulo",
+    "en": "Kitulo dayflower",
+    "sw": "—",
+    "sci": "Commelina kituloensis",
+    "iucn": "NE",
+    "alias": [
+      "commelina"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": null
+    },
+    "doveNota": "Il nome stesso dice dove vive: le poche raccolte note vengono dalle praterie di Kitulo, a oltre 2.700 m. Non risultano segnalazioni da Mpanga Kipengere.",
+    "misure": "Pianta erbacea bassa · fiori di 2–3 cm.",
+    "riconoscere": "Fiori bianchi o azzurro chiaro con due petali più grandi, che spuntano da una brattea verde ripiegata a barchetta.",
+    "comportamento": "Come tutte le commeline, i fiori si aprono al mattino e appassiscono in giornata (in inglese sono le *dayflower*).",
+    "curiosita": "Molte piante di Kitulo sono state descritte da raccolte fatte in pochi punti del plateau. Una foto ben fatta, con la data e il luogo, può essere utile ai botanici: caricatela su iNaturalist."
+  },
+  {
+    "id": "ginepro",
+    "cat": "flora",
+    "it": "Ginepro africano («cedro» dell'Africa orientale)",
+    "en": "East African pencil cedar",
+    "sw": "—",
+    "sci": "Juniperus procera",
+    "iucn": "LC",
+    "alias": [
+      "cedro",
+      "ginepro"
+    ],
+    "dove": {
+      "ruaha": null,
+      "mikumi": null,
+      "mpanga": "rara"
+    },
+    "doveNota": "È uno degli alberi tipici delle foreste montane secche dell'Africa orientale, presente anche nelle foreste di Kitulo e degli altopiani meridionali. Molte delle foreste della riserva di Mpanga Kipengere sono di tipo montano.",
+    "misure": "Albero alto 25–40 m (eccezionalmente oltre).",
+    "riconoscere": "Conifera alta e slanciata, con la chioma conica e scura, la corteccia fibrosa bruno-rossiccia e le foglie piccole, a squame. Le «bacche» sono bluastre.",
+    "comportamento": "Cresce nelle foreste montane tra circa 1.500 e 3.000 m.",
+    "curiosita": "È il ginepro più alto del mondo e l'unico che cresce naturalmente nell'emisfero australe. Il suo legno profumato e resistente alle termiti è stato sfruttato a lungo per pali, matite e costruzioni, e in molte zone è diventato raro."
+  }
+]

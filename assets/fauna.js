@@ -1,5 +1,5 @@
 /* Atlante della fauna: griglia, filtri, ricerca, scheda di dettaglio, checklist «Avvistati!» */
-(function () {
+KT.dati(['fauna'], function () {
   var DATI = window.FAUNA || [], FOTO = window.FOTO || {};
   var PARCHI = { ruaha: 'Ruaha', mikumi: 'Mikumi', mpanga: 'Mpanga Kipengere' };
   var CAT = { big5: 'Big Five', predatori: 'Predatori', erbivori: 'Grandi erbivori', antilopi: 'Antilopi', primati: 'Primati', rettili: 'Rettili', uccelli: 'Uccelli', altopiani: 'Altopiani', flora: 'Fiori e piante' };
@@ -168,4 +168,4 @@
   renderGriglia(); renderChecklist();
   function daHash() { var id = location.hash.slice(1); if (id && DATI.some(function (s) { return s.id === id; })) apri(id, true); }
   window.addEventListener('hashchange', daHash); daHash();
-})();
+});

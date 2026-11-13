@@ -1,0 +1,206 @@
+# Configurazione del pannello «Modifica la guida» (Pages CMS: https://app.pagescms.org)
+# Ogni voce qui sotto diventa un modulo da compilare. Non serve modificare questo file.
+
+media:
+  input: img
+  output: img
+
+content:
+  - name: avvisi
+    label: "📣 Avvisi per il gruppo"
+    type: file
+    path: data/avvisi.json
+    format: json
+    fields:
+      - name: avvisi
+        label: Avvisi
+        description: "Compaiono in cima alla home, nell'ordine in cui sono qui. Per nasconderne uno senza cancellarlo, togli «Pubblicato»."
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titolo}"
+        fields:
+          - { name: titolo, label: Titolo, type: string, required: true }
+          - { name: data, label: Data, type: string, description: "Come vuoi che appaia, es. 20/11/2026" }
+          - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+          - { name: importante, label: Importante (bordo rosso), type: boolean }
+          - { name: pubblicato, label: Pubblicato, type: boolean, default: true }
+
+  - name: mavanga
+    label: "🏡 Mavanga: il progetto del villaggio"
+    type: file
+    path: data/mavanga.json
+    format: json
+    fields:
+      - name: aggiornato
+        label: Aggiornato il
+        type: string
+        description: "es. 20/11/2026. ⚠️ Il sito è pubblico: niente telefoni, nomi e cognomi, indirizzi o foto di bambini."
+      - name: progetto
+        label: Il progetto
+        type: object
+        fields:
+          - { name: titolo, label: Nome del progetto, type: string }
+          - { name: associazione, label: Organizzazione o parrocchia, type: string }
+          - { name: descrizione, label: Descrizione, type: text, description: "3–5 righe: chi sono, da quanto lavorano qui, a cosa serve il nostro aiuto" }
+      - { name: attivita, label: Le attività, type: text, list: true }
+      - { name: giornata, label: Una giornata tipo, type: text }
+      - { name: alloggio, label: Dove dormiamo e mangiamo, type: text, description: "Senza indirizzo" }
+      - { name: regole, label: Le regole del villaggio, type: text, list: true }
+      - { name: portare, label: Cosa portare per il progetto, type: text, list: true }
+      - name: domande
+        label: Domande frequenti
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{d}"
+        fields:
+          - { name: d, label: Domanda, type: string }
+          - { name: r, label: Risposta, type: text }
+
+  - name: itinerario
+    label: "🗺️ Itinerario e mappa"
+    type: file
+    path: data/itinerario.json
+    format: json
+    fields:
+      - { name: aggiornato, label: Aggiornato il, type: string }
+      - { name: nota, label: Nota sotto la timeline, type: text }
+      - name: giorni
+        label: Giorno per giorno
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Giorno {num} · {titolo}"
+        fields:
+          - { name: num, label: "Numero del giorno (es. 1 oppure 4–8)", type: string }
+          - { name: breve, label: "Data breve (es. 29/11)", type: string }
+          - { name: data, label: "Data per esteso", type: string }
+          - { name: titolo, label: Titolo, type: string }
+          - { name: testo, label: Descrizione, type: text }
+          - { name: tragitti, label: "Etichette (tragitti, notte…)", type: string, list: true }
+          - name: colore
+            label: Colore della tappa
+            type: select
+            options:
+              values:
+                - { name: dar, label: Dar es Salaam (blu) }
+                - { name: mpanga, label: Mbeya e Mpanga (verde) }
+                - { name: mavanga, label: Mavanga (ocra) }
+                - { name: iringa, label: Iringa (terracotta) }
+                - { name: ruaha, label: Ruaha (marrone) }
+                - { name: masai, label: Masai (rosso) }
+                - { name: mikumi, label: Mikumi (verde oliva) }
+                - { name: festa, label: Festa (rosso acceso) }
+          - { name: festa, label: Giorno di festa, type: boolean }
+          - { name: etichetta, label: "Etichetta speciale (es. Uhuru Day)", type: string }
+      - name: tappe
+        label: Punti sulla mappa
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nome}"
+        fields:
+          - { name: id, label: "Codice (minuscolo, senza spazi; non cambiarlo per le tappe esistenti)", type: string }
+          - { name: numero, label: "Numero sul segnaposto (vuoto = punto piccolo)", type: string }
+          - { name: nome, label: Nome, type: string }
+          - { name: quando, label: Quando, type: string }
+          - { name: ll, label: "Coordinate: latitudine, poi longitudine (da Google Maps)", type: number, list: { min: 2, max: 2 } }
+          - name: colore
+            label: Colore
+            type: select
+            options:
+              values: [dar, mpanga, mavanga, iringa, ruaha, masai, mikumi]
+      - name: percorsi
+        label: Linee sulla mappa
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Linea {index}"
+        fields:
+          - { name: tappe, label: "Codici delle tappe da collegare, in ordine", type: string, list: true }
+          - { name: volo, label: Volo (linea tratteggiata), type: boolean }
+          - { name: nome, label: Nome della linea, type: string }
+
+  - name: piatti
+    label: "🍲 Piatti (Mangiare e bere)"
+    type: file
+    path: data/piatti.json
+    format: json
+    list: true
+    fields:
+      - { name: nome, label: Nome swahili, type: string }
+      - { name: it, label: In italiano, type: string }
+      - { name: foto, label: Foto, type: image, description: "Formato orizzontale, meglio se piccola (circa 500 px di larghezza)." }
+      - { name: credito, label: "Credito della foto: autore · licenza · link", type: string }
+      - { name: descr, label: Descrizione, type: text, description: "Per il corsivo: *parola*" }
+      - { name: ingredienti, label: Ingredienti, type: text }
+      - { name: dove, label: Dove provarlo, type: text }
+      - { name: prezzo, label: Prezzo indicativo, type: string }
+
+  - name: fauna
+    label: "🦁 Fauna: le schede delle specie"
+    type: file
+    path: data/fauna.json
+    format: json
+    list: true
+    fields:
+      - { name: id, label: "Codice (non cambiarlo: è il nome della foto)", type: string }
+      - name: cat
+        label: Categoria
+        type: select
+        options:
+          values:
+            - { name: big5, label: Big Five }
+            - { name: predatori, label: Predatori }
+            - { name: erbivori, label: Grandi erbivori }
+            - { name: antilopi, label: Antilopi }
+            - { name: primati, label: Primati }
+            - { name: rettili, label: Rettili }
+            - { name: uccelli, label: Uccelli }
+            - { name: altopiani, label: Altopiani }
+            - { name: flora, label: Fiori e piante }
+      - { name: it, label: Nome italiano, type: string }
+      - { name: en, label: Nome inglese, type: string }
+      - { name: sw, label: Nome swahili, type: string }
+      - { name: sci, label: Nome scientifico, type: string }
+      - { name: alias, label: "Altri nomi per la ricerca", type: string, list: true }
+      - name: iucn
+        label: Stato IUCN
+        type: select
+        options:
+          values:
+            - { name: LC, label: LC · Minor preoccupazione }
+            - { name: NT, label: NT · Quasi minacciata }
+            - { name: VU, label: VU · Vulnerabile }
+            - { name: EN, label: EN · In pericolo }
+            - { name: CR, label: CR · In pericolo critico }
+            - { name: DD, label: DD · Dati insufficienti }
+            - { name: NE, label: NE · Non valutata }
+      - name: dove
+        label: Probabilità di avvistamento
+        type: object
+        fields:
+          - { name: ruaha, label: Ruaha, type: select, options: { values: [alta, media, rara] } }
+          - { name: mikumi, label: Mikumi, type: select, options: { values: [alta, media, rara] } }
+          - { name: mpanga, label: Mpanga Kipengere, type: select, options: { values: [alta, media, rara] } }
+      - { name: doveNota, label: Dove avvistarla, type: text }
+      - { name: misure, label: Misure, type: text }
+      - { name: riconoscere, label: Come riconoscerla, type: text }
+      - { name: simili, label: Da non confondere con…, type: text }
+      - { name: comportamento, label: Comportamento, type: text }
+      - { name: alimentazione, label: Alimentazione, type: text }
+      - { name: sociale, label: Vita sociale, type: text }
+      - { name: curiosita, label: Lo sapevi che…, type: text }
+      - { name: consiglio, label: Il consiglio dell'autore, type: text }
+      - { name: notturno, label: Attiva soprattutto di notte, type: boolean }
+      - { name: migratore, label: Migratore, type: boolean }
+      - { name: fuori, label: Non presente nel nostro itinerario, type: boolean }
+
+settings:
+  content: true

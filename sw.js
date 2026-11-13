@@ -1,26 +1,23 @@
 /* Service worker di Karibu Tanzania: rende la guida consultabile senza connessione.
    - Testi, dati e pagine: prima la rete (così le modifiche online arrivano subito), poi la copia salvata.
    - Immagini, font, librerie e mappa: prima la copia salvata, poi la rete.
-   Versione: 20261112-1014 (generato automaticamente: per aggiornarlo rigenera il file). */
-var VERSIONE = 'kt-20261112-1014';
+   Versione: 20261113-1520 (generato automaticamente: per aggiornarlo rigenera il file). */
+var VERSIONE = 'kt-20261113-1520';
 var BASE = 'kt-base-' + VERSIONE, FOTO = 'kt-foto', EXTRA = 'kt-extra', MAPPA = 'kt-mappa';
 var ELENCO = [
   './assets/fauna.js',
   './assets/guida.css',
   './assets/guida.js',
-  './data/fauna-blocco1.js',
-  './data/fauna-blocco2.js',
-  './data/fauna-blocco3.js',
-  './data/fauna-blocco4.js',
-  './data/fauna-blocco5.js',
+  './data/avvisi.json',
+  './data/fauna.json',
   './data/foto-crediti.js',
   './data/foto-crediti-2.js',
   './data/foto-crediti-3.js',
   './data/foto-crediti-4.js',
   './data/foto-crediti-5.js',
-  './data/itinerario.js',
-  './data/mavanga.js',
-  './data/piatti.js',
+  './data/itinerario.json',
+  './data/mavanga.json',
+  './data/piatti.json',
   './fase1-direzione-grafica.html',
   './fauna.html',
   './img/altopiani-panorama.jpg',

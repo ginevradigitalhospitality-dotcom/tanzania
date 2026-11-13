@@ -64,6 +64,13 @@
 .tab-mance{width:100%;border-collapse:collapse;font-size:.93rem;margin:10px 0}
 .tab-mance th,.tab-mance td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--linea);vertical-align:top}
 .tab-mance th{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--grigio)}
+.avvisi{padding:28px 0 6px;background:var(--sabbia)}
+.avvisi[hidden]{display:none}
+.avviso{background:var(--carta);border:1px solid var(--linea);border-left:5px solid var(--ocra);border-radius:10px;padding:14px 18px;margin:0 0 12px}
+.avviso.importante{border-left-color:#B0362A}
+.avviso h3{margin:0 0 6px;font-size:1.2rem}
+.avv-data{margin:0 0 4px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--grigio)}
+.avv-testo p:last-child{margin-bottom:0}
 </style>
 </head>
 <body>
@@ -87,6 +94,8 @@
     <p class="credito">Foto: Elefanti al tramonto, Parco Nazionale del Ruaha · Brian Harries · <a href="https://commons.wikimedia.org/wiki/File:Elephants_At_Sunset,_Ruaha_National_Park.jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
   </div>
 </div>
+
+<div id="avvisi" class="avvisi" hidden></div>
 
 <!-- BENVENUTI -->
 <section id="benvenuti"><div class="wrap colonne">
@@ -320,11 +329,21 @@
 <button class="top-btn" aria-label="Torna su">↑</button>
 
 <script src="assets/guida.js"></script>
-<script src="data/itinerario.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-/* Timeline e mappa: i dati sono in data/itinerario.js */
-(function () {
+/* Timeline e mappa: i dati sono in data/itinerario.json */
+KT.dati(['itinerario', 'avvisi'], function () {
+  /* Avvisi per il gruppo (data/avvisi.json) */
+  (function () {
+    var A = (window.AVVISI && window.AVVISI.avvisi) || [], box = document.getElementById('avvisi');
+    var vis = A.filter(function (a) { return a && a.pubblicato !== false && (a.titolo || a.testo); });
+    if (!box || !vis.length) return;
+    function e(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+    box.innerHTML = '<div class="wrap"><p class="kicker">Avvisi per il gruppo</p>' + vis.map(function (a) {
+      return '<article class="avviso' + (a.importante ? ' importante' : '') + '">' + (a.data ? '<p class="avv-data">' + e(a.data) + '</p>' : '') + '<h3>' + e(a.titolo) + '</h3>' + (a.testo ? '<div class="avv-testo">' + a.testo + '</div>' : '') + '</article>';
+    }).join('') + '</div>';
+    box.hidden = false;
+  })();
   var D = window.ITINERARIO; if (!D) return;
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function colore(k) { return k === 'festa' ? '#B0362A' : 'var(--t-' + k + ')'; }
@@ -365,7 +384,7 @@
   function adatta() { map.invalidateSize(); map.fitBounds(bounds); }
   adatta(); window.addEventListener('load', adatta); setTimeout(adatta, 400);
   window.addEventListener('resize', function () { clearTimeout(adatta.t); adatta.t = setTimeout(adatta, 200); });
-})();
+});
 /* Checklist della valigia */
 (function () {
   var KEY = 'kt-valigia', s = {};

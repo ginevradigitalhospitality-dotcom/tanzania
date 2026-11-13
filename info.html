@@ -445,14 +445,13 @@ h3.sotto{font-size:1.3rem;margin:30px 0 10px}
 <button class="top-btn" aria-label="Torna su">↑</button>
 
 <script src="assets/guida.js"></script>
-<script src="data/piatti.js"></script>
 <script>
-(function () {
+KT.dati(['piatti'], function () {
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   var box = document.getElementById('piatti');
   box.innerHTML = (window.PIATTI || []).map(function (p) {
     var cr = p.credito ? p.credito.split(' · ') : null;
-    return '<article class="piatto"><div class="img">' + (p.foto ? '<img src="img/cibo/' + esc(p.foto) + '.jpg" alt="' + esc(p.nome + ': ' + p.it) + '" loading="lazy" width="480" height="360">' : 'Nessuna foto con licenza libera') + '</div>' +
+    return '<article class="piatto"><div class="img">' + (p.foto ? '<img src="' + esc(p.foto.indexOf('/') < 0 ? 'img/cibo/' + p.foto + '.jpg' : p.foto.replace(/^[/]+/, '')) + '" alt="' + esc(p.nome + ': ' + p.it) + '" loading="lazy" width="480" height="360">' : 'Nessuna foto con licenza libera') + '</div>' +
       '<div class="corpo"><h3 lang="sw">' + esc(p.nome) + '</h3><p class="it">' + esc(p.it) + '</p><p>' + p.descr + '</p>' +
       '<dl><div><dt>Ingredienti</dt><dd>' + p.ingredienti + '</dd></div><div><dt>Dove provarlo</dt><dd>' + p.dove + '</dd></div><div><dt>Prezzo indicativo</dt><dd>' + esc(p.prezzo) + '</dd></div></dl>' +
       (cr ? '<p class="cr">Foto: ' + esc(cr[0]) + ' · <a href="' + esc(cr[2] ? cr[2].split(' ')[0] : '#') + '" target="_blank" rel="noopener">' + esc(cr[1]) + '</a>' + (cr[2] && cr[2].indexOf(' (') > 0 ? ' ' + esc(cr[2].slice(cr[2].indexOf(' ('))) : '') + '</p>' : '') +
@@ -473,7 +472,7 @@ h3.sotto{font-size:1.3rem;margin:30px 0 10px}
     }, { rootMargin: '-40% 0px -55% 0px' });
     links.forEach(function (a) { var s = document.querySelector(a.getAttribute('href')); if (s) obs.observe(s); });
   }
-})();
+});
 </script>
 </body>
 </html>

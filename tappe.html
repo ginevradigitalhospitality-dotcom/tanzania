@@ -283,7 +283,7 @@ h3.sotto{font-size:1.3rem;margin:28px 0 10px}
         <p>Non abbiamo dati affidabili sull'altitudine esatta del villaggio, sulla sua storia e sui popoli che lo abitano: chiedetelo in loco, è un ottimo modo per iniziare una conversazione. Sugli altopiani di Njombe e Ludewa vivono soprattutto popolazioni bantu come i bena, i pangwa e i kinga, ognuna con la propria lingua. Tra loro, e con noi, si parla swahili.</p>
 
         <h3 class="sotto">Il progetto</h3>
-        <p class="nota">Questa parte la compila la coordinatrice del viaggio, nel file <code>data/mavanga.js</code>. Le voci tratteggiate sono ancora da completare.</p>
+        <p class="nota">Questa parte la compila la coordinatrice del viaggio, dal pannello «Modifica la guida». Le voci tratteggiate sono ancora da completare.</p>
         <div class="progetto" id="progetto"><p class="nota">Caricamento…</p></div>
 
         <h3 class="sotto">Giorno 9: il tè e la partenza</h3>
@@ -532,11 +532,9 @@ h3.sotto{font-size:1.3rem;margin:28px 0 10px}
 <button class="top-btn" aria-label="Torna su">↑</button>
 
 <script src="assets/guida.js"></script>
-<script src="data/itinerario.js"></script>
-<script src="data/mavanga.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-(function () {
+KT.dati(['itinerario', 'mavanga'], function () {
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
   /* Schede delle specie collegate all'atlante */
@@ -550,7 +548,7 @@ h3.sotto{font-size:1.3rem;margin:28px 0 10px}
   /* Mavanga: il progetto, dai dati di data/mavanga.js */
   var M = window.MAVANGA, P = document.getElementById('progetto');
   if (P) {
-    if (!M) { P.innerHTML = '<p class="manca">Il file data/mavanga.js non si è caricato (forse manca una virgola o un apice).</p>'; }
+    if (!M) { P.innerHTML = '<p class="manca">Il contenuto di Mavanga non si è caricato: riprova con la connessione attiva.</p>'; }
     else {
       var manca = function (cosa) { return '<span class="manca">Da completare: ' + esc(cosa) + '</span>'; };
       var val = function (v, cosa) { return v ? esc(v) : manca(cosa); };
@@ -624,7 +622,7 @@ h3.sotto{font-size:1.3rem;margin:28px 0 10px}
     }, { rootMargin: '-40% 0px -55% 0px' });
     links.forEach(function (a) { var s = document.querySelector(a.getAttribute('href')); if (s) obs.observe(s); });
   }
-})();
+});
 </script>
 </body>
 </html>

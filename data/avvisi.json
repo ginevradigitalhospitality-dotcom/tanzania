@@ -1,0 +1,11 @@
+{
+  "avvisi": [
+    {
+      "titolo": "Esempio di avviso",
+      "data": "13/11/2026",
+      "testo": "<p>Questo è un esempio. Per mostrarlo in cima alla home, attiva «Pubblicato».</p>",
+      "importante": false,
+      "pubblicato": false
+    }
+  ]
+}

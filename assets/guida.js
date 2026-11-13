@@ -1,4 +1,22 @@
 /* Karibu Tanzania – comportamenti comuni: menu, barra di lettura, torna su, tema */
+/* Caricamento dei contenuti modificabili (cartella data/, si modificano con Pages CMS).
+   Nei testi di fauna e piatti, *parola* diventa corsivo. */
+window.KT = window.KT || {};
+KT.dati = function (nomi, cb) {
+  var VAR = { itinerario: 'ITINERARIO', mavanga: 'MAVANGA', piatti: 'PIATTI', fauna: 'FAUNA', avvisi: 'AVVISI' };
+  var CORSIVO = { piatti: 1, fauna: 1 };
+  function em(v) {
+    if (typeof v === 'string') return v.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+    if (Array.isArray(v)) return v.map(em);
+    if (v && typeof v === 'object') { for (var k in v) v[k] = em(v[k]); }
+    return v;
+  }
+  Promise.all(nomi.map(function (n) {
+    return fetch('data/' + n + '.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { window[VAR[n]] = CORSIVO[n] ? em(j) : j; })
+      .catch(function (e) { window[VAR[n]] = null; if (window.console) console.error('Contenuto non caricato: data/' + n + '.json', e); });
+  })).then(function () { try { cb(); } catch (e) { if (window.console) console.error(e); } });
+};
 (function () {
   var INDICE = [
     { t: '1 · Introduzione', voci: [['Benvenuti in Tanzania', 'index.html#benvenuti'], ['Il nostro itinerario', 'index.html#itinerario'], ['Consigli d\'autore', 'index.html#consigli'], ['Prima di partire', 'index.html#partire'], ['Viaggio sostenibile', 'index.html#sostenibile']] },
