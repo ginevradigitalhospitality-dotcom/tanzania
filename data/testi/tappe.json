@@ -9,8 +9,8 @@
       "testo": "Tappa per tappa"
     },
     {
-      "dove": "Paragrafo: Dall'oceano agli altopiani, dal villaggio alla savana e ritorno. Sette…",
-      "testo": "Dall'oceano agli altopiani, dal villaggio alla savana e ritorno. Sette capitoli, uno per ogni luogo del viaggio, ciascuno con il suo colore: storia, cosa vedere, come ci si arriva, i consigli e gli animali da cercare."
+      "dove": "Paragrafo: Dall'oceano agli altopiani, dal villaggio alla savana. Un capitolo per…",
+      "testo": "Dall'oceano agli altopiani, dal villaggio alla savana. Un capitolo per ogni luogo: cosa sapere, cosa vedere, i miei tips."
     },
     {
       "dove": "Paragrafo: Foto: Il fiume Grande Ruaha, Parco Nazionale del Ruaha · Richard Morte…",
@@ -19,24 +19,16 @@
   ],
   "percorso": [
     {
-      "dove": "Paragrafo: Il percorso",
-      "testo": "Il percorso"
+      "dove": "Paragrafo: I luoghi",
+      "testo": "I luoghi"
     },
     {
-      "dove": "Titolo: Sette tappe, circa 2.000 km tra volo e strada",
-      "testo": "Sette tappe, circa 2.000 km tra volo e strada"
+      "dove": "Titolo: Dalla costa agli altopiani",
+      "testo": "Dalla costa agli altopiani"
     },
     {
-      "dove": "Paragrafo: Il viaggio disegna un grande anello nel sud della Tanzania. Un volo po…",
-      "testo": "Il viaggio disegna un grande anello nel sud della Tanzania. Un volo porta da Dar es Salaam a Mbeya. Da lì si sale in jeep sugli altopiani meridionali, fino al villaggio di Mavanga, dove resteremo una settimana. Poi si risale verso nord, a Iringa e nel Ruaha. Infine, in bus, si torna verso la costa attraverso il Parco di Mikumi."
-    },
-    {
-      "dove": "Paragrafo: Tocca un numero sulla mappa o nella legenda per andare al capitolo di …",
-      "testo": "Tocca un numero sulla mappa o nella legenda per andare al capitolo di quella tappa. Le distanze e i tempi di ogni capitolo sono stime: in Tanzania il tempo di viaggio dipende da strada, pioggia, traffico e controlli di polizia, più che dai chilometri."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: Il viaggio attraversa due bacini fluviali. Gran parte dell'acqua che s…",
-      "testo": "Il viaggio attraversa due bacini fluviali. Gran parte dell'acqua che scende dagli altopiani di Mpanga Kipengere va nella pianura di Usangu e alimenta il Grande Ruaha, lo stesso fiume che vedremo una settimana dopo nel parco."
+      "dove": "Paragrafo: Tocca un luogo sulla mappa o nella legenda per aprire il suo capitolo.",
+      "testo": "Tocca un luogo sulla mappa o nella legenda per aprire il suo capitolo."
     }
   ],
   "dar": [
@@ -45,148 +37,112 @@
       "testo": "Dar es Salaam"
     },
     {
-      "dove": "Paragrafo: La porta sull'oceano: caotica, calda, umida e piena di energia. Qui in…",
-      "testo": "La porta sull'oceano: caotica, calda, umida e piena di energia. Qui inizia e finisce il viaggio."
+      "dove": "Paragrafo: La porta sull'oceano: caotica, calda e piena di energia.",
+      "testo": "La porta sull'oceano: caotica, calda e piena di energia."
     },
     {
-      "dove": "Paragrafo: Foto: Mercato del pesce di Kivukoni, Dar es Salaam (2012) · Developmen…",
-      "testo": "Foto: Mercato del pesce di Kivukoni, Dar es Salaam (2012) · Development Planning Unit, University College London · <a href=\"https://commons.wikimedia.org/wiki/File:Kivukoni_Fish_Market_Dar_es_Salaam,_2012.jpg\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a>"
+      "dove": "Paragrafo: Foto: Mercato del pesce di Kivukoni, Dar es Salaam · Development Plann…",
+      "testo": "Foto: Mercato del pesce di Kivukoni, Dar es Salaam · Development Planning Unit, University College London · <a href=\"https://commons.wikimedia.org/wiki/File:Kivukoni_Fish_Market_Dar_es_Salaam,_2012.jpg\" target=\"_blank\" rel=\"noopener\">CC BY 2.0</a>"
     },
     {
       "dove": "Etichetta: Abitanti",
       "testo": "Abitanti"
     },
     {
-      "dove": "Dato: oltre 5 milioni (regione, censimento 2022)",
-      "testo": "oltre 5 milioni (regione, censimento 2022)"
+      "dove": "Dato: oltre 5 milioni",
+      "testo": "oltre 5 milioni"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: caldo umido, 25–32 °C, acquazzoni brevi",
-      "testo": "caldo umido, 25–32 °C, acquazzoni brevi"
-    },
-    {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
-    },
-    {
-      "dove": "Dato: sera del giorno 1, poi giorni 12–13",
-      "testo": "sera del giorno 1, poi giorni 12–13"
+      "dove": "Dato: caldo umido tutto l'anno, 25–32 °C",
+      "testo": "caldo umido tutto l'anno, 25–32 °C"
     },
     {
       "dove": "Etichetta: Il nome",
       "testo": "Il nome"
     },
     {
-      "dove": "Dato: «dimora della pace»",
-      "testo": "«dimora della pace»"
+      "dove": "Dato: «dimora della pace», in arabo",
+      "testo": "«dimora della pace», in arabo"
     },
     {
-      "dove": "Paragrafo: Si arriva di notte o nel caldo appiccicoso del pomeriggio, e la prima …",
-      "testo": "Si arriva di notte o nel caldo appiccicoso del pomeriggio, e la prima impressione è il traffico. Una corrente continua di minibus <em lang=\"sw\">daladala</em> dipinti, bajaji, moto e camion che vanno al porto. Poi, sul lungomare, il vento dell'oceano Indiano, le palme e i dhow che rientrano. Dar es Salaam non è una città da cartolina, e non ha monumenti da fila. È una città da vivere: un mercato all'alba, un piatto di <em lang=\"sw\">mishkaki</em> la sera a una bancarella, la folla di Kariakoo, un tramonto a Coco Beach."
+      "dove": "Paragrafo: Traffico, minibus dipinti, bajaji e moto. Poi, sul lungomare, il vento…",
+      "testo": "Traffico, minibus dipinti, bajaji e moto. Poi, sul lungomare, il vento dell'oceano, le palme e i dhow che rientrano. Dar non ha monumenti da fila: è una città da vivere, tra un mercato all'alba, gli spiedini della sera e un tramonto a Coco Beach."
     },
     {
-      "dove": "Paragrafo: Ci passeremo poche ore all'andata e quasi due giorni al ritorno. È il …",
-      "testo": "Ci passeremo poche ore all'andata e quasi due giorni al ritorno. È il momento giusto per guardarla con occhi diversi: dopo tre settimane di altopiani e savana, il ritorno in città è un piccolo choc."
+      "dove": "Sottotitolo: In breve",
+      "testo": "In breve"
     },
     {
-      "dove": "Sottotitolo: Un po' di storia",
-      "testo": "Un po' di storia"
+      "dove": "Paragrafo: Fondata negli anni '60 dell'Ottocento dal sultano di Zanzibar, fu capi…",
+      "testo": "Fondata negli anni '60 dell'Ottocento dal sultano di Zanzibar, fu capitale dell'Africa Orientale Tedesca e poi del Tanganica indipendente. La capitale ufficiale oggi è Dodoma, ma Dar resta il cuore economico del paese e il suo porto principale."
     },
     {
-      "dove": "Paragrafo: La costa swahili commercia con l'Arabia, la Persia e l'India da più di…",
-      "testo": "La costa swahili commercia con l'Arabia, la Persia e l'India da più di mille anni, ma Dar es Salaam è giovane. La fondò negli anni '60 dell'Ottocento il sultano Majid di Zanzibar, che le diede un nome arabo, <em>Dār as-Salām</em>, «dimora della pace». Alla sua morte la città fu quasi abbandonata. Rinacque con i tedeschi, che nel 1891 ne fecero la capitale dell'Africa Orientale Tedesca. Dopo la Prima guerra mondiale passò agli inglesi e nel 1961 divenne la capitale del Tanganica indipendente."
+      "dove": "Sottotitolo: Cosa vedere",
+      "testo": "Cosa vedere"
     },
     {
-      "dove": "Paragrafo: Nel 1973 il governo decise di spostare la capitale a Dodoma, nel centr…",
-      "testo": "Nel 1973 il governo decise di spostare la capitale a Dodoma, nel centro del paese. Il trasferimento è durato decenni, e solo negli ultimi anni ministeri e presidenza si sono trasferiti davvero. Dar resta però il cuore economico del paese, il suo porto principale e la città più grande dell'Africa orientale di lingua swahili."
+      "dove": "Voce di elenco: Il mercato del pesce di Kivukoni, all'alba, con le aste del pesce appe…",
+      "testo": "<strong>Il mercato del pesce di Kivukoni</strong>, all'alba, con le aste del pesce appena sbarcato."
     },
     {
-      "dove": "Sottotitolo: Cosa vedere e fare",
-      "testo": "Cosa vedere e fare"
+      "dove": "Voce di elenco: Il centro a piedi: il monumento all'Askari, la cattedrale di San Giuse…",
+      "testo": "<strong>Il centro a piedi</strong>: il monumento all'Askari, la cattedrale di San Giuseppe e la chiesa luterana di Azania Front, entrambe dell'epoca tedesca."
     },
     {
-      "dove": "Voce di elenco: Il mercato del pesce di Kivukoni, all'alba: le aste del pesce appena s…",
-      "testo": "<strong>Il mercato del pesce di Kivukoni</strong>, all'alba: le aste del pesce appena sbarcato, i venditori che puliscono e friggono sul posto. Si va presto, con scarpe chiuse e poco in tasca."
+      "dove": "Voce di elenco: Kariakoo, il grande mercato: tessuti, spezie, di tutto.",
+      "testo": "<strong>Kariakoo</strong>, il grande mercato: tessuti, spezie, di tutto."
     },
     {
-      "dove": "Voce di elenco: Il centro storico, a piedi: il monumento all'Askari, la cattedrale di …",
-      "testo": "<strong>Il centro storico</strong>, a piedi: il monumento all'Askari, la cattedrale di San Giuseppe e la chiesa luterana di Azania Front, entrambe dell'epoca tedesca, con il lungomare a pochi passi."
+      "dove": "Voce di elenco: Il Museo Nazionale e il Village Museum, con le case tradizionali dei p…",
+      "testo": "<strong>Il Museo Nazionale</strong> e il <strong>Village Museum</strong>, con le case tradizionali dei popoli della Tanzania."
     },
     {
-      "dove": "Voce di elenco: Kariakoo, il grande mercato: tessuti kanga, spezie, pentole, telefoni.…",
-      "testo": "<strong>Kariakoo</strong>, il grande mercato: tessuti <em lang=\"sw\">kanga</em>, spezie, pentole, telefoni. Il nome viene da <em>Carrier Corps</em>, il corpo dei portatori africani della Prima guerra mondiale, che aveva qui le sue caserme."
+      "dove": "Voce di elenco: Mwenge, il mercato degli intagliatori, per gli ultimi acquisti.",
+      "testo": "<strong>Mwenge</strong>, il mercato degli intagliatori, per gli ultimi acquisti."
     },
     {
-      "dove": "Voce di elenco: Il Museo Nazionale, accanto all'orto botanico, con una sezione sulle o…",
-      "testo": "<strong>Il Museo Nazionale</strong>, accanto all'orto botanico, con una sezione sulle origini dell'uomo in Tanzania e una sulla storia coloniale. Al <strong>Village Museum</strong> (<em lang=\"sw\">Makumbusho ya Kijiji</em>), sulla Bagamoyo Road, si vedono invece le case tradizionali di diversi popoli del paese."
+      "dove": "Voce di elenco: Coco Beach al tramonto e, con mezza giornata libera, una barca per l'i…",
+      "testo": "<strong>Coco Beach</strong> al tramonto e, con mezza giornata libera, una barca per l'isola di <strong>Bongoyo</strong>."
     },
     {
-      "dove": "Voce di elenco: Mwenge, il mercato degli intagliatori: sculture makonde, quadri tingat…",
-      "testo": "<strong>Mwenge</strong>, il mercato degli intagliatori: sculture makonde, quadri tingatinga, scatole e utensili in legno. È il posto migliore per gli ultimi acquisti, il giorno 13."
-    },
-    {
-      "dove": "Voce di elenco: Coco Beach e la penisola di Msasani al tramonto, con le bancarelle di …",
-      "testo": "<strong>Coco Beach</strong> e la penisola di Msasani al tramonto, con le bancarelle di mais arrosto e cocco fresco. Se c'è mezza giornata libera, una barca porta all'isoletta di <strong>Bongoyo</strong>, nella riserva marina davanti alla città."
-    },
-    {
-      "dove": "Voce di elenco: Il traghetto per Kigamboni, dal molo di Kivukoni: dieci minuti di trav…",
-      "testo": "<strong>Il traghetto per Kigamboni</strong>, dal molo di Kivukoni: dieci minuti di traversata tra pendolari, bancarelle e biciclette, con la vista più bella sul porto."
+      "dove": "Voce di elenco: Il traghetto per Kigamboni: dieci minuti tra i pendolari, con la vista…",
+      "testo": "<strong>Il traghetto per Kigamboni</strong>: dieci minuti tra i pendolari, con la vista più bella sul porto."
     },
     {
       "dove": "Didascalia: Il monumento all'Askari (1927), dedicato ai soldati e ai portatori afr…",
       "testo": "Il monumento all'Askari (1927), dedicato ai soldati e ai portatori africani della Prima guerra mondiale · Moongateclimber · <a href=\"https://commons.wikimedia.org/wiki/File:Askari_monument_dar_es_salaam.jpg\" target=\"_blank\" rel=\"noopener\">Pubblico dominio</a>"
     },
     {
-      "dove": "Sottotitolo: Dormire e mangiare",
-      "testo": "Dormire e mangiare"
+      "dove": "Sottotitolo: Mangiare",
+      "testo": "Mangiare"
     },
     {
-      "dove": "Paragrafo: L'albergo lo sceglie l'organizzazione e lo trovate nei documenti di vi…",
-      "testo": "L'albergo lo sceglie l'organizzazione e lo trovate nei documenti di viaggio. Per orientarsi: il <strong>centro</strong> (zona di Posta e Kisutu) è pratico e vicino al porto, ma la sera si svuota. Le zone di <strong>Masaki e Oyster Bay</strong>, sulla penisola, sono più tranquille e più care, con molti ristoranti internazionali."
+      "dove": "Paragrafo: La sera, gli spiedini di mishkaki e la nyama choma sui marciapiedi, e …",
+      "testo": "La sera, gli spiedini di <em lang=\"sw\">mishkaki</em> e la <em lang=\"sw\">nyama choma</em> sui marciapiedi, e il <em lang=\"sw\">chipsi mayai</em>. Sulla costa la cucina swahili usa cocco e spezie. Le schede sono in <a href=\"info.html#mangiare\">Mangiare e bere</a>."
     },
     {
-      "dove": "Paragrafo: Per mangiare come i wabongo, gli abitanti di Dar: la sera cercate le g…",
-      "testo": "Per mangiare come i <em lang=\"sw\">wabongo</em>, gli abitanti di Dar: la sera cercate le griglie di <em lang=\"sw\">mishkaki</em> e <em lang=\"sw\">nyama choma</em> sui marciapiedi, le bancarelle di <em lang=\"sw\">chipsi mayai</em>, la frittata con le patatine, e i <em lang=\"sw\">mandazi</em> con il chai al mattino. Sulla costa la cucina swahili usa cocco, tamarindo e spezie, e la comunità di origine indiana ha lasciato biryani, samosa e chapati. Le schede dei piatti sono nel capitolo <a href=\"info.html#mangiare\">Mangiare e bere</a>."
+      "dove": "Box «Tip» · Paragrafo: Tenetevi un'ora libera per sedervi sul lungomare con un cocco fresco a…",
+      "testo": "Tenetevi un'ora libera per sedervi sul lungomare con un cocco fresco a guardare i dhow. È il modo più bello per salutare il paese."
     },
     {
-      "dove": "Sottotitolo: Come arrivare e muoversi",
-      "testo": "Come arrivare e muoversi"
+      "dove": "Box «Da non perdere» · Paragrafo: Il mercato di Kivukoni all'alba: lavoro, rumore, odori e il porto che …",
+      "testo": "Il mercato di Kivukoni all'alba: lavoro, rumore, odori e il porto che si sveglia."
     },
     {
-      "dove": "Paragrafo: L'aeroporto internazionale Julius Nyerere è a circa 12 km dal centro: …",
-      "testo": "L'aeroporto internazionale Julius Nyerere è a circa 12 km dal centro: da mezz'ora a un'ora e mezza di strada, a seconda del traffico (<em lang=\"sw\">foleni</em>). Dallo stesso aeroporto parte il volo per Mbeya del giorno 2. In città si usano i bajaji, i taxi e le app di trasporto come Bolt e Uber, che mostrano il prezzo prima di partire. Il <em lang=\"sw\">mwendokasi</em>, il bus rapido su corsia riservata, collega il centro a Kariakoo e Kimara. Il giorno 12 si arriva da Iringa in bus, di sera."
+      "dove": "Box «Attenzione» · Voce di elenco: Telefono e borsa dal lato del muro, mai verso la strada.",
+      "testo": "Telefono e borsa dal lato del muro, mai verso la strada."
     },
     {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Il giorno 13 non riempitelo di acquisti. Tenete un'ora per sedervi sul…",
-      "testo": "Il giorno 13 non riempitelo di acquisti. Tenete un'ora per sedervi sul lungomare con un cocco fresco e guardare i dhow: è il modo migliore per salutare il paese."
+      "dove": "Box «Attenzione» · Voce di elenco: La sera ci muoviamo in taxi o con un'app.",
+      "testo": "La sera ci muoviamo in taxi o con un'app."
     },
     {
-      "dove": "Box «Da non perdere» · Paragrafo: Il mercato di Kivukoni all'alba. È il posto che racconta meglio la cit…",
-      "testo": "Il mercato di Kivukoni all'alba. È il posto che racconta meglio la città: lavoro, rumore, odori, contrattazioni, e il porto che si sveglia."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: Il monumento all'Askari sta dove prima c'era la statua di Hermann von …",
-      "testo": "Il monumento all'Askari sta dove prima c'era la statua di Hermann von Wissmann, l'ufficiale che represse le rivolte della costa per conto della Germania. Gli inglesi la tolsero e al suo posto misero un soldato africano: un cambio di simboli che dice molto della storia della città."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Telefono e borsa sempre dal lato del muro, mai verso la strada: gli sc…",
-      "testo": "Telefono e borsa sempre dal lato del muro, mai verso la strada: gli scippi dalle moto sono il furto più comune."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Di sera, anche per brevi tratti, usate un taxi o un'app invece di camm…",
-      "testo": "Di sera, anche per brevi tratti, usate un taxi o un'app invece di camminare."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Non fotografate porto, edifici governativi, polizia e militari.",
-      "testo": "Non fotografate porto, edifici governativi, polizia e militari."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Al ritorno da Mikumi siamo stanchi e la serata del giorno 12 è l'ultim…",
-      "testo": "Al ritorno da Mikumi siamo stanchi e la serata del giorno 12 è l'ultima tutti insieme: è il momento della cena di saluto. Decidete prima chi pensa al regalo per guide e autisti (vedi <a href=\"index.html#sostenibile\">le mance</a>)."
+      "dove": "Box «Attenzione» · Voce di elenco: Niente foto a porto, polizia ed edifici governativi.",
+      "testo": "Niente foto a porto, polizia ed edifici governativi."
     }
   ],
   "mpanga": [
@@ -195,8 +151,8 @@
       "testo": "Mbeya e Mpanga Kipengere"
     },
     {
-      "dove": "Paragrafo: Caffè, nebbia e cascate: il primo assaggio degli altopiani meridionali…",
-      "testo": "Caffè, nebbia e cascate: il primo assaggio degli altopiani meridionali, tra i 1.700 e i 2.800 metri."
+      "dove": "Paragrafo: Caffè, nebbia e cascate: il primo assaggio degli altopiani del sud.",
+      "testo": "Caffè, nebbia e cascate: il primo assaggio degli altopiani del sud."
     },
     {
       "dove": "Paragrafo: Foto: Cascate Kimani, riserva di Mpanga Kipengere · Thomas veroza · CC…",
@@ -207,124 +163,76 @@
       "testo": "Riserva"
     },
     {
-      "dove": "Dato: circa 1.574 km², istituita nel 2002",
-      "testo": "circa 1.574 km², istituita nel 2002"
+      "dove": "Dato: circa 1.574 km², dal 2002",
+      "testo": "circa 1.574 km², dal 2002"
     },
     {
-      "dove": "Etichetta: Gestione",
-      "testo": "Gestione"
+      "dove": "Etichetta: Altitudine",
+      "testo": "Altitudine"
     },
     {
-      "dove": "Dato: TAWA, l'autorità per la fauna",
-      "testo": "TAWA, l'autorità per la fauna"
+      "dove": "Dato: fino a circa 2.800 m",
+      "testo": "fino a circa 2.800 m"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: fresco, 10–22 °C, piogge frequenti",
-      "testo": "fresco, 10–22 °C, piogge frequenti"
+      "dove": "Dato: fresco, 10–22 °C, spesso piovoso",
+      "testo": "fresco, 10–22 °C, spesso piovoso"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Paragrafo: Dopo il caldo della costa, a Mbeya si respira: siamo sopra i 1.500 met…",
+      "testo": "Dopo il caldo della costa, a Mbeya si respira: siamo sopra i 1.500 metri, tra montagne verdi coltivate fino in cima. È una città di commercio sulla strada per lo Zambia, e uno dei centri del caffè arabica tanzaniano. Più a est, la riserva di Mpanga Kipengere protegge praterie d'alta quota, foreste e moltissima acqua: non è un posto da Big Five, ma da cascate, nebbia, uccelli e fiori unici."
     },
     {
-      "dove": "Dato: un giorno a Mbeya, una mattina nella riserva",
-      "testo": "un giorno a Mbeya, una mattina nella riserva"
+      "dove": "Sottotitolo: In breve",
+      "testo": "In breve"
     },
     {
-      "dove": "Paragrafo: Si scende dall'aereo a Songwe e l'aria è un'altra. Dopo il caldo umido…",
-      "testo": "Si scende dall'aereo a Songwe e l'aria è un'altra. Dopo il caldo umido di Dar, qui si respira: siamo a oltre 1.500 metri, tra montagne verdi coltivate fino in cima. Mbeya è una città di commercio e di passaggio, sulla strada e sulla ferrovia per lo Zambia, ed è uno dei centri del caffè arabica tanzaniano. Il giorno dopo si parte presto in jeep verso est, e la strada sale tra campi di mais, patate e pini, verso la riserva di Mpanga Kipengere."
+      "dove": "Paragrafo: Mbeya nacque intorno al 1927 con la corsa all'oro dei vicini campi del…",
+      "testo": "Mbeya nacque intorno al 1927 con la corsa all'oro dei vicini campi del Lupa. La riserva, gestita dall'autorità per la fauna (TAWA), protegge soprattutto l'acqua: da queste montagne nascono i fiumi che alimentano la pianura di Usangu e il Grande Ruaha."
     },
     {
-      "dove": "Paragrafo: La riserva protegge la parte settentrionale della catena dei Kipengere…",
-      "testo": "La riserva protegge la parte settentrionale della catena dei Kipengere, tra le regioni di Njombe e Mbeya: praterie d'alta quota, valli di foresta montana e moltissima acqua. Non è un posto da Big Five. È un posto da nebbia che sale dalle valli, da cascate e piscine naturali, da uccelli e fiori che non vivono da nessun'altra parte."
+      "dove": "Sottotitolo: Cosa vedere",
+      "testo": "Cosa vedere"
     },
     {
-      "dove": "Sottotitolo: Un po' di storia",
-      "testo": "Un po' di storia"
+      "dove": "Voce di elenco: Una piantagione di caffè intorno a Mbeya, con la degustazione.",
+      "testo": "<strong>Una piantagione di caffè</strong> intorno a Mbeya, con la degustazione."
     },
     {
-      "dove": "Paragrafo: Mbeya nacque intorno al 1927, quando la scoperta dell'oro nei vicini c…",
-      "testo": "Mbeya nacque intorno al 1927, quando la scoperta dell'oro nei vicini campi del Lupa attirò cercatori da tutta l'Africa orientale. L'oro finì presto, ma la città restò, grazie al caffè, al tè e alla posizione sulla grande strada per il sud."
+      "dove": "Voce di elenco: Il mercato della frutta: avocado, banane, frutto della passione.",
+      "testo": "<strong>Il mercato della frutta</strong>: avocado, banane, frutto della passione."
     },
     {
-      "dove": "Paragrafo: Le foreste dei Kipengere sono protette dal 1958, quando nacque la rise…",
-      "testo": "Le foreste dei Kipengere sono protette dal 1958, quando nacque la riserva forestale della catena. Nel 2002 la riserva forestale è stata inglobata nella nuova riserva faunistica di Mpanga Kipengere, oggi gestita dalla TAWA. Il motivo principale è l'acqua: da queste montagne nascono i fiumi che riempiono la pianura di Usangu e il Grande Ruaha, da cui dipendono le risaie, le centrali idroelettriche più a valle e il Parco del Ruaha."
+      "dove": "Voce di elenco: Le cascate Kimani e le piscine naturali, il luogo più bello della rise…",
+      "testo": "<strong>Le cascate Kimani</strong> e le piscine naturali, il luogo più bello della riserva."
     },
     {
-      "dove": "Sottotitolo: Cosa vedere e fare",
-      "testo": "Cosa vedere e fare"
+      "dove": "Voce di elenco: Uccelli e fiori delle praterie: orchidee di terra, protee, lobelie (ve…",
+      "testo": "<strong>Uccelli e fiori</strong> delle praterie: orchidee di terra, protee, lobelie (vedi <a href=\"fauna.html#altopiani\">Altopiani e Kitulo</a>)."
     },
     {
-      "dove": "Voce di elenco: Una piantagione di caffè intorno a Mbeya (giorno 2): la raccolta, la t…",
-      "testo": "<strong>Una piantagione di caffè</strong> intorno a Mbeya (giorno 2): la raccolta, la tostatura, la degustazione. Dicembre è nel pieno della stagione delle piogge, quindi le piante sono in fiore o con le bacche ancora verdi."
+      "dove": "Box «Tip» · Paragrafo: Giacca impermeabile e pile a portata di mano, non nello zaino grande: …",
+      "testo": "Giacca impermeabile e pile a portata di mano, non nello zaino grande: in quota il tempo cambia in mezz'ora. E se il caffè vi piace, compratelo alla piantagione."
     },
     {
-      "dove": "Voce di elenco: Il mercato della frutta di Mbeya: avocado, banane di tante varietà, fr…",
-      "testo": "<strong>Il mercato della frutta di Mbeya</strong>: avocado, banane di tante varietà, frutto della passione, ananas. Gli altopiani sono l'orto della Tanzania."
+      "dove": "Box «Attenzione» · Voce di elenco: Rocce bagnate alle cascate: scarpe con una buona suola.",
+      "testo": "Rocce bagnate alle cascate: scarpe con una buona suola."
     },
     {
-      "dove": "Voce di elenco: Le cascate Kimani e le piscine naturali sul fiume Kimani, il luogo più…",
-      "testo": "<strong>Le cascate Kimani</strong> e le piscine naturali sul fiume Kimani, il luogo più visitato della riserva."
+      "dove": "Box «Attenzione» · Voce di elenco: Bagno nelle piscine solo dove dice la guida.",
+      "testo": "Bagno nelle piscine solo dove dice la guida."
     },
     {
-      "dove": "Voce di elenco: Il birdwatching lungo i margini della foresta e nelle praterie: nectar…",
-      "testo": "<strong>Il birdwatching</strong> lungo i margini della foresta e nelle praterie: nectarinie, vedove, beccamoschini degli altopiani e, se si è fortunati, l'aquila coronata sopra le valli."
-    },
-    {
-      "dove": "Voce di elenco: I fiori delle praterie d'alta quota, che a dicembre iniziano a fiorire…",
-      "testo": "<strong>I fiori</strong> delle praterie d'alta quota, che a dicembre iniziano a fiorire: orchidee di terra, protee, lobelie. Lo stesso spettacolo, ancora più ricco, è sul vicino altopiano di Kitulo (vedi <a href=\"fauna.html#altopiani\">Altopiani e Kitulo</a>)."
-    },
-    {
-      "dove": "Sottotitolo: Dormire e mangiare",
-      "testo": "Dormire e mangiare"
-    },
-    {
-      "dove": "Paragrafo: A Mbeya si dorme in città, nell'albergo scelto dall'organizzazione. Ne…",
-      "testo": "A Mbeya si dorme in città, nell'albergo scelto dall'organizzazione. Nella riserva non si dorme: si fa la visita e nel pomeriggio si prosegue verso il villaggio. Portate acqua e qualcosa da mangiare per la giornata in jeep. Dentro la riserva non ci sono negozi, e i villaggi lungo la strada hanno solo piccoli chioschi (<em lang=\"sw\">duka</em>) con bibite, biscotti e frutta."
-    },
-    {
-      "dove": "Sottotitolo: Come arrivare",
-      "testo": "Come arrivare"
-    },
-    {
-      "dove": "Paragrafo: Il volo Dar es Salaam → Mbeya atterra all'aeroporto di Songwe, a circa…",
-      "testo": "Il volo Dar es Salaam → Mbeya atterra all'aeroporto di Songwe, a circa 20 km dalla città. Il giorno 3 si va in jeep verso est sulla statale per Njombe, poi su strade secondarie, in parte sterrate, fino alla riserva. Dalla riserva al villaggio di Mavanga la strada è lunga: è la giornata di trasferimento più impegnativa della prima parte del viaggio."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Il giorno 3 tenete a portata di mano, non nello zaino grande, una giac…",
-      "testo": "Il giorno 3 tenete a portata di mano, non nello zaino grande, una giacca impermeabile e un pile. In quota il tempo cambia in mezz'ora, e alle cascate si arriva bagnati anche quando non piove."
-    },
-    {
-      "dove": "Box «Da non perdere» · Paragrafo: Il caffè di Mbeya, bevuto dove cresce. Se vi piace, compratene un pacc…",
-      "testo": "Il caffè di Mbeya, bevuto dove cresce. Se vi piace, compratene un pacco alla piantagione: costa meno che in città, e i soldi vanno direttamente a chi lo coltiva."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Le rocce intorno alle cascate sono bagnate e scivolose: scarpe con una…",
-      "testo": "Le rocce intorno alle cascate sono bagnate e scivolose: scarpe con una buona suola, non sandali."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Fate il bagno nelle piscine naturali solo dove la guida dice che è sic…",
-      "testo": "Fate il bagno nelle piscine naturali solo dove la guida dice che è sicuro: la corrente può essere forte dopo le piogge, e in alcune acque ferme c'è il rischio di bilharzia (vedi <a href=\"info.html#salute\">Salute</a>)."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Sopra i 2.000 metri il sole brucia anche con le nuvole: crema solare e…",
-      "testo": "Sopra i 2.000 metri il sole brucia anche con le nuvole: crema solare e cappello."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: Non raccogliete fiori, bulbi o tuberi di orchidea: sugli altopiani ven…",
-      "testo": "Non raccogliete fiori, bulbi o tuberi di orchidea: sugli altopiani vengono estratti illegalmente per il commercio, e diverse specie sono in declino."
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Non raccogliete fiori, bulbi o orchidee: diverse specie sono in declin…",
+      "testo": "Non raccogliete fiori, bulbi o orchidee: diverse specie sono in declino."
     },
     {
       "dove": "Sottotitolo: Gli animali e le piante di questa tappa",
       "testo": "Gli animali e le piante di questa tappa"
-    },
-    {
-      "dove": "Paragrafo: Tocca una scheda per aprirla nell'atlante della fauna.",
-      "testo": "Tocca una scheda per aprirla nell'atlante della fauna."
     }
   ],
   "mavanga": [
@@ -337,8 +245,8 @@
       "testo": "Una settimana in un villaggio degli altopiani di Ludewa: il cuore del viaggio."
     },
     {
-      "dove": "Paragrafo: Foto: Piantagioni di tè nel distretto di Ludewa, regione di Njombe (20…",
-      "testo": "Foto: Piantagioni di tè nel distretto di Ludewa, regione di Njombe (2014) · Gumtau · <a href=\"https://commons.wikimedia.org/wiki/File:Tea_plantations_in_Luewa_District,_Njombe_Region,_Tanzania.JPG\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Non è una foto di Mavanga."
+      "dove": "Paragrafo: Foto: Piantagioni di tè nel distretto di Ludewa, regione di Njombe · G…",
+      "testo": "Foto: Piantagioni di tè nel distretto di Ludewa, regione di Njombe · Gumtau · <a href=\"https://commons.wikimedia.org/wiki/File:Tea_plantations_in_Luewa_District,_Njombe_Region,_Tanzania.JPG\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>. Non è una foto di Mavanga."
     },
     {
       "dove": "Etichetta: Dove",
@@ -353,108 +261,64 @@
       "testo": "Abitanti"
     },
     {
-      "dove": "Dato: 9.738 nel circondario (censimento 2022)",
-      "testo": "9.738 nel circondario (censimento 2022)"
+      "dove": "Dato: circa 9.700 nel circondario",
+      "testo": "circa 9.700 nel circondario"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: piogge frequenti, notti fresche",
-      "testo": "piogge frequenti, notti fresche"
+      "dove": "Dato: notti fresche, piogge frequenti",
+      "testo": "notti fresche, piogge frequenti"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Paragrafo: Colline di mais e patate, boschi di pini, piantagioni di tè. Più a ove…",
+      "testo": "Colline di mais e patate, boschi di pini, piantagioni di tè. Più a ovest i Monti Livingstone precipitano verso il lago Nyasa. Qui il turismo non esiste: per una settimana non saremo visitatori, ma ospiti. Le giornate seguono i ritmi del villaggio: la scuola al mattino, il calcio nel pomeriggio, il buio presto la sera."
     },
     {
-      "dove": "Dato: 6 notti",
-      "testo": "6 notti"
+      "dove": "Sottotitolo: In breve",
+      "testo": "In breve"
     },
     {
-      "dove": "Paragrafo: Gli altopiani di Ludewa sono tra le zone meno visitate della Tanzania.…",
-      "testo": "Gli altopiani di Ludewa sono tra le zone meno visitate della Tanzania. Colline ondulate, campi di mais e patate, boschi di pini ed eucalipti, piantagioni di tè. Più a ovest, la scarpata dei Monti Livingstone precipita di oltre mille metri verso il lago Nyasa. Mavanga è uno dei villaggi di questi altopiani, e qui il turismo non esiste: per una settimana non saremo visitatori, ma ospiti."
-    },
-    {
-      "dove": "Paragrafo: È la parte del viaggio più difficile da raccontare prima. Le giornate …",
-      "testo": "È la parte del viaggio più difficile da raccontare prima. Le giornate seguiranno i ritmi del villaggio: la scuola al mattino, il lavoro nei campi, le partite di calcio nel pomeriggio, il buio presto la sera. Si impara a salutare tutti, a mangiare l'ugali con la mano destra, ad aspettare senza fretta. Molti viaggiatori, a distanza di anni, ricordano soprattutto questi giorni."
-    },
-    {
-      "dove": "Sottotitolo: Il villaggio e la zona",
-      "testo": "Il villaggio e la zona"
-    },
-    {
-      "dove": "Paragrafo: Il distretto di Ludewa fa parte della regione di Njombe, istituita nel…",
-      "testo": "Il distretto di Ludewa fa parte della regione di Njombe, istituita nel 2012 separandola da quella di Iringa. È una regione agricola e d'alta quota, conosciuta in Tanzania per il tè, le patate, gli avocado e il legname, e per le notti tra le più fredde del paese. Nel distretto, a Liganga e Mchuchuma, ci sono grandi giacimenti di ferro e carbone, di cui si parla da decenni come di una futura miniera."
-    },
-    {
-      "dove": "Paragrafo: Non abbiamo dati affidabili sull'altitudine esatta del villaggio, sull…",
-      "testo": "Non abbiamo dati affidabili sull'altitudine esatta del villaggio, sulla sua storia e sui popoli che lo abitano: chiedetelo in loco, è un ottimo modo per iniziare una conversazione. Sugli altopiani di Njombe e Ludewa vivono soprattutto popolazioni bantu come i bena, i pangwa e i kinga, ognuna con la propria lingua. Tra loro, e con noi, si parla swahili."
+      "dove": "Paragrafo: La regione di Njombe è agricola e d'alta quota, conosciuta per il tè, …",
+      "testo": "La regione di Njombe è agricola e d'alta quota, conosciuta per il tè, le patate e gli avocado. Sugli altopiani vivono soprattutto i bena, i pangwa e i kinga, ognuno con la sua lingua; tra loro, e con noi, si parla swahili. Chiedete in famiglia quale lingua si parla: è un ottimo modo per iniziare una conversazione."
     },
     {
       "dove": "Sottotitolo: Il progetto",
       "testo": "Il progetto"
     },
     {
-      "dove": "Paragrafo: Questa parte la compila la coordinatrice del viaggio, dal pannello «Mo…",
-      "testo": "Questa parte la compila la coordinatrice del viaggio, dal pannello «Modifica la guida». Le voci tratteggiate sono ancora da completare."
+      "dove": "Box «Tip» · Paragrafo: Usate tutte le parole di swahili che sapete, anche sbagliando: Shikamo…",
+      "testo": "Usate tutte le parole di swahili che sapete, anche sbagliando: <em lang=\"sw\">Shikamoo</em> agli anziani, <em lang=\"sw\">mambo?</em> ai ragazzi, <em lang=\"sw\">asante sana</em> a chi cucina. Al villaggio aprono tutte le porte."
     },
     {
-      "dove": "Sottotitolo: Giorno 9: il tè e la partenza",
-      "testo": "Giorno 9: il tè e la partenza"
+      "dove": "Box «Attenzione» · Voce di elenco: Al villaggio non ci sono bancomat: vi dirò io quando prelevare.",
+      "testo": "Al villaggio non ci sono bancomat: vi dirò io quando prelevare."
     },
     {
-      "dove": "Paragrafo: La mattina del 7 dicembre si salutano il villaggio e chi ci ha ospitat…",
-      "testo": "La mattina del 7 dicembre si salutano il villaggio e chi ci ha ospitato. Lungo la strada verso Iringa è prevista la visita a una piantagione di tè degli altopiani: la raccolta delle foglie a mano, la lavorazione, e una tazza di tè dove cresce. Poi la strada scende per ore verso nord, passando per Njombe e Mafinga, fino a Iringa."
+      "dove": "Box «Attenzione» · Voce di elenco: Corrente e campo vanno e vengono: power bank carico e frontale.",
+      "testo": "Corrente e campo vanno e vengono: power bank carico e frontale."
     },
     {
-      "dove": "Sottotitolo: Come arrivare",
-      "testo": "Come arrivare"
+      "dove": "Box «Attenzione» · Voce di elenco: Notti fresche e umide: sacco lenzuolo e pile.",
+      "testo": "Notti fresche e umide: sacco lenzuolo e pile."
     },
     {
-      "dove": "Paragrafo: Dalla riserva di Mpanga Kipengere si va a sud-est in jeep, passando pe…",
-      "testo": "Dalla riserva di Mpanga Kipengere si va a sud-est in jeep, passando per Njombe, l'ultima città grande prima del villaggio: è lì che conviene prelevare e fare gli ultimi acquisti. Poi si prosegue su strade secondarie, in gran parte sterrate. Con la pioggia i tempi si allungano molto."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Niente foto dei bambini sui social.",
+      "testo": "Niente foto dei bambini sui social."
     },
     {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Imparate venti parole di swahili prima di arrivare, e usatele tutte, a…",
-      "testo": "Imparate venti parole di swahili prima di arrivare, e usatele tutte, anche sbagliando. <em lang=\"sw\">Shikamoo</em> agli anziani, <em lang=\"sw\">mambo?</em> ai ragazzi, <em lang=\"sw\">asante sana</em> a chi cucina. Al villaggio aprono più porte di qualsiasi regalo. Il frasario è nel capitolo <a href=\"info.html#cultura\">Cultura</a>."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Le donazioni passano dal progetto, mai dalle mani dei bambini.",
+      "testo": "Le donazioni passano dal progetto, mai dalle mani dei bambini."
     },
     {
-      "dove": "Box «Attenzione» · Voce di elenco: A Njombe prelevate tutto il contante che serve per la settimana: al vi…",
-      "testo": "A Njombe prelevate tutto il contante che serve per la settimana: al villaggio non ci sono bancomat e probabilmente non si paga con il telefono."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Non promettete di tornare o di mandare soldi.",
+      "testo": "Non promettete di tornare o di mandare soldi."
     },
     {
-      "dove": "Box «Attenzione» · Voce di elenco: Corrente, campo e acqua corrente potrebbero mancare. Portate un power …",
-      "testo": "Corrente, campo e acqua corrente potrebbero mancare. Portate un power bank carico, una frontale e pastiglie per potabilizzare l'acqua."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Le notti a dicembre sono fresche e umide: sacco lenzuolo, pile e calze…",
-      "testo": "Le notti a dicembre sono fresche e umide: sacco lenzuolo, pile e calze di lana."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Non pubblicate foto dei bambini del villaggio sui social, nemmeno con …",
-      "testo": "Non pubblicate foto dei bambini del villaggio sui social, nemmeno con il volto coperto."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Le donazioni passano dal progetto, mai dalle mani dei bambini: un rega…",
-      "testo": "Le donazioni passano dal progetto, mai dalle mani dei bambini: un regalo a uno crea problemi a tutti gli altri."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Non promettete ciò che non potete mantenere, come tornare, scrivere o …",
-      "testo": "Non promettete ciò che non potete mantenere, come tornare, scrivere o mandare soldi. Le promesse dei viaggiatori pesano."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: Il capitolo Viaggio sostenibile spiega perché.",
-      "testo": "Il capitolo <a href=\"index.html#sostenibile\">Viaggio sostenibile</a> spiega perché."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Una settimana in un posto senza svaghi mette alla prova anche il grupp…",
-      "testo": "Una settimana in un posto senza svaghi mette alla prova anche il gruppo più affiatato. Dividetevi i compiti (scuola, lavori, giochi) e ruotate. Tenete una sera libera per stare tra voi a raccontarvi la giornata."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: La messa di domenica 6 dicembre può durare due o tre ore, con cori, da…",
-      "testo": "La messa di domenica 6 dicembre può durare due o tre ore, con cori, danze e l'offertorio in natura: c'è chi porta uova, galline o sacchi di mais. Vestitevi con cura, e preparatevi a essere presentati alla comunità."
+      "dove": "Box «Lo sapevi che…» · Paragrafo: La messa della domenica può durare due o tre ore, con cori, danze e of…",
+      "testo": "La messa della domenica può durare due o tre ore, con cori, danze e offerte in natura: uova, galline, sacchi di mais. Preparatevi a essere presentati alla comunità."
     }
   ],
   "iringa": [
@@ -463,8 +327,8 @@
       "testo": "Iringa"
     },
     {
-      "dove": "Paragrafo: La città degli hehe, sul bordo di una scarpata: la storia di Mkwawa, u…",
-      "testo": "La città degli hehe, sul bordo di una scarpata: la storia di Mkwawa, un sito dell'Età della Pietra e la porta del Ruaha."
+      "dove": "Paragrafo: La città degli hehe, sul bordo di una scarpata, porta d'ingresso del R…",
+      "testo": "La città degli hehe, sul bordo di una scarpata, porta d'ingresso del Ruaha."
     },
     {
       "dove": "Paragrafo: Foto: Il quartiere di Kihesa, Iringa · Ernst G. Ulz · CC BY-SA 4.0",
@@ -483,104 +347,64 @@
       "testo": "Abitanti"
     },
     {
-      "dove": "Dato: circa 200.000 (comune)",
-      "testo": "circa 200.000 (comune)"
+      "dove": "Dato: circa 200.000",
+      "testo": "circa 200.000"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: mite, 15–28 °C, temporali",
-      "testo": "mite, 15–28 °C, temporali"
+      "dove": "Dato: mite, 15–28 °C",
+      "testo": "mite, 15–28 °C"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Paragrafo: Iringa sta su un altopiano che finisce di colpo sopra la valle del Lit…",
+      "testo": "Iringa sta su un altopiano che finisce di colpo sopra la valle del Little Ruaha. È una cittadina tranquilla, con un grande mercato coperto, edifici dell'epoca tedesca e molti studenti."
     },
     {
-      "dove": "Dato: 2 notti, il 7 e il 9 dicembre",
-      "testo": "2 notti, il 7 e il 9 dicembre"
+      "dove": "Sottotitolo: In breve: Mkwawa e gli hehe",
+      "testo": "In breve: Mkwawa e gli hehe"
     },
     {
-      "dove": "Paragrafo: Iringa sta su un altopiano che finisce di colpo in una scarpata sopra …",
-      "testo": "Iringa sta su un altopiano che finisce di colpo in una scarpata sopra la valle del Little Ruaha. Dal bordo si vede la pianura molto più in basso. È una cittadina tranquilla e ordinata, con un grande mercato coperto, edifici dell'epoca tedesca, chiese e moschee, e molti studenti universitari. Per noi è un punto di appoggio: ci dormiamo all'andata e al ritorno dal Ruaha, e la sera del 9 dicembre ci sarà il clima di festa dell'Uhuru Day."
+      "dove": "Paragrafo: Nell'Ottocento gli hehe, guidati dal capo Mkwawa, erano la potenza mil…",
+      "testo": "Nell'Ottocento gli hehe, guidati dal capo <strong>Mkwawa</strong>, erano la potenza militare degli altopiani. Nel 1891, a Lugalo, sconfissero una colonna tedesca; per sette anni resistettero, finché nel 1898 Mkwawa, circondato, si tolse la vita. Il suo cranio, portato in Germania, fu restituito solo nel 1954 e oggi è nel museo di Kalenga. Per molti tanzaniani Mkwawa è un eroe nazionale."
     },
     {
-      "dove": "Sottotitolo: Un po' di storia: Mkwawa e gli hehe",
-      "testo": "Un po' di storia: Mkwawa e gli hehe"
+      "dove": "Sottotitolo: Cosa vedere",
+      "testo": "Cosa vedere"
     },
     {
-      "dove": "Paragrafo: Nella seconda metà dell'Ottocento gli hehe, guidati dal capo Mkwawa, e…",
-      "testo": "Nella seconda metà dell'Ottocento gli hehe, guidati dal capo <strong>Mkwawa</strong>, erano la potenza militare degli altopiani meridionali. Quando arrivarono i tedeschi, Mkwawa scelse di combattere. Nell'agosto del 1891, a Lugalo, i suoi guerrieri tesero un'imboscata a una colonna tedesca e la distrussero, uccidendone il comandante. Fu una delle sconfitte più gravi subite da un esercito coloniale in Africa orientale."
+      "dove": "Voce di elenco: Il mercato centrale, al mattino.",
+      "testo": "<strong>Il mercato centrale</strong>, al mattino."
     },
     {
-      "dove": "Paragrafo: Nel 1894 i tedeschi presero e distrussero la sua fortezza di Kalenga, …",
-      "testo": "Nel 1894 i tedeschi presero e distrussero la sua fortezza di Kalenga, ma Mkwawa continuò la guerriglia per quattro anni. Nel 1898, circondato, si tolse la vita per non essere catturato. I tedeschi gli tagliarono la testa e mandarono il cranio in Germania. Il trattato di Versailles del 1919 ne chiese la restituzione, che però avvenne solo nel 1954. Oggi il cranio è conservato nel piccolo museo di Kalenga, a circa 15 km dalla città, accanto alla tomba di Mkwawa. Per gli hehe, e per molti tanzaniani, Mkwawa è un eroe nazionale."
+      "dove": "Voce di elenco: Gangilonga, «la pietra che parla», con la vista migliore sulla città. …",
+      "testo": "<strong>Gangilonga</strong>, «la pietra che parla», con la vista migliore sulla città. Con una guida locale."
     },
     {
-      "dove": "Paragrafo: Secondo la spiegazione più diffusa, il nome Iringa viene dalla parola …",
-      "testo": "Secondo la spiegazione più diffusa, il nome Iringa viene dalla parola hehe <em>lilinga</em>, «fortezza». La città nacque come presidio militare tedesco dopo la caduta di Kalenga."
+      "dove": "Voce di elenco: Kalenga e il museo di Mkwawa, a circa 15 km.",
+      "testo": "<strong>Kalenga</strong> e il museo di Mkwawa, a circa 15 km."
     },
     {
-      "dove": "Sottotitolo: Cosa vedere e fare",
-      "testo": "Cosa vedere e fare"
+      "dove": "Voce di elenco: Isimila, a circa 20 km: strumenti in pietra di decine di migliaia di a…",
+      "testo": "<strong>Isimila</strong>, a circa 20 km: strumenti in pietra di decine di migliaia di anni fa, tra pinnacoli di arenaria."
     },
     {
-      "dove": "Voce di elenco: Il mercato centrale: frutta e verdura degli altopiani, cestini e tessu…",
-      "testo": "<strong>Il mercato centrale</strong>: frutta e verdura degli altopiani, cestini e tessuti, il reparto delle spezie. Al mattino è al massimo dell'animazione."
+      "dove": "Didascalia: I pinnacoli di arenaria di Isimila · Dingilai · CC BY-SA 4.0",
+      "testo": "I pinnacoli di arenaria di Isimila · Dingilai · <a href=\"https://commons.wikimedia.org/wiki/File:Isimila_stone_age_site.jpg\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>"
     },
     {
-      "dove": "Voce di elenco: Gangilonga, la grande roccia sopra la città. Il nome significa «la pie…",
-      "testo": "<strong>Gangilonga</strong>, la grande roccia sopra la città. Il nome significa «la pietra che parla» e la tradizione dice che Mkwawa vi saliva per riflettere. Dall'alto la vista sulla città e sulla valle è la migliore. Andateci con una guida locale, non da soli."
+      "dove": "Box «Tip» · Paragrafo: Se avete un'ora di luce, andate sul bordo della scarpata al tramonto: …",
+      "testo": "Se avete un'ora di luce, andate sul bordo della scarpata al tramonto: la valle diventa rossa, e si capisce perché Mkwawa scelse questo posto."
     },
     {
-      "dove": "Voce di elenco: Kalenga e il museo di Mkwawa, per capire la storia della città.",
-      "testo": "<strong>Kalenga</strong> e il museo di Mkwawa, per capire la storia della città."
+      "dove": "Box «Da non perdere» · Paragrafo: Isimila, se c'è mezza giornata: pochi posti al mondo vi fanno vedere d…",
+      "testo": "Isimila, se c'è mezza giornata: pochi posti al mondo vi fanno vedere da vicino strumenti di pietra così antichi."
     },
     {
-      "dove": "Voce di elenco: Il sito dell'Età della Pietra di Isimila, a circa 20 km verso sud: uno…",
-      "testo": "<strong>Il sito dell'Età della Pietra di Isimila</strong>, a circa 20 km verso sud: uno dei siti più ricchi dell'Africa orientale di strumenti acheuleani, le asce a mano scheggiate da esseri umani di un'altra specie. Intorno, una piccola valle erosa di pinnacoli di arenaria."
-    },
-    {
-      "dove": "Voce di elenco: La sera del 9 dicembre, l'Uhuru Day in città: bandiere, musica, famigl…",
-      "testo": "La sera del 9 dicembre, <strong>l'Uhuru Day in città</strong>: bandiere, musica, famiglie per strada (vedi <a href=\"info.html#feste\">Feste</a>)."
-    },
-    {
-      "dove": "Didascalia: I pinnacoli di arenaria del sito di Isimila · Dingilai · CC BY-SA 4.0",
-      "testo": "I pinnacoli di arenaria del sito di Isimila · Dingilai · <a href=\"https://commons.wikimedia.org/wiki/File:Isimila_stone_age_site.jpg\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>"
-    },
-    {
-      "dove": "Sottotitolo: Dormire e mangiare",
-      "testo": "Dormire e mangiare"
-    },
-    {
-      "dove": "Paragrafo: L'albergo lo sceglie l'organizzazione. In centro ci sono semplici rist…",
-      "testo": "L'albergo lo sceglie l'organizzazione. In centro ci sono semplici ristoranti locali, caffè e locali di griglia. Iringa e Njombe sono la patria dell'<a href=\"info.html#mangiare\"><em lang=\"sw\">ulanzi</em></a>, il vino di bambù, la cui stagione coincide con le piogge: se ve lo offrono, assaggiatelo, ma con prudenza, perché fermenta in fretta e la forza varia molto da un giorno all'altro."
-    },
-    {
-      "dove": "Sottotitolo: Come arrivare",
-      "testo": "Come arrivare"
-    },
-    {
-      "dove": "Paragrafo: Da Mavanga si risale a nord sulla statale che passa per Njombe e Mafin…",
-      "testo": "Da Mavanga si risale a nord sulla statale che passa per Njombe e Mafinga: una lunga giornata di strada, con la sosta alla piantagione di tè. Il giorno 10 si parte presto verso il Ruaha, a ovest. Il giorno 11 si torna a Iringa, e il 12 si parte in bus per Dar es Salaam sulla statale A7."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Se all'arrivo il 7 dicembre resta un'ora di luce, andate sul bordo del…",
-      "testo": "Se all'arrivo il 7 dicembre resta un'ora di luce, andate sul bordo della scarpata al tramonto. La valle del Little Ruaha diventa rossa, e si capisce perché i tedeschi, e prima di loro Mkwawa, scelsero questo posto."
-    },
-    {
-      "dove": "Box «Da non perdere» · Paragrafo: Isimila, se il programma lascia mezza giornata. Pochi siti al mondo pe…",
-      "testo": "Isimila, se il programma lascia mezza giornata. Pochi siti al mondo permettono di vedere, appoggiati sul terreno, strumenti di pietra lavorati da ominidi decine di migliaia di anni fa."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: La restituzione del cranio di Mkwawa compare nell'articolo 246 del tra…",
-      "testo": "La restituzione del cranio di Mkwawa compare nell'articolo 246 del trattato di Versailles, accanto a quella di un Corano antico al re dell'Hegiaz. Il cranio arrivò in Tanzania solo trentacinque anni dopo, e la sua autenticità è ancora discussa."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: A Isimila non raccogliete e non spostate le pietre lavorate: sono repe…",
-      "testo": "A Isimila non raccogliete e non spostate le pietre lavorate: sono reperti protetti. Toccarle e fotografarle va bene; portarle via è un reato."
+      "dove": "Box «Viaggio responsabile» · Paragrafo: A Isimila le pietre lavorate si guardano e si fotografano, ma non si p…",
+      "testo": "A Isimila le pietre lavorate si guardano e si fotografano, ma non si portano via: sono reperti protetti."
     }
   ],
   "ruaha": [
@@ -601,120 +425,72 @@
       "testo": "Superficie"
     },
     {
-      "dove": "Dato: circa 20.226 km², il secondo parco della Tanzania",
-      "testo": "circa 20.226 km², il secondo parco della Tanzania"
+      "dove": "Dato: circa 20.200 km², il secondo parco della Tanzania",
+      "testo": "circa 20.200 km², il secondo parco della Tanzania"
     },
     {
       "dove": "Etichetta: Istituito",
       "testo": "Istituito"
     },
     {
-      "dove": "Dato: nel 1964, ampliato nel 2008",
-      "testo": "nel 1964, ampliato nel 2008"
+      "dove": "Dato: nel 1964",
+      "testo": "nel 1964"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: caldo, 20–33 °C, primi temporali",
-      "testo": "caldo, 20–33 °C, primi temporali"
+      "dove": "Dato: caldo, 20–33 °C",
+      "testo": "caldo, 20–33 °C"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Paragrafo: Il Ruaha è più grande della Puglia, ma lo visita una piccola parte dei…",
+      "testo": "Il Ruaha è più grande della Puglia, ma lo visita una piccola parte dei turisti del Serengeti: qui un leone sdraiato sulla pista può essere tutto vostro. Colline rocciose, baobab giganti, savana di acacie e, in mezzo, il Grande Ruaha, il fiume che dà il nome al parco."
     },
     {
-      "dove": "Dato: un pomeriggio, una notte nel parco, un'alba",
-      "testo": "un pomeriggio, una notte nel parco, un'alba"
+      "dove": "Sottotitolo: In breve",
+      "testo": "In breve"
     },
     {
-      "dove": "Paragrafo: Il Ruaha è più grande della Puglia (circa 20.200 km² contro 19.500), m…",
-      "testo": "Il Ruaha è più grande della Puglia (circa 20.200 km² contro 19.500), ma riceve solo una piccola parte dei visitatori del Serengeti. Qui le jeep si incontrano di rado, e un leone sdraiato sulla pista può essere tutto vostro. Il paesaggio cambia di continuo: le colline rocciose, i baobab giganti, la savana di acacie e, verso l'esterno, il bosco di <em>miombo</em>. In mezzo scorre il Grande Ruaha, il fiume che dà il nome al parco e che a dicembre, dopo mesi di secca, aspetta le prime piogge."
+      "dove": "Paragrafo: Il Ruaha è il punto in cui la savana dell'Africa orientale incontra qu…",
+      "testo": "Il Ruaha è il punto in cui la savana dell'Africa orientale incontra quella australe, e qui si vedono insieme specie che altrove non si incontrano: kudu maggiore e minore, antilope nera e roana. È anche uno dei luoghi migliori al mondo per i grandi predatori: secondo il Ruaha Carnivore Project, nel suo ecosistema vive circa un decimo dei leoni rimasti in natura."
     },
     {
-      "dove": "Paragrafo: Il Ruaha sta a cavallo tra due mondi: è il punto in cui gli ambienti d…",
-      "testo": "Il Ruaha sta a cavallo tra due mondi: è il punto in cui gli ambienti dell'Africa orientale incontrano quelli dell'Africa australe. Per questo si vedono insieme specie che altrove non si incontrano mai: il kudu maggiore e il kudu minore, l'antilope nera e l'antilope roana, la gazzella di Grant. È anche uno dei luoghi migliori al mondo per i grandi predatori. Secondo il Ruaha Carnivore Project, nel paesaggio Ruaha-Rungwa vive circa un decimo dei leoni rimasti in natura, insieme a leopardi, iene, ghepardi e licaoni."
+      "dove": "Paragrafo: Le zone migliori per gli avvistamenti sono lungo il fiume. Le probabil…",
+      "testo": "Le zone migliori per gli avvistamenti sono lungo il fiume. Le probabilità per ogni specie sono nell'<a href=\"fauna.html#come-leggere\">atlante della fauna</a>."
     },
     {
-      "dove": "Sottotitolo: Un po' di storia",
-      "testo": "Un po' di storia"
+      "dove": "Sottotitolo: Dormire",
+      "testo": "Dormire"
     },
     {
-      "dove": "Paragrafo: Il nome viene dalla parola hehe che indica il fiume. Nel 1910 i tedesc…",
-      "testo": "Il nome viene dalla parola hehe che indica il fiume. Nel 1910 i tedeschi istituirono qui la riserva di caccia di Saba, che gli inglesi trasformarono nella riserva di Rungwa. Nel 1964 la parte meridionale divenne parco nazionale, e nel 2008 il parco è stato ampliato fino alle zone umide di Usangu, raddoppiando la sua superficie. Fino al 2019, quando è nato il Parco Nazionale Nyerere, era il parco più grande della Tanzania."
+      "dove": "Paragrafo: Campo tendato o lodge dentro il parco, spesso con la corrente solo a o…",
+      "testo": "Campo tendato o lodge dentro il parco, spesso con la corrente solo a orari e senza wifi. La sera, intorno al fuoco, si sentono iene, leoni e ippopotami."
     },
     {
-      "dove": "Paragrafo: Il Ruaha ha attraversato anni difficili. Tra il 2009 e il 2014 il brac…",
-      "testo": "Il Ruaha ha attraversato anni difficili. Tra il 2009 e il 2014 il bracconaggio per l'avorio ha più che dimezzato gli elefanti dell'ecosistema Ruaha-Rungwa. Da allora i controlli sono aumentati e la situazione è migliorata. Il fiume è invece un problema ancora aperto: dagli anni '90, per l'acqua prelevata a monte per le risaie di Usangu, nella stagione secca il Grande Ruaha smette di scorrere per settimane."
+      "dove": "Box «Tip» · Paragrafo: All'alba, se la guida è d'accordo, spegniamo il motore per dieci minut…",
+      "testo": "All'alba, se la guida è d'accordo, spegniamo il motore per dieci minuti e ascoltiamo. È la colonna sonora del Ruaha, e nessuna foto la restituisce."
     },
     {
-      "dove": "Sottotitolo: Il nostro programma nel parco",
-      "testo": "Il nostro programma nel parco"
+      "dove": "Box «Da non perdere» · Paragrafo: I baobab, molti segnati dagli elefanti, che ne mangiano la corteccia p…",
+      "testo": "I baobab, molti segnati dagli elefanti, che ne mangiano la corteccia per l'acqua. Alcuni hanno secoli."
     },
     {
-      "dove": "Voce di elenco: Giorno 10, 8 dicembre: partenza presto da Iringa, ingresso nel parco e…",
-      "testo": "<strong>Giorno 10, 8 dicembre</strong>: partenza presto da Iringa, ingresso nel parco e primo game drive in jeep 4x4 con guida. Pranzo e cena inclusi, e la notte dentro il parco, la «notte wow» del programma."
+      "dove": "Box «Attenzione» · Voce di elenco: Vestiti chiari: le mosche tse-tse amano il blu scuro e il nero.",
+      "testo": "Vestiti chiari: le mosche tse-tse amano il blu scuro e il nero."
     },
     {
-      "dove": "Voce di elenco: Giorno 11, 9 dicembre, Uhuru Day: game drive all'alba, il momento migl…",
-      "testo": "<strong>Giorno 11, 9 dicembre, Uhuru Day</strong>: game drive all'alba, il momento migliore per i predatori. Poi l'uscita dal parco, la visita al villaggio masai e il rientro a Iringa."
+      "dove": "Box «Attenzione» · Voce di elenco: Di notte non si esce dalla tenda senza un accompagnatore.",
+      "testo": "Di notte non si esce dalla tenda senza un accompagnatore."
     },
     {
-      "dove": "Paragrafo: Le zone migliori per gli avvistamenti sono quelle lungo il fiume e i s…",
-      "testo": "Le zone migliori per gli avvistamenti sono quelle lungo il fiume e i suoi affluenti stagionali, dove si concentrano gli animali alla fine della secca. Le probabilità di vedere ogni specie sono nell'<a href=\"fauna.html#come-leggere\">atlante della fauna</a>."
-    },
-    {
-      "dove": "Sottotitolo: Dormire e mangiare",
-      "testo": "Dormire e mangiare"
-    },
-    {
-      "dove": "Paragrafo: Il campo o il lodge dentro il parco li sceglie l'organizzazione. Nei c…",
-      "testo": "Il campo o il lodge dentro il parco li sceglie l'organizzazione. Nei campi tendati di solito la corrente c'è solo poche ore al giorno, con generatore o pannelli solari, e il wifi può mancare del tutto. La cena è spesso intorno al fuoco, e di notte si sentono iene, leoni e ippopotami."
-    },
-    {
-      "dove": "Sottotitolo: Come arrivare",
-      "testo": "Come arrivare"
-    },
-    {
-      "dove": "Paragrafo: Da Iringa al parco ci sono circa 110–130 km, verso ovest: tre o quattr…",
-      "testo": "Da Iringa al parco ci sono circa 110–130 km, verso ovest: tre o quattro ore di strada, con un lungo tratto sterrato. La sede del parco è a Msembe, vicino al fiume."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Durante l'alba del 9 dicembre mettete via il telefono per dieci minuti…",
-      "testo": "Durante l'alba del 9 dicembre mettete via il telefono per dieci minuti. Spegnete il motore, se la guida è d'accordo, e ascoltate. Il francolino, le tortore, un leone lontano: è la colonna sonora del Ruaha, e nessuna foto la restituisce."
-    },
-    {
-      "dove": "Box «Da non perdere» · Paragrafo: I baobab del Ruaha. Molti portano sul tronco profondi segni lasciati d…",
-      "testo": "I baobab del Ruaha. Molti portano sul tronco profondi segni lasciati dagli elefanti, che a fine stagione secca ne mangiano la corteccia per l'acqua. Alcuni hanno molti secoli."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Le mosche tse-tse del miombo sono attratte dal blu scuro e dal nero: v…",
-      "testo": "Le mosche tse-tse del miombo sono attratte dal blu scuro e dal nero: vestiti chiari, color sabbia o kaki."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Nel campo, di notte, non uscite mai dalla tenda senza un accompagnator…",
-      "testo": "Nel campo, di notte, non uscite mai dalla tenda senza un accompagnatore. Animali selvatici passano anche tra le tende."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Con i primi temporali alcune piste possono diventare impraticabili: il…",
-      "testo": "Con i primi temporali alcune piste possono diventare impraticabili: il programma dei game drive può cambiare."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: Se una jeep segnala un leopardo, non chiedete alla guida di avvicinars…",
-      "testo": "Se una jeep segnala un leopardo, non chiedete alla guida di avvicinarsi troppo o di uscire dalla pista. Il Ruaha è ancora un parco tranquillo perché pochi lo frequentano e le regole vengono rispettate."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Ruotate i posti in jeep a ogni game drive: davanti, dietro, ai finestr…",
-      "testo": "Ruotate i posti in jeep a ogni game drive: davanti, dietro, ai finestrini. E aggiornate tutti insieme la checklist <a href=\"fauna.html#checklist\">«Avvistati!»</a> la sera al campo."
+      "dove": "Box «In gruppo» · Paragrafo: Ruotiamo i posti in jeep a ogni uscita, e la sera aggiorniamo insieme …",
+      "testo": "Ruotiamo i posti in jeep a ogni uscita, e la sera aggiorniamo insieme la checklist <a href=\"fauna.html#checklist\">«Avvistati!»</a>."
     },
     {
       "dove": "Sottotitolo: Gli animali da cercare",
       "testo": "Gli animali da cercare"
-    },
-    {
-      "dove": "Paragrafo: Tocca una scheda per aprirla nell'atlante della fauna.",
-      "testo": "Tocca una scheda per aprirla nell'atlante della fauna."
     }
   ],
   "masai": [
@@ -723,8 +499,8 @@
       "testo": "Cultura masai"
     },
     {
-      "dove": "Paragrafo: Un popolo di pastori, il bestiame al centro di tutto, e una cultura ch…",
-      "testo": "Un popolo di pastori, il bestiame al centro di tutto, e una cultura che cambia senza scomparire."
+      "dove": "Paragrafo: Un popolo di pastori, con il bestiame al centro di tutto.",
+      "testo": "Un popolo di pastori, con il bestiame al centro di tutto."
     },
     {
       "dove": "Paragrafo: Foto: Villaggio masai ai piedi del monte Lolmalasin, altopiani di Ngor…",
@@ -747,84 +523,52 @@
       "testo": "<em>Supa!</em> · risposta: <em>Ipa!</em>"
     },
     {
-      "dove": "Etichetta: Dove",
-      "testo": "Dove"
+      "dove": "Paragrafo: Il territorio masai è più a nord, tra il Kenya e il Serengeti, ma da d…",
+      "testo": "Il territorio masai è più a nord, tra il Kenya e il Serengeti, ma da decenni molte famiglie si sono spostate a sud in cerca di pascoli. Le comunità ai margini del Ruaha vengono da queste migrazioni."
     },
     {
-      "dove": "Dato: vicino al Ruaha, villaggio scelto dall'organizzazione",
-      "testo": "vicino al Ruaha, villaggio scelto dall'organizzazione"
+      "dove": "Sottotitolo: In breve",
+      "testo": "In breve"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Voce di elenco: Il bestiame è ricchezza, cibo, dote e prestigio.",
+      "testo": "<strong>Il bestiame</strong> è ricchezza, cibo, dote e prestigio."
     },
     {
-      "dove": "Dato: una visita di qualche ora",
-      "testo": "una visita di qualche ora"
+      "dove": "Voce di elenco: Il villaggio, l'enkang, è un cerchio di case basse costruite dalle don…",
+      "testo": "<strong>Il villaggio</strong>, l'<em lang=\"mas\">enkang</em>, è un cerchio di case basse costruite dalle donne, circondato da un recinto di rami spinosi che di notte protegge gli animali."
     },
     {
-      "dove": "Paragrafo: Il cuore del territorio masai è più a nord, tra il Kenya meridionale e…",
-      "testo": "Il cuore del territorio masai è più a nord, tra il Kenya meridionale e le pianure del Serengeti e di Ngorongoro. Ma i masai sono pastori, e da molti decenni diverse famiglie si sono spostate verso sud in cerca di pascoli, fino alle regioni di Iringa, Mbeya e Morogoro. Le comunità che vivono ai margini del Ruaha sono nate da queste migrazioni. Visiteremo una di loro il giorno 11, dopo il game drive dell'alba."
+      "dove": "Voce di elenco: Le età della vita: da giovani si è ilmurran, guerrieri; poi si diventa…",
+      "testo": "<strong>Le età della vita</strong>: da giovani si è <em lang=\"mas\">ilmurran</em>, guerrieri; poi si diventa anziani, e si decide insieme. Le danze in cui i giovani saltano in alto segnano questi passaggi."
     },
     {
-      "dove": "Paragrafo: Al centro di tutto c'è il bestiame. Le vacche sono ricchezza, cibo, do…",
-      "testo": "Al centro di tutto c'è il bestiame. Le vacche sono ricchezza, cibo, dote, prestigio, e il loro latte, la carne e un tempo anche il sangue erano la base della dieta. Il villaggio tradizionale, l'<em lang=\"mas\">enkang</em>, è un cerchio di case basse circondato da un recinto di rami spinosi, che di notte protegge gli animali dai predatori. Le case le costruiscono le donne, con rami, fango e sterco."
+      "dove": "Voce di elenco: Le perline raccontano età e stato civile, e il rosso della shuka è il …",
+      "testo": "<strong>Le perline</strong> raccontano età e stato civile, e il rosso della <em lang=\"sw\">shuka</em> è il colore simbolo del popolo."
     },
     {
-      "dove": "Sottotitolo: Le età della vita",
-      "testo": "Le età della vita"
+      "dove": "Voce di elenco: Oggi molti masai vanno a scuola, coltivano accanto al pascolo, usano i…",
+      "testo": "<strong>Oggi</strong> molti masai vanno a scuola, coltivano accanto al pascolo, usano il cellulare. La vita da pastori è sempre più difficile, tra siccità e conflitti per la terra."
     },
     {
-      "dove": "Paragrafo: La società masai è organizzata in classi d'età. I ragazzi circoncisi n…",
-      "testo": "La società masai è organizzata in classi d'età. I ragazzi circoncisi nello stesso periodo formano un gruppo che resta unito per tutta la vita. Da giovani sono <em lang=\"mas\">ilmurran</em>, i guerrieri, responsabili della difesa del bestiame. Poi diventano anziani, e insieme prendono le decisioni della comunità. Le danze in cui i giovani saltano in alto, a turno, al ritmo del canto del gruppo, fanno parte delle cerimonie che segnano questi passaggi. Ai visitatori se ne mostra spesso una versione breve."
+      "dove": "Box «Tip» · Paragrafo: Fate domande: sulla scuola, sulle piogge, su quante vacche servono per…",
+      "testo": "Fate domande: sulla scuola, sulle piogge, su quante vacche servono per sposarsi. Una visita in cui si chiacchiera vale dieci volte una in cui si guarda soltanto."
     },
     {
-      "dove": "Paragrafo: Anche gli ornamenti hanno un significato: le collane e i grandi collar…",
-      "testo": "Anche gli ornamenti hanno un significato: le collane e i grandi collari di perline colorate, fatti dalle donne, indicano l'età, lo stato civile e il gruppo. Il rosso della <em lang=\"sw\">shuka</em>, la coperta a quadri o a tinta unita che i masai portano sulle spalle, è diventato il colore simbolo del popolo."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Prima di fotografare chiedete, e accettate un no.",
+      "testo": "Prima di fotografare chiedete, e accettate un no."
     },
     {
-      "dove": "Sottotitolo: Una cultura che cambia",
-      "testo": "Una cultura che cambia"
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Le perline compratele direttamente dalle donne che le fanno.",
+      "testo": "Le perline compratele direttamente dalle donne che le fanno."
     },
     {
-      "dove": "Paragrafo: Oggi molti masai vanno a scuola, coltivano mais accanto al pascolo, us…",
-      "testo": "Oggi molti masai vanno a scuola, coltivano mais accanto al pascolo, usano il cellulare per sapere dove ha piovuto e per vendere il bestiame, e lavorano in città, spesso come guardiani o guide. Sono in maggioranza cristiani. La vita da pastori è sempre più difficile, tra la siccità, la crescita della popolazione e i conflitti per la terra con agricoltori e aree protette. Dal 2022 le ricollocazioni di comunità masai dall'area di Ngorongoro e la creazione di nuove riserve a Loliondo hanno suscitato proteste e critiche internazionali."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Niente caramelle o soldi ai bambini.",
+      "testo": "Niente caramelle o soldi ai bambini."
     },
     {
-      "dove": "Paragrafo: Il turismo culturale porta un reddito importante, ma pone anche domand…",
-      "testo": "Il turismo culturale porta un reddito importante, ma pone anche domande. Una visita può essere un incontro vero o una messinscena. La differenza la fanno soprattutto il modo in cui ci si comporta e il fatto che i soldi arrivino davvero alla comunità."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Fate domande: sulla scuola, sulle piogge, su quante vacche servono per…",
-      "testo": "Fate domande: sulla scuola, sulle piogge, su quante vacche servono per sposarsi, su come si vive da masai lontano dal Serengeti. Una visita in cui si chiacchiera vale dieci volte una visita in cui si guarda soltanto."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Chiedete sempre prima di fotografare una persona, e accettate un no.",
-      "testo": "Chiedete sempre prima di fotografare una persona, e accettate un no."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Chiedete agli organizzatori come viene divisa la quota della visita e …",
-      "testo": "Chiedete agli organizzatori come viene divisa la quota della visita e a chi va."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Se comprate perline o bracciali, fatelo direttamente dalle donne che l…",
-      "testo": "Se comprate perline o bracciali, fatelo direttamente dalle donne che li hanno fatti, senza contrattare troppo."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Niente caramelle, penne o soldi dati ai bambini.",
-      "testo": "Niente caramelle, penne o soldi dati ai bambini."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: Tradizionalmente i masai non mangiano la carne degli animali selvatici…",
-      "testo": "Tradizionalmente i masai non mangiano la carne degli animali selvatici, perché il cibo «vero» viene dal bestiame. Per questo, nei secoli, la loro presenza ha convissuto abbastanza bene con la grande fauna della savana."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Siamo un gruppo numeroso, e in un villaggio piccolo un gruppo grande p…",
-      "testo": "Siamo un gruppo numeroso, e in un villaggio piccolo un gruppo grande può sembrare un'invasione. Dividetevi, parlate a voce bassa, non entrate nelle case se non siete invitati."
-    },
-    {
-      "dove": "Paragrafo: Verificato il 12/11/2026. Il villaggio della visita e le sue regole li…",
-      "testo": "Verificato il 12/11/2026. Il villaggio della visita e le sue regole li comunica la guida in loco."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Nelle case si entra solo se invitati.",
+      "testo": "Nelle case si entra solo se invitati."
     }
   ],
   "mikumi": [
@@ -833,8 +577,8 @@
       "testo": "Parco Nazionale di Mikumi"
     },
     {
-      "dove": "Paragrafo: Un safari dal finestrino: cinquanta chilometri di savana attraversati …",
-      "testo": "Un safari dal finestrino: cinquanta chilometri di savana attraversati dalla statale per Dar es Salaam."
+      "dove": "Paragrafo: Un safari dal finestrino: la statale per Dar attraversa la savana.",
+      "testo": "Un safari dal finestrino: la statale per Dar attraversa la savana."
     },
     {
       "dove": "Paragrafo: Foto: Parco Nazionale di Mikumi · mwanasimba · CC BY-SA 2.0",
@@ -857,88 +601,52 @@
       "testo": "nel 1964"
     },
     {
-      "dove": "Etichetta: Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Etichetta: Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Dato: caldo, 22–32 °C, temporali",
-      "testo": "caldo, 22–32 °C, temporali"
+      "dove": "Dato: caldo, 22–32 °C",
+      "testo": "caldo, 22–32 °C"
     },
     {
-      "dove": "Etichetta: Quanto restiamo",
-      "testo": "Quanto restiamo"
+      "dove": "Paragrafo: La statale A7, la grande strada tra il porto di Dar e lo Zambia, attra…",
+      "testo": "La statale A7, la grande strada tra il porto di Dar e lo Zambia, attraversa il Parco di Mikumi per una cinquantina di chilometri. Dal finestrino si vedono elefanti, giraffe, zebre, impala, bufali e babbuini, tra camion e cisterne."
     },
     {
-      "dove": "Dato: circa un'ora di bus dentro il parco",
-      "testo": "circa un'ora di bus dentro il parco"
+      "dove": "Sottotitolo: La strada",
+      "testo": "La strada"
     },
     {
-      "dove": "Paragrafo: L'ultimo giorno di strada è il più lungo: circa 500 km in bus, da Irin…",
-      "testo": "L'ultimo giorno di strada è il più lungo: circa 500 km in bus, da Iringa fino a Dar es Salaam. Ma a metà percorso c'è una sorpresa. La statale A7, la grande strada che collega il porto di Dar es Salaam allo Zambia, taglia per una cinquantina di chilometri il Parco Nazionale di Mikumi, e dal finestrino del bus si vedono elefanti, giraffe, zebre, impala, bufali e babbuini a bordo strada, tra camion e cisterne."
+      "dove": "Voce di elenco: La gola del Little Ruaha, appena lasciata Iringa, tra rocce e centinai…",
+      "testo": "<strong>La gola del Little Ruaha</strong>, appena lasciata Iringa, tra rocce e centinaia di baobab: uno dei paesaggi più belli del viaggio."
     },
     {
-      "dove": "Paragrafo: Il cuore del parco è la pianura alluvionale del fiume Mkata, una savan…",
-      "testo": "Il cuore del parco è la pianura alluvionale del fiume Mkata, una savana aperta chiusa tra i monti Uluguru e Rubeho. A sud, il Mikumi confina con il Parco Nazionale Nyerere, l'ex riserva del Selous: insieme formano uno degli ecosistemi protetti più grandi d'Africa."
+      "dove": "Voce di elenco: Il parco: un'ora circa con gli occhi fuori dal finestrino. Gli elefant…",
+      "testo": "<strong>Il parco</strong>: un'ora circa con gli occhi fuori dal finestrino. Gli elefanti attraversano spesso al mattino e verso sera."
     },
     {
-      "dove": "Sottotitolo: La strada del giorno 12",
-      "testo": "La strada del giorno 12"
+      "dove": "Voce di elenco: Morogoro, ai piedi dei monti Uluguru, e poi la pianura sempre più cald…",
+      "testo": "<strong>Morogoro</strong>, ai piedi dei monti Uluguru, e poi la pianura sempre più calda verso la costa."
     },
     {
-      "dove": "Voce di elenco: La gola del Little Ruaha: appena lasciata Iringa, la strada scende dal…",
-      "testo": "<strong>La gola del Little Ruaha</strong>: appena lasciata Iringa, la strada scende dalla scarpata lungo la valle del fiume, tra rocce e centinaia di baobab. È uno dei paesaggi più belli di tutto il viaggio: tenete pronta la macchina fotografica, dal lato destro del bus."
+      "dove": "Paragrafo: Il bus non si ferma dentro il parco: foto dal finestrino, con zoom e r…",
+      "testo": "Il bus non si ferma dentro il parco: foto dal finestrino, con zoom e raffica."
     },
     {
-      "dove": "Voce di elenco: Mikumi, la cittadina e poi il parco: la statale entra nella pianura e …",
-      "testo": "<strong>Mikumi</strong>, la cittadina e poi il parco: la statale entra nella pianura e per circa un'ora si guarda fuori."
+      "dove": "Box «Tip» · Paragrafo: Lato destro per la gola dei baobab, poi scambiatevi i posti prima del …",
+      "testo": "Lato destro per la gola dei baobab, poi scambiatevi i posti prima del parco: gli animali compaiono da entrambi i lati."
     },
     {
-      "dove": "Voce di elenco: Morogoro, ai piedi dei monti Uluguru, e poi la pianura verso la costa,…",
-      "testo": "<strong>Morogoro</strong>, ai piedi dei monti Uluguru, e poi la pianura verso la costa, sempre più calda e umida."
+      "dove": "Box «Attenzione» · Paragrafo: È una giornata lunga: acqua, snack, power bank e una felpa per l'aria …",
+      "testo": "È una giornata lunga: acqua, snack, power bank e una felpa per l'aria condizionata. Cintura sempre allacciata."
     },
     {
-      "dove": "Voce di elenco: L'arrivo a Dar es Salaam, di sera, nel traffico.",
-      "testo": "L'arrivo a Dar es Salaam, di sera, nel traffico."
-    },
-    {
-      "dove": "Sottotitolo: Cosa vedere dal bus",
-      "testo": "Cosa vedere dal bus"
-    },
-    {
-      "dove": "Paragrafo: Gli animali più facili sono quelli che pascolano vicino alla strada: i…",
-      "testo": "Gli animali più facili sono quelli che pascolano vicino alla strada: impala, zebre, giraffe, gnu e bufali, e i babbuini che camminano sull'asfalto. Gli elefanti attraversano spesso la statale, soprattutto al mattino e verso sera. Guardate anche i fili della luce e i rami secchi: la ghiandaia marina pettolilla e i rapaci si posano spesso proprio a bordo strada. Leoni e altri predatori dalla statale sono rari."
-    },
-    {
-      "dove": "Paragrafo: Il bus non si ferma dentro il parco. Le foto si fanno dal finestrino, …",
-      "testo": "Il bus non si ferma dentro il parco. Le foto si fanno dal finestrino, con lo zoom e la raffica, e accettando che molte vengano mosse."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Quando si parte da Iringa, scegliete un posto vicino al finestrino, da…",
-      "testo": "Quando si parte da Iringa, scegliete un posto vicino al finestrino, dal lato destro per la gola dei baobab. Poi scambiatevi i posti prima di Mikumi: gli animali possono comparire da entrambi i lati."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: Sulla A7 viaggiano molti camion e bus veloci, e gli incidenti sono fre…",
-      "testo": "Sulla A7 viaggiano molti camion e bus veloci, e gli incidenti sono frequenti. Allacciate la cintura, e se la guida vi sembra pericolosa ditelo subito al coordinatore (vedi <a href=\"info.html#muoversi\">Muoversi</a>)."
-    },
-    {
-      "dove": "Box «Attenzione» · Voce di elenco: È una giornata di 10–12 ore: acqua, snack, power bank, e una giacca le…",
-      "testo": "È una giornata di 10–12 ore: acqua, snack, power bank, e una giacca leggera per l'aria condizionata."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: Ogni anno sulla statale che attraversa Mikumi vengono investiti molti …",
-      "testo": "Ogni anno sulla statale che attraversa Mikumi vengono investiti molti animali. Per questo dentro il parco ci sono dossi e limiti di velocità ridotti: se il bus li ignora, segnalatelo. E non buttate niente dal finestrino, nemmeno la buccia di una banana: abitua babbuini ed elefanti a cercare cibo sulla strada."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: La statale che attraversa il Mikumi fa parte della «Tanzam Highway», a…",
-      "testo": "La statale che attraversa il Mikumi fa parte della «Tanzam Highway», asfaltata tra gli anni '60 e '70 per dare allo Zambia, che non ha sbocco sul mare, una strada fino al porto di Dar es Salaam. Nello stesso periodo, con l'aiuto della Cina, fu costruita anche la ferrovia TAZARA, che fa lo stesso percorso più a sud."
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Non buttate niente dal finestrino, nemmeno una buccia: abitua gli anim…",
+      "testo": "Non buttate niente dal finestrino, nemmeno una buccia: abitua gli animali a cercare cibo sulla strada."
     },
     {
       "dove": "Sottotitolo: Gli animali da cercare dal bus",
       "testo": "Gli animali da cercare dal bus"
-    },
-    {
-      "dove": "Paragrafo: Tocca una scheda per aprirla nell'atlante della fauna.",
-      "testo": "Tocca una scheda per aprirla nell'atlante della fauna."
     }
   ]
 }

@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Karibu Tanzania · Guida di viaggio</title>
-<meta name="description" content="Guida di viaggio del gruppo WeRoad in Tanzania meridionale, 29 novembre – 11 dicembre 2026: itinerario, consigli, cosa portare e viaggio responsabile.">
+<meta name="description" content="Guida di viaggio per la Tanzania meridionale: introduzione, tips, cosa portare e viaggio responsabile.">
 <meta name="theme-color" content="#F6F0E6">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="img/icone/icona-192.png">
@@ -12,35 +12,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="assets/guida.css">
 <style>
 .sommario{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr));margin-top:22px}
 .sommario a{display:block;padding:14px 16px;border-radius:10px;background:var(--carta);border:1px solid var(--linea);color:var(--inchiostro);text-decoration:none}
 .sommario a b{display:block;font-family:Fraunces,Georgia,serif;font-size:1.08rem}
 .sommario a small{color:var(--grigio)}
-.correzione{border:2px solid var(--ocra);border-radius:12px;padding:16px 18px;background:var(--carta);margin:0 0 22px}
-.correzione h4{margin:0 0 6px;font:700 .8rem/1.2 "Source Sans 3",sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--ocra)}
-#mappa{height:min(68vh,520px);border-radius:12px;border:1px solid var(--linea);background:var(--linea);z-index:0}
-.mappa-off{padding:18px;color:var(--grigio)}
-.leggenda-mappa{display:flex;gap:14px;flex-wrap:wrap;font-size:.85rem;color:var(--grigio);margin:8px 0 0}
-.leggenda-mappa span::before{content:"";display:inline-block;width:22px;height:0;border-top:3px solid var(--terracotta);vertical-align:middle;margin-right:6px}
-.leggenda-mappa .volo::before{border-top-style:dashed;border-color:var(--oceano)}
-.pin{width:30px;height:30px;border-radius:50%;color:#fff;font:700 13px/30px "Source Sans 3",sans-serif;text-align:center;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35)}
-/* timeline */
-.timeline{list-style:none;margin:24px 0 0;padding:0;position:relative}
-.timeline::before{content:"";position:absolute;left:21px;top:6px;bottom:6px;width:3px;background:var(--linea);border-radius:3px}
-.giorno{position:relative;padding:0 0 22px 60px}
-.giorno .num{position:absolute;left:0;top:0;width:45px;height:45px;border-radius:50%;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;font-weight:700;border:3px solid var(--sabbia)}
-.giorno .num small{font-size:.6rem;font-weight:600;opacity:.9;margin-top:2px}
-.giorno .card{background:var(--carta);border:1px solid var(--linea);border-radius:12px;padding:14px 16px}
-.giorno .data{font:700 .75rem/1.2 "Source Sans 3",sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--grigio)}
-.giorno h3{font-size:1.2rem;margin:4px 0 6px}
-.giorno p{margin:0 0 8px;font-size:.96rem}
-.giorno .tragitto{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.giorno .tragitto span{font-size:.78rem;font-weight:700;background:var(--sabbia);border:1px solid var(--linea);border-radius:6px;padding:3px 8px}
-.giorno.festa .card{border:2px solid #B0362A}
-.festa-badge{display:inline-block;background:#B0362A;color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border-radius:5px;padding:3px 8px;margin-bottom:6px}
 /* consigli */
 .consigli{counter-reset:c;list-style:none;padding:0;margin:20px 0 0;display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
 .consigli li{counter-increment:c;background:var(--carta);border:1px solid var(--linea);border-radius:12px;padding:14px 16px 14px 58px;position:relative;font-size:.96rem}
@@ -87,9 +64,9 @@
 <div class="hero">
   <img src="img/hero-intro.jpg" alt="Elefanti al tramonto in una pianura del Ruaha, con acacie in controluce e il cielo arancione" fetchpriority="high">
   <div class="wrap">
-    <p class="kicker" data-t="apertura.0">29 novembre – 11 dicembre 2026</p>
+    <p class="kicker" data-t="apertura.0">Guida di viaggio</p>
     <h1 data-t="apertura.1">Karibu Tanzania</h1>
-    <p data-t="apertura.2">Tredici giorni nel sud: da Dar es Salaam agli altopiani di Njombe, una settimana in un villaggio, poi i leoni del Ruaha. Una guida per il nostro gruppo, da leggere prima di partire e da consultare in viaggio.</p>
+    <p data-t="apertura.2">La costa di Dar es Salaam, gli altopiani del sud, una settimana in un villaggio e la savana del Ruaha. Da leggere prima di partire e da tenere sul telefono in viaggio.</p>
     <p class="credito" data-t="apertura.3">Foto: Elefanti al tramonto, Parco Nazionale del Ruaha · Brian Harries · <a href="https://commons.wikimedia.org/wiki/File:Elephants_At_Sunset,_Ruaha_National_Park.jpg" target="_blank" rel="noopener">CC BY 2.0</a></p>
   </div>
 </div>
@@ -101,221 +78,182 @@
   <div class="testo">
     <p class="kicker" data-t="benvenuti.0">Parte 1 · Introduzione</p>
     <h2 data-t="benvenuti.1">Benvenuti in Tanzania</h2>
-    <p class="drop" data-t="benvenuti.2">La prima parola che imparerete è <em lang="sw">karibu</em>: «benvenuto», ma anche «avvicinati», «entra», «serviti». La sentirete al controllo passaporti, al bancone di un <em lang="sw">duka</em>, sulla porta di una casa di fango e mattoni in un villaggio di collina. È la parola giusta per cominciare, perché questo viaggio non è un safari con qualche giorno di contorno. È un attraversamento.</p>
-    <p data-t="benvenuti.3">Partiremo dalla costa umida dell'Oceano Indiano, da una città di sei milioni di persone che non dorme mai. Voleremo verso l'interno fino a Mbeya, ai piedi delle montagne, e saliremo tra piantagioni di caffè e di tè, pinete e praterie dove la nebbia arriva all'improvviso. Per una settimana vivremo in un villaggio del distretto di Ludewa, nella regione di Njombe, sugli altopiani meridionali: la Tanzania delle scuole, dei campi di mais e delle messe della domenica. Poi scenderemo verso la savana, fino al Grande Ruaha, uno dei parchi più selvaggi e meno frequentati dell'Africa orientale. Torneremo a Dar in bus, attraversando il Parco di Mikumi lungo la statale, con le giraffe al finestrino.</p>
-    <p data-t="benvenuti.4">Arriviamo con le prime piogge. La terra rossa si copre di verde, nascono gli impala, dall'Europa arrivano le cicogne e le ghiandaie marine. Il pomeriggio può scoppiare un temporale che trasforma la pista in un fiume. E il 9 dicembre, mentre saremo nel Ruaha, la Tanzania festeggerà la sua indipendenza.</p>
-    <p data-t="benvenuti.5">Molti di noi non si conoscono ancora. Tra due settimane condivideremo jeep, tende, cene a lume di frontale e qualche bus lunghissimo. Questa guida serve a partire preparati, a sapere dove stiamo andando e perché, e a viverlo bene insieme. <em lang="sw">Safari njema!</em>, «buon viaggio».</p>
+    <p class="drop" data-t="benvenuti.2">La prima parola che imparerete è <em lang="sw">karibu</em>: «benvenuto», ma anche «entra», «serviti». La sentirete ovunque, al controllo passaporti come sulla porta di una casa di villaggio. Ed è la parola giusta per questo viaggio, che non è solo un safari: è un modo di attraversare il paese da dentro.</p>
+    <p data-t="benvenuti.3">Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli altopiani del sud, tra caffè, tè e nebbia. Poi una settimana in un villaggio del distretto di Ludewa, tra scuola, campi e messa della domenica. Infine la savana del Ruaha, uno dei parchi più selvaggi dell'Africa orientale, e il rientro verso la costa attraverso Mikumi.</p>
+    <p data-t="benvenuti.4">Ho scritto questa guida per farvi partire preparati e vivere il viaggio bene insieme. Leggetela con calma prima di partire, e tenetela sul telefono: funziona anche senza rete. <em lang="sw">Safari njema!</em>, buon viaggio.</p>
   </div>
   <aside>
     <div class="box b-sap"><h4>La Tanzania in breve</h4><ul>
-      <li data-t="benvenuti.6"><strong>Capitale</strong>: Dodoma (ma la città più grande è Dar es Salaam)</li>
-      <li data-t="benvenuti.7"><strong>Abitanti</strong>: circa 68 milioni (censimento 2022: 61,7 milioni)</li>
-      <li data-t="benvenuti.8"><strong>Lingue</strong>: swahili e inglese, più oltre 120 lingue locali</li>
-      <li data-t="benvenuti.9"><strong>Moneta</strong>: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS (11/11/2026)</li>
-      <li data-t="benvenuti.10"><strong>Fuso orario</strong>: UTC+3, cioè +2 ore rispetto all'Italia in inverno</li>
-      <li data-t="benvenuti.11"><strong>Prese elettriche</strong>: tipo G (britannica) e a volte D, 230 V</li>
-      <li data-t="benvenuti.12"><strong>Indipendenza</strong>: 9 dicembre 1961 (Tanganica). Unione con Zanzibar: 26 aprile 1964</li>
+      <li data-t="benvenuti.5"><strong>Capitale</strong>: Dodoma. La città più grande è Dar es Salaam.</li>
+      <li data-t="benvenuti.6"><strong>Abitanti</strong>: circa 68 milioni</li>
+      <li data-t="benvenuti.7"><strong>Lingue</strong>: swahili e inglese, più oltre 120 lingue locali</li>
+      <li data-t="benvenuti.8"><strong>Moneta</strong>: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS</li>
+      <li data-t="benvenuti.9"><strong>Fuso orario</strong>: +2 ore rispetto all'Italia in inverno, +1 in estate</li>
+      <li data-t="benvenuti.10"><strong>Prese elettriche</strong>: tipo G (britannica), 230 V</li>
+      <li data-t="benvenuti.11"><strong>Festa nazionale</strong>: 9 dicembre, giorno dell'indipendenza (1961)</li>
     </ul></div>
     <div class="sommario">
-      <a href="#itinerario"><b>Il nostro itinerario</b><small>Mappa e giorno per giorno</small></a>
-      <a href="#consigli"><b>Consigli d'autore</b><small>18 dritte per il gruppo</small></a>
-      <a href="#partire"><b>Prima di partire</b><small>Valigia, visto, salute, soldi</small></a>
-      <a href="#sostenibile"><b>Viaggio sostenibile</b><small>Parchi, mance, volontariato</small></a>
-      <a href="fauna.html"><b>Fauna →</b><small>106 specie e checklist</small></a>
-      <a href="info.html"><b>Informazioni pratiche →</b><small>Cibo, salute, sicurezza, cultura</small></a>
+      <a href="#tips"><b>Tips</b><small>Quello che vorrei sapeste prima</small></a>
+      <a href="#partire"><b>Prima di partire</b><small>Documenti, salute, soldi, valigia</small></a>
+      <a href="#sostenibile"><b>Viaggio responsabile</b><small>Parchi, persone, mance, volontariato</small></a>
       <a href="tappe.html"><b>La guida per tappe →</b><small>Dar, altopiani, villaggio, Ruaha, Mikumi</small></a>
+      <a href="info.html"><b>Informazioni pratiche →</b><small>Cibo, salute, sicurezza, cultura</small></a>
+      <a href="fauna.html"><b>Fauna →</b><small>106 specie e checklist</small></a>
     </div>
   </aside>
 </div></section>
 
-<!-- ITINERARIO -->
-<section id="itinerario"><div class="wrap">
-  <p class="kicker" data-t="itinerario.0">Il nostro itinerario</p>
-  <h2 data-t="itinerario.1">Dall'oceano agli altopiani, e ritorno</h2>
-  <div class="correzione"><h4>Ordine corretto delle tappe</h4>
-    <p data-t="itinerario.2">Il programma pubblicato da WeRoad (verificato l'11/11/2026) è un po' diverso dall'ordine che avevamo indicato. Il secondo giorno <strong>voliamo da Dar es Salaam a Mbeya</strong>, poi saliamo a Mpanga Kipengere e al villaggio. Da Iringa entriamo nel Ruaha, e il <strong>Parco di Mikumi lo attraversiamo in bus</strong> il penultimo giorno, lungo la statale A7, senza un safari dedicato.</p>
-    <p style="margin:0" data-t="itinerario.3"><strong>Dar es Salaam → (volo) Mbeya → Mpanga Kipengere → Mavanga (villaggio) → piantagioni di tè → Iringa → Ruaha → Iringa → (bus, via Mikumi) → Dar es Salaam</strong></p>
-  </div>
-
-  <div id="mappa" role="region" aria-label="Mappa interattiva del percorso"><p class="mappa-off">La mappa interattiva richiede una connessione. Il percorso giorno per giorno è qui sotto.</p></div>
-  <div class="leggenda-mappa"><span>via terra</span><span class="volo">volo interno</span><em>I tracciati sono indicativi: collegano le tappe in linea retta, non seguono le strade.</em></div>
-
-  <ol class="timeline" id="timeline"><li class="nota">Caricamento dell'itinerario…</li></ol>
-  <p class="nota testo" id="nota-itinerario"></p>
-  <div class="box b-gru" style="margin-top:16px"><h4>In gruppo</h4><p data-t="itinerario.4">Ci sono tre giorni di trasferimenti lunghi: il 1/12, il 7/12 e soprattutto il 10/12. Organizzate prima una playlist condivisa, scaricate offline film e podcast e portate degli snack da dividere. Lasciate a turno il posto al finestrino del lato giusto: nel bus verso Dar, per Mikumi conviene il lato sinistro… e anche il destro, quindi alternatevi.</p></div>
-</div></section>
-
-<!-- CONSIGLI -->
-<section id="consigli"><div class="wrap">
-  <p class="kicker" data-t="consigli.0">Consigli d'autore</p>
-  <h2 data-t="consigli.1">Diciotto cose che vorrete sapere prima</h2>
+<!-- TIPS -->
+<section id="tips"><div class="wrap">
+  <p class="kicker" data-t="tips.0">Tips</p>
+  <h2 data-t="tips.1">Quello che vorrei sapeste prima</h2>
   <ol class="consigli">
-    <li data-t="consigli.2"><b>Imparate cinque parole di swahili</b><em lang="sw">Jambo</em> (ciao), <em lang="sw">asante sana</em> (grazie mille), <em lang="sw">karibu</em> (benvenuto, prego), <em lang="sw">pole pole</em> (piano piano), <em lang="sw">hakuna shida</em> (nessun problema). Cambiano tutto, soprattutto al villaggio.</li>
-    <li data-t="consigli.3"><b>«Pole pole» è una filosofia</b>Le cose richiedono il loro tempo: il cibo al ristorante, i trasferimenti, le pratiche. Lasciate l'ansia da tabella di marcia a Fiumicino.</li>
-    <li data-t="consigli.4"><b>Contanti in tasca, divisi in due</b>Tenete una piccola somma in scellini per la giornata e il resto separato. Le banconote in dollari devono essere recenti e integre: quelle vecchie, strappate o scritte spesso vengono rifiutate.</li>
-    <li data-t="consigli.5"><b>Una SIM locale il primo giorno</b>Vodacom e Airtel hanno la copertura migliore nel sud. Al villaggio e nel Ruaha il segnale sarà debole o assente: scaricate offline mappe, musica e questa guida.</li>
-    <li data-t="consigli.6"><b>La frontale è il vostro migliore amico</b>Nei campi e al villaggio l'elettricità è limitata. Portatene una con le batterie di ricambio, o ricaricabile, e una power bank da almeno 10.000 mAh.</li>
-    <li data-t="consigli.7"><b>Vestitevi a strati</b>A Dar fanno 32 °C umidi, sugli altopiani di Njombe la notte può scendere sotto i 10 °C, nel Ruaha a mezzogiorno si superano i 30 °C. Pile leggero e giacca impermeabile tutto il viaggio.</li>
-    <li data-t="consigli.8"><b>Colori neutri in safari</b>Kaki, beige, verde oliva. Evitate il blu scuro e il nero, che attirano le mosche tse-tse, presenti nelle zone di boscaglia del Ruaha, e il bianco, che si sporca in un minuto.</li>
-    <li data-t="consigli.9"><b>Spalle e ginocchia coperte al villaggio</b>Soprattutto a scuola e in chiesa. Gonne o pantaloni sotto il ginocchio, magliette con le maniche. È una forma di rispetto che verrà notata.</li>
-    <li data-t="consigli.10"><b>Il bagaglio morbido è meglio</b>Uno zaino o un borsone morbido si incastra meglio nel bagagliaio della jeep e del bus. Alcuni voli interni hanno limiti di peso bassi: verificate quello del volo per Mbeya.</li>
-    <li data-t="consigli.11"><b>Chiedete sempre prima di fotografare</b>Le persone, ovviamente, ma anche i mercati, le divise, le stazioni di polizia, gli edifici governativi e militari: lì è vietato, e si rischiano seri problemi.</li>
-    <li data-t="consigli.12"><b>Mano destra per dare e ricevere</b>Soldi, cibo, oggetti. La sinistra è considerata impura. Per un gesto di rispetto in più, sostenete l'avambraccio destro con la mano sinistra.</li>
-    <li data-t="consigli.13"><b>Salutate prima di chiedere</b>Entrare in un negozio e chiedere subito il prezzo è sgarbato. Prima <em lang="sw">habari?</em> («come va?»), poi la domanda.</li>
-    <li data-t="consigli.14"><b>Bevete solo acqua sigillata o filtrata</b>Anche per lavare i denti. Una borraccia con filtro riduce di molto la plastica: in due settimane un gruppo di quindici persone consuma centinaia di bottigliette.</li>
-    <li data-t="consigli.15"><b>Repellente, sempre, dal tramonto in poi</b>Uno a base di DEET al 30–50% o di icaridina, su pelle e caviglie. La malaria è presente in quasi tutto il nostro itinerario.</li>
-    <li data-t="consigli.16"><b>Contrattate con il sorriso</b>Al mercato è normale. Partite dalla metà del prezzo chiesto, ma ricordate che 2.000 scellini (meno di un euro) per voi sono poco, per un venditore molto.</li>
-    <li data-t="consigli.17"><b>Nei bus lunghi, mangiate leggero</b>Le soste sono rare e brevi. Portate acqua, frutta, biscotti, fazzoletti e gel disinfettante. Il bagno di una stazione di servizio costa di solito 200–500 TZS: tenete le monete da parte.</li>
-    <li data-t="consigli.18"><b>Avete un giorno libero? Restate insieme</b>La sera, a Dar, muovetevi in gruppo o con un taxi/bajaji chiamato dalla struttura o da un'app (Bolt è diffusa). Non camminate con il telefono in mano lungo le strade principali.</li>
-    <li data-t="consigli.19"><b>Il miglior souvenir costa poco</b>Un <em lang="sw">kanga</em> o un <em lang="sw">kitenge</em> comprato al mercato (circa 10.000–25.000 TZS, cioè 3–8 €), del caffè di Mbeya, del tè di Njombe. E le foto che avrete fatto con il permesso delle persone.</li>
+    <li data-t="tips.2"><b>Imparate cinque parole di swahili</b><em lang="sw">Jambo</em> (ciao), <em lang="sw">asante sana</em> (grazie mille), <em lang="sw">karibu</em> (prego), <em lang="sw">pole pole</em> (piano piano), <em lang="sw">hakuna shida</em> (nessun problema). Vi apriranno più porte di qualsiasi regalo, soprattutto al villaggio.</li>
+    <li data-t="tips.3"><b>Pole pole, davvero</b>Qui tutto ha i suoi tempi: il pranzo, la strada, le pratiche. Vi chiedo di lasciare l'ansia del programma all'aeroporto: ci arriviamo, sempre.</li>
+    <li data-t="tips.4"><b>Salutate prima di chiedere</b>Prima <em lang="sw">habari?</em> («come va?»), poi la domanda. Entrare in un negozio e chiedere subito il prezzo è considerato sgarbato.</li>
+    <li data-t="tips.5"><b>Mano destra per dare e ricevere</b>Soldi, cibo, oggetti: sempre con la destra. La sinistra è considerata impura.</li>
+    <li data-t="tips.6"><b>Prima chiedete, poi fotografate</b>Le persone sempre. Polizia, militari, edifici governativi e aeroporti mai: è vietato e si rischiano guai seri.</li>
+    <li data-t="tips.7"><b>Spalle e ginocchia coperte al villaggio</b>Soprattutto a scuola e in chiesa. È un gesto di rispetto, e la gente lo nota.</li>
+    <li data-t="tips.8"><b>Beviamo solo acqua in bottiglia</b>Sempre sigillata, anche per lavarvi i denti. La trovate ovunque, anche nei villaggi.</li>
+    <li data-t="tips.9"><b>Spray antizanzare dal tramonto</b>Su pelle e caviglie, ogni sera. Per tutto ciò che riguarda la salute, il riferimento è il vostro medico (vedi <a href="#partire">Prima di partire</a>).</li>
+    <li data-t="tips.10"><b>Vestitevi a strati</b>Caldo umido sulla costa, notti fresche sugli altopiani, sole forte nella savana. Pile leggero e giacca impermeabile vi servono per tutto il viaggio.</li>
+    <li data-t="tips.11"><b>Colori neutri in safari</b>Kaki, beige, verde oliva. Evitate blu scuro e nero, che attirano le mosche tse-tse.</li>
+    <li data-t="tips.12"><b>Bagaglio morbido</b>Uno zaino o un borsone si incastrano meglio nelle jeep e nei bus, e i voli interni hanno limiti di peso bassi.</li>
+    <li data-t="tips.13"><b>Frontale e power bank</b>Al villaggio e nei campi la corrente va e viene. Scaricate offline mappe, musica e questa guida.</li>
+    <li data-t="tips.14"><b>Contrattate con il sorriso</b>Al mercato è normale. Ricordate però che mille scellini in più per voi sono pochi centesimi, per chi vende possono fare la differenza.</li>
+    <li data-t="tips.15"><b>La sera, sempre in gruppo</b>A Dar muovetevi insieme, in taxi o con un'app come Bolt, e non camminate con il telefono in mano. Se avete un dubbio, chiedete a me.</li>
   </ol>
 </div></section>
 
 <!-- PRIMA DI PARTIRE -->
 <section id="partire"><div class="wrap">
   <p class="kicker" data-t="partire.0">Prima di partire</p>
-  <h2 data-t="partire.1">Valigia, documenti, salute, soldi</h2>
+  <h2 data-t="partire.1">Documenti, salute, soldi, valigia</h2>
   <div class="schede-info">
     <article><h3 data-t="partire.2">Documenti e visto</h3><ul>
-      <li data-t="partire.3"><strong>Passaporto</strong> valido almeno 6 mesi oltre la data di rientro, con almeno 2 pagine libere.</li>
-      <li data-t="partire.4"><strong>Visto</strong> obbligatorio. Il visto turistico ordinario (ingresso singolo, 90 giorni) costa <strong>50 USD</strong>. Si richiede online sul portale ufficiale dell'immigrazione tanzaniana, <a href="https://visa.immigration.go.tz" target="_blank" rel="noopener">visa.immigration.go.tz</a>, con qualche settimana di anticipo. Diffidate dei siti che chiedono di più: sono intermediari. Il visto si può fare anche all'arrivo in aeroporto, ma la coda può durare ore.</li>
-      <li data-t="partire.5">Stampate la lettera di approvazione del visto, la prenotazione del volo di rientro e la polizza assicurativa.</li>
-      <li data-t="partire.6">Fotografate passaporto e visto e salvate le foto offline e in una mail a voi stessi.</li>
-    </ul><span class="verifica" data-t="partire.7">Verificato l'11/11/2026 su fonti multiple. Controllate la scheda aggiornata su <a href="https://www.viaggiaresicuri.it/find-country/country/TZA" target="_blank" rel="noopener">Viaggiare Sicuri</a>.</span></article>
-    <article><h3 data-t="partire.8">Salute</h3><ul>
-      <li data-t="partire.9"><strong>Febbre gialla</strong>: il certificato è richiesto solo a chi arriva da un paese a rischio, anche in transito. Dall'Italia con scalo in Europa o nel Golfo non serve. Con uno scalo in Kenya o in Etiopia potrebbe servire: verificate con il medico e con la compagnia aerea.</li>
-      <li data-t="partire.10"><strong>Malaria</strong>: il rischio c'è in quasi tutto il paese sotto i 1.800 metri, compresi Dar, il Ruaha e Mikumi, ed è più alto nella stagione delle piogge. La profilassi va decisa con il medico o con un centro di medicina dei viaggi, almeno 4–6 settimane prima.</li>
-      <li data-t="partire.11"><strong>Vaccinazioni da valutare</strong> con il medico: epatite A e B, tifo, antitetanica aggiornata ed eventualmente rabbia, utile per chi lavora a contatto con bambini e animali in zone lontane dagli ospedali.</li>
-      <li data-t="partire.12"><strong>Assicurazione</strong>: quella WeRoad inclusa copre fino a 60.000 € per le spese mediche nel mondo. Valutate un'integrazione con massimale più alto e rimpatrio aereo.</li>
-    </ul><span class="verifica" data-t="partire.13">Informazioni generali, non sostituiscono il parere del medico. Verificato l'11/11/2026.</span></article>
-    <article><h3 data-t="partire.14">Soldi e carte</h3><ul>
-      <li data-t="partire.15">Cambio indicativo: <strong>1 € ≈ 2.950 TZS</strong> (11/11/2026). Per fare i conti a mente: 10.000 TZS ≈ 3,40 €.</li>
-      <li data-t="partire.16">Bancomat (Visa più diffusa di Mastercard) a Dar, Mbeya, Njombe e Iringa. Nel villaggio e nel Ruaha non ce ne sono: prelevate prima.</li>
-      <li data-t="partire.17">Portate dei <strong>dollari o euro in contanti</strong> come riserva, in banconote di buona qualità.</li>
-      <li data-t="partire.18">La <strong>cassa comune</strong> indicata da WeRoad è di circa 200 €, da consegnare al coordinatore.</li>
-      <li data-t="partire.19">Budget indicativo per i pasti non inclusi: 10.000–30.000 TZS (3–10 €) a pasto in un ristorante locale.</li>
-    </ul><span class="verifica" data-t="partire.20">Prezzi indicativi, da verificare sul posto.</span></article>
+      <li data-t="partire.3"><strong>Passaporto</strong> valido almeno 6 mesi oltre il rientro, con 2 pagine libere.</li>
+      <li data-t="partire.4"><strong>Visto</strong> obbligatorio: circa 45 €, da richiedere online sul portale ufficiale <a href="https://visa.immigration.go.tz" target="_blank" rel="noopener">visa.immigration.go.tz</a> qualche settimana prima. Diffidate dei siti intermediari che chiedono di più.</li>
+      <li data-t="partire.5">Stampate l'approvazione del visto e la polizza assicurativa, e salvatene una foto sul telefono.</li>
+    </ul><span class="verifica" data-t="partire.6">Controllate sempre la scheda aggiornata su <a href="https://www.viaggiaresicuri.it/find-country/country/TZA" target="_blank" rel="noopener">Viaggiare Sicuri</a>.</span></article>
+    <article><h3 data-t="partire.7">Salute</h3><ul>
+      <li data-t="partire.8"><strong>Vaccinazioni e profilassi</strong>: parlatene con il vostro medico o con un ambulatorio di medicina dei viaggi, qualche settimana prima di partire. Sono loro a dirvi cosa fa al caso vostro.</li>
+      <li data-t="partire.9"><strong>Febbre gialla</strong>: il certificato si chiede solo a chi arriva da un paese a rischio, anche in transito. Se fate scalo in Africa, chiedete al medico e alla compagnia aerea.</li>
+      <li data-t="partire.10"><strong>Assicurazione</strong>: WeRoad ne include una con copertura delle spese mediche. Se volete, potete integrarla.</li>
+      <li data-t="partire.11">Portate i vostri farmaci abituali, con la ricetta.</li>
+    </ul></article>
+    <article><h3 data-t="partire.12">Soldi</h3><ul>
+      <li data-t="partire.13">Cambio indicativo: <strong>1 € ≈ 2.950 TZS</strong>. Per fare i conti a mente: 10.000 TZS ≈ 3,40 €.</li>
+      <li data-t="partire.14">Bancomat nelle città. Al villaggio e nei parchi non ce ne sono: vi dirò io quando prelevare.</li>
+      <li data-t="partire.15">Portate degli <strong>euro in contanti</strong> come riserva, in banconote integre.</li>
+      <li data-t="partire.16"><strong>Cassa comune: 250 €</strong>, da consegnare a me all'inizio del viaggio.</li>
+      <li data-t="partire.17">Un pasto in un ristorante locale costa 10.000–30.000 TZS (3–10 €).</li>
+    </ul></article>
   </div>
 
   <h3 style="margin-top:34px">La valigia: spuntate mentre la preparate <span class="cont-valigia" id="cont-valigia"></span></h3>
-  <p class="nota" data-t="partire.21">La lista resta salvata sul vostro telefono.</p>
+  <p class="nota" data-t="partire.18">La lista resta salvata sul vostro telefono.</p>
   <div class="valigia" id="valigia">
     <fieldset><legend>Documenti e soldi</legend>
       <label><input type="checkbox" data-v="passaporto"> Passaporto (+ fotocopia)</label>
-      <label><input type="checkbox" data-v="visto"> Approvazione dell'eVisa stampata</label>
-      <label><input type="checkbox" data-v="assicurazione"> Polizza assicurativa e numeri di emergenza</label>
+      <label><input type="checkbox" data-v="visto"> Approvazione del visto stampata</label>
+      <label><input type="checkbox" data-v="assicurazione"> Polizza assicurativa e numeri utili</label>
       <label><input type="checkbox" data-v="carte"> Due carte di pagamento, tenute separate</label>
-      <label><input type="checkbox" data-v="contanti"> Contanti di riserva (USD o euro recenti)</label>
-      <label><input type="checkbox" data-v="cassa"> Cassa comune per il coordinatore</label>
+      <label><input type="checkbox" data-v="contanti"> Euro in contanti di riserva</label>
+      <label><input type="checkbox" data-v="cassa"> Cassa comune (250 €)</label>
     </fieldset>
     <fieldset><legend>Safari</legend>
-      <label><input type="checkbox" data-v="binocolo"> Binocolo (8×42 o 10×42) <small>almeno uno ogni 2 persone</small></label>
+      <label><input type="checkbox" data-v="binocolo"> Binocolo <small>almeno uno ogni 2 persone</small></label>
       <label><input type="checkbox" data-v="neutri"> Abiti in colori neutri, a strati</label>
-      <label><input type="checkbox" data-v="cappello"> Cappello a tesa larga e occhiali da sole</label>
+      <label><input type="checkbox" data-v="cappello"> Cappello e occhiali da sole</label>
       <label><input type="checkbox" data-v="buff"> Bandana o scaldacollo contro la polvere</label>
       <label><input type="checkbox" data-v="crema"> Crema solare SPF 50 e burrocacao</label>
-      <label><input type="checkbox" data-v="zoom"> Fotocamera o telefono con zoom, schede di memoria</label>
-      <label><input type="checkbox" data-v="sacca"> Sacchetto stagno per proteggere l'attrezzatura dalla polvere</label>
+      <label><input type="checkbox" data-v="zoom"> Fotocamera o telefono con zoom</label>
     </fieldset>
     <fieldset><legend>Pioggia, freddo, notte</legend>
       <label><input type="checkbox" data-v="kway"> Giacca impermeabile leggera</label>
-      <label><input type="checkbox" data-v="pile"> Pile o felpa calda per gli altopiani</label>
-      <label><input type="checkbox" data-v="lunghi"> Pantaloni lunghi leggeri e calze lunghe</label>
-      <label><input type="checkbox" data-v="frontale"> Frontale e batterie di ricambio</label>
+      <label><input type="checkbox" data-v="pile"> Pile o felpa calda</label>
+      <label><input type="checkbox" data-v="lunghi"> Pantaloni lunghi leggeri e calze</label>
+      <label><input type="checkbox" data-v="frontale"> Frontale</label>
       <label><input type="checkbox" data-v="powerbank"> Power bank (nel bagaglio a mano) e cavi</label>
       <label><input type="checkbox" data-v="adattatore"> Adattatore per prese tipo G</label>
-      <label><input type="checkbox" data-v="scarpe"> Scarpe chiuse da trekking leggero e sandali</label>
+      <label><input type="checkbox" data-v="scarpe"> Scarpe chiuse comode e sandali</label>
     </fieldset>
-    <fieldset><legend>Volontariato e villaggio</legend>
-      <label><input type="checkbox" data-v="coprenti"> Abiti che coprano spalle e ginocchia</label>
-      <label><input type="checkbox" data-v="lavoro"> Abiti da lavoro che si possono sporcare, guanti da lavoro</label>
-      <label><input type="checkbox" data-v="chiesa"> Un abito decoroso per la messa della domenica</label>
+    <fieldset><legend>Villaggio</legend>
+      <label><input type="checkbox" data-v="lavoro"> Abiti che si possono sporcare</label>
+      <label><input type="checkbox" data-v="chiesa"> Un abito per la messa della domenica</label>
       <label><input type="checkbox" data-v="sacco"> Sacco lenzuolo e asciugamano in microfibra</label>
       <label><input type="checkbox" data-v="salviette"> Salviette e gel disinfettante</label>
-      <label><input type="checkbox" data-v="carta"> Carta igienica di scorta</label>
-      <label><input type="checkbox" data-v="foto"> Foto della vostra famiglia e della vostra città da mostrare: è il modo più semplice per rompere il ghiaccio</label>
     </fieldset>
     <fieldset><legend>Farmacia da viaggio</legend>
-      <label><input type="checkbox" data-v="antimalarica"> Profilassi antimalarica prescritta dal medico</label>
-      <label><input type="checkbox" data-v="repellente"> Repellente (DEET 30–50% o icaridina)</label>
+      <label><input type="checkbox" data-v="spray"> Spray antizanzare</label>
       <label><input type="checkbox" data-v="farmaci"> Farmaci personali, con la ricetta</label>
-      <label><input type="checkbox" data-v="intestino"> Fermenti, antidiarroico, sali reidratanti</label>
-      <label><input type="checkbox" data-v="medicazione"> Cerotti, disinfettante, antistaminico, antidolorifico</label>
-      <label><input type="checkbox" data-v="borraccia"> Borraccia con filtro o pastiglie potabilizzanti</label>
+      <label><input type="checkbox" data-v="medicazione"> Cerotti, disinfettante e ciò che vi consiglia il vostro medico</label>
     </fieldset>
     <fieldset><legend>Da lasciare a casa</legend>
-      <label><input type="checkbox" data-v="noplastica"> Sacchetti di plastica: vietati in Tanzania dal 2019, anche in valigia</label>
-      <label><input type="checkbox" data-v="nodrone"> Droni: servono permessi speciali, nei parchi sono vietati</label>
+      <label><input type="checkbox" data-v="noplastica"> Sacchetti di plastica: in Tanzania sono vietati</label>
+      <label><input type="checkbox" data-v="nodrone"> Droni: nei parchi sono vietati</label>
       <label><input type="checkbox" data-v="nomimetico"> Abiti mimetici: sono riservati ai militari</label>
-      <label><input type="checkbox" data-v="nogioielli"> Gioielli e oggetti di valore non necessari</label>
+      <label><input type="checkbox" data-v="nogioielli"> Gioielli e oggetti di valore</label>
     </fieldset>
   </div>
   <button class="btn" id="azzera-valigia" style="margin-top:6px">Azzera la lista</button>
 </div></section>
 
-<!-- SOSTENIBILE -->
+<!-- VIAGGIO RESPONSABILE -->
 <section id="sostenibile"><div class="wrap">
-  <p class="kicker" data-t="sostenibile.0">Viaggio sostenibile</p>
+  <p class="kicker" data-t="sostenibile.0">Viaggio responsabile</p>
   <h2 data-t="sostenibile.1">Lasciare tracce leggere</h2>
   <div class="colonne">
     <div class="testo">
-      <p class="drop" data-t="sostenibile.2">Il turismo è una delle prime voci dell'economia tanzaniana e paga, attraverso le tasse dei parchi, buona parte della conservazione della fauna. Ma un gruppo di quindici persone può fare molto bene o molto danno nello stesso tempo. Ecco le regole che contano davvero.</p>
-      <h3 data-t="sostenibile.3">Nei parchi</h3>
+      <h3 data-t="sostenibile.2">Nei parchi</h3>
       <ul>
-        <li data-t="sostenibile.4"><strong>Distanza dagli animali</strong>: lasciate che sia l'animale a decidere. Se cambia comportamento (smette di mangiare, si alza, si allontana, vi fissa), siete troppo vicini. Non chiedete all'autista di avvicinarsi «ancora un po'».</li>
-        <li data-t="sostenibile.5"><strong>Restate sulle piste</strong>: il fuoripista è vietato nel Ruaha e distrugge la vegetazione, soprattutto con il terreno bagnato di dicembre.</li>
-        <li data-t="sostenibile.6"><strong>Silenzio</strong>: niente musica, niente urla quando appare il leopardo. Spegnere il motore durante le soste è un regalo per tutti.</li>
-        <li data-t="sostenibile.7"><strong>Mai dare cibo</strong> agli animali, nemmeno ai babbuini «simpatici» ai picnic: gli animali abituati al cibo umano diventano aggressivi e spesso vengono abbattuti.</li>
-        <li data-t="sostenibile.8"><strong>Nessun rifiuto</strong>: ciò che entra nella jeep esce con voi, comprese bucce e mozziconi.</li>
-        <li data-t="sostenibile.9">Nella <strong>Mikumi</strong> attraversata dalla statale vige il limite di 50 km/h e non ci si ferma lungo la strada: se l'autista rallenta per un elefante, godetevelo dal finestrino.</li>
+        <li data-t="sostenibile.3"><strong>Lasciamo decidere all'animale</strong>: se smette di mangiare, si alza o ci fissa, siamo troppo vicini. Non chiedete all'autista di avvicinarsi «ancora un po'».</li>
+        <li data-t="sostenibile.4"><strong>Silenzio</strong>: niente musica e niente urla quando appare un leone.</li>
+        <li data-t="sostenibile.5"><strong>Mai dare cibo</strong> agli animali, nemmeno ai babbuini ai picnic.</li>
+        <li data-t="sostenibile.6"><strong>Nessun rifiuto</strong>: quello che sale in jeep torna con noi, anche bucce e mozziconi.</li>
       </ul>
-      <h3 data-t="sostenibile.10">Con le persone</h3>
+      <h3 data-t="sostenibile.7">Con le persone</h3>
       <ul>
-        <li data-t="sostenibile.11"><strong>Foto solo con il consenso</strong>: chiedete con un gesto o un <em lang="sw">naweza kupiga picha?</em> («posso fare una foto?») e accettate un no. Nei villaggi masai e nei mercati a volte si chiede un piccolo compenso: decidete prima, con il coordinatore.</li>
-        <li data-t="sostenibile.12"><strong>Plastica</strong>: i sacchetti sono vietati dal 2019 e le multe possono essere salate. Portate una borsa di tela e la borraccia.</li>
-        <li data-t="sostenibile.13"><strong>Comprate locale</strong>: mangiate nei ristoranti della zona, comprate artigianato dalle cooperative, prendete una guida locale. Così i soldi restano nella comunità.</li>
-        <li data-t="sostenibile.14"><strong>Mai avorio, conchiglie, coralli</strong>, pelli o parti di animali protetti: sono illegali da esportare e alimentano il bracconaggio.</li>
+        <li data-t="sostenibile.8"><strong>Foto solo con il consenso</strong>: basta un gesto o un <em lang="sw">naweza kupiga picha?</em> («posso fare una foto?»). Un no si accetta con un sorriso.</li>
+        <li data-t="sostenibile.9"><strong>Compriamo locale</strong>: ristoranti della zona, artigianato delle cooperative, guide del posto. Così i soldi restano a chi vive qui.</li>
+        <li data-t="sostenibile.10"><strong>Mai avorio, conchiglie, coralli</strong> o parti di animali: sono illegali e alimentano il bracconaggio.</li>
       </ul>
     </div>
     <aside>
       <div class="box b-resp"><h4>Le mance</h4>
-        <p data-t="sostenibile.15">In Tanzania la mancia fa parte dello stipendio di guide, autisti e staff. Ecco le cifre indicative più diffuse, per persona, da concordare in gruppo con il coordinatore:</p>
-        <table class="tab-mance"><thead><tr><th data-t="sostenibile.16">A chi</th><th data-t="sostenibile.17">Quanto (indicativo)</th></tr></thead><tbody>
-          <tr><td data-t="sostenibile.18">Guida e autista di safari</td><td data-t="sostenibile.19">10–20 USD al giorno, cioè circa 25.000–50.000 TZS, divisi tra la jeep</td></tr>
-          <tr><td data-t="sostenibile.20">Staff del campo nel parco</td><td data-t="sostenibile.21">5–10 USD a notte nella cassetta comune</td></tr>
-          <tr><td data-t="sostenibile.22">Guida locale (piantagione, villaggio masai)</td><td data-t="sostenibile.23">5.000–10.000 TZS a testa</td></tr>
-          <tr><td data-t="sostenibile.24">Ristorante</td><td data-t="sostenibile.25">5–10% se il servizio non è incluso</td></tr>
+        <p data-t="sostenibile.11">In Tanzania la mancia fa parte dello stipendio di guide, autisti e staff. Le raccogliamo insieme e le consegniamo in una busta di gruppo. Cifre indicative a persona:</p>
+        <table class="tab-mance"><thead><tr><th data-t="sostenibile.12">A chi</th><th data-t="sostenibile.13">Quanto (indicativo)</th></tr></thead><tbody>
+          <tr><td data-t="sostenibile.14">Guida e autista di safari</td><td data-t="sostenibile.15">25.000–50.000 TZS al giorno (circa 8–17 €), divisi tra la jeep</td></tr>
+          <tr><td data-t="sostenibile.16">Staff del campo nel parco</td><td data-t="sostenibile.17">15.000–25.000 TZS a notte (circa 5–8 €)</td></tr>
+          <tr><td data-t="sostenibile.18">Guida locale</td><td data-t="sostenibile.19">5.000–10.000 TZS (circa 2–3 €)</td></tr>
+          <tr><td data-t="sostenibile.20">Ristorante</td><td data-t="sostenibile.21">5–10% se il servizio non è incluso</td></tr>
         </tbody></table>
-        <p data-t="sostenibile.26">Il modo migliore: una busta di gruppo consegnata a mano, con un <em lang="sw">asante sana</em>.</p>
       </div>
-      <div class="box b-cons"><h4>Il consiglio dell'autore</h4><p data-t="sostenibile.27">Scegliete operatori e alloggi che assumono personale locale e lo dichiarano, e chiedete pure al coordinatore come vengono pagate guide e famiglie ospitanti. Per un operatore serio queste sono domande normali.</p></div>
     </aside>
   </div>
 
-  <h3 class="sotto" style="font-size:1.45rem;margin:40px 0 12px;padding-top:18px;border-top:1px solid var(--linea)" data-t="sostenibile.28">Il volontariato responsabile</h3>
+  <h3 class="sotto" style="font-size:1.45rem;margin:40px 0 12px;padding-top:18px;border-top:1px solid var(--linea)" data-t="sostenibile.22">Il volontariato responsabile</h3>
   <div class="colonne">
     <div class="testo">
-      <p data-t="sostenibile.29">La settimana a Mavanga è il cuore del viaggio, ed è anche la parte più delicata. Esiste un termine, <em>voluntourism</em>, che indica il volontariato fatto più per chi viaggia che per chi riceve: progetti costruiti intorno ai turisti, bambini trasformati in attrazione, lavori che tolgono occupazione ai muratori del posto. Il modo per evitarlo è semplice: <strong>andiamo come ospiti e come aiuto, non come salvatori</strong>.</p>
+      <p data-t="sostenibile.23">La settimana al villaggio è il cuore del viaggio, e anche la parte più delicata. Andiamo <strong>come ospiti e come aiuto, non come salvatori</strong>. Le mie regole sono poche:</p>
       <ul>
-        <li data-t="sostenibile.30"><strong>Ascoltare prima di fare.</strong> Le priorità le decidono la comunità, gli insegnanti e il personale sanitario. Noi seguiamo le loro indicazioni, anche quando avremmo un'idea «migliore».</li>
-        <li data-t="sostenibile.31"><strong>Affiancare, non sostituire.</strong> In classe affianchiamo l'insegnante, non lo sostituiamo. Nei lavori lavoriamo con gli artigiani del villaggio, non al loro posto.</li>
-        <li data-t="sostenibile.32"><strong>Niente foto di bambini senza il consenso</strong> di un adulto responsabile (insegnante, genitore) e mai foto di bambini svestiti, in difficoltà, malati o in contesti che li ritraggano come «poveri». Non pubblicate sui social volti di minori riconoscibili né il nome della scuola. Una buona regola: non pubblicate nulla che non pubblichereste di un bambino italiano.</li>
-        <li data-t="sostenibile.33"><strong>Niente regali individuali ai bambini</strong> (caramelle, soldi, oggetti personali): creano competizione, abitudine a chiedere ai bianchi (<em lang="sw">wazungu</em>) e dipendenza. Le donazioni passano dalla scuola o dal comitato del villaggio.</li>
-        <li data-t="sostenibile.34"><strong>Nessun legame da «adozione lampo».</strong> Abbracci e affetto sì, ma ricordate che ripartiremo: promettere di tornare o di mandare soldi a un singolo bambino crea aspettative difficili da gestire.</li>
-        <li data-t="sostenibile.35"><strong>La sicurezza dei minori prima di tutto.</strong> Non restate mai soli con un bambino in un luogo chiuso. Le attività si fanno in gruppo e in spazi aperti.</li>
+        <li data-t="sostenibile.24"><strong>Ascoltiamo prima di fare.</strong> Le priorità le decidono la comunità, gli insegnanti e il personale sanitario.</li>
+        <li data-t="sostenibile.25"><strong>Affianchiamo, non sostituiamo.</strong> In classe con l'insegnante, nei lavori con gli artigiani del villaggio.</li>
+        <li data-t="sostenibile.26"><strong>Foto dei bambini solo con il permesso</strong> di un adulto responsabile, e niente volti riconoscibili sui social. Non pubblicate nulla che non pubblichereste di un bambino italiano.</li>
+        <li data-t="sostenibile.27"><strong>Niente regali ai singoli bambini</strong>: caramelle, soldi e oggetti creano competizione. Le donazioni passano dalla scuola o dal progetto.</li>
+        <li data-t="sostenibile.28"><strong>Non promettete</strong> di tornare o di mandare soldi: crea aspettative difficili da gestire.</li>
+        <li data-t="sostenibile.29"><strong>Mai soli con un bambino</strong> in un luogo chiuso: le attività si fanno in gruppo e all'aperto.</li>
       </ul>
     </div>
     <aside>
-      <div class="box b-top"><h4>Cosa portare come donazione</h4><ul>
-        <li data-t="sostenibile.36">Materiale scolastico <strong>comprato in Tanzania</strong> (quaderni, penne, gessi, palloni): costa meno, aiuta i negozi locali e non pesa in valigia.</li>
-        <li data-t="sostenibile.37">Libri in swahili o in inglese semplice per la biblioteca della scuola.</li>
-        <li data-t="sostenibile.38">Prima di comprare, chiedete al coordinatore cosa serve davvero alla scuola o al centro sanitario.</li>
+      <div class="box b-top"><h4>Se volete donare</h4><ul>
+        <li data-t="sostenibile.30">Materiale scolastico <strong>comprato in Tanzania</strong> (quaderni, penne, palloni): costa meno, aiuta i negozi locali e non pesa in valigia.</li>
+        <li data-t="sostenibile.31">Prima di comprare, chiedetemi cosa serve davvero: lo concordo io con il villaggio.</li>
       </ul></div>
       <div class="box b-att"><h4>Cosa non portare</h4><ul>
-        <li data-t="sostenibile.39">Abiti usati in grandi quantità: danneggiano i sarti e i mercati locali.</li>
-        <li data-t="sostenibile.40">Farmaci da distribuire: è pericoloso e illegale. Eventuali donazioni sanitarie si concordano con il personale del centro.</li>
-        <li data-t="sostenibile.41">Dolciumi da distribuire ai bambini.</li>
-        <li data-t="sostenibile.42">Tablet e oggetti elettronici senza un progetto: si rompono, non si possono ricaricare e creano disparità.</li>
+        <li data-t="sostenibile.32">Abiti usati in grandi quantità: danneggiano sarti e mercati locali.</li>
+        <li data-t="sostenibile.33">Farmaci da distribuire: è pericoloso e illegale.</li>
+        <li data-t="sostenibile.34">Dolciumi per i bambini ed elettronica senza un progetto.</li>
       </ul></div>
     </aside>
   </div>
@@ -323,66 +261,22 @@
 </main>
 
 <footer class="footer"><div class="wrap">
-  <p>Karibu Tanzania · guida di viaggio non commerciale per il gruppo del 29/11–11/12/2026. Itinerario basato sul programma pubblico WeRoad «Tanzania: impegno sociale e safari», consultato l'11/11/2026: fa fede il programma definitivo del coordinatore. Informazioni pratiche verificate l'11/11/2026; prezzi e cambi indicativi. Mappa © contributori di <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.</p>
+  <p>Karibu Tanzania · guida di viaggio non commerciale. Informazioni verificate a novembre 2026; prezzi e cambi sono indicativi.</p>
 </div></footer>
 <button class="top-btn" aria-label="Torna su">↑</button>
 
 <script src="assets/guida.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-/* Timeline e mappa: i dati sono in data/itinerario.json */
-KT.dati(['itinerario', 'avvisi'], function () {
-  /* Avvisi per il gruppo (data/avvisi.json) */
-  (function () {
-    var A = (window.AVVISI && window.AVVISI.avvisi) || [], box = document.getElementById('avvisi');
-    var vis = A.filter(function (a) { return a && a.pubblicato !== false && (a.titolo || a.testo); });
-    if (!box || !vis.length) return;
-    function e(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-    box.innerHTML = '<div class="wrap"><p class="kicker">Avvisi per il gruppo</p>' + vis.map(function (a) {
-      return '<article class="avviso' + (a.importante ? ' importante' : '') + '">' + (a.data ? '<p class="avv-data">' + e(a.data) + '</p>' : '') + '<h3>' + e(a.titolo) + '</h3>' + (a.testo ? '<div class="avv-testo">' + a.testo + '</div>' : '') + '</article>';
-    }).join('') + '</div>';
-    box.hidden = false;
-  })();
-  var D = window.ITINERARIO; if (!D) return;
-  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function colore(k) { return k === 'festa' ? '#B0362A' : 'var(--t-' + k + ')'; }
-  var ol = document.getElementById('timeline');
-  ol.innerHTML = D.giorni.map(function (g) {
-    return '<li class="giorno' + (g.festa ? ' festa' : '') + '"><div class="num" style="background:' + colore(g.colore) + '">' + esc(g.num) + '<small>' + esc(g.breve) + '</small></div><div class="card">' +
-      (g.etichetta ? '<span class="festa-badge">' + esc(g.etichetta) + '</span>' : '') +
-      '<span class="data">' + esc(g.data) + '</span><h3>' + esc(g.titolo) + '</h3><p>' + esc(g.testo) + '</p>' +
-      '<div class="tragitto">' + (g.tragitti || []).map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('') + '</div></div></li>';
-  }).join('');
-  document.getElementById('nota-itinerario').textContent = D.nota || '';
-
-  if (!window.L) return;
-  var el = document.getElementById('mappa'); el.innerHTML = '';
-  var col = getComputedStyle(document.documentElement);
-  function c(k) { return col.getPropertyValue('--t-' + k).trim() || col.getPropertyValue('--' + k).trim() || '#A9472F'; }
-  var P = {}; D.tappe.forEach(function (t) { P[t.id] = t; });
-  var touch = L.Browser.mobile || ('ontouchstart' in window);
-  var map = L.map(el, { scrollWheelZoom: false, dragging: !touch, tap: false, zoomSnap: 0.25 }).setView([-8.3, 36], 6);
-  if (touch) {
-    var nota = L.control({ position: 'bottomleft' });
-    nota.onAdd = function () { var d = L.DomUtil.create('div'); d.style.cssText = 'background:rgba(255,253,249,.9);padding:3px 8px;border-radius:6px;font-size:12px;color:#231E1A'; d.textContent = 'Usa + e − per lo zoom · tocca le tappe'; return d; };
-    nota.addTo(map);
-  }
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap' }).addTo(map);
-  D.tappe.forEach(function (p) {
-    var n = p.numero || '';
-    var icon = L.divIcon({ className: '', html: '<div class="pin" style="background:' + c(p.colore) + (n ? '' : ';width:16px;height:16px;line-height:16px;font-size:0') + '">' + esc(n) + '</div>', iconSize: n ? [30, 30] : [16, 16], iconAnchor: n ? [15, 15] : [8, 8] });
-    L.marker(p.ll, { icon: icon, title: p.nome }).addTo(map).bindPopup('<strong>' + esc(p.nome) + '</strong><br>' + esc(p.quando));
-  });
-  D.percorsi.forEach(function (r) {
-    var pts = r.tappe.filter(function (id) { return P[id]; }).map(function (id) { return P[id].ll; });
-    var stile = r.volo ? { color: c('oceano'), weight: 3, dashArray: '8 8' } : { color: c('terracotta'), weight: 3, opacity: .85 };
-    var linea = L.polyline(pts, stile).addTo(map);
-    if (r.nome) linea.bindTooltip(r.nome);
-  });
-  var bounds = L.latLngBounds(D.tappe.map(function (t) { return t.ll; })).pad(0.08);
-  function adatta() { map.invalidateSize(); map.fitBounds(bounds); }
-  adatta(); window.addEventListener('load', adatta); setTimeout(adatta, 400);
-  window.addEventListener('resize', function () { clearTimeout(adatta.t); adatta.t = setTimeout(adatta, 200); });
+/* Avvisi per il gruppo (data/avvisi.json) */
+KT.dati(['avvisi'], function () {
+  var A = (window.AVVISI && window.AVVISI.avvisi) || [], box = document.getElementById('avvisi');
+  var vis = A.filter(function (a) { return a && a.pubblicato !== false && (a.titolo || a.testo); });
+  if (!box || !vis.length) return;
+  function e(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  box.innerHTML = '<div class="wrap"><p class="kicker">Avvisi per il gruppo</p>' + vis.map(function (a) {
+    return '<article class="avviso' + (a.importante ? ' importante' : '') + '">' + (a.data ? '<p class="avv-data">' + e(a.data) + '</p>' : '') + '<h3>' + e(a.titolo) + '</h3>' + (a.testo ? '<div class="avv-testo">' + a.testo + '</div>' : '') + '</article>';
+  }).join('') + '</div>';
+  box.hidden = false;
 });
 /* Checklist della valigia */
 (function () {

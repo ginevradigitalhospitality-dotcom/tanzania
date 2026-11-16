@@ -1,16 +1,16 @@
 {
   "apertura": [
     {
-      "dove": "Paragrafo: 29 novembre – 11 dicembre 2026",
-      "testo": "29 novembre – 11 dicembre 2026"
+      "dove": "Paragrafo: Guida di viaggio",
+      "testo": "Guida di viaggio"
     },
     {
       "dove": "Titolo grande: Karibu Tanzania",
       "testo": "Karibu Tanzania"
     },
     {
-      "dove": "Paragrafo: Tredici giorni nel sud: da Dar es Salaam agli altopiani di Njombe, una…",
-      "testo": "Tredici giorni nel sud: da Dar es Salaam agli altopiani di Njombe, una settimana in un villaggio, poi i leoni del Ruaha. Una guida per il nostro gruppo, da leggere prima di partire e da consultare in viaggio."
+      "dove": "Paragrafo: La costa di Dar es Salaam, gli altopiani del sud, una settimana in un …",
+      "testo": "La costa di Dar es Salaam, gli altopiani del sud, una settimana in un villaggio e la savana del Ruaha. Da leggere prima di partire e da tenere sul telefono in viaggio."
     },
     {
       "dove": "Paragrafo: Foto: Elefanti al tramonto, Parco Nazionale del Ruaha · Brian Harries …",
@@ -27,152 +27,110 @@
       "testo": "Benvenuti in Tanzania"
     },
     {
-      "dove": "Paragrafo: La prima parola che imparerete è karibu: «benvenuto», ma anche «avvici…",
-      "testo": "La prima parola che imparerete è <em lang=\"sw\">karibu</em>: «benvenuto», ma anche «avvicinati», «entra», «serviti». La sentirete al controllo passaporti, al bancone di un <em lang=\"sw\">duka</em>, sulla porta di una casa di fango e mattoni in un villaggio di collina. È la parola giusta per cominciare, perché questo viaggio non è un safari con qualche giorno di contorno. È un attraversamento."
+      "dove": "Paragrafo: La prima parola che imparerete è karibu: «benvenuto», ma anche «entra»…",
+      "testo": "La prima parola che imparerete è <em lang=\"sw\">karibu</em>: «benvenuto», ma anche «entra», «serviti». La sentirete ovunque, al controllo passaporti come sulla porta di una casa di villaggio. Ed è la parola giusta per questo viaggio, che non è solo un safari: è un modo di attraversare il paese da dentro."
     },
     {
-      "dove": "Paragrafo: Partiremo dalla costa umida dell'Oceano Indiano, da una città di sei m…",
-      "testo": "Partiremo dalla costa umida dell'Oceano Indiano, da una città di sei milioni di persone che non dorme mai. Voleremo verso l'interno fino a Mbeya, ai piedi delle montagne, e saliremo tra piantagioni di caffè e di tè, pinete e praterie dove la nebbia arriva all'improvviso. Per una settimana vivremo in un villaggio del distretto di Ludewa, nella regione di Njombe, sugli altopiani meridionali: la Tanzania delle scuole, dei campi di mais e delle messe della domenica. Poi scenderemo verso la savana, fino al Grande Ruaha, uno dei parchi più selvaggi e meno frequentati dell'Africa orientale. Torneremo a Dar in bus, attraversando il Parco di Mikumi lungo la statale, con le giraffe al finestrino."
+      "dove": "Paragrafo: Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli al…",
+      "testo": "Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli altopiani del sud, tra caffè, tè e nebbia. Poi una settimana in un villaggio del distretto di Ludewa, tra scuola, campi e messa della domenica. Infine la savana del Ruaha, uno dei parchi più selvaggi dell'Africa orientale, e il rientro verso la costa attraverso Mikumi."
     },
     {
-      "dove": "Paragrafo: Arriviamo con le prime piogge. La terra rossa si copre di verde, nasco…",
-      "testo": "Arriviamo con le prime piogge. La terra rossa si copre di verde, nascono gli impala, dall'Europa arrivano le cicogne e le ghiandaie marine. Il pomeriggio può scoppiare un temporale che trasforma la pista in un fiume. E il 9 dicembre, mentre saremo nel Ruaha, la Tanzania festeggerà la sua indipendenza."
+      "dove": "Paragrafo: Ho scritto questa guida per farvi partire preparati e vivere il viaggi…",
+      "testo": "Ho scritto questa guida per farvi partire preparati e vivere il viaggio bene insieme. Leggetela con calma prima di partire, e tenetela sul telefono: funziona anche senza rete. <em lang=\"sw\">Safari njema!</em>, buon viaggio."
     },
     {
-      "dove": "Paragrafo: Molti di noi non si conoscono ancora. Tra due settimane condivideremo …",
-      "testo": "Molti di noi non si conoscono ancora. Tra due settimane condivideremo jeep, tende, cene a lume di frontale e qualche bus lunghissimo. Questa guida serve a partire preparati, a sapere dove stiamo andando e perché, e a viverlo bene insieme. <em lang=\"sw\">Safari njema!</em>, «buon viaggio»."
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Capitale: Dodoma. La città più grande è Dar es Salaam.",
+      "testo": "<strong>Capitale</strong>: Dodoma. La città più grande è Dar es Salaam."
     },
     {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Capitale: Dodoma (ma la città più grande è Dar es Salaam)",
-      "testo": "<strong>Capitale</strong>: Dodoma (ma la città più grande è Dar es Salaam)"
-    },
-    {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Abitanti: circa 68 milioni (censimento 2022: 61,7 milioni)",
-      "testo": "<strong>Abitanti</strong>: circa 68 milioni (censimento 2022: 61,7 milioni)"
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Abitanti: circa 68 milioni",
+      "testo": "<strong>Abitanti</strong>: circa 68 milioni"
     },
     {
       "dove": "Box «La Tanzania in breve» · Voce di elenco: Lingue: swahili e inglese, più oltre 120 lingue locali",
       "testo": "<strong>Lingue</strong>: swahili e inglese, più oltre 120 lingue locali"
     },
     {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Moneta: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS (11/11/2026)",
-      "testo": "<strong>Moneta</strong>: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS (11/11/2026)"
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Moneta: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS",
+      "testo": "<strong>Moneta</strong>: scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS"
     },
     {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Fuso orario: UTC+3, cioè +2 ore rispetto all'Italia in inverno",
-      "testo": "<strong>Fuso orario</strong>: UTC+3, cioè +2 ore rispetto all'Italia in inverno"
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Fuso orario: +2 ore rispetto all'Italia in inverno, +1 in estate",
+      "testo": "<strong>Fuso orario</strong>: +2 ore rispetto all'Italia in inverno, +1 in estate"
     },
     {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Prese elettriche: tipo G (britannica) e a volte D, 230 V",
-      "testo": "<strong>Prese elettriche</strong>: tipo G (britannica) e a volte D, 230 V"
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Prese elettriche: tipo G (britannica), 230 V",
+      "testo": "<strong>Prese elettriche</strong>: tipo G (britannica), 230 V"
     },
     {
-      "dove": "Box «La Tanzania in breve» · Voce di elenco: Indipendenza: 9 dicembre 1961 (Tanganica). Unione con Zanzibar: 26 apr…",
-      "testo": "<strong>Indipendenza</strong>: 9 dicembre 1961 (Tanganica). Unione con Zanzibar: 26 aprile 1964"
+      "dove": "Box «La Tanzania in breve» · Voce di elenco: Festa nazionale: 9 dicembre, giorno dell'indipendenza (1961)",
+      "testo": "<strong>Festa nazionale</strong>: 9 dicembre, giorno dell'indipendenza (1961)"
     }
   ],
-  "itinerario": [
+  "tips": [
     {
-      "dove": "Paragrafo: Il nostro itinerario",
-      "testo": "Il nostro itinerario"
+      "dove": "Paragrafo: Tips",
+      "testo": "Tips"
     },
     {
-      "dove": "Titolo: Dall'oceano agli altopiani, e ritorno",
-      "testo": "Dall'oceano agli altopiani, e ritorno"
-    },
-    {
-      "dove": "Paragrafo: Il programma pubblicato da WeRoad (verificato l'11/11/2026) è un po' d…",
-      "testo": "Il programma pubblicato da WeRoad (verificato l'11/11/2026) è un po' diverso dall'ordine che avevamo indicato. Il secondo giorno <strong>voliamo da Dar es Salaam a Mbeya</strong>, poi saliamo a Mpanga Kipengere e al villaggio. Da Iringa entriamo nel Ruaha, e il <strong>Parco di Mikumi lo attraversiamo in bus</strong> il penultimo giorno, lungo la statale A7, senza un safari dedicato."
-    },
-    {
-      "dove": "Paragrafo: Dar es Salaam → (volo) Mbeya → Mpanga Kipengere → Mavanga (villaggio) …",
-      "testo": "<strong>Dar es Salaam → (volo) Mbeya → Mpanga Kipengere → Mavanga (villaggio) → piantagioni di tè → Iringa → Ruaha → Iringa → (bus, via Mikumi) → Dar es Salaam</strong>"
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Ci sono tre giorni di trasferimenti lunghi: il 1/12, il 7/12 e sopratt…",
-      "testo": "Ci sono tre giorni di trasferimenti lunghi: il 1/12, il 7/12 e soprattutto il 10/12. Organizzate prima una playlist condivisa, scaricate offline film e podcast e portate degli snack da dividere. Lasciate a turno il posto al finestrino del lato giusto: nel bus verso Dar, per Mikumi conviene il lato sinistro… e anche il destro, quindi alternatevi."
-    }
-  ],
-  "consigli": [
-    {
-      "dove": "Paragrafo: Consigli d'autore",
-      "testo": "Consigli d'autore"
-    },
-    {
-      "dove": "Titolo: Diciotto cose che vorrete sapere prima",
-      "testo": "Diciotto cose che vorrete sapere prima"
+      "dove": "Titolo: Quello che vorrei sapeste prima",
+      "testo": "Quello che vorrei sapeste prima"
     },
     {
       "dove": "Voce di elenco: Imparate cinque parole di swahiliJambo (ciao), asante sana (grazie mil…",
-      "testo": "<b>Imparate cinque parole di swahili</b><em lang=\"sw\">Jambo</em> (ciao), <em lang=\"sw\">asante sana</em> (grazie mille), <em lang=\"sw\">karibu</em> (benvenuto, prego), <em lang=\"sw\">pole pole</em> (piano piano), <em lang=\"sw\">hakuna shida</em> (nessun problema). Cambiano tutto, soprattutto al villaggio."
+      "testo": "<b>Imparate cinque parole di swahili</b><em lang=\"sw\">Jambo</em> (ciao), <em lang=\"sw\">asante sana</em> (grazie mille), <em lang=\"sw\">karibu</em> (prego), <em lang=\"sw\">pole pole</em> (piano piano), <em lang=\"sw\">hakuna shida</em> (nessun problema). Vi apriranno più porte di qualsiasi regalo, soprattutto al villaggio."
     },
     {
-      "dove": "Voce di elenco: «Pole pole» è una filosofiaLe cose richiedono il loro tempo: il cibo a…",
-      "testo": "<b>«Pole pole» è una filosofia</b>Le cose richiedono il loro tempo: il cibo al ristorante, i trasferimenti, le pratiche. Lasciate l'ansia da tabella di marcia a Fiumicino."
+      "dove": "Voce di elenco: Pole pole, davveroQui tutto ha i suoi tempi: il pranzo, la strada, le …",
+      "testo": "<b>Pole pole, davvero</b>Qui tutto ha i suoi tempi: il pranzo, la strada, le pratiche. Vi chiedo di lasciare l'ansia del programma all'aeroporto: ci arriviamo, sempre."
     },
     {
-      "dove": "Voce di elenco: Contanti in tasca, divisi in dueTenete una piccola somma in scellini p…",
-      "testo": "<b>Contanti in tasca, divisi in due</b>Tenete una piccola somma in scellini per la giornata e il resto separato. Le banconote in dollari devono essere recenti e integre: quelle vecchie, strappate o scritte spesso vengono rifiutate."
+      "dove": "Voce di elenco: Salutate prima di chiederePrima habari? («come va?»), poi la domanda. …",
+      "testo": "<b>Salutate prima di chiedere</b>Prima <em lang=\"sw\">habari?</em> («come va?»), poi la domanda. Entrare in un negozio e chiedere subito il prezzo è considerato sgarbato."
     },
     {
-      "dove": "Voce di elenco: Una SIM locale il primo giornoVodacom e Airtel hanno la copertura migl…",
-      "testo": "<b>Una SIM locale il primo giorno</b>Vodacom e Airtel hanno la copertura migliore nel sud. Al villaggio e nel Ruaha il segnale sarà debole o assente: scaricate offline mappe, musica e questa guida."
+      "dove": "Voce di elenco: Mano destra per dare e ricevereSoldi, cibo, oggetti: sempre con la des…",
+      "testo": "<b>Mano destra per dare e ricevere</b>Soldi, cibo, oggetti: sempre con la destra. La sinistra è considerata impura."
     },
     {
-      "dove": "Voce di elenco: La frontale è il vostro migliore amicoNei campi e al villaggio l'elett…",
-      "testo": "<b>La frontale è il vostro migliore amico</b>Nei campi e al villaggio l'elettricità è limitata. Portatene una con le batterie di ricambio, o ricaricabile, e una power bank da almeno 10.000 mAh."
-    },
-    {
-      "dove": "Voce di elenco: Vestitevi a stratiA Dar fanno 32 °C umidi, sugli altopiani di Njombe l…",
-      "testo": "<b>Vestitevi a strati</b>A Dar fanno 32 °C umidi, sugli altopiani di Njombe la notte può scendere sotto i 10 °C, nel Ruaha a mezzogiorno si superano i 30 °C. Pile leggero e giacca impermeabile tutto il viaggio."
-    },
-    {
-      "dove": "Voce di elenco: Colori neutri in safariKaki, beige, verde oliva. Evitate il blu scuro …",
-      "testo": "<b>Colori neutri in safari</b>Kaki, beige, verde oliva. Evitate il blu scuro e il nero, che attirano le mosche tse-tse, presenti nelle zone di boscaglia del Ruaha, e il bianco, che si sporca in un minuto."
+      "dove": "Voce di elenco: Prima chiedete, poi fotografateLe persone sempre. Polizia, militari, e…",
+      "testo": "<b>Prima chiedete, poi fotografate</b>Le persone sempre. Polizia, militari, edifici governativi e aeroporti mai: è vietato e si rischiano guai seri."
     },
     {
       "dove": "Voce di elenco: Spalle e ginocchia coperte al villaggioSoprattutto a scuola e in chies…",
-      "testo": "<b>Spalle e ginocchia coperte al villaggio</b>Soprattutto a scuola e in chiesa. Gonne o pantaloni sotto il ginocchio, magliette con le maniche. È una forma di rispetto che verrà notata."
+      "testo": "<b>Spalle e ginocchia coperte al villaggio</b>Soprattutto a scuola e in chiesa. È un gesto di rispetto, e la gente lo nota."
     },
     {
-      "dove": "Voce di elenco: Il bagaglio morbido è meglioUno zaino o un borsone morbido si incastra…",
-      "testo": "<b>Il bagaglio morbido è meglio</b>Uno zaino o un borsone morbido si incastra meglio nel bagagliaio della jeep e del bus. Alcuni voli interni hanno limiti di peso bassi: verificate quello del volo per Mbeya."
+      "dove": "Voce di elenco: Beviamo solo acqua in bottigliaSempre sigillata, anche per lavarvi i d…",
+      "testo": "<b>Beviamo solo acqua in bottiglia</b>Sempre sigillata, anche per lavarvi i denti. La trovate ovunque, anche nei villaggi."
     },
     {
-      "dove": "Voce di elenco: Chiedete sempre prima di fotografareLe persone, ovviamente, ma anche i…",
-      "testo": "<b>Chiedete sempre prima di fotografare</b>Le persone, ovviamente, ma anche i mercati, le divise, le stazioni di polizia, gli edifici governativi e militari: lì è vietato, e si rischiano seri problemi."
+      "dove": "Voce di elenco: Spray antizanzare dal tramontoSu pelle e caviglie, ogni sera. Per tutt…",
+      "testo": "<b>Spray antizanzare dal tramonto</b>Su pelle e caviglie, ogni sera. Per tutto ciò che riguarda la salute, il riferimento è il vostro medico (vedi <a href=\"#partire\">Prima di partire</a>)."
     },
     {
-      "dove": "Voce di elenco: Mano destra per dare e ricevereSoldi, cibo, oggetti. La sinistra è con…",
-      "testo": "<b>Mano destra per dare e ricevere</b>Soldi, cibo, oggetti. La sinistra è considerata impura. Per un gesto di rispetto in più, sostenete l'avambraccio destro con la mano sinistra."
+      "dove": "Voce di elenco: Vestitevi a stratiCaldo umido sulla costa, notti fresche sugli altopia…",
+      "testo": "<b>Vestitevi a strati</b>Caldo umido sulla costa, notti fresche sugli altopiani, sole forte nella savana. Pile leggero e giacca impermeabile vi servono per tutto il viaggio."
     },
     {
-      "dove": "Voce di elenco: Salutate prima di chiedereEntrare in un negozio e chiedere subito il p…",
-      "testo": "<b>Salutate prima di chiedere</b>Entrare in un negozio e chiedere subito il prezzo è sgarbato. Prima <em lang=\"sw\">habari?</em> («come va?»), poi la domanda."
+      "dove": "Voce di elenco: Colori neutri in safariKaki, beige, verde oliva. Evitate blu scuro e n…",
+      "testo": "<b>Colori neutri in safari</b>Kaki, beige, verde oliva. Evitate blu scuro e nero, che attirano le mosche tse-tse."
     },
     {
-      "dove": "Voce di elenco: Bevete solo acqua sigillata o filtrataAnche per lavare i denti. Una bo…",
-      "testo": "<b>Bevete solo acqua sigillata o filtrata</b>Anche per lavare i denti. Una borraccia con filtro riduce di molto la plastica: in due settimane un gruppo di quindici persone consuma centinaia di bottigliette."
+      "dove": "Voce di elenco: Bagaglio morbidoUno zaino o un borsone si incastrano meglio nelle jeep…",
+      "testo": "<b>Bagaglio morbido</b>Uno zaino o un borsone si incastrano meglio nelle jeep e nei bus, e i voli interni hanno limiti di peso bassi."
     },
     {
-      "dove": "Voce di elenco: Repellente, sempre, dal tramonto in poiUno a base di DEET al 30–50% o …",
-      "testo": "<b>Repellente, sempre, dal tramonto in poi</b>Uno a base di DEET al 30–50% o di icaridina, su pelle e caviglie. La malaria è presente in quasi tutto il nostro itinerario."
+      "dove": "Voce di elenco: Frontale e power bankAl villaggio e nei campi la corrente va e viene. …",
+      "testo": "<b>Frontale e power bank</b>Al villaggio e nei campi la corrente va e viene. Scaricate offline mappe, musica e questa guida."
     },
     {
-      "dove": "Voce di elenco: Contrattate con il sorrisoAl mercato è normale. Partite dalla metà del…",
-      "testo": "<b>Contrattate con il sorriso</b>Al mercato è normale. Partite dalla metà del prezzo chiesto, ma ricordate che 2.000 scellini (meno di un euro) per voi sono poco, per un venditore molto."
+      "dove": "Voce di elenco: Contrattate con il sorrisoAl mercato è normale. Ricordate però che mil…",
+      "testo": "<b>Contrattate con il sorriso</b>Al mercato è normale. Ricordate però che mille scellini in più per voi sono pochi centesimi, per chi vende possono fare la differenza."
     },
     {
-      "dove": "Voce di elenco: Nei bus lunghi, mangiate leggeroLe soste sono rare e brevi. Portate ac…",
-      "testo": "<b>Nei bus lunghi, mangiate leggero</b>Le soste sono rare e brevi. Portate acqua, frutta, biscotti, fazzoletti e gel disinfettante. Il bagno di una stazione di servizio costa di solito 200–500 TZS: tenete le monete da parte."
-    },
-    {
-      "dove": "Voce di elenco: Avete un giorno libero? Restate insiemeLa sera, a Dar, muovetevi in gr…",
-      "testo": "<b>Avete un giorno libero? Restate insieme</b>La sera, a Dar, muovetevi in gruppo o con un taxi/bajaji chiamato dalla struttura o da un'app (Bolt è diffusa). Non camminate con il telefono in mano lungo le strade principali."
-    },
-    {
-      "dove": "Voce di elenco: Il miglior souvenir costa pocoUn kanga o un kitenge comprato al mercat…",
-      "testo": "<b>Il miglior souvenir costa poco</b>Un <em lang=\"sw\">kanga</em> o un <em lang=\"sw\">kitenge</em> comprato al mercato (circa 10.000–25.000 TZS, cioè 3–8 €), del caffè di Mbeya, del tè di Njombe. E le foto che avrete fatto con il permesso delle persone."
+      "dove": "Voce di elenco: La sera, sempre in gruppoA Dar muovetevi insieme, in taxi o con un'app…",
+      "testo": "<b>La sera, sempre in gruppo</b>A Dar muovetevi insieme, in taxi o con un'app come Bolt, e non camminate con il telefono in mano. Se avete un dubbio, chiedete a me."
     }
   ],
   "partire": [
@@ -181,84 +139,72 @@
       "testo": "Prima di partire"
     },
     {
-      "dove": "Titolo: Valigia, documenti, salute, soldi",
-      "testo": "Valigia, documenti, salute, soldi"
+      "dove": "Titolo: Documenti, salute, soldi, valigia",
+      "testo": "Documenti, salute, soldi, valigia"
     },
     {
       "dove": "Sottotitolo: Documenti e visto",
       "testo": "Documenti e visto"
     },
     {
-      "dove": "Voce di elenco: Passaporto valido almeno 6 mesi oltre la data di rientro, con almeno 2…",
-      "testo": "<strong>Passaporto</strong> valido almeno 6 mesi oltre la data di rientro, con almeno 2 pagine libere."
+      "dove": "Voce di elenco: Passaporto valido almeno 6 mesi oltre il rientro, con 2 pagine libere.",
+      "testo": "<strong>Passaporto</strong> valido almeno 6 mesi oltre il rientro, con 2 pagine libere."
     },
     {
-      "dove": "Voce di elenco: Visto obbligatorio. Il visto turistico ordinario (ingresso singolo, 90…",
-      "testo": "<strong>Visto</strong> obbligatorio. Il visto turistico ordinario (ingresso singolo, 90 giorni) costa <strong>50 USD</strong>. Si richiede online sul portale ufficiale dell'immigrazione tanzaniana, <a href=\"https://visa.immigration.go.tz\" target=\"_blank\" rel=\"noopener\">visa.immigration.go.tz</a>, con qualche settimana di anticipo. Diffidate dei siti che chiedono di più: sono intermediari. Il visto si può fare anche all'arrivo in aeroporto, ma la coda può durare ore."
+      "dove": "Voce di elenco: Visto obbligatorio: circa 45 €, da richiedere online sul portale uffic…",
+      "testo": "<strong>Visto</strong> obbligatorio: circa 45 €, da richiedere online sul portale ufficiale <a href=\"https://visa.immigration.go.tz\" target=\"_blank\" rel=\"noopener\">visa.immigration.go.tz</a> qualche settimana prima. Diffidate dei siti intermediari che chiedono di più."
     },
     {
-      "dove": "Voce di elenco: Stampate la lettera di approvazione del visto, la prenotazione del vol…",
-      "testo": "Stampate la lettera di approvazione del visto, la prenotazione del volo di rientro e la polizza assicurativa."
+      "dove": "Voce di elenco: Stampate l'approvazione del visto e la polizza assicurativa, e salvate…",
+      "testo": "Stampate l'approvazione del visto e la polizza assicurativa, e salvatene una foto sul telefono."
     },
     {
-      "dove": "Voce di elenco: Fotografate passaporto e visto e salvate le foto offline e in una mail…",
-      "testo": "Fotografate passaporto e visto e salvate le foto offline e in una mail a voi stessi."
-    },
-    {
-      "dove": "Nota di verifica: Verificato l'11/11/2026 su fonti multiple. Controllate la scheda aggio…",
-      "testo": "Verificato l'11/11/2026 su fonti multiple. Controllate la scheda aggiornata su <a href=\"https://www.viaggiaresicuri.it/find-country/country/TZA\" target=\"_blank\" rel=\"noopener\">Viaggiare Sicuri</a>."
+      "dove": "Nota di verifica: Controllate sempre la scheda aggiornata su Viaggiare Sicuri.",
+      "testo": "Controllate sempre la scheda aggiornata su <a href=\"https://www.viaggiaresicuri.it/find-country/country/TZA\" target=\"_blank\" rel=\"noopener\">Viaggiare Sicuri</a>."
     },
     {
       "dove": "Sottotitolo: Salute",
       "testo": "Salute"
     },
     {
-      "dove": "Voce di elenco: Febbre gialla: il certificato è richiesto solo a chi arriva da un paes…",
-      "testo": "<strong>Febbre gialla</strong>: il certificato è richiesto solo a chi arriva da un paese a rischio, anche in transito. Dall'Italia con scalo in Europa o nel Golfo non serve. Con uno scalo in Kenya o in Etiopia potrebbe servire: verificate con il medico e con la compagnia aerea."
+      "dove": "Voce di elenco: Vaccinazioni e profilassi: parlatene con il vostro medico o con un amb…",
+      "testo": "<strong>Vaccinazioni e profilassi</strong>: parlatene con il vostro medico o con un ambulatorio di medicina dei viaggi, qualche settimana prima di partire. Sono loro a dirvi cosa fa al caso vostro."
     },
     {
-      "dove": "Voce di elenco: Malaria: il rischio c'è in quasi tutto il paese sotto i 1.800 metri, c…",
-      "testo": "<strong>Malaria</strong>: il rischio c'è in quasi tutto il paese sotto i 1.800 metri, compresi Dar, il Ruaha e Mikumi, ed è più alto nella stagione delle piogge. La profilassi va decisa con il medico o con un centro di medicina dei viaggi, almeno 4–6 settimane prima."
+      "dove": "Voce di elenco: Febbre gialla: il certificato si chiede solo a chi arriva da un paese …",
+      "testo": "<strong>Febbre gialla</strong>: il certificato si chiede solo a chi arriva da un paese a rischio, anche in transito. Se fate scalo in Africa, chiedete al medico e alla compagnia aerea."
     },
     {
-      "dove": "Voce di elenco: Vaccinazioni da valutare con il medico: epatite A e B, tifo, antitetan…",
-      "testo": "<strong>Vaccinazioni da valutare</strong> con il medico: epatite A e B, tifo, antitetanica aggiornata ed eventualmente rabbia, utile per chi lavora a contatto con bambini e animali in zone lontane dagli ospedali."
+      "dove": "Voce di elenco: Assicurazione: WeRoad ne include una con copertura delle spese mediche…",
+      "testo": "<strong>Assicurazione</strong>: WeRoad ne include una con copertura delle spese mediche. Se volete, potete integrarla."
     },
     {
-      "dove": "Voce di elenco: Assicurazione: quella WeRoad inclusa copre fino a 60.000 € per le spes…",
-      "testo": "<strong>Assicurazione</strong>: quella WeRoad inclusa copre fino a 60.000 € per le spese mediche nel mondo. Valutate un'integrazione con massimale più alto e rimpatrio aereo."
+      "dove": "Voce di elenco: Portate i vostri farmaci abituali, con la ricetta.",
+      "testo": "Portate i vostri farmaci abituali, con la ricetta."
     },
     {
-      "dove": "Nota di verifica: Informazioni generali, non sostituiscono il parere del medico. Verific…",
-      "testo": "Informazioni generali, non sostituiscono il parere del medico. Verificato l'11/11/2026."
+      "dove": "Sottotitolo: Soldi",
+      "testo": "Soldi"
     },
     {
-      "dove": "Sottotitolo: Soldi e carte",
-      "testo": "Soldi e carte"
+      "dove": "Voce di elenco: Cambio indicativo: 1 € ≈ 2.950 TZS. Per fare i conti a mente: 10.000 T…",
+      "testo": "Cambio indicativo: <strong>1 € ≈ 2.950 TZS</strong>. Per fare i conti a mente: 10.000 TZS ≈ 3,40 €."
     },
     {
-      "dove": "Voce di elenco: Cambio indicativo: 1 € ≈ 2.950 TZS (11/11/2026). Per fare i conti a me…",
-      "testo": "Cambio indicativo: <strong>1 € ≈ 2.950 TZS</strong> (11/11/2026). Per fare i conti a mente: 10.000 TZS ≈ 3,40 €."
+      "dove": "Voce di elenco: Bancomat nelle città. Al villaggio e nei parchi non ce ne sono: vi dir…",
+      "testo": "Bancomat nelle città. Al villaggio e nei parchi non ce ne sono: vi dirò io quando prelevare."
     },
     {
-      "dove": "Voce di elenco: Bancomat (Visa più diffusa di Mastercard) a Dar, Mbeya, Njombe e Iring…",
-      "testo": "Bancomat (Visa più diffusa di Mastercard) a Dar, Mbeya, Njombe e Iringa. Nel villaggio e nel Ruaha non ce ne sono: prelevate prima."
+      "dove": "Voce di elenco: Portate degli euro in contanti come riserva, in banconote integre.",
+      "testo": "Portate degli <strong>euro in contanti</strong> come riserva, in banconote integre."
     },
     {
-      "dove": "Voce di elenco: Portate dei dollari o euro in contanti come riserva, in banconote di b…",
-      "testo": "Portate dei <strong>dollari o euro in contanti</strong> come riserva, in banconote di buona qualità."
+      "dove": "Voce di elenco: Cassa comune: 250 €, da consegnare a me all'inizio del viaggio.",
+      "testo": "<strong>Cassa comune: 250 €</strong>, da consegnare a me all'inizio del viaggio."
     },
     {
-      "dove": "Voce di elenco: La cassa comune indicata da WeRoad è di circa 200 €, da consegnare al …",
-      "testo": "La <strong>cassa comune</strong> indicata da WeRoad è di circa 200 €, da consegnare al coordinatore."
-    },
-    {
-      "dove": "Voce di elenco: Budget indicativo per i pasti non inclusi: 10.000–30.000 TZS (3–10 €) …",
-      "testo": "Budget indicativo per i pasti non inclusi: 10.000–30.000 TZS (3–10 €) a pasto in un ristorante locale."
-    },
-    {
-      "dove": "Nota di verifica: Prezzi indicativi, da verificare sul posto.",
-      "testo": "Prezzi indicativi, da verificare sul posto."
+      "dove": "Voce di elenco: Un pasto in un ristorante locale costa 10.000–30.000 TZS (3–10 €).",
+      "testo": "Un pasto in un ristorante locale costa 10.000–30.000 TZS (3–10 €)."
     },
     {
       "dove": "Paragrafo: La lista resta salvata sul vostro telefono.",
@@ -267,68 +213,52 @@
   ],
   "sostenibile": [
     {
-      "dove": "Paragrafo: Viaggio sostenibile",
-      "testo": "Viaggio sostenibile"
+      "dove": "Paragrafo: Viaggio responsabile",
+      "testo": "Viaggio responsabile"
     },
     {
       "dove": "Titolo: Lasciare tracce leggere",
       "testo": "Lasciare tracce leggere"
     },
     {
-      "dove": "Paragrafo: Il turismo è una delle prime voci dell'economia tanzaniana e paga, att…",
-      "testo": "Il turismo è una delle prime voci dell'economia tanzaniana e paga, attraverso le tasse dei parchi, buona parte della conservazione della fauna. Ma un gruppo di quindici persone può fare molto bene o molto danno nello stesso tempo. Ecco le regole che contano davvero."
-    },
-    {
       "dove": "Sottotitolo: Nei parchi",
       "testo": "Nei parchi"
     },
     {
-      "dove": "Voce di elenco: Distanza dagli animali: lasciate che sia l'animale a decidere. Se camb…",
-      "testo": "<strong>Distanza dagli animali</strong>: lasciate che sia l'animale a decidere. Se cambia comportamento (smette di mangiare, si alza, si allontana, vi fissa), siete troppo vicini. Non chiedete all'autista di avvicinarsi «ancora un po'»."
+      "dove": "Voce di elenco: Lasciamo decidere all'animale: se smette di mangiare, si alza o ci fis…",
+      "testo": "<strong>Lasciamo decidere all'animale</strong>: se smette di mangiare, si alza o ci fissa, siamo troppo vicini. Non chiedete all'autista di avvicinarsi «ancora un po'»."
     },
     {
-      "dove": "Voce di elenco: Restate sulle piste: il fuoripista è vietato nel Ruaha e distrugge la …",
-      "testo": "<strong>Restate sulle piste</strong>: il fuoripista è vietato nel Ruaha e distrugge la vegetazione, soprattutto con il terreno bagnato di dicembre."
+      "dove": "Voce di elenco: Silenzio: niente musica e niente urla quando appare un leone.",
+      "testo": "<strong>Silenzio</strong>: niente musica e niente urla quando appare un leone."
     },
     {
-      "dove": "Voce di elenco: Silenzio: niente musica, niente urla quando appare il leopardo. Spegne…",
-      "testo": "<strong>Silenzio</strong>: niente musica, niente urla quando appare il leopardo. Spegnere il motore durante le soste è un regalo per tutti."
+      "dove": "Voce di elenco: Mai dare cibo agli animali, nemmeno ai babbuini ai picnic.",
+      "testo": "<strong>Mai dare cibo</strong> agli animali, nemmeno ai babbuini ai picnic."
     },
     {
-      "dove": "Voce di elenco: Mai dare cibo agli animali, nemmeno ai babbuini «simpatici» ai picnic:…",
-      "testo": "<strong>Mai dare cibo</strong> agli animali, nemmeno ai babbuini «simpatici» ai picnic: gli animali abituati al cibo umano diventano aggressivi e spesso vengono abbattuti."
-    },
-    {
-      "dove": "Voce di elenco: Nessun rifiuto: ciò che entra nella jeep esce con voi, comprese bucce …",
-      "testo": "<strong>Nessun rifiuto</strong>: ciò che entra nella jeep esce con voi, comprese bucce e mozziconi."
-    },
-    {
-      "dove": "Voce di elenco: Nella Mikumi attraversata dalla statale vige il limite di 50 km/h e no…",
-      "testo": "Nella <strong>Mikumi</strong> attraversata dalla statale vige il limite di 50 km/h e non ci si ferma lungo la strada: se l'autista rallenta per un elefante, godetevelo dal finestrino."
+      "dove": "Voce di elenco: Nessun rifiuto: quello che sale in jeep torna con noi, anche bucce e m…",
+      "testo": "<strong>Nessun rifiuto</strong>: quello che sale in jeep torna con noi, anche bucce e mozziconi."
     },
     {
       "dove": "Sottotitolo: Con le persone",
       "testo": "Con le persone"
     },
     {
-      "dove": "Voce di elenco: Foto solo con il consenso: chiedete con un gesto o un naweza kupiga pi…",
-      "testo": "<strong>Foto solo con il consenso</strong>: chiedete con un gesto o un <em lang=\"sw\">naweza kupiga picha?</em> («posso fare una foto?») e accettate un no. Nei villaggi masai e nei mercati a volte si chiede un piccolo compenso: decidete prima, con il coordinatore."
+      "dove": "Voce di elenco: Foto solo con il consenso: basta un gesto o un naweza kupiga picha? («…",
+      "testo": "<strong>Foto solo con il consenso</strong>: basta un gesto o un <em lang=\"sw\">naweza kupiga picha?</em> («posso fare una foto?»). Un no si accetta con un sorriso."
     },
     {
-      "dove": "Voce di elenco: Plastica: i sacchetti sono vietati dal 2019 e le multe possono essere …",
-      "testo": "<strong>Plastica</strong>: i sacchetti sono vietati dal 2019 e le multe possono essere salate. Portate una borsa di tela e la borraccia."
+      "dove": "Voce di elenco: Compriamo locale: ristoranti della zona, artigianato delle cooperative…",
+      "testo": "<strong>Compriamo locale</strong>: ristoranti della zona, artigianato delle cooperative, guide del posto. Così i soldi restano a chi vive qui."
     },
     {
-      "dove": "Voce di elenco: Comprate locale: mangiate nei ristoranti della zona, comprate artigian…",
-      "testo": "<strong>Comprate locale</strong>: mangiate nei ristoranti della zona, comprate artigianato dalle cooperative, prendete una guida locale. Così i soldi restano nella comunità."
-    },
-    {
-      "dove": "Voce di elenco: Mai avorio, conchiglie, coralli, pelli o parti di animali protetti: so…",
-      "testo": "<strong>Mai avorio, conchiglie, coralli</strong>, pelli o parti di animali protetti: sono illegali da esportare e alimentano il bracconaggio."
+      "dove": "Voce di elenco: Mai avorio, conchiglie, coralli o parti di animali: sono illegali e al…",
+      "testo": "<strong>Mai avorio, conchiglie, coralli</strong> o parti di animali: sono illegali e alimentano il bracconaggio."
     },
     {
       "dove": "Box «Le mance» · Paragrafo: In Tanzania la mancia fa parte dello stipendio di guide, autisti e sta…",
-      "testo": "In Tanzania la mancia fa parte dello stipendio di guide, autisti e staff. Ecco le cifre indicative più diffuse, per persona, da concordare in gruppo con il coordinatore:"
+      "testo": "In Tanzania la mancia fa parte dello stipendio di guide, autisti e staff. Le raccogliamo insieme e le consegniamo in una busta di gruppo. Cifre indicative a persona:"
     },
     {
       "dove": "Box «Le mance» · Tabella (intestazione): A chi",
@@ -343,24 +273,24 @@
       "testo": "Guida e autista di safari"
     },
     {
-      "dove": "Box «Le mance» · Tabella: 10–20 USD al giorno, cioè circa 25.000–50.000 TZS, divisi tra la jeep",
-      "testo": "10–20 USD al giorno, cioè circa 25.000–50.000 TZS, divisi tra la jeep"
+      "dove": "Box «Le mance» · Tabella: 25.000–50.000 TZS al giorno (circa 8–17 €), divisi tra la jeep",
+      "testo": "25.000–50.000 TZS al giorno (circa 8–17 €), divisi tra la jeep"
     },
     {
       "dove": "Box «Le mance» · Tabella: Staff del campo nel parco",
       "testo": "Staff del campo nel parco"
     },
     {
-      "dove": "Box «Le mance» · Tabella: 5–10 USD a notte nella cassetta comune",
-      "testo": "5–10 USD a notte nella cassetta comune"
+      "dove": "Box «Le mance» · Tabella: 15.000–25.000 TZS a notte (circa 5–8 €)",
+      "testo": "15.000–25.000 TZS a notte (circa 5–8 €)"
     },
     {
-      "dove": "Box «Le mance» · Tabella: Guida locale (piantagione, villaggio masai)",
-      "testo": "Guida locale (piantagione, villaggio masai)"
+      "dove": "Box «Le mance» · Tabella: Guida locale",
+      "testo": "Guida locale"
     },
     {
-      "dove": "Box «Le mance» · Tabella: 5.000–10.000 TZS a testa",
-      "testo": "5.000–10.000 TZS a testa"
+      "dove": "Box «Le mance» · Tabella: 5.000–10.000 TZS (circa 2–3 €)",
+      "testo": "5.000–10.000 TZS (circa 2–3 €)"
     },
     {
       "dove": "Box «Le mance» · Tabella: Ristorante",
@@ -371,72 +301,56 @@
       "testo": "5–10% se il servizio non è incluso"
     },
     {
-      "dove": "Box «Le mance» · Paragrafo: Il modo migliore: una busta di gruppo consegnata a mano, con un asante…",
-      "testo": "Il modo migliore: una busta di gruppo consegnata a mano, con un <em lang=\"sw\">asante sana</em>."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Scegliete operatori e alloggi che assumono personale locale e lo dichi…",
-      "testo": "Scegliete operatori e alloggi che assumono personale locale e lo dichiarano, e chiedete pure al coordinatore come vengono pagate guide e famiglie ospitanti. Per un operatore serio queste sono domande normali."
-    },
-    {
       "dove": "Sottotitolo: Il volontariato responsabile",
       "testo": "Il volontariato responsabile"
     },
     {
-      "dove": "Paragrafo: La settimana a Mavanga è il cuore del viaggio, ed è anche la parte più…",
-      "testo": "La settimana a Mavanga è il cuore del viaggio, ed è anche la parte più delicata. Esiste un termine, <em>voluntourism</em>, che indica il volontariato fatto più per chi viaggia che per chi riceve: progetti costruiti intorno ai turisti, bambini trasformati in attrazione, lavori che tolgono occupazione ai muratori del posto. Il modo per evitarlo è semplice: <strong>andiamo come ospiti e come aiuto, non come salvatori</strong>."
+      "dove": "Paragrafo: La settimana al villaggio è il cuore del viaggio, e anche la parte più…",
+      "testo": "La settimana al villaggio è il cuore del viaggio, e anche la parte più delicata. Andiamo <strong>come ospiti e come aiuto, non come salvatori</strong>. Le mie regole sono poche:"
     },
     {
-      "dove": "Voce di elenco: Ascoltare prima di fare. Le priorità le decidono la comunità, gli inse…",
-      "testo": "<strong>Ascoltare prima di fare.</strong> Le priorità le decidono la comunità, gli insegnanti e il personale sanitario. Noi seguiamo le loro indicazioni, anche quando avremmo un'idea «migliore»."
+      "dove": "Voce di elenco: Ascoltiamo prima di fare. Le priorità le decidono la comunità, gli ins…",
+      "testo": "<strong>Ascoltiamo prima di fare.</strong> Le priorità le decidono la comunità, gli insegnanti e il personale sanitario."
     },
     {
-      "dove": "Voce di elenco: Affiancare, non sostituire. In classe affianchiamo l'insegnante, non l…",
-      "testo": "<strong>Affiancare, non sostituire.</strong> In classe affianchiamo l'insegnante, non lo sostituiamo. Nei lavori lavoriamo con gli artigiani del villaggio, non al loro posto."
+      "dove": "Voce di elenco: Affianchiamo, non sostituiamo. In classe con l'insegnante, nei lavori …",
+      "testo": "<strong>Affianchiamo, non sostituiamo.</strong> In classe con l'insegnante, nei lavori con gli artigiani del villaggio."
     },
     {
-      "dove": "Voce di elenco: Niente foto di bambini senza il consenso di un adulto responsabile (in…",
-      "testo": "<strong>Niente foto di bambini senza il consenso</strong> di un adulto responsabile (insegnante, genitore) e mai foto di bambini svestiti, in difficoltà, malati o in contesti che li ritraggano come «poveri». Non pubblicate sui social volti di minori riconoscibili né il nome della scuola. Una buona regola: non pubblicate nulla che non pubblichereste di un bambino italiano."
+      "dove": "Voce di elenco: Foto dei bambini solo con il permesso di un adulto responsabile, e nie…",
+      "testo": "<strong>Foto dei bambini solo con il permesso</strong> di un adulto responsabile, e niente volti riconoscibili sui social. Non pubblicate nulla che non pubblichereste di un bambino italiano."
     },
     {
-      "dove": "Voce di elenco: Niente regali individuali ai bambini (caramelle, soldi, oggetti person…",
-      "testo": "<strong>Niente regali individuali ai bambini</strong> (caramelle, soldi, oggetti personali): creano competizione, abitudine a chiedere ai bianchi (<em lang=\"sw\">wazungu</em>) e dipendenza. Le donazioni passano dalla scuola o dal comitato del villaggio."
+      "dove": "Voce di elenco: Niente regali ai singoli bambini: caramelle, soldi e oggetti creano co…",
+      "testo": "<strong>Niente regali ai singoli bambini</strong>: caramelle, soldi e oggetti creano competizione. Le donazioni passano dalla scuola o dal progetto."
     },
     {
-      "dove": "Voce di elenco: Nessun legame da «adozione lampo». Abbracci e affetto sì, ma ricordate…",
-      "testo": "<strong>Nessun legame da «adozione lampo».</strong> Abbracci e affetto sì, ma ricordate che ripartiremo: promettere di tornare o di mandare soldi a un singolo bambino crea aspettative difficili da gestire."
+      "dove": "Voce di elenco: Non promettete di tornare o di mandare soldi: crea aspettative diffici…",
+      "testo": "<strong>Non promettete</strong> di tornare o di mandare soldi: crea aspettative difficili da gestire."
     },
     {
-      "dove": "Voce di elenco: La sicurezza dei minori prima di tutto. Non restate mai soli con un ba…",
-      "testo": "<strong>La sicurezza dei minori prima di tutto.</strong> Non restate mai soli con un bambino in un luogo chiuso. Le attività si fanno in gruppo e in spazi aperti."
+      "dove": "Voce di elenco: Mai soli con un bambino in un luogo chiuso: le attività si fanno in gr…",
+      "testo": "<strong>Mai soli con un bambino</strong> in un luogo chiuso: le attività si fanno in gruppo e all'aperto."
     },
     {
-      "dove": "Box «Cosa portare come donazione» · Voce di elenco: Materiale scolastico comprato in Tanzania (quaderni, penne, gessi, pal…",
-      "testo": "Materiale scolastico <strong>comprato in Tanzania</strong> (quaderni, penne, gessi, palloni): costa meno, aiuta i negozi locali e non pesa in valigia."
+      "dove": "Box «Se volete donare» · Voce di elenco: Materiale scolastico comprato in Tanzania (quaderni, penne, palloni): …",
+      "testo": "Materiale scolastico <strong>comprato in Tanzania</strong> (quaderni, penne, palloni): costa meno, aiuta i negozi locali e non pesa in valigia."
     },
     {
-      "dove": "Box «Cosa portare come donazione» · Voce di elenco: Libri in swahili o in inglese semplice per la biblioteca della scuola.",
-      "testo": "Libri in swahili o in inglese semplice per la biblioteca della scuola."
+      "dove": "Box «Se volete donare» · Voce di elenco: Prima di comprare, chiedetemi cosa serve davvero: lo concordo io con i…",
+      "testo": "Prima di comprare, chiedetemi cosa serve davvero: lo concordo io con il villaggio."
     },
     {
-      "dove": "Box «Cosa portare come donazione» · Voce di elenco: Prima di comprare, chiedete al coordinatore cosa serve davvero alla sc…",
-      "testo": "Prima di comprare, chiedete al coordinatore cosa serve davvero alla scuola o al centro sanitario."
+      "dove": "Box «Cosa non portare» · Voce di elenco: Abiti usati in grandi quantità: danneggiano sarti e mercati locali.",
+      "testo": "Abiti usati in grandi quantità: danneggiano sarti e mercati locali."
     },
     {
-      "dove": "Box «Cosa non portare» · Voce di elenco: Abiti usati in grandi quantità: danneggiano i sarti e i mercati locali…",
-      "testo": "Abiti usati in grandi quantità: danneggiano i sarti e i mercati locali."
+      "dove": "Box «Cosa non portare» · Voce di elenco: Farmaci da distribuire: è pericoloso e illegale.",
+      "testo": "Farmaci da distribuire: è pericoloso e illegale."
     },
     {
-      "dove": "Box «Cosa non portare» · Voce di elenco: Farmaci da distribuire: è pericoloso e illegale. Eventuali donazioni s…",
-      "testo": "Farmaci da distribuire: è pericoloso e illegale. Eventuali donazioni sanitarie si concordano con il personale del centro."
-    },
-    {
-      "dove": "Box «Cosa non portare» · Voce di elenco: Dolciumi da distribuire ai bambini.",
-      "testo": "Dolciumi da distribuire ai bambini."
-    },
-    {
-      "dove": "Box «Cosa non portare» · Voce di elenco: Tablet e oggetti elettronici senza un progetto: si rompono, non si pos…",
-      "testo": "Tablet e oggetti elettronici senza un progetto: si rompono, non si possono ricaricare e creano disparità."
+      "dove": "Box «Cosa non portare» · Voce di elenco: Dolciumi per i bambini ed elettronica senza un progetto.",
+      "testo": "Dolciumi per i bambini ed elettronica senza un progetto."
     }
   ]
 }

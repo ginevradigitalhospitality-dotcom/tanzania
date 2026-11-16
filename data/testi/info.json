@@ -9,8 +9,8 @@
       "testo": "Come funziona"
     },
     {
-      "dove": "Paragrafo: Tutto quello che serve per muoversi, mangiare, restare connessi, stare…",
-      "testo": "Tutto quello che serve per muoversi, mangiare, restare connessi, stare bene e sentirsi a casa in Tanzania. Le cose che non si trovano sul programma del viaggio."
+      "dove": "Paragrafo: Muoversi, mangiare, restare connessi, stare bene e sentirsi a casa in …",
+      "testo": "Muoversi, mangiare, restare connessi, stare bene e sentirsi a casa in Tanzania."
     },
     {
       "dove": "Paragrafo: Foto: Mercato di Kariakoo, Dar es Salaam · Moongateclimber · Pubblico …",
@@ -27,32 +27,24 @@
       "testo": "Atterrare a Dar es Salaam"
     },
     {
-      "dove": "Paragrafo: Il viaggio comincia all'aeroporto internazionale Julius Nyerere (codic…",
-      "testo": "Il viaggio comincia all'<strong>aeroporto internazionale Julius Nyerere</strong> (codice DAR), a circa 12 km dal centro di Dar es Salaam. Dall'Italia non ci sono voli diretti: le combinazioni più comuni passano dal Golfo (Doha, Dubai), da Istanbul, Addis Abeba o Nairobi. I voli intercontinentali non sono inclusi nella quota WeRoad: ognuno prenota il suo, rispettando il ritrovo delle 18:00 del 29 novembre."
+      "dove": "Voce di elenco: Aeroporto: Julius Nyerere International (DAR), a circa 12 km dal centr…",
+      "testo": "<strong>Aeroporto</strong>: Julius Nyerere International (DAR), a circa 12 km dal centro. Dall'Italia non ci sono voli diretti: si passa dal Golfo, da Istanbul, Addis Abeba o Nairobi."
     },
     {
-      "dove": "Voce di elenco: Scali in Africa: se fate scalo in Etiopia o in Kenya, verificate con i…",
-      "testo": "<strong>Scali in Africa</strong>: se fate scalo in Etiopia o in Kenya, verificate con il medico e la compagnia se serve il certificato della febbre gialla (dipende anche dalla durata dello scalo)."
+      "dove": "Voce di elenco: All'arrivo: controllo di passaporto e visto, bagagli e dogana. Calcola…",
+      "testo": "<strong>All'arrivo</strong>: controllo di passaporto e visto, bagagli e dogana. Calcolate da mezz'ora a un'ora."
     },
     {
-      "dove": "Voce di elenco: All'arrivo: controllo del passaporto e del visto (eVisa stampato o vis…",
-      "testo": "<strong>All'arrivo</strong>: controllo del passaporto e del visto (eVisa stampato o visto all'arrivo, 50 USD), poi ritiro bagagli e dogana. Calcolate da 30 minuti a più di un'ora."
+      "dove": "Voce di elenco: Verso l'hotel: 30–60 minuti di traffico. Vi dico io prima della parten…",
+      "testo": "<strong>Verso l'hotel</strong>: 30–60 minuti di traffico. Vi dico io prima della partenza come raggiungerci."
     },
     {
-      "dove": "Voce di elenco: Dall'aeroporto all'hotel: taxi ufficiali all'uscita o app come Bolt. I…",
-      "testo": "<strong>Dall'aeroporto all'hotel</strong>: taxi ufficiali all'uscita o app come Bolt. Il tragitto dura 30–60 minuti a seconda del traffico, che a Dar è leggendario. Concordate il prezzo prima di salire, oppure chiedete al coordinatore se è previsto un transfer."
+      "dove": "Voce di elenco: Voli interni: i limiti di bagaglio sono bassi, spesso 23 kg in stiva e…",
+      "testo": "<strong>Voli interni</strong>: i limiti di bagaglio sono bassi, spesso 23 kg in stiva e 7 kg a mano. Controllate il vostro biglietto."
     },
     {
-      "dove": "Voce di elenco: Il volo per Mbeya (giorno 2) è un volo interno incluso nella quota. Su…",
-      "testo": "<strong>Il volo per Mbeya</strong> (giorno 2) è un volo interno incluso nella quota. Sulle tratte interne Air Tanzania indica di solito 23 kg in stiva e 7 kg a mano, ma su alcuni aerei più piccoli i limiti sono più bassi: verificate il vostro biglietto."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Se potete, arrivate a Dar il giorno prima o la mattina presto del 29. …",
-      "testo": "Se potete, arrivate a Dar il giorno prima o la mattina presto del 29. Un volo in ritardo non vi farà perdere la prima cena con il gruppo, e avrete tempo per cambiare soldi e comprare la SIM con calma."
-    },
-    {
-      "dove": "Box «Attenzione» · Paragrafo: Nel bagaglio a mano tenete farmaci, power bank (vietate in stiva), un …",
-      "testo": "Nel bagaglio a mano tenete farmaci, power bank (vietate in stiva), un cambio e i documenti. Se la valigia si perde nello scalo, il giorno dopo si vola già a Mbeya."
+      "dove": "Box «Tip» · Paragrafo: Nel bagaglio a mano tenete documenti, farmaci, power bank (in stiva so…",
+      "testo": "Nel bagaglio a mano tenete documenti, farmaci, power bank (in stiva sono vietati) e un cambio. Se la valigia si perde nello scalo, così non restate senza niente."
     }
   ],
   "muoversi": [
@@ -65,40 +57,32 @@
       "testo": "Jeep, bus, bajaji"
     },
     {
-      "dove": "Paragrafo: Nel nostro viaggio quasi tutti gli spostamenti sono organizzati: volo …",
-      "testo": "Nel nostro viaggio quasi tutti gli spostamenti sono organizzati: volo interno, jeep privata sugli altopiani, jeep 4x4 nel Ruaha, bus di linea da Iringa a Dar. Ma è utile sapere come si muovono i tanzaniani."
+      "dove": "Paragrafo: Gli spostamenti del viaggio li organizzo io: voli interni, jeep, bus. …",
+      "testo": "Gli spostamenti del viaggio li organizzo io: voli interni, jeep, bus. In città vi possono servire questi:"
     },
     {
-      "dove": "Voce di elenco: Bus di linea: collegano tutte le città, partono all'alba e sono econom…",
-      "testo": "<strong>Bus di linea</strong>: collegano tutte le città, partono all'alba e sono economici. Il viaggio Iringa–Dar dura 9–11 ore lungo la statale A7, con soste brevi. Le compagnie migliori hanno posti assegnati e cinture: usatele."
+      "dove": "Voce di elenco: Bajaji: i tuk-tuk a tre ruote, perfetti per i tragitti brevi. Prezzo d…",
+      "testo": "<strong><em lang=\"sw\">Bajaji</em></strong>: i tuk-tuk a tre ruote, perfetti per i tragitti brevi. Prezzo da concordare prima, oppure con l'app Bolt."
     },
     {
-      "dove": "Voce di elenco: Bajaji: i tuk-tuk a tre ruote, ideali per tragitti brevi in città. Il …",
-      "testo": "<strong><em lang=\"sw\">Bajaji</em></strong>: i tuk-tuk a tre ruote, ideali per tragitti brevi in città. Il prezzo si concorda prima, oppure si prenotano con l'app Bolt a Dar es Salaam."
+      "dove": "Voce di elenco: Taxi e app: a Dar Bolt e Uber funzionano bene e mostrano il prezzo in …",
+      "testo": "<strong>Taxi e app</strong>: a Dar Bolt e Uber funzionano bene e mostrano il prezzo in anticipo."
     },
     {
-      "dove": "Voce di elenco: Boda boda: i mototaxi. Veloci ed economici, ma sono la prima causa di …",
-      "testo": "<strong><em lang=\"sw\">Boda boda</em></strong>: i mototaxi. Veloci ed economici, ma sono la prima causa di incidenti stradali nelle città: meglio evitarli, e mai senza casco."
+      "dove": "Voce di elenco: Boda boda: i mototaxi. Vi chiedo di evitarli.",
+      "testo": "<strong><em lang=\"sw\">Boda boda</em></strong>: i mototaxi. Vi chiedo di evitarli."
     },
     {
-      "dove": "Voce di elenco: Daladala: i minibus urbani, stracolmi e colorati. Un'esperienza, ma no…",
-      "testo": "<strong><em lang=\"sw\">Daladala</em></strong>: i minibus urbani, stracolmi e colorati. Un'esperienza, ma non con lo zaino e la sera."
+      "dove": "Voce di elenco: Daladala: i minibus urbani, colorati e stracolmi. Divertenti, ma non c…",
+      "testo": "<strong><em lang=\"sw\">Daladala</em></strong>: i minibus urbani, colorati e stracolmi. Divertenti, ma non con lo zaino e non la sera."
     },
     {
-      "dove": "Voce di elenco: Treni: il nuovo treno elettrico SGR collega Dar es Salaam con Morogoro…",
-      "testo": "<strong>Treni</strong>: il nuovo treno elettrico SGR collega Dar es Salaam con Morogoro e Dodoma. La storica ferrovia TAZARA, costruita negli anni '70 con l'aiuto della Cina, passa da Mbeya diretta in Zambia."
+      "dove": "Paragrafo: In Tanzania si guida a sinistra: attraversando, guardate prima a destr…",
+      "testo": "In Tanzania <strong>si guida a sinistra</strong>: attraversando, guardate prima a destra."
     },
     {
-      "dove": "Paragrafo: In Tanzania si guida a sinistra, come nel Regno Unito: attraversando l…",
-      "testo": "In Tanzania <strong>si guida a sinistra</strong>, come nel Regno Unito: attraversando la strada, guardate prima a destra."
-    },
-    {
-      "dove": "Box «Sicurezza stradale» · Paragrafo: Le strade sono la prima causa di rischio per chi viaggia in Tanzania. …",
-      "testo": "Le strade sono la prima causa di rischio per chi viaggia in Tanzania. A ottobre 2026 un incidente tra un bus e un camion a Mkambarani, sulla statale tra Morogoro e Dar, la stessa del nostro 10 dicembre, ha causato decine di vittime. Allacciate sempre la cintura, viaggiate di giorno, e se l'autista guida in modo pericoloso ditelo subito al coordinatore: nessuno si offenderà."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Nei trasferimenti lunghi nominate a rotazione un «capo fila» che conta…",
-      "testo": "Nei trasferimenti lunghi nominate a rotazione un «capo fila» che conta le persone a ogni sosta prima di ripartire. Sembra un'esagerazione, finché qualcuno non resta in bagno alla stazione di servizio."
+      "dove": "Box «In strada» · Paragrafo: Allacciate sempre la cintura, anche in bus. Se l'autista guida in modo…",
+      "testo": "Allacciate sempre la cintura, anche in bus. Se l'autista guida in modo pericoloso, ditelo subito a me."
     }
   ],
   "dormire": [
@@ -107,32 +91,28 @@
       "testo": "Dove alloggiare"
     },
     {
-      "dove": "Titolo: Dalla guest house alla tenda nel parco",
-      "testo": "Dalla guest house alla tenda nel parco"
+      "dove": "Titolo: Dalla guest house alla tenda",
+      "testo": "Dalla guest house alla tenda"
     },
     {
-      "dove": "Paragrafo: Gli alloggi sono scelti da WeRoad e saranno confermati dal coordinator…",
-      "testo": "Gli alloggi sono scelti da WeRoad e saranno confermati dal coordinatore: in questa guida non indico nomi di strutture che non posso verificare. Ecco cosa aspettarsi dai diversi tipi."
+      "dove": "Voce di elenco: In città: hotel o guest house semplici, con bagno privato, zanzariera …",
+      "testo": "<strong>In città</strong>: hotel o guest house semplici, con bagno privato, zanzariera e wifi lento. L'acqua calda c'è, ma non sempre subito."
     },
     {
-      "dove": "Voce di elenco: Hotel e guest house in città (Dar, Mbeya, Iringa): camere semplici con…",
-      "testo": "<strong>Hotel e guest house in città</strong> (Dar, Mbeya, Iringa): camere semplici con bagno privato, ventilatore o aria condizionata, zanzariera, wifi lento. L'acqua calda c'è, ma non sempre e non subito."
+      "dove": "Voce di elenco: Al villaggio: una sistemazione essenziale, con la corrente a orari. Fa…",
+      "testo": "<strong>Al villaggio</strong>: una sistemazione essenziale, con la corrente a orari. Fa parte dell'esperienza."
     },
     {
-      "dove": "Voce di elenco: Al villaggio: secondo il programma, una sistemazione «comfort» con bag…",
-      "testo": "<strong>Al villaggio</strong>: secondo il programma, una sistemazione «comfort» con bagno a uso esclusivo del gruppo. Aspettatevi l'elettricità a orari, forse un generatore o pannelli solari, docce essenziali. È parte dell'esperienza."
+      "dove": "Voce di elenco: Nel parco: campo tendato o lodge, con gli animali intorno. Di notte no…",
+      "testo": "<strong>Nel parco</strong>: campo tendato o lodge, con gli animali intorno. Di notte non si esce da soli: lo staff vi accompagna."
     },
     {
-      "dove": "Voce di elenco: Nel Ruaha: la «notte wow» del programma. Di solito nei parchi si dorme…",
-      "testo": "<strong>Nel Ruaha</strong>: la «notte wow» del programma. Di solito nei parchi si dorme in tented camp o in lodge, con il rumore degli animali intorno. Di notte non si esce dalla tenda da soli: lo staff accompagna con la torcia."
+      "dove": "Paragrafo: Ovunque: zanzariera chiusa prima del tramonto e frontale vicino al let…",
+      "testo": "Ovunque: zanzariera chiusa prima del tramonto e frontale vicino al letto, perché la corrente salta spesso."
     },
     {
-      "dove": "Paragrafo: Ovunque: la zanzariera va chiusa bene sotto il materasso prima del tra…",
-      "testo": "Ovunque: la zanzariera va chiusa bene sotto il materasso prima del tramonto. Ci sono frequenti interruzioni di corrente: tenete la frontale vicino al letto."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Un sacco lenzuolo di seta o cotone leggero vale il suo peso: più igien…",
-      "testo": "Un sacco lenzuolo di seta o cotone leggero vale il suo peso: più igiene nelle sistemazioni semplici, un velo in più contro le zanzare e un po' di calore nelle notti fresche degli altopiani."
+      "dove": "Box «Tip» · Paragrafo: Il sacco lenzuolo vale il suo peso: più igiene nelle sistemazioni semp…",
+      "testo": "Il sacco lenzuolo vale il suo peso: più igiene nelle sistemazioni semplici e un po' di calore nelle notti fresche degli altopiani."
     }
   ],
   "mangiare": [
@@ -145,132 +125,96 @@
       "testo": "Karibu chakula: a tavola"
     },
     {
-      "dove": "Paragrafo: In Tanzania se qualcuno sta mangiando quando arrivate, vi dirà karibu …",
-      "testo": "In Tanzania se qualcuno sta mangiando quando arrivate, vi dirà <em lang=\"sw\">karibu chakula</em>, «benvenuto al cibo», cioè «unisciti a noi». Non è una formula vuota: il cibo si condivide, e rifiutare tutto può sembrare scortese. Basta assaggiare. La cucina tanzaniana è semplice, sostanziosa e stagionale: un amido (ugali, riso, banane, patate) al centro, un sugo o una carne, una verdura. Sulla costa entra il cocco con le spezie dei commerci con l'India e l'Arabia. Sugli altopiani dominano mais, patate, fagioli, avocado e il tè."
+      "dove": "Paragrafo: Se arrivate mentre qualcuno mangia, vi dirà karibu chakula: «unisciti …",
+      "testo": "Se arrivate mentre qualcuno mangia, vi dirà <em lang=\"sw\">karibu chakula</em>: «unisciti a noi». Il cibo si condivide, e basta assaggiare per fare piacere. La cucina è semplice e sostanziosa: un amido al centro (ugali, riso, banane, patate), un sugo o una carne, una verdura. Sulla costa entrano cocco e spezie, sugli altopiani mais, patate, fagioli e avocado."
     },
     {
       "dove": "Sottotitolo: Le regole non scritte",
       "testo": "Le regole non scritte"
     },
     {
-      "dove": "Voce di elenco: Lavarsi le mani a tavola. Prima del pasto qualcuno passa con una brocc…",
-      "testo": "<strong>Lavarsi le mani a tavola.</strong> Prima del pasto qualcuno passa con una brocca d'acqua tiepida e un catino: tendete le mani, lavatele, ringraziate."
+      "dove": "Voce di elenco: Mani lavate a tavola: spesso qualcuno passa con brocca e catino prima …",
+      "testo": "<strong>Mani lavate a tavola</strong>: spesso qualcuno passa con brocca e catino prima del pasto."
     },
     {
-      "dove": "Voce di elenco: Si mangia con la mano destra. Con l'ugali si fa una pallina, si preme …",
-      "testo": "<strong>Si mangia con la mano destra.</strong> Con l'ugali si fa una pallina, si preme il pollice per fare un incavo e la si usa come cucchiaio per il sugo. Le posate di solito ci sono, ma provate almeno una volta: i vostri ospiti apprezzeranno."
+      "dove": "Voce di elenco: Si mangia con la destra. Con l'ugali si fa una pallina e la si usa com…",
+      "testo": "<strong>Si mangia con la destra.</strong> Con l'ugali si fa una pallina e la si usa come cucchiaio. Provateci almeno una volta: farà piacere a chi vi ospita."
     },
     {
-      "dove": "Voce di elenco: La sinistra resta fuori dal piatto, e non si usa per porgere il cibo.",
-      "testo": "<strong>La sinistra resta fuori dal piatto</strong>, e non si usa per porgere il cibo."
+      "dove": "Voce di elenco: Prima gli anziani e gli ospiti. Aspettate che inizi il padrone di casa…",
+      "testo": "<strong>Prima gli anziani e gli ospiti.</strong> Aspettate che inizi il padrone di casa."
     },
     {
-      "dove": "Voce di elenco: Gli anziani e gli ospiti vengono serviti per primi. Aspettate che il p…",
-      "testo": "<strong>Gli anziani e gli ospiti vengono serviti per primi.</strong> Aspettate che il padrone di casa inizi."
-    },
-    {
-      "dove": "Voce di elenco: Finire tutto significa apprezzare. Ma se lasciate un po' nel piatto è …",
-      "testo": "<strong>Finire tutto</strong> significa apprezzare. Ma se lasciate un po' nel piatto è un segnale che siete sazi: altrimenti vi riempiranno di nuovo il piatto."
-    },
-    {
-      "dove": "Voce di elenco: L'ugali è sacro. È il simbolo del pasto stesso: per molti tanzaniani, …",
-      "testo": "<strong>L'ugali è sacro.</strong> È il simbolo del pasto stesso: per molti tanzaniani, se non c'è l'ugali «non si è mangiato». Al villaggio sarà quasi certamente il centro di ogni pasto."
+      "dove": "Voce di elenco: Un po' nel piatto significa che siete sazi, altrimenti ve lo riempiono…",
+      "testo": "<strong>Un po' nel piatto</strong> significa che siete sazi, altrimenti ve lo riempiono di nuovo."
     },
     {
       "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Mishkaki e chipsi mayai la sera, ai chioschi.",
       "testo": "<strong>Mishkaki</strong> e <strong>chipsi mayai</strong> la sera, ai chioschi."
     },
     {
-      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Mahindi ya kuchoma: pannocchie arrostite sulla brace, con limone e pep…",
-      "testo": "<strong><em lang=\"sw\">Mahindi ya kuchoma</em></strong>: pannocchie arrostite sulla brace, con limone e peperoncino."
+      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Mahindi ya kuchoma: pannocchie arrostite con limone e peperoncino.",
+      "testo": "<strong><em lang=\"sw\">Mahindi ya kuchoma</em></strong>: pannocchie arrostite con limone e peperoncino."
     },
     {
-      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Mihogo: manioca fritta o arrosto, con sale e peperoncino.",
-      "testo": "<strong><em lang=\"sw\">Mihogo</em></strong>: manioca fritta o arrosto, con sale e peperoncino."
-    },
-    {
-      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Madafu: noci di cocco verdi aperte a colpi di machete, da bere con la …",
-      "testo": "<strong><em lang=\"sw\">Madafu</em></strong>: noci di cocco verdi aperte a colpi di machete, da bere con la cannuccia."
+      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Madafu: cocco verde da bere con la cannuccia.",
+      "testo": "<strong><em lang=\"sw\">Madafu</em></strong>: cocco verde da bere con la cannuccia."
     },
     {
       "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Juisi ya miwa: succo di canna da zucchero spremuto al momento.",
       "testo": "<strong><em lang=\"sw\">Juisi ya miwa</em></strong>: succo di canna da zucchero spremuto al momento."
     },
     {
-      "dove": "Box «Street food a Dar es Salaam» · Voce di elenco: Kahawa dai venditori ambulanti con la caraffa di ottone.",
-      "testo": "<strong>Kahawa</strong> dai venditori ambulanti con la caraffa di ottone."
-    },
-    {
-      "dove": "Box «Attenzione» · Paragrafo: Lo street food cotto al momento e caldo è di solito sicuro. Evitate le…",
-      "testo": "Lo street food cotto al momento e caldo è di solito sicuro. Evitate le verdure crude lavate con acqua del rubinetto, il ghiaccio di provenienza incerta e la frutta già sbucciata. Sbucciatela voi."
+      "dove": "Box «Tip» · Paragrafo: Scegliete cibi cotti e serviti caldi, e frutta che sbucciate voi.",
+      "testo": "Scegliete cibi cotti e serviti caldi, e frutta che sbucciate voi."
     },
     {
       "dove": "Sottotitolo: I piatti da conoscere",
       "testo": "I piatti da conoscere"
     },
     {
-      "dove": "Paragrafo: I prezzi sono stime per ristorantini e bancarelle locali (1 € ≈ 2.950 …",
-      "testo": "I prezzi sono stime per ristorantini e bancarelle locali (1 € ≈ 2.950 TZS, novembre 2026): nei ristoranti per turisti si spende da due a cinque volte tanto."
-    },
-    {
-      "dove": "Sottotitolo: Differenze regionali",
-      "testo": "Differenze regionali"
-    },
-    {
-      "dove": "Voce di elenco: Dar es Salaam e la costa: cucina swahili, con cocco, pesce, spezie, pi…",
-      "testo": "<strong>Dar es Salaam e la costa</strong>: cucina swahili, con cocco, pesce, spezie, pilau e biryani, frutti tropicali. Anche le influenze indiane: samosa (qui <em lang=\"sw\">sambusa</em>), chapati, curry."
-    },
-    {
-      "dove": "Voce di elenco: Mbeya: zona fertile e vulcanica, piena di frutta (banane, avocado, man…",
-      "testo": "<strong>Mbeya</strong>: zona fertile e vulcanica, piena di frutta (banane, avocado, mango), riso della valle di Usangu e caffè sulle colline."
-    },
-    {
-      "dove": "Voce di elenco: Njombe e gli altopiani (Mpanga Kipengere, Mavanga): il regno di patate…",
-      "testo": "<strong>Njombe e gli altopiani</strong> (Mpanga Kipengere, Mavanga): il regno di patate, mais, fagioli, piselli, cavoli, avocado e tè. Il clima fresco rende la cucina più sostanziosa. Qui potreste assaggiare l'ulanzi."
-    },
-    {
-      "dove": "Voce di elenco: Iringa: mercato ricco di verdure e frutta, pomodori, e la cucina «di p…",
-      "testo": "<strong>Iringa</strong>: mercato ricco di verdure e frutta, pomodori, e la cucina «di passaggio» della statale."
-    },
-    {
-      "dove": "Voce di elenco: I Masai hanno una cultura alimentare legata al bestiame: latte, carne …",
-      "testo": "<strong>I Masai</strong> hanno una cultura alimentare legata al bestiame: latte, carne e, nei riti, il sangue degli animali. Non è cibo che troverete nei ristoranti."
+      "dove": "Paragrafo: Prezzi indicativi per ristorantini e bancarelle locali (1 € ≈ 2.950 TZ…",
+      "testo": "Prezzi indicativi per ristorantini e bancarelle locali (1 € ≈ 2.950 TZS). Nei ristoranti per turisti si spende da due a cinque volte tanto."
     },
     {
       "dove": "Sottotitolo: Bevande",
       "testo": "Bevande"
     },
     {
-      "dove": "Voce di elenco: Acqua: solo in bottiglia sigillata o filtrata. Ovunque si trova acqua …",
-      "testo": "<strong>Acqua</strong>: solo in bottiglia sigillata o filtrata. Ovunque si trova acqua confezionata."
+      "dove": "Voce di elenco: Acqua: beviamo solo acqua in bottiglia sigillata. Si trova ovunque.",
+      "testo": "<strong>Acqua</strong>: beviamo solo acqua in bottiglia sigillata. Si trova ovunque."
     },
     {
-      "dove": "Voce di elenco: Soda (le bibite gassate) e succhi di frutto della passione, mango, ana…",
-      "testo": "<strong>Soda</strong> (le bibite gassate) e <strong>succhi</strong> di frutto della passione, mango, ananas: ottimi e freschissimi."
+      "dove": "Voce di elenco: Succhi di frutto della passione, mango e ananas, freschissimi, e le so…",
+      "testo": "<strong>Succhi</strong> di frutto della passione, mango e ananas, freschissimi, e le <em lang=\"sw\">soda</em>, le bibite gassate."
     },
     {
-      "dove": "Voce di elenco: Birre: le lager nazionali più diffuse sono Safari, Kilimanjaro e Seren…",
-      "testo": "<strong>Birre</strong>: le lager nazionali più diffuse sono <em>Safari</em>, <em>Kilimanjaro</em> e <em>Serengeti</em>. Si chiede la birra «<em lang=\"sw\">baridi</em>» (fredda), perché non è scontato."
+      "dove": "Voce di elenco: Birre: Safari, Kilimanjaro e Serengeti. Chiedetela baridi, fredda: non…",
+      "testo": "<strong>Birre</strong>: Safari, Kilimanjaro e Serengeti. Chiedetela <em lang=\"sw\">baridi</em>, fredda: non è scontato."
     },
     {
-      "dove": "Voce di elenco: Konyagi: il distillato nazionale, simile a un gin, spesso mescolato co…",
-      "testo": "<strong>Konyagi</strong>: il distillato nazionale, simile a un gin, spesso mescolato con soda."
+      "dove": "Voce di elenco: Konyagi: il distillato nazionale, simile al gin.",
+      "testo": "<strong>Konyagi</strong>: il distillato nazionale, simile al gin."
     },
     {
-      "dove": "Voce di elenco: Bevande tradizionali: l'ulanzi (vino di bambù) degli altopiani meridio…",
-      "testo": "<strong>Bevande tradizionali</strong>: l'<strong>ulanzi</strong> (vino di bambù) degli altopiani meridionali, la <em lang=\"sw\">mbege</em> (birra di banana) del Kilimanjaro, birre di sorgo e di miglio fatte in casa."
+      "dove": "Voce di elenco: Ulanzi: il vino di bambù degli altopiani del sud, stagionale e fatto i…",
+      "testo": "<strong>Ulanzi</strong>: il vino di bambù degli altopiani del sud, stagionale e fatto in casa."
     },
     {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: Al villaggio l'alcol può essere un tema delicato: molte famiglie sono …",
-      "testo": "Al villaggio l'alcol può essere un tema delicato: molte famiglie sono religiose e osservanti. Non bevete durante le attività e chiedete al coordinatore se e dove è appropriato farlo. E non offrite alcol ai ragazzi."
+      "dove": "Voce di elenco: Chai speziato con il latte e caffè degli altopiani.",
+      "testo": "<strong>Chai</strong> speziato con il latte e <strong>caffè</strong> degli altopiani."
+    },
+    {
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Al villaggio molte famiglie sono religiose: niente alcol durante le at…",
+      "testo": "Al villaggio molte famiglie sono religiose: niente alcol durante le attività, e mai ai ragazzi. Se avete dubbi, chiedetemi."
     },
     {
       "dove": "Sottotitolo: Mini-glossario per ordinare",
       "testo": "Mini-glossario per ordinare"
     },
     {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Vegetariani: ditelo al coordinatore prima della partenza. Fagioli, cha…",
-      "testo": "Vegetariani: ditelo al coordinatore prima della partenza. Fagioli, chapati, riso, mchicha e verdure si trovano sempre, ma al villaggio la carne è spesso un segno di onore per gli ospiti. Una frase gentile come «<em lang=\"sw\">sili nyama, asante</em>» basta."
+      "dove": "Box «Tip» · Paragrafo: Siete vegetariani o avete intolleranze? Ditemelo prima della partenza.…",
+      "testo": "Siete vegetariani o avete intolleranze? Ditemelo prima della partenza. Fagioli, riso, chapati e verdure non mancano mai, e un gentile «<em lang=\"sw\">sili nyama, asante</em>» basta."
     }
   ],
   "salute": [
@@ -283,120 +227,88 @@
       "testo": "Stare bene in viaggio"
     },
     {
-      "dove": "Paragrafo: Vaccinazioni, febbre gialla e profilassi sono nella sezione Prima di p…",
-      "testo": "Vaccinazioni, febbre gialla e profilassi sono nella sezione <a href=\"index.html#partire\">Prima di partire</a>. Qui le regole pratiche per i giorni di viaggio."
+      "dove": "Paragrafo: Per vaccinazioni, profilassi e farmaci il riferimento è il vostro medi…",
+      "testo": "Per vaccinazioni, profilassi e farmaci il riferimento è il vostro medico, o un ambulatorio di medicina dei viaggi: parlatene con lui qualche settimana prima di partire. In viaggio bastano poche abitudini:"
     },
     {
-      "dove": "Voce di elenco: Malaria: repellente dal tardo pomeriggio, maniche lunghe la sera, zanz…",
-      "testo": "<strong>Malaria</strong>: repellente dal tardo pomeriggio, maniche lunghe la sera, zanzariera. Se avete febbre, brividi o mal di testa forte, durante il viaggio o fino a qualche mese dopo il rientro, fate subito un test della malaria e dite al medico che siete stati in Tanzania."
+      "dove": "Voce di elenco: Acqua: solo in bottiglia sigillata, anche per i denti.",
+      "testo": "<strong>Acqua</strong>: solo in bottiglia sigillata, anche per i denti."
     },
     {
-      "dove": "Voce di elenco: Acqua e cibo: acqua sigillata o filtrata, anche per i denti. Cibi cott…",
-      "testo": "<strong>Acqua e cibo</strong>: acqua sigillata o filtrata, anche per i denti. Cibi cotti e caldi. Gel disinfettante prima di mangiare."
+      "dove": "Voce di elenco: Cibo: cotto e caldo, gel disinfettante prima di mangiare.",
+      "testo": "<strong>Cibo</strong>: cotto e caldo, gel disinfettante prima di mangiare."
     },
     {
-      "dove": "Voce di elenco: Acqua dolce: nei laghi e nei fiumi lenti della Tanzania esiste il risc…",
-      "testo": "<strong>Acqua dolce</strong>: nei laghi e nei fiumi lenti della Tanzania esiste il rischio di schistosomiasi (bilharzia), un parassita che penetra attraverso la pelle. I torrenti veloci di montagna sono meno a rischio, ma prima di fare il bagno nelle piscine naturali di Mpanga Kipengere chiedete alla guida locale. Asciugatevi subito, strofinando bene."
+      "dove": "Voce di elenco: Zanzare: spray antizanzare la sera, maniche lunghe e zanzariera.",
+      "testo": "<strong>Zanzare</strong>: spray antizanzare la sera, maniche lunghe e zanzariera."
     },
     {
-      "dove": "Voce di elenco: Sole: siamo appena sotto l'equatore. Il sole brucia anche con il cielo…",
-      "testo": "<strong>Sole</strong>: siamo appena sotto l'equatore. Il sole brucia anche con il cielo coperto e in quota: crema SPF 50 e cappello."
+      "dove": "Voce di elenco: Sole: siamo vicini all'equatore e brucia anche con le nuvole. Crema SP…",
+      "testo": "<strong>Sole</strong>: siamo vicini all'equatore e brucia anche con le nuvole. Crema SPF 50 e cappello."
     },
     {
-      "dove": "Voce di elenco: Mosche tse-tse: nelle zone boscose del Ruaha pungono attraverso i vest…",
-      "testo": "<strong>Mosche tse-tse</strong>: nelle zone boscose del Ruaha pungono attraverso i vestiti sottili. Evitate il blu e il nero, tenete chiusi i finestrini quando le vedete."
+      "dove": "Voce di elenco: Bagni in fiumi e piscine naturali solo dove la guida locale dice che s…",
+      "testo": "<strong>Bagni</strong> in fiumi e piscine naturali solo dove la guida locale dice che si può."
     },
     {
-      "dove": "Voce di elenco: Farmacie (duka la dawa): nelle città ce ne sono molte. Al villaggio e …",
-      "testo": "<strong>Farmacie</strong> (<em lang=\"sw\">duka la dawa</em>): nelle città ce ne sono molte. Al villaggio e nei parchi no: portate tutto il necessario."
+      "dove": "Voce di elenco: Farmacie (duka la dawa): in città ce ne sono molte, al villaggio e nei…",
+      "testo": "<strong>Farmacie</strong> (<em lang=\"sw\">duka la dawa</em>): in città ce ne sono molte, al villaggio e nei parchi no. Portate quello che vi serve."
     },
     {
-      "dove": "Voce di elenco: Ospedali: le strutture migliori sono a Dar es Salaam (per esempio l'Ag…",
-      "testo": "<strong>Ospedali</strong>: le strutture migliori sono a Dar es Salaam (per esempio l'Aga Khan Hospital e l'ospedale nazionale Muhimbili). Nelle regioni ci sono ospedali regionali e di riferimento a Mbeya e a Iringa, con servizi più limitati. Per i casi gravi serve l'evacuazione aerea: verificate che l'assicurazione la copra."
-    },
-    {
-      "dove": "Box «Attenzione» · Paragrafo: In Tanzania non c'è un servizio pubblico di ambulanze affidabile fuori…",
-      "testo": "In Tanzania non c'è un servizio pubblico di ambulanze affidabile fuori da Dar es Salaam. In caso di emergenza il primo riferimento è il coordinatore, poi l'assicurazione: salvate subito il numero della centrale operativa nel telefono."
+      "dove": "Box «Se non vi sentite bene» · Paragrafo: Ditelo subito a me, anche se vi sembra una sciocchezza. Tenete a porta…",
+      "testo": "Ditelo subito a me, anche se vi sembra una sciocchezza. Tenete a portata di mano il numero della centrale operativa dell'assicurazione."
     }
   ],
   "connessione": [
     {
-      "dove": "Paragrafo: Media e connessione",
-      "testo": "Media e connessione"
+      "dove": "Paragrafo: Connessione",
+      "testo": "Connessione"
     },
     {
       "dove": "Titolo: Restare connessi (e staccare)",
       "testo": "Restare connessi (e staccare)"
     },
     {
-      "dove": "Voce di elenco: Operatori: Vodacom, Airtel, Yas (l'ex Tigo) e Halotel. Nel sud Vodacom…",
-      "testo": "<strong>Operatori</strong>: Vodacom, Airtel, Yas (l'ex Tigo) e Halotel. Nel sud Vodacom e Airtel hanno di solito la copertura più ampia."
+      "dove": "Voce di elenco: SIM locale: Vodacom, Airtel, Yas o Halotel. Compratela in un negozio u…",
+      "testo": "<strong>SIM locale</strong>: Vodacom, Airtel, Yas o Halotel. Compratela in un negozio ufficiale dell'operatore, con il passaporto, e fatevi attivare il pacchetto dati (<em lang=\"sw\">bando</em>) prima di uscire. Costa pochi euro."
     },
     {
-      "dove": "Voce di elenco: SIM locale: compratela in un negozio ufficiale dell'operatore (ce ne s…",
-      "testo": "<strong>SIM locale</strong>: compratela in un negozio ufficiale dell'operatore (ce ne sono all'aeroporto e in città), non dai venditori per strada. Serve il passaporto, e in alcuni casi anche le impronte digitali. Le regole sulla registrazione sono cambiate nel 2025, quindi chiedete in negozio. Il costo è basso: pochi euro per diversi GB di traffico. Fatevi attivare il pacchetto dati (<em lang=\"sw\">bando</em>) prima di uscire dal negozio."
+      "dove": "Voce di elenco: eSIM: le app internazionali si attivano prima di partire. Sono comode,…",
+      "testo": "<strong>eSIM</strong>: le app internazionali si attivano prima di partire. Sono comode, ma più care."
     },
     {
-      "dove": "Voce di elenco: eSIM: le app di eSIM internazionali sono comode (si attivano prima di …",
-      "testo": "<strong>eSIM</strong>: le app di eSIM internazionali sono comode (si attivano prima di partire), ma costano di più e si appoggiano alle reti locali. Gli operatori tanzaniani in genere non vendono eSIM ai turisti. Controllate che il telefono sia sbloccato e compatibile."
+      "dove": "Voce di elenco: Copertura: buona in città e lungo le strade principali, debole o assen…",
+      "testo": "<strong>Copertura</strong>: buona in città e lungo le strade principali, debole o assente nei parchi, sugli altopiani e al villaggio."
     },
     {
-      "dove": "Voce di elenco: Copertura: buona nelle città e lungo le strade principali, debole o as…",
-      "testo": "<strong>Copertura</strong>: buona nelle città e lungo le strade principali, debole o assente nel Ruaha, in molte zone degli altopiani e forse al villaggio. Il wifi degli alloggi è spesso lento."
+      "dove": "Voce di elenco: Corrente: prese tipo G, 230 V, e interruzioni frequenti. Power bank se…",
+      "testo": "<strong>Corrente</strong>: prese tipo G, 230 V, e interruzioni frequenti. Power bank sempre carico."
     },
     {
-      "dove": "Voce di elenco: Elettricità: prese di tipo G (britanniche), 230 V. Le interruzioni di …",
-      "testo": "<strong>Elettricità</strong>: prese di tipo G (britanniche), 230 V. Le interruzioni di corrente sono frequenti: power bank sempre carico."
-    },
-    {
-      "dove": "Voce di elenco: Soldi dal telefono: in Tanzania si paga moltissimo con il cellulare (M…",
-      "testo": "<strong>Soldi dal telefono</strong>: in Tanzania si paga moltissimo con il cellulare (M-Pesa, Airtel Money e simili). Per i turisti non è facile da attivare: noi useremo contanti e carte."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Basta che qualcuno abbia una SIM locale per fare da hotspot nei moment…",
-      "testo": "Basta che qualcuno abbia una SIM locale per fare da hotspot nei momenti di emergenza. Create un gruppo WhatsApp del viaggio, ma con una regola: niente foto di bambini del villaggio. E durante i game drive, telefoni in silenzioso."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Prima di partire scaricate offline Google Maps o Maps.me per la Tanzan…",
-      "testo": "Prima di partire scaricate offline Google Maps o Maps.me per la Tanzania meridionale, Merlin per gli uccelli, un dizionario di swahili e questa guida, installandola sulla schermata Home."
+      "dove": "Box «Tip» · Paragrafo: Prima di partire scaricate offline le mappe della Tanzania, un diziona…",
+      "testo": "Prima di partire scaricate offline le mappe della Tanzania, un dizionario di swahili e questa guida, aggiungendola alla schermata Home del telefono."
     }
   ],
   "feste": [
     {
-      "dove": "Paragrafo: Feste ed eventi culturali",
-      "testo": "Feste ed eventi culturali"
+      "dove": "Paragrafo: Feste",
+      "testo": "Feste"
     },
     {
-      "dove": "Titolo: Il 9 dicembre, Uhuru Day",
-      "testo": "Il 9 dicembre, Uhuru Day"
+      "dove": "Titolo: Uhuru Day e Natale",
+      "testo": "Uhuru Day e Natale"
     },
     {
-      "dove": "Paragrafo: Il 9 dicembre 1961 il Tanganica, l'attuale Tanzania continentale, dive…",
-      "testo": "Il 9 dicembre 1961 il Tanganica, l'attuale Tanzania continentale, divenne indipendente dal Regno Unito, con Julius Nyerere come primo ministro. Nel 1964 l'unione con Zanzibar diede vita alla Repubblica Unita di Tanzania. Il 9 dicembre 2026 è il <strong>65° anniversario</strong>, e cade proprio mentre saremo nel Ruaha."
+      "dove": "Paragrafo: Il 9 dicembre la Tanzania festeggia l'indipendenza del Tanganica, otte…",
+      "testo": "Il <strong>9 dicembre</strong> la Tanzania festeggia l'indipendenza del Tanganica, ottenuta nel 1961 con Julius Nyerere. <em lang=\"sw\">Uhuru</em> significa «libertà». È festa nazionale: uffici e banche sono chiusi, sventolano le bandiere verde, oro, nero e blu e ci sono cerimonie ufficiali. Chiedete alle guide cosa significa per loro, e cosa pensano di Nyerere, il <em lang=\"sw\">Mwalimu</em> («maestro»)."
     },
     {
-      "dove": "Paragrafo: Uhuru significa «libertà». È festa nazionale: uffici, banche e molti n…",
-      "testo": "<em lang=\"sw\">Uhuru</em> significa «libertà». È festa nazionale: uffici, banche e molti negozi sono chiusi, sventolano le bandiere verde, oro, nero e blu, e spesso ci sono cerimonie ufficiali con parate e discorsi nella capitale e nei capoluoghi. Per noi la giornata cambia poco, perché saremo tra il parco e il villaggio masai. Ma è un'occasione per chiedere alle guide cosa significa per loro questa data, e cosa pensano di Nyerere, il <em lang=\"sw\">Mwalimu</em> («maestro»)."
+      "dove": "Paragrafo: Gli altopiani del sud sono in gran parte cristiani, e a dicembre si se…",
+      "testo": "Gli altopiani del sud sono in gran parte cristiani, e a dicembre si sente già il <strong>Natale</strong>: i cori dell'Avvento, i mercati pieni, le famiglie che tornano al villaggio. Il 25 e il 26 dicembre sono festivi in tutto il paese."
     },
     {
-      "dove": "Box «Il contesto» · Paragrafo: Dopo le elezioni dell'ottobre 2025 ci sono state proteste con vittime,…",
-      "testo": "Dopo le elezioni dell'ottobre 2025 ci sono state proteste con vittime, e a giugno 2026 il governo ha vietato i comizi politici in tutto il paese. Nei giorni festivi nazionali possono esserci forti misure di sicurezza. Tenetevi lontani da manifestazioni e assembramenti politici, non fotografate polizia e militari, e seguite le indicazioni del coordinatore."
-    },
-    {
-      "dove": "Sottotitolo: Natale in Tanzania",
-      "testo": "Natale in Tanzania"
-    },
-    {
-      "dove": "Paragrafo: Partiremo l'11 dicembre, ma l'aria del Natale si sentirà già. Gli alto…",
-      "testo": "Partiremo l'11 dicembre, ma l'aria del Natale si sentirà già. Gli altopiani di Njombe e Iringa sono a maggioranza cristiana (cattolici e luterani soprattutto): nelle chiese si preparano i cori dell'Avvento, nelle città compaiono le prime decorazioni e i mercati si riempiono. La messa della domenica al villaggio (6 dicembre) sarà probabilmente lunga, cantata e molto partecipata: un'esperienza da non perdere, anche per chi non è credente."
-    },
-    {
-      "dove": "Paragrafo: Il 25 e il 26 dicembre sono festivi in tutto il paese. Il Natale tanza…",
-      "testo": "Il 25 e il 26 dicembre sono festivi in tutto il paese. Il Natale tanzaniano è soprattutto una festa di famiglia: chi vive in città torna al villaggio, si cucinano pilau e carne alla brace, si va in chiesa e si fa visita ai parenti."
-    },
-    {
-      "dove": "Box «Lo sapevi che…» · Paragrafo: Nyerere tradusse in swahili il Giulio Cesare e il Mercante di Venezia …",
-      "testo": "Nyerere tradusse in swahili il <em>Giulio Cesare</em> e il <em>Mercante di Venezia</em> di Shakespeare, per dimostrare che lo swahili poteva essere una lingua letteraria e nazionale. Oggi è la lingua comune di oltre cento gruppi etnici."
+      "dove": "Box «Nei giorni di festa» · Paragrafo: Teniamoci lontani da manifestazioni e assembramenti politici, e non fo…",
+      "testo": "Teniamoci lontani da manifestazioni e assembramenti politici, e non fotografiamo polizia e militari."
     }
   ],
   "safari": [
@@ -409,152 +321,132 @@
       "testo": "Come funziona un game drive"
     },
     {
-      "dove": "Paragrafo: Safari in swahili significa semplicemente «viaggio». Il game drive è i…",
-      "testo": "<em lang=\"sw\">Safari</em> in swahili significa semplicemente «viaggio». Il <em>game drive</em> è il giro in jeep per osservare gli animali. Nel Ruaha avremo un pomeriggio, una notte nel parco e un'alba: la combinazione migliore per i predatori."
+      "dove": "Paragrafo: Safari in swahili vuol dire semplicemente «viaggio». Il game drive è i…",
+      "testo": "<em lang=\"sw\">Safari</em> in swahili vuol dire semplicemente «viaggio». Il <em>game drive</em> è il giro in jeep per vedere gli animali."
     },
     {
-      "dove": "Voce di elenco: Il mezzo: jeep 4x4 con tetto apribile (pop-up roof), 6–7 posti, guida-…",
-      "testo": "<strong>Il mezzo</strong>: jeep 4x4 con tetto apribile (<em>pop-up roof</em>), 6–7 posti, guida-autista certificata. Si sta in piedi solo a jeep ferma."
+      "dove": "Voce di elenco: Il mezzo: jeep 4x4 con il tetto apribile e una guida certificata. In p…",
+      "testo": "<strong>Il mezzo</strong>: jeep 4x4 con il tetto apribile e una guida certificata. In piedi solo a jeep ferma."
     },
     {
-      "dove": "Voce di elenco: Orari: i parchi aprono intorno alle 6:00 e chiudono tra le 18:00 e le …",
-      "testo": "<strong>Orari</strong>: i parchi aprono intorno alle 6:00 e chiudono tra le 18:00 e le 19:00. Il game drive del mattino va dall'alba alle 10–11, quello pomeridiano dalle 15:30 al tramonto. A mezzogiorno gli animali (e le persone) riposano."
+      "dove": "Voce di elenco: Orari: il mattino dall'alba alle 10–11, il pomeriggio dalle 15:30 al t…",
+      "testo": "<strong>Orari</strong>: il mattino dall'alba alle 10–11, il pomeriggio dalle 15:30 al tramonto. A mezzogiorno animali e persone riposano."
     },
     {
-      "dove": "Voce di elenco: In jeep: binocolo, macchina fotografica, acqua, crema solare, cappello…",
-      "testo": "<strong>In jeep</strong>: binocolo, macchina fotografica, acqua, crema solare, cappello, uno strato caldo per l'alba (alle 6 fa fresco), una bandana contro la polvere."
+      "dove": "Voce di elenco: In jeep: binocolo, acqua, crema solare, cappello, uno strato caldo per…",
+      "testo": "<strong>In jeep</strong>: binocolo, acqua, crema solare, cappello, uno strato caldo per l'alba."
     },
     {
-      "dove": "Voce di elenco: Pause bagno: si fanno solo nei punti autorizzati o, in caso di necessi…",
-      "testo": "<strong>Pause bagno</strong>: si fanno solo nei punti autorizzati o, in caso di necessità, la guida sceglie un luogo sicuro. È il famoso «<em>checking the tyres</em>»: controllare le gomme."
+      "dove": "Voce di elenco: Pause bagno: solo dove dice la guida.",
+      "testo": "<strong>Pause bagno</strong>: solo dove dice la guida."
     },
     {
       "dove": "Sottotitolo: Galateo in jeep",
       "testo": "Galateo in jeep"
     },
     {
-      "dove": "Voce di elenco: Restate seduti con la jeep in movimento e tenete braccia e teste dentr…",
-      "testo": "Restate seduti con la jeep in movimento e tenete braccia e teste dentro il veicolo."
+      "dove": "Voce di elenco: Seduti con la jeep in movimento, braccia e teste dentro.",
+      "testo": "Seduti con la jeep in movimento, braccia e teste dentro."
     },
     {
-      "dove": "Voce di elenco: Voce bassa, niente musica, niente richiami agli animali.",
-      "testo": "Voce bassa, niente musica, niente richiami agli animali."
+      "dove": "Voce di elenco: Voce bassa, niente musica.",
+      "testo": "Voce bassa, niente musica."
     },
     {
-      "dove": "Voce di elenco: Alternate i posti migliori: chi è stato al finestrino lato fiume ieri,…",
-      "testo": "Alternate i posti migliori: chi è stato al finestrino lato fiume ieri, oggi lascia il posto."
+      "dove": "Voce di elenco: Ci alterniamo ai posti migliori.",
+      "testo": "Ci alterniamo ai posti migliori."
     },
     {
-      "dove": "Voce di elenco: Non chiedete alla guida di avvicinarsi troppo o di uscire dalla pista:…",
-      "testo": "Non chiedete alla guida di avvicinarsi troppo o di uscire dalla pista: è vietato, e può costarle la licenza."
+      "dove": "Voce di elenco: Non chiediamo alla guida di uscire dalla pista o di avvicinarsi troppo…",
+      "testo": "Non chiediamo alla guida di uscire dalla pista o di avvicinarsi troppo: è vietato."
     },
     {
-      "dove": "Voce di elenco: Ascoltate la guida: se dice di sedersi o di fare silenzio, c'è un moti…",
-      "testo": "Ascoltate la guida: se dice di sedersi o di fare silenzio, c'è un motivo."
+      "dove": "Box «Tip» · Paragrafo: Fate le vostre foto, poi abbassate la macchina e guardate per un minut…",
+      "testo": "Fate le vostre foto, poi abbassate la macchina e guardate per un minuto. Sono i minuti che vi ricorderete."
     },
     {
-      "dove": "Voce di elenco: Niente cibo in vista quando ci sono babbuini o scimmie.",
-      "testo": "Niente cibo in vista quando ci sono babbuini o scimmie."
-    },
-    {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Non passate tutto il game drive dietro l'obiettivo. Per ogni avvistame…",
-      "testo": "Non passate tutto il game drive dietro l'obiettivo. Per ogni avvistamento importante, fate le vostre foto e poi abbassate la macchina per un minuto e guardate. Sono i minuti che ricorderete."
-    },
-    {
-      "dove": "Box «Da non perdere» · Paragrafo: L'alba del 9 dicembre nel Ruaha. Partite infreddoliti e con il thermos…",
-      "testo": "L'alba del 9 dicembre nel Ruaha. Partite infreddoliti e con il thermos del caffè, con la luce rosa sul fiume e i leoni ancora attivi dalla notte."
-    },
-    {
-      "dove": "Paragrafo: Per riconoscere gli animali: l'atlante della fauna e il capitolo Come …",
-      "testo": "Per riconoscere gli animali: <a href=\"fauna.html\">l'atlante della fauna</a> e il capitolo <a href=\"fauna.html#savana\">Come si legge la savana</a>."
+      "dove": "Paragrafo: Per riconoscere gli animali: l'atlante della fauna e Come si legge la …",
+      "testo": "Per riconoscere gli animali: <a href=\"fauna.html\">l'atlante della fauna</a> e <a href=\"fauna.html#savana\">Come si legge la savana</a>."
     }
   ],
   "aperto": [
     {
-      "dove": "Paragrafo: Attività all'aperto",
-      "testo": "Attività all'aperto"
+      "dove": "Paragrafo: All'aperto",
+      "testo": "All'aperto"
     },
     {
       "dove": "Titolo: A piedi, oltre la jeep",
       "testo": "A piedi, oltre la jeep"
     },
     {
-      "dove": "Voce di elenco: Mpanga Kipengere (giorno 3): cascate e piscine naturali. Il sentiero v…",
-      "testo": "<strong>Mpanga Kipengere</strong> (giorno 3): cascate e piscine naturali. Il sentiero verso le cascate Kimani passa su rocce bagnate: scarpe con buona suola. Prima di fare il bagno chiedete alla guida dove è sicuro."
+      "dove": "Voce di elenco: Cascate e piscine naturali sugli altopiani: rocce bagnate, quindi scar…",
+      "testo": "<strong>Cascate e piscine naturali</strong> sugli altopiani: rocce bagnate, quindi scarpe con una buona suola."
     },
     {
-      "dove": "Voce di elenco: Il villaggio: le partite di calcio con i ragazzi saranno probabilmente…",
-      "testo": "<strong>Il villaggio</strong>: le partite di calcio con i ragazzi saranno probabilmente il momento più bello della settimana. Portate scarpe che possono sporcarsi e preparatevi a perdere."
+      "dove": "Voce di elenco: Calcio al villaggio: con i ragazzi è uno dei momenti più belli. Portat…",
+      "testo": "<strong>Calcio al villaggio</strong>: con i ragazzi è uno dei momenti più belli. Portate scarpe che si possono sporcare, e preparatevi a perdere."
     },
     {
-      "dove": "Voce di elenco: Iringa, se resta del tempo: il sito dell'Età della Pietra di Isimila, …",
-      "testo": "<strong>Iringa</strong>, se resta del tempo: il <strong>sito dell'Età della Pietra di Isimila</strong>, a circa 20 km dalla città, uno dei siti più ricchi dell'Africa orientale di strumenti in pietra di tipo acheuleano, vecchi di decine di migliaia di anni, tra spettacolari pinnacoli di arenaria scolpiti dall'erosione. Oppure <strong>Kalenga</strong> e il museo dedicato a <strong>Mkwawa</strong>, il capo degli Hehe che resistette ai tedeschi negli anni '90 dell'Ottocento. Il suo cranio, portato in Germania, fu restituito alla Tanzania nel 1954."
+      "dove": "Voce di elenco: Iringa: il sito dell'Età della Pietra di Isimila e il museo di Mkwawa …",
+      "testo": "<strong>Iringa</strong>: il sito dell'Età della Pietra di Isimila e il museo di Mkwawa a Kalenga (vedi <a href=\"tappe.html#iringa\">la tappa</a>)."
     },
     {
-      "dove": "Voce di elenco: Dar es Salaam: una camminata sul lungomare di Coco Beach al tramonto, …",
-      "testo": "<strong>Dar es Salaam</strong>: una camminata sul lungomare di Coco Beach al tramonto, il mercato del pesce di Kivukoni all'alba, il Museo Nazionale, una gita in barca all'isola di Bongoyo se c'è mezza giornata libera."
+      "dove": "Voce di elenco: Dar es Salaam: il lungomare al tramonto, il mercato del pesce all'alba…",
+      "testo": "<strong>Dar es Salaam</strong>: il lungomare al tramonto, il mercato del pesce all'alba, una barca per l'isola di Bongoyo."
     },
     {
-      "dove": "Box «Attenzione» · Paragrafo: Nei parchi nazionali non si cammina senza un ranger armato. Fuori dai …",
-      "testo": "Nei parchi nazionali non si cammina senza un ranger armato. Fuori dai parchi, sui sentieri di campagna, usate sempre una guida locale: oltre a conoscere la strada, sa riconoscere i pericoli e parla con le persone che incontrerete."
+      "dove": "Box «Attenzione» · Paragrafo: Nei parchi non si cammina senza un ranger. Fuori dai parchi, sempre co…",
+      "testo": "Nei parchi non si cammina senza un ranger. Fuori dai parchi, sempre con una guida locale."
     }
   ],
   "sicurezza": [
     {
-      "dove": "Paragrafo: Criminalità e sicurezza personale",
-      "testo": "Criminalità e sicurezza personale"
+      "dove": "Paragrafo: Sicurezza",
+      "testo": "Sicurezza"
     },
     {
       "dove": "Titolo: Prudenti, non spaventati",
       "testo": "Prudenti, non spaventati"
     },
     {
-      "dove": "Paragrafo: La grande maggioranza dei viaggi in Tanzania si svolge senza problemi,…",
-      "testo": "La grande maggioranza dei viaggi in Tanzania si svolge senza problemi, e in gruppo con un coordinatore il rischio è ancora più basso. Ma le autorità britanniche e italiane segnalano un rischio di criminalità, anche armata, in tutto il paese. Ecco le regole che contano."
+      "dove": "Paragrafo: La Tanzania è un paese accogliente, e in gruppo si viaggia tranquilli.…",
+      "testo": "La Tanzania è un paese accogliente, e in gruppo si viaggia tranquilli. Bastano un po' di attenzione e poche regole:"
     },
     {
-      "dove": "Voce di elenco: A Dar es Salaam: gli scippi da moto o da auto sono il reato più comune…",
-      "testo": "<strong>A Dar es Salaam</strong>: gli scippi da moto o da auto sono il reato più comune. Borsa a tracolla sul lato opposto alla strada, telefono in tasca, niente gioielli. La sera muovetevi in taxi o bajaji chiamati dalla struttura o da un'app, non a piedi."
+      "dove": "Voce di elenco: In città: borsa sul lato opposto alla strada, telefono in tasca, nient…",
+      "testo": "<strong>In città</strong>: borsa sul lato opposto alla strada, telefono in tasca, niente gioielli. La sera ci muoviamo in taxi o con un'app."
     },
     {
-      "dove": "Voce di elenco: Contanti: pochi in tasca, il resto diviso tra zaino e marsupio interno…",
-      "testo": "<strong>Contanti</strong>: pochi in tasca, il resto diviso tra zaino e marsupio interno. Prelevate di giorno, agli sportelli dentro le banche o i centri commerciali."
+      "dove": "Voce di elenco: Contanti: pochi in tasca, il resto diviso. Si preleva di giorno, agli …",
+      "testo": "<strong>Contanti</strong>: pochi in tasca, il resto diviso. Si preleva di giorno, agli sportelli dentro banche o centri commerciali."
     },
     {
-      "dove": "Voce di elenco: Truffe: diffidate di chi offre cambi di valuta per strada, di «guide» …",
-      "testo": "<strong>Truffe</strong>: diffidate di chi offre cambi di valuta per strada, di «guide» non richieste e di chi chiede soldi per una «multa» senza ricevuta."
+      "dove": "Voce di elenco: Truffe: niente cambi per strada né «guide» non richieste.",
+      "testo": "<strong>Truffe</strong>: niente cambi per strada né «guide» non richieste."
     },
     {
-      "dove": "Voce di elenco: Zone da evitare: le autorità sconsigliano i viaggi vicino al confine c…",
-      "testo": "<strong>Zone da evitare</strong>: le autorità sconsigliano i viaggi vicino al confine con il Mozambico (regione di Mtwara) e segnalano rapine nelle regioni al confine con il Burundi. Il nostro itinerario è lontano da entrambe."
-    },
-    {
-      "dove": "Voce di elenco: Manifestazioni: tenetevi lontani da proteste e assembramenti politici.",
-      "testo": "<strong>Manifestazioni</strong>: tenetevi lontani da proteste e assembramenti politici."
-    },
-    {
-      "dove": "Voce di elenco: Fotografie: vietato fotografare edifici governativi, militari, polizia…",
-      "testo": "<strong>Fotografie</strong>: vietato fotografare edifici governativi, militari, polizia, aeroporti, ponti e infrastrutture. Si rischia il sequestro del telefono, o peggio."
+      "dove": "Voce di elenco: Foto: mai a polizia, militari, edifici governativi, aeroporti e ponti.",
+      "testo": "<strong>Foto</strong>: mai a polizia, militari, edifici governativi, aeroporti e ponti."
     },
     {
       "dove": "Voce di elenco: Leggi da conoscere: le relazioni tra persone dello stesso sesso sono r…",
-      "testo": "<strong>Leggi da conoscere</strong>: le relazioni tra persone dello stesso sesso sono reato e le pene sono severe; la discrezione in pubblico è d'obbligo per tutti. Le pene per possesso di droghe sono durissime. I sacchetti di plastica sono vietati. Gli abiti mimetici sono riservati ai militari."
+      "testo": "<strong>Leggi da conoscere</strong>: le relazioni tra persone dello stesso sesso sono reato, e in pubblico la discrezione è d'obbligo per tutti. Pene severissime per le droghe. Vietati i sacchetti di plastica e gli abiti mimetici."
     },
     {
-      "dove": "Voce di elenco: Viaggiatrici: possono capitare commenti o insistenze. Abbigliamento co…",
-      "testo": "<strong>Viaggiatrici</strong>: possono capitare commenti o insistenze. Abbigliamento coprente, nessuna risposta, fermezza. Nelle situazioni sgradevoli rivolgetevi subito al coordinatore o al gruppo."
+      "dove": "Voce di elenco: Viaggiatrici: possono capitare commenti o insistenze. Ignorateli, e se…",
+      "testo": "<strong>Viaggiatrici</strong>: possono capitare commenti o insistenze. Ignorateli, e se vi sentite a disagio ditelo a me o al gruppo."
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: Polizia ed emergenze: 112 (fuori da Dar non sempre funziona)",
-      "testo": "<strong>Polizia ed emergenze</strong>: 112 (fuori da Dar non sempre funziona)"
+      "dove": "Box «Numeri utili» · Voce di elenco: Io: il primo numero da chiamare",
+      "testo": "<strong>Io</strong>: il primo numero da chiamare"
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: Vigili del fuoco: 114 · Ambulanza: 115",
-      "testo": "<strong>Vigili del fuoco</strong>: 114 · <strong>Ambulanza</strong>: 115"
+      "dove": "Box «Numeri utili» · Voce di elenco: Emergenze: 112 · Vigili del fuoco 114 · Ambulanza 115",
+      "testo": "<strong>Emergenze</strong>: 112 · Vigili del fuoco 114 · Ambulanza 115"
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: Ambasciata d'Italia a Dar es Salaam: ambdaressalaam.esteri.it (salvate…",
-      "testo": "<strong>Ambasciata d'Italia a Dar es Salaam</strong>: <a href=\"https://ambdaressalaam.esteri.it\" target=\"_blank\" rel=\"noopener\">ambdaressalaam.esteri.it</a> (salvate il numero di emergenza indicato sul sito)"
+      "dove": "Box «Numeri utili» · Voce di elenco: Ambasciata d'Italia a Dar es Salaam: ambdaressalaam.esteri.it",
+      "testo": "<strong>Ambasciata d'Italia a Dar es Salaam</strong>: <a href=\"https://ambdaressalaam.esteri.it\" target=\"_blank\" rel=\"noopener\">ambdaressalaam.esteri.it</a>"
     },
     {
       "dove": "Box «Numeri utili» · Voce di elenco: Unità di Crisi della Farnesina: +39 06 36225",
@@ -565,16 +457,8 @@
       "testo": "<strong>Prima di partire</strong>: registrate il viaggio su <a href=\"https://www.dovesiamonelmondo.it\" target=\"_blank\" rel=\"noopener\">dovesiamonelmondo.it</a>"
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: La vostra assicurazione: numero della centrale operativa",
-      "testo": "<strong>La vostra assicurazione</strong>: numero della centrale operativa"
-    },
-    {
-      "dove": "Box «Numeri utili» · Voce di elenco: Il coordinatore: il primo numero da chiamare",
-      "testo": "<strong>Il coordinatore</strong>: il primo numero da chiamare"
-    },
-    {
-      "dove": "Box «Numeri utili» · Paragrafo: Numeri verificati l'11/11/2026; controllate anche la scheda di Viaggia…",
-      "testo": "Numeri verificati l'11/11/2026; controllate anche la scheda di <a href=\"https://www.viaggiaresicuri.it/find-country/country/TZA\" target=\"_blank\" rel=\"noopener\">Viaggiare Sicuri</a>."
+      "dove": "Box «Numeri utili» · Voce di elenco: La vostra assicurazione: il numero della centrale operativa",
+      "testo": "<strong>La vostra assicurazione</strong>: il numero della centrale operativa"
     }
   ],
   "cultura": [
@@ -627,7 +511,7 @@
       "testo": "Gli altopiani che attraverseremo sono la terra di popoli diversi: gli Hehe intorno a Iringa, famosi per la resistenza al colonialismo tedesco; i Bena nella zona di Njombe; i Kinga intorno a Makete; e molti altri gruppi verso il lago Nyasa. Al villaggio chiedete quale lingua si parla in famiglia: spesso non è lo swahili."
     },
     {
-      "dove": "Box «Il consiglio dell'autore» · Paragrafo: Le domande più apprezzate non riguardano gli animali ma le persone: co…",
+      "dove": "Box «Tip» · Paragrafo: Le domande più apprezzate non riguardano gli animali ma le persone: co…",
       "testo": "Le domande più apprezzate non riguardano gli animali ma le persone: come si chiama il tuo villaggio, quanti fratelli hai, qual è la tua squadra di calcio. Simba o Young Africans: a Dar non si può restare neutrali."
     }
   ],
@@ -641,60 +525,44 @@
       "testo": "Cosa portare a casa (e cosa no)"
     },
     {
-      "dove": "Voce di elenco: Kanga e kitenge: i tessuti stampati che vestono le donne tanzaniane. I…",
-      "testo": "<strong><em lang=\"sw\">Kanga</em> e <em lang=\"sw\">kitenge</em></strong>: i tessuti stampati che vestono le donne tanzaniane. Il kanga ha sempre un proverbio in swahili stampato in basso: chiedete di tradurvelo. Si comprano a Kariakoo (Dar) o nei mercati di ogni città."
+      "dove": "Voce di elenco: Kanga e kitenge: i tessuti stampati delle donne tanzaniane. Sul kanga …",
+      "testo": "<strong><em lang=\"sw\">Kanga</em> e <em lang=\"sw\">kitenge</em></strong>: i tessuti stampati delle donne tanzaniane. Sul kanga c'è sempre un proverbio in swahili: fatevelo tradurre."
     },
     {
-      "dove": "Voce di elenco: Quadri tingatinga: la pittura colorata e naif nata a Dar es Salaam neg…",
-      "testo": "<strong>Quadri tingatinga</strong>: la pittura colorata e naif nata a Dar es Salaam negli anni '60 con il pittore Edward Saidi Tingatinga. Nella cooperativa degli artisti a Dar si comprano direttamente da chi li dipinge."
+      "dove": "Voce di elenco: Quadri tingatinga: la pittura colorata nata a Dar negli anni '60, da c…",
+      "testo": "<strong>Quadri tingatinga</strong>: la pittura colorata nata a Dar negli anni '60, da comprare direttamente dagli artisti."
     },
     {
-      "dove": "Voce di elenco: Sculture makonde: le intricate sculture in legno scuro della tradizion…",
-      "testo": "<strong>Sculture makonde</strong>: le intricate sculture in legno scuro della tradizione makonde, al mercato degli intagliatori di Mwenge (Dar). Chiedete la ricevuta."
+      "dove": "Voce di elenco: Sculture makonde in legno scuro, al mercato degli intagliatori di Mwen…",
+      "testo": "<strong>Sculture makonde</strong> in legno scuro, al mercato degli intagliatori di Mwenge, a Dar."
     },
     {
-      "dove": "Voce di elenco: Gioielli di perline masai: braccialetti e collane, meglio se acquistat…",
-      "testo": "<strong>Gioielli di perline masai</strong>: braccialetti e collane, meglio se acquistati da cooperative di donne."
+      "dove": "Voce di elenco: Perline masai, meglio se da cooperative di donne.",
+      "testo": "<strong>Perline masai</strong>, meglio se da cooperative di donne."
     },
     {
-      "dove": "Voce di elenco: Cibo: caffè di Mbeya, tè di Njombe o Mufindi, spezie, miele.",
-      "testo": "<strong>Cibo</strong>: caffè di Mbeya, tè di Njombe o Mufindi, spezie, miele."
+      "dove": "Voce di elenco: Da mangiare: caffè, tè, spezie, miele.",
+      "testo": "<strong>Da mangiare</strong>: caffè, tè, spezie, miele."
     },
     {
-      "dove": "Voce di elenco: Cesti e borse intrecciate, utili anche al posto dei sacchetti di plast…",
-      "testo": "<strong>Cesti e borse intrecciate</strong>, utili anche al posto dei sacchetti di plastica."
+      "dove": "Paragrafo: Contrattare nei mercati è normale: salutate, chiedete il prezzo, propo…",
+      "testo": "<strong>Contrattare</strong> nei mercati è normale: salutate, chiedete il prezzo, proponete circa la metà e trovate un accordo nel mezzo, sorridendo. Nei negozi con i prezzi esposti non si contratta."
     },
     {
-      "dove": "Sottotitolo: Contrattare",
-      "testo": "Contrattare"
+      "dove": "Box «Da non comprare mai» · Voce di elenco: Avorio, corna, denti, ossa, pelli e piume di animali selvatici",
+      "testo": "Avorio, corna, denti, ossa, pelli e piume di animali selvatici"
     },
     {
-      "dove": "Paragrafo: Nei mercati e dagli artigiani è normale contrattare. Salutate, chiedet…",
-      "testo": "Nei mercati e dagli artigiani è normale contrattare. Salutate, chiedete il prezzo, rispondete con una cifra intorno alla metà e trovate un accordo nel mezzo, sorridendo. Se il prezzo è già basso, non insistete: la differenza per voi è di pochi centesimi. Nei negozi con i prezzi esposti e nei supermercati non si contratta."
+      "dove": "Box «Da non comprare mai» · Voce di elenco: Conchiglie, coralli e stelle marine",
+      "testo": "Conchiglie, coralli e stelle marine"
     },
     {
-      "dove": "Box «Da non comprare mai» · Voce di elenco: Avorio, corno di rinoceronte, denti e ossa di animali selvatici",
-      "testo": "<strong>Avorio</strong>, corno di rinoceronte, denti e ossa di animali selvatici"
+      "dove": "Box «Da non comprare mai» · Voce di elenco: Piante, semi e bulbi, comprese le orchidee",
+      "testo": "Piante, semi e bulbi, comprese le orchidee"
     },
     {
-      "dove": "Box «Da non comprare mai» · Voce di elenco: Pelli, piume e parti di animali protetti, compresi i gusci di tartarug…",
-      "testo": "<strong>Pelli</strong>, piume e parti di animali protetti, compresi i gusci di tartaruga"
-    },
-    {
-      "dove": "Box «Da non comprare mai» · Voce di elenco: Conchiglie, coralli e stelle marine raccolti sulla costa",
-      "testo": "<strong>Conchiglie, coralli e stelle marine</strong> raccolti sulla costa"
-    },
-    {
-      "dove": "Box «Da non comprare mai» · Voce di elenco: Piante vive, semi, bulbi (comprese le orchidee) e animali vivi",
-      "testo": "<strong>Piante vive, semi, bulbi</strong> (comprese le orchidee) e animali vivi"
-    },
-    {
-      "dove": "Box «Da non comprare mai» · Voce di elenco: Pietre preziose (come la tanzanite) senza certificato e ricevuta di un…",
-      "testo": "<strong>Pietre preziose</strong> (come la tanzanite) senza certificato e ricevuta di un rivenditore autorizzato"
-    },
-    {
-      "dove": "Box «Da non comprare mai» · Paragrafo: Oltre a essere illegali in Tanzania e in Italia, questi acquisti alime…",
-      "testo": "Oltre a essere illegali in Tanzania e in Italia, questi acquisti alimentano il bracconaggio e il commercio illegale."
+      "dove": "Box «Da non comprare mai» · Voce di elenco: Pietre preziose senza certificato e ricevuta",
+      "testo": "Pietre preziose senza certificato e ricevuta"
     }
   ],
   "gruppo": [
@@ -703,44 +571,36 @@
       "testo": "Viaggiare in gruppo"
     },
     {
-      "dove": "Titolo: Quindici sconosciuti in una jeep",
-      "testo": "Quindici sconosciuti in una jeep"
+      "dove": "Titolo: Sconosciuti in partenza, amici al ritorno",
+      "testo": "Sconosciuti in partenza, amici al ritorno"
     },
     {
-      "dove": "Paragrafo: Tredici giorni intensi, trasferimenti lunghi, una settimana in un vill…",
-      "testo": "Tredici giorni intensi, trasferimenti lunghi, una settimana in un villaggio: il gruppo farà la differenza tra un buon viaggio e un viaggio indimenticabile. Ecco qualche regola nata dall'esperienza."
+      "dove": "Voce di elenco: Rotazione: posti in jeep e in bus, e il finestrino buono, a turno.",
+      "testo": "<strong>Rotazione</strong>: posti in jeep e in bus, e il finestrino buono, a turno."
     },
     {
-      "dove": "Voce di elenco: Rotazione: posti in jeep e in bus, compagni di stanza (se previsto), t…",
-      "testo": "<strong>Rotazione</strong>: posti in jeep e in bus, compagni di stanza (se previsto), turni per il finestrino buono."
+      "dove": "Voce di elenco: Puntualità: qui si va pole pole, ma la jeep dell'alba non aspetta. Il …",
+      "testo": "<strong>Puntualità</strong>: qui si va <em lang=\"sw\">pole pole</em>, ma la jeep dell'alba non aspetta. Il ritardo di uno pesa su tutti."
     },
     {
-      "dove": "Voce di elenco: Puntualità: in Tanzania si va pole pole, ma la jeep delle 6 non aspett…",
-      "testo": "<strong>Puntualità</strong>: in Tanzania si va <em lang=\"sw\">pole pole</em>, ma la jeep delle 6 non aspetta. Un ritardo di un singolo si moltiplica per quindici."
+      "dove": "Voce di elenco: Cassa comune: 250 €, da consegnare a me all'inizio del viaggio. La uso…",
+      "testo": "<strong>Cassa comune</strong>: 250 €, da consegnare a me all'inizio del viaggio. La uso per trasporti, guide ed extra che decidiamo insieme."
     },
     {
-      "dove": "Voce di elenco: Cassa comune: circa 200 €, gestita dal coordinatore per trasporti, gui…",
-      "testo": "<strong>Cassa comune</strong>: circa 200 €, gestita dal coordinatore per trasporti, guide ed extra decisi insieme. Tenete traccia delle spese condivise con un'app come Splitwise."
+      "dove": "Voce di elenco: Spazi: c'è chi si ricarica in compagnia e chi da solo. Rispettiamo ent…",
+      "testo": "<strong>Spazi</strong>: c'è chi si ricarica in compagnia e chi da solo. Rispettiamo entrambi."
     },
     {
-      "dove": "Voce di elenco: Spazi: c'è chi si ricarica stando con gli altri e chi stando da solo. …",
-      "testo": "<strong>Spazi</strong>: c'è chi si ricarica stando con gli altri e chi stando da solo. Rispettate entrambi, e non prendetevela se qualcuno si isola per un'ora con le cuffie."
+      "dove": "Voce di elenco: Foto: un album condiviso del gruppo, ma niente foto di bambini o perso…",
+      "testo": "<strong>Foto</strong>: un album condiviso del gruppo, ma niente foto di bambini o persone del villaggio sui social."
     },
     {
-      "dove": "Voce di elenco: Al villaggio si lavora come squadra: non tutti sono bravi con i bambin…",
-      "testo": "<strong>Al villaggio</strong> si lavora come squadra: non tutti sono bravi con i bambini o con il cemento, ma tutti possono fare qualcosa. Ruoli chiari aiutano."
+      "dove": "Voce di elenco: Problemi: un malessere, un disagio, un conflitto? Ditemelo subito, in …",
+      "testo": "<strong>Problemi</strong>: un malessere, un disagio, un conflitto? Ditemelo subito, in privato. Prima ne parliamo, meglio è."
     },
     {
-      "dove": "Voce di elenco: Foto: un album condiviso del gruppo (Google Foto o simili) evita cento…",
-      "testo": "<strong>Foto</strong>: un album condiviso del gruppo (Google Foto o simili) evita cento messaggi. Ma niente foto di bambini o persone del villaggio sui social."
-    },
-    {
-      "dove": "Voce di elenco: Problemi: un disagio, un malessere, un conflitto si dicono subito al c…",
-      "testo": "<strong>Problemi</strong>: un disagio, un malessere, un conflitto si dicono subito al coordinatore, in privato. Prima si affrontano, meglio è."
-    },
-    {
-      "dove": "Box «In gruppo» · Paragrafo: Idee per le sere: una «serata swahili» in cui ognuno impara tre parole…",
-      "testo": "Idee per le sere: una «serata swahili» in cui ognuno impara tre parole nuove da chi lavora con noi; il bilancio degli avvistamenti; una playlist del viaggio in cui ognuno aggiunge un pezzo (meglio se di bongo flava). E prendete nota dei compleanni durante il viaggio: una torta a Iringa vale più di mille foto."
+      "dove": "Box «In gruppo» · Paragrafo: Idee per le sere: tre parole nuove di swahili a testa, il bilancio deg…",
+      "testo": "Idee per le sere: tre parole nuove di swahili a testa, il bilancio degli avvistamenti, una playlist del viaggio in cui ognuno aggiunge un pezzo. E se c'è un compleanno, ditemelo: una torta si trova sempre."
     }
   ],
   "dasapere": [
@@ -757,44 +617,44 @@
       "testo": "Visto"
     },
     {
-      "dove": "Tabella: Obbligatorio. eVisa turistico ordinario 50 USD sul portale ufficiale v…",
-      "testo": "Obbligatorio. eVisa turistico ordinario 50 USD sul portale ufficiale <a href=\"https://visa.immigration.go.tz\" target=\"_blank\" rel=\"noopener\">visa.immigration.go.tz</a>, oppure all'arrivo. Passaporto valido almeno 6 mesi oltre il rientro, con 2 pagine libere."
+      "dove": "Tabella: Obbligatorio, circa 45 €, sul portale ufficiale visa.immigration.go.tz…",
+      "testo": "Obbligatorio, circa 45 €, sul portale ufficiale <a href=\"https://visa.immigration.go.tz\" target=\"_blank\" rel=\"noopener\">visa.immigration.go.tz</a>. Passaporto valido 6 mesi oltre il rientro."
     },
     {
       "dove": "Tabella (intestazione): Valuta",
       "testo": "Valuta"
     },
     {
-      "dove": "Tabella: Scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS; 10.000 TZS ≈ 3,40 € (11/11…",
-      "testo": "Scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS; 10.000 TZS ≈ 3,40 € (11/11/2026). Banconote da 500 a 10.000 TZS."
+      "dove": "Tabella: Scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS; 10.000 TZS ≈ 3,40 €.",
+      "testo": "Scellino tanzaniano (TZS). 1 € ≈ 2.950 TZS; 10.000 TZS ≈ 3,40 €."
     },
     {
       "dove": "Tabella (intestazione): Carte e contanti",
       "testo": "Carte e contanti"
     },
     {
-      "dove": "Tabella: Bancomat nelle città (meglio Visa). Contanti indispensabili al villagg…",
-      "testo": "Bancomat nelle città (meglio Visa). Contanti indispensabili al villaggio e nei mercati. Dollari ed euro di riserva in banconote recenti e integre."
+      "dove": "Tabella: Bancomat nelle città. Contanti indispensabili al villaggio e nei merca…",
+      "testo": "Bancomat nelle città. Contanti indispensabili al villaggio e nei mercati. Euro di riserva in banconote integre."
     },
     {
-      "dove": "Tabella (intestazione): Prese e corrente",
-      "testo": "Prese e corrente"
+      "dove": "Tabella (intestazione): Prese",
+      "testo": "Prese"
     },
     {
-      "dove": "Tabella: Tipo G (britannica), a volte D; 230 V, 50 Hz. Serve un adattatore.",
-      "testo": "Tipo G (britannica), a volte D; 230 V, 50 Hz. Serve un adattatore."
+      "dove": "Tabella: Tipo G (britannica), 230 V. Serve un adattatore.",
+      "testo": "Tipo G (britannica), 230 V. Serve un adattatore."
     },
     {
       "dove": "Tabella (intestazione): Fuso orario",
       "testo": "Fuso orario"
     },
     {
-      "dove": "Tabella: UTC+3, cioè +2 ore rispetto all'Italia in dicembre. Alba verso le 6:00…",
-      "testo": "UTC+3, cioè +2 ore rispetto all'Italia in dicembre. Alba verso le 6:00–6:15, tramonto verso le 18:30–18:45."
+      "dove": "Tabella: +2 ore rispetto all'Italia in inverno, +1 in estate. Alba verso le 6, …",
+      "testo": "+2 ore rispetto all'Italia in inverno, +1 in estate. Alba verso le 6, tramonto verso le 18:30."
     },
     {
-      "dove": "Tabella (intestazione): Prefisso telefonico",
-      "testo": "Prefisso telefonico"
+      "dove": "Tabella (intestazione): Prefisso",
+      "testo": "Prefisso"
     },
     {
       "dove": "Tabella: +255",
@@ -805,8 +665,8 @@
       "testo": "Lingue"
     },
     {
-      "dove": "Tabella: Swahili e inglese ufficiali; molte lingue locali.",
-      "testo": "Swahili e inglese ufficiali; molte lingue locali."
+      "dove": "Tabella: Swahili e inglese, più molte lingue locali.",
+      "testo": "Swahili e inglese, più molte lingue locali."
     },
     {
       "dove": "Tabella (intestazione): Guida",
@@ -821,52 +681,52 @@
       "testo": "Acqua"
     },
     {
-      "dove": "Tabella: Non potabile dal rubinetto: solo acqua sigillata o filtrata.",
-      "testo": "Non potabile dal rubinetto: solo acqua sigillata o filtrata."
+      "dove": "Tabella: Solo in bottiglia sigillata.",
+      "testo": "Solo in bottiglia sigillata."
     },
     {
-      "dove": "Tabella (intestazione): Clima a dicembre",
-      "testo": "Clima a dicembre"
+      "dove": "Tabella (intestazione): Clima",
+      "testo": "Clima"
     },
     {
-      "dove": "Tabella: Dar: caldo umido, 25–32 °C. Altopiani: 10–24 °C, piogge e nebbie. Ruah…",
-      "testo": "Dar: caldo umido, 25–32 °C. Altopiani: 10–24 °C, piogge e nebbie. Ruaha: 20–33 °C, primi temporali pomeridiani. Stime indicative."
+      "dove": "Tabella: Sulla costa caldo umido tutto l'anno. Sugli altopiani notti fresche. L…",
+      "testo": "Sulla costa caldo umido tutto l'anno. Sugli altopiani notti fresche. Le piogge principali vanno da novembre ad aprile, la stagione secca da giugno a ottobre."
     },
     {
-      "dove": "Tabella (intestazione): Assicurazione",
-      "testo": "Assicurazione"
+      "dove": "Tabella (intestazione): Salute",
+      "testo": "Salute"
     },
     {
-      "dove": "Tabella: Quella WeRoad inclusa (spese mediche fino a 60.000 € nel mondo). Valut…",
-      "testo": "Quella WeRoad inclusa (spese mediche fino a 60.000 € nel mondo). Valutate un'integrazione con evacuazione aerea."
+      "dove": "Tabella: Vaccinazioni e profilassi: chiedete al vostro medico.",
+      "testo": "Vaccinazioni e profilassi: chiedete al vostro medico."
     },
     {
-      "dove": "Tabella (intestazione): Sacchetti di plastica",
-      "testo": "Sacchetti di plastica"
+      "dove": "Tabella (intestazione): Plastica",
+      "testo": "Plastica"
     },
     {
-      "dove": "Tabella: Vietati dal 2019, anche in valigia. Ammessi i sacchetti richiudibili t…",
-      "testo": "Vietati dal 2019, anche in valigia. Ammessi i sacchetti richiudibili trasparenti per i liquidi da aereo, se poi li riportate a casa."
+      "dove": "Tabella: Sacchetti di plastica vietati, anche in valigia.",
+      "testo": "Sacchetti di plastica vietati, anche in valigia."
     },
     {
       "dove": "Tabella (intestazione): Mance",
       "testo": "Mance"
     },
     {
-      "dove": "Tabella: Attese da guide, autisti e staff: vedi la tabella delle mance.",
-      "testo": "Attese da guide, autisti e staff: vedi la <a href=\"index.html#sostenibile\">tabella delle mance</a>."
+      "dove": "Tabella: Le raccogliamo insieme: vedi la tabella delle mance.",
+      "testo": "Le raccogliamo insieme: vedi la <a href=\"index.html#sostenibile\">tabella delle mance</a>."
     },
     {
       "dove": "Tabella (intestazione): Emergenze",
       "testo": "Emergenze"
     },
     {
-      "dove": "Tabella: Polizia 112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi de…",
-      "testo": "Polizia 112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi della Farnesina +39 06 36225."
+      "dove": "Tabella: 112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi della Farn…",
+      "testo": "112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi della Farnesina +39 06 36225."
     },
     {
-      "dove": "Paragrafo: Informazioni verificate l'11/11/2026 su fonti ufficiali e di viaggio (…",
-      "testo": "Informazioni verificate l'11/11/2026 su fonti ufficiali e di viaggio (governo britannico, Viaggiare Sicuri, operatori telefonici, Air Tanzania). Prezzi e cambi indicativi: controllate sempre prima di partire."
+      "dove": "Paragrafo: Informazioni verificate a novembre 2026. Prezzi e cambi sono indicativ…",
+      "testo": "Informazioni verificate a novembre 2026. Prezzi e cambi sono indicativi: controllate <a href=\"https://www.viaggiaresicuri.it/find-country/country/TZA\" target=\"_blank\" rel=\"noopener\">Viaggiare Sicuri</a> prima di partire."
     }
   ]
 }

@@ -3,7 +3,7 @@
    Nei testi di fauna e piatti, *parola* diventa corsivo. */
 window.KT = window.KT || {};
 KT.dati = function (nomi, cb) {
-  var VAR = { itinerario: 'ITINERARIO', mavanga: 'MAVANGA', piatti: 'PIATTI', fauna: 'FAUNA', avvisi: 'AVVISI' };
+  var VAR = { mavanga: 'MAVANGA', piatti: 'PIATTI', fauna: 'FAUNA', avvisi: 'AVVISI' };
   var CORSIVO = { piatti: 1, fauna: 1 };
   function em(v) {
     if (typeof v === 'string') return v.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
@@ -19,10 +19,10 @@ KT.dati = function (nomi, cb) {
 };
 (function () {
   var INDICE = [
-    { t: '1 · Introduzione', voci: [['Benvenuti in Tanzania', 'index.html#benvenuti'], ['Il nostro itinerario', 'index.html#itinerario'], ['Consigli d\'autore', 'index.html#consigli'], ['Prima di partire', 'index.html#partire'], ['Viaggio sostenibile', 'index.html#sostenibile']] },
+    { t: '1 · Introduzione', voci: [['Benvenuti in Tanzania', 'index.html#benvenuti'], ['Tips', 'index.html#tips'], ['Prima di partire', 'index.html#partire'], ['Viaggio responsabile', 'index.html#sostenibile']] },
     { t: '2 · Fauna', voci: [['Atlante delle specie', 'fauna.html#atlante'], ['Checklist «Avvistati!»', 'fauna.html#checklist'], ['Birdwatching', 'fauna.html#birdwatching'], ['Altopiani e Kitulo', 'fauna.html#altopiani'], ['Come si legge la savana', 'fauna.html#savana']] },
-    { t: '3 · Informazioni pratiche', voci: [['Arrivare e muoversi', 'info.html#arrivare'], ['Dove alloggiare', 'info.html#dormire'], ['Mangiare e bere', 'info.html#mangiare'], ['Salute', 'info.html#salute'], ['Connessione', 'info.html#connessione'], ['Feste: Uhuru Day e Natale', 'info.html#feste'], ['Safari e galateo', 'info.html#safari'], ['Attività all\'aperto', 'info.html#aperto'], ['Sicurezza', 'info.html#sicurezza'], ['Cultura, usi e costumi', 'info.html#cultura'], ['Acquisti', 'info.html#acquisti'], ['Viaggiare in gruppo', 'info.html#gruppo'], ['Da sapere', 'info.html#dasapere']] },
-    { t: '4 · La guida per tappe', voci: [['La mappa delle tappe', 'tappe.html#percorso'], ['Dar es Salaam', 'tappe.html#dar'], ['Mbeya e Mpanga Kipengere', 'tappe.html#mpanga'], ['Mavanga', 'tappe.html#mavanga'], ['Iringa', 'tappe.html#iringa'], ['Ruaha', 'tappe.html#ruaha'], ['Cultura masai', 'tappe.html#masai'], ['Mikumi', 'tappe.html#mikumi']] },
+    { t: '3 · Informazioni pratiche', voci: [['Arrivare e muoversi', 'info.html#arrivare'], ['Dove alloggiare', 'info.html#dormire'], ['Mangiare e bere', 'info.html#mangiare'], ['Salute', 'info.html#salute'], ['Connessione', 'info.html#connessione'], ['Feste', 'info.html#feste'], ['Safari e galateo', 'info.html#safari'], ['Attività all\'aperto', 'info.html#aperto'], ['Sicurezza', 'info.html#sicurezza'], ['Cultura, usi e costumi', 'info.html#cultura'], ['Acquisti', 'info.html#acquisti'], ['Viaggiare in gruppo', 'info.html#gruppo'], ['Da sapere', 'info.html#dasapere']] },
+    { t: '4 · La guida per tappe', voci: [['La mappa dei luoghi', 'tappe.html#percorso'], ['Dar es Salaam', 'tappe.html#dar'], ['Mbeya e Mpanga Kipengere', 'tappe.html#mpanga'], ['Mavanga', 'tappe.html#mavanga'], ['Iringa', 'tappe.html#iringa'], ['Ruaha', 'tappe.html#ruaha'], ['Cultura masai', 'tappe.html#masai'], ['Mikumi', 'tappe.html#mikumi']] },
     { t: '5 · Approfondimenti', voci: [['Storia'], ['Letture'], ['Musica'], ['Frasario swahili'], ['Glossario']] }
   ];
   var menu = document.getElementById('menu');

@@ -19,7 +19,6 @@ Non serve toccare codice: si compilano dei moduli.
 |---|---|
 | 📣 Avvisi per il gruppo | in cima alla home (solo quelli con «Pubblicato» attivo) |
 | 🏡 Mavanga: il progetto del villaggio | Guida per tappe → Mavanga |
-| 🗺️ Itinerario e mappa | timeline e mappa della home, mappa delle tappe |
 | 🍲 Piatti | Informazioni pratiche → Mangiare e bere |
 | 🦁 Fauna | le 106 schede dell'atlante |
 | ✏️ Testi delle pagine | tutti i testi di Home, Informazioni pratiche, Guida per tappe e Fauna, divisi per capitolo |
