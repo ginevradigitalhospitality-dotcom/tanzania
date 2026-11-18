@@ -39,8 +39,8 @@
       "testo": "<strong>Verso l'hotel</strong>: 30–60 minuti di traffico. Vi dico io prima della partenza come raggiungerci."
     },
     {
-      "dove": "Voce di elenco: Voli interni: i limiti di bagaglio sono bassi, spesso 23 kg in stiva e…",
-      "testo": "<strong>Voli interni</strong>: i limiti di bagaglio sono bassi, spesso 23 kg in stiva e 7 kg a mano. Controllate il vostro biglietto."
+      "dove": "Voce di elenco: Voli interni: bagaglio massimo 15 kg. Meglio uno zaino o un borsone mo…",
+      "testo": "<strong>Voli interni</strong>: bagaglio massimo <strong>15 kg</strong>. Meglio uno zaino o un borsone morbido."
     },
     {
       "dove": "Box «Tip» · Paragrafo: Nel bagaglio a mano tenete documenti, farmaci, power bank (in stiva so…",
@@ -255,8 +255,8 @@
       "testo": "<strong>Farmacie</strong> (<em lang=\"sw\">duka la dawa</em>): in città ce ne sono molte, al villaggio e nei parchi no. Portate quello che vi serve."
     },
     {
-      "dove": "Box «Se non vi sentite bene» · Paragrafo: Ditelo subito a me, anche se vi sembra una sciocchezza. Tenete a porta…",
-      "testo": "Ditelo subito a me, anche se vi sembra una sciocchezza. Tenete a portata di mano il numero della centrale operativa dell'assicurazione."
+      "dove": "Box «Se non vi sentite bene» · Paragrafo: Ditelo subito a me, anche se vi sembra una sciocchezza. Per l'assisten…",
+      "testo": "Ditelo subito a me, anche se vi sembra una sciocchezza. Per l'assistenza medica c'è la centrale operativa AXA, attiva 24/7: +39 06 42115309."
     }
   ],
   "connessione": [
@@ -273,8 +273,8 @@
       "testo": "<strong>SIM locale</strong>: Vodacom, Airtel, Yas o Halotel. Compratela in un negozio ufficiale dell'operatore, con il passaporto, e fatevi attivare il pacchetto dati (<em lang=\"sw\">bando</em>) prima di uscire. Costa pochi euro."
     },
     {
-      "dove": "Voce di elenco: eSIM: le app internazionali si attivano prima di partire. Sono comode,…",
-      "testo": "<strong>eSIM</strong>: le app internazionali si attivano prima di partire. Sono comode, ma più care."
+      "dove": "Voce di elenco: eSIM: la soluzione più comoda, da attivare prima di partire. Tra le mi…",
+      "testo": "<strong>eSIM</strong>: la soluzione più comoda, da attivare prima di partire. Tra le migliori c'è <strong>Airalo</strong>, che dovrebbe prendere bene. Con il mio codice <strong>GINEVR8469</strong> avete 3 € di sconto sulla prima eSIM, oppure usate <a href=\"https://airalo.go.link/5oQDE\" target=\"_blank\" rel=\"noopener\">questo link</a>."
     },
     {
       "dove": "Voce di elenco: Copertura: buona in città e lungo le strade principali, debole o assen…",
@@ -441,8 +441,8 @@
       "testo": "<strong>Io</strong>: il primo numero da chiamare"
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: Emergenze: 112 · Vigili del fuoco 114 · Ambulanza 115",
-      "testo": "<strong>Emergenze</strong>: 112 · Vigili del fuoco 114 · Ambulanza 115"
+      "dove": "Box «Numeri utili» · Voce di elenco: Emergenze in Tanzania: 112, il numero unico (chiedete il servizio che …",
+      "testo": "<strong>Emergenze in Tanzania</strong>: 112, il numero unico (chiedete il servizio che vi serve). Fuori da Dar può non rispondere"
     },
     {
       "dove": "Box «Numeri utili» · Voce di elenco: Ambasciata d'Italia a Dar es Salaam: ambdaressalaam.esteri.it",
@@ -457,8 +457,12 @@
       "testo": "<strong>Prima di partire</strong>: registrate il viaggio su <a href=\"https://www.dovesiamonelmondo.it\" target=\"_blank\" rel=\"noopener\">dovesiamonelmondo.it</a>"
     },
     {
-      "dove": "Box «Numeri utili» · Voce di elenco: La vostra assicurazione: il numero della centrale operativa",
-      "testo": "<strong>La vostra assicurazione</strong>: il numero della centrale operativa"
+      "dove": "Box «Numeri utili» · Voce di elenco: Assicurazione AXA, assistenza medica 24/7: +39 06 42115309",
+      "testo": "<strong>Assicurazione AXA, assistenza medica 24/7</strong>: +39 06 42115309"
+    },
+    {
+      "dove": "Box «Numeri utili» · Voce di elenco: WeRoad, emergenze gravi 24/7: +39 348 746 8633",
+      "testo": "<strong>WeRoad, emergenze gravi 24/7</strong>: +39 348 746 8633"
     }
   ],
   "cultura": [
@@ -583,12 +587,24 @@
       "testo": "<strong>Puntualità</strong>: qui si va <em lang=\"sw\">pole pole</em>, ma la jeep dell'alba non aspetta. Il ritardo di uno pesa su tutti."
     },
     {
-      "dove": "Voce di elenco: Cassa comune: 250 €, da consegnare a me all'inizio del viaggio. La uso…",
-      "testo": "<strong>Cassa comune</strong>: 250 €, da consegnare a me all'inizio del viaggio. La uso per trasporti, guide ed extra che decidiamo insieme."
+      "dove": "Voce di elenco: Cassa comune: 250 €, da consegnare a me all'inizio del viaggio (vedi c…",
+      "testo": "<strong>Cassa comune</strong>: 250 €, da consegnare a me all'inizio del viaggio (vedi <a href=\"index.html#dritte\">come funziona</a>)."
     },
     {
-      "dove": "Voce di elenco: Spazi: c'è chi si ricarica in compagnia e chi da solo. Rispettiamo ent…",
-      "testo": "<strong>Spazi</strong>: c'è chi si ricarica in compagnia e chi da solo. Rispettiamo entrambi."
+      "dove": "Voce di elenco: Gentilezza e cortesia: chi sceglie un viaggio WeRoad è già predisposto…",
+      "testo": "<strong>Gentilezza e cortesia</strong>: chi sceglie un viaggio WeRoad è già predisposto, ma io lo ricordo sempre. Viaggiare in gruppo a volte stanca: se sentite il bisogno dei vostri spazi, parlatemene o sentitevi liberi di allontanarvi nelle ore libere. Manteniamo sempre un clima sereno e rispettoso."
+    },
+    {
+      "dove": "Voce di elenco: Non ci giudichiamo: siamo persone diverse in un paese straniero. Ironi…",
+      "testo": "<strong>Non ci giudichiamo</strong>: siamo persone diverse in un paese straniero. Ironizziamo, scherziamo e ci prendiamo anche un po' in giro, ma sempre con il massimo rispetto dell'altro!"
+    },
+    {
+      "dove": "Voce di elenco: Rispetto delle cose degli altri: sembra superfluo, ma lo devo dire. Co…",
+      "testo": "<strong>Rispetto delle cose degli altri</strong>: sembra superfluo, ma lo devo dire. Condividiamo stanze e spazi personali, e gli oggetti degli altri non si toccano senza consenso. Diventeremo una seconda famiglia, quindi super sì a prestiti e condivisioni!"
+    },
+    {
+      "dove": "Voce di elenco: Rispetto per la cultura che ci ospita, sempre.",
+      "testo": "<strong>Rispetto per la cultura che ci ospita</strong>, sempre."
     },
     {
       "dove": "Voce di elenco: Foto: un album condiviso del gruppo, ma niente foto di bambini o perso…",
@@ -597,6 +613,14 @@
     {
       "dove": "Voce di elenco: Problemi: un malessere, un disagio, un conflitto? Ditemelo subito, in …",
       "testo": "<strong>Problemi</strong>: un malessere, un disagio, un conflitto? Ditemelo subito, in privato. Prima ne parliamo, meglio è."
+    },
+    {
+      "dove": "Voce di elenco: Fragilità o esigenze particolari: se c'è qualcosa che pensate sia megl…",
+      "testo": "<strong>Fragilità o esigenze particolari</strong>: se c'è qualcosa che pensate sia meglio che io sappia, scrivetemi in privato, così posso accogliervi e sostenervi al meglio."
+    },
+    {
+      "dove": "Voce di elenco: Divertiamoci e creiamo ricordi super speciali! Non vedo l'ora di conos…",
+      "testo": "<strong>Divertiamoci</strong> e creiamo ricordi super speciali! Non vedo l'ora di conoscervi tutti!"
     },
     {
       "dove": "Box «In gruppo» · Paragrafo: Idee per le sere: tre parole nuove di swahili a testa, il bilancio deg…",
@@ -721,8 +745,8 @@
       "testo": "Emergenze"
     },
     {
-      "dove": "Tabella: 112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi della Farn…",
-      "testo": "112 · Vigili del fuoco 114 · Ambulanza 115 · Unità di Crisi della Farnesina +39 06 36225."
+      "dove": "Tabella: 112 (numero unico in Tanzania) · Assistenza medica AXA +39 06 42115309…",
+      "testo": "112 (numero unico in Tanzania) · Assistenza medica AXA +39 06 42115309 · Unità di Crisi della Farnesina +39 06 36225."
     },
     {
       "dove": "Paragrafo: Informazioni verificate a novembre 2026. Prezzi e cambi sono indicativ…",
