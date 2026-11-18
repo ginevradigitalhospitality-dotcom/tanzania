@@ -233,7 +233,21 @@
 
   <h3 style="margin-top:34px">La valigia: spuntate mentre la preparate <span class="cont-valigia" id="cont-valigia"></span></h3>
   <p class="nota" data-t="partire.18">La lista resta salvata sul vostro telefono.</p>
+  <div class="colonne" style="margin-top:14px">
+    <div class="testo">
+      <p data-t="partire.19"><strong>Zaino!</strong> Il simbolo del vero weroader, nostro fedele compagno! È più comodo di una valigia e ci permette di salire e scendere dai mezzi senza fatica. Se dovete comprarlo, vi suggerisco uno zaino da <strong>50–70 litri</strong>, più uno <strong>zainetto da gita giornaliera</strong> da 20–30 litri.</p>
+      <p data-t="partire.20">Il saggio dice: <em>«Un viaggio di 14 giorni è solo un viaggio di 7 con la lavatrice nel mezzo, e la lavatrice non devi portarla da casa: la trovi già in vari hotel»</em>. Siate saggi anche voi!</p>
+    </div>
+    <aside>
+      <div class="box b-att"><h4>‼️ Bagaglio a mano</h4><p data-t="partire.21">Se all'andata imbarcate lo zaino principale, tenete nel bagaglio a mano almeno 3–4 cambi e un kit base per la cura personale. Meglio non sfidare la sorte 🤞🏻</p><p data-t="partire.22"><strong>NON portate oggetti di valore NON NECESSARI.</strong></p></div>
+    </aside>
+  </div>
   <div class="valigia" id="valigia">
+    <fieldset><legend>Zaini</legend>
+      <label><input type="checkbox" data-v="zaino"> Zaino principale da 50–70 litri</label>
+      <label><input type="checkbox" data-v="zainetto"> Zainetto da gita da 20–30 litri</label>
+      <label><input type="checkbox" data-v="cambi"> 3–4 cambi e kit per la cura personale nel bagaglio a mano</label>
+    </fieldset>
     <fieldset><legend>Documenti e soldi</legend>
       <label><input type="checkbox" data-v="passaporto"> Passaporto (+ fotocopia)</label>
       <label><input type="checkbox" data-v="visto"> Approvazione del visto stampata</label>
@@ -258,15 +272,20 @@
       <label><input type="checkbox" data-v="powerbank"> Power bank (nel bagaglio a mano) e cavi</label>
       <label><input type="checkbox" data-v="adattatore"> Adattatore per prese tipo G</label>
       <label><input type="checkbox" data-v="scarpe"> Scarpe chiuse comode e sandali</label>
+      <label><input type="checkbox" data-v="costume"> Costume da bagno</label>
     </fieldset>
     <fieldset><legend>Villaggio</legend>
       <label><input type="checkbox" data-v="lavoro"> Abiti che si possono sporcare</label>
       <label><input type="checkbox" data-v="chiesa"> Un abito per la messa della domenica</label>
       <label><input type="checkbox" data-v="sacco"> Sacco lenzuolo e asciugamano in microfibra</label>
       <label><input type="checkbox" data-v="salviette"> Salviette e gel disinfettante</label>
+      <label><input type="checkbox" data-v="colazione"> Cibo italiano per la colazione al villaggio (Nutella, dolci…)</label>
+      <label><input type="checkbox" data-v="nostalgia"> Cibo italiano per la nostalgia, tipo crackers</label>
+      <label><input type="checkbox" data-v="giochi"> Giochi da tavola per le sere a Mavanga</label>
     </fieldset>
     <fieldset><legend>Farmacia da viaggio</legend>
       <label><input type="checkbox" data-v="spray"> Spray antizanzare</label>
+      <label><input type="checkbox" data-v="biokill"> Biokill <small>spray non tossico che allontana e uccide gli insetti: spruzzatelo su coperte e angoli della camera</small></label>
       <label><input type="checkbox" data-v="farmaci"> Farmaci personali, con la ricetta</label>
       <label><input type="checkbox" data-v="medicazione"> Cerotti, disinfettante e ciò che vi consiglia il vostro medico</label>
     </fieldset>
@@ -381,6 +400,7 @@ KT.dati(['avvisi'], function () {
   conta();
 })();
 </script>
+
 
 
 

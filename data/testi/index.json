@@ -347,6 +347,22 @@
     {
       "dove": "Paragrafo: La lista resta salvata sul vostro telefono.",
       "testo": "La lista resta salvata sul vostro telefono."
+    },
+    {
+      "dove": "Paragrafo: Zaino! Il simbolo del vero weroader, nostro fedele compagno! È più com…",
+      "testo": "<strong>Zaino!</strong> Il simbolo del vero weroader, nostro fedele compagno! È più comodo di una valigia e ci permette di salire e scendere dai mezzi senza fatica. Se dovete comprarlo, vi suggerisco uno zaino da <strong>50–70 litri</strong>, più uno <strong>zainetto da gita giornaliera</strong> da 20–30 litri."
+    },
+    {
+      "dove": "Paragrafo: Il saggio dice: «Un viaggio di 14 giorni è solo un viaggio di 7 con la…",
+      "testo": "Il saggio dice: <em>«Un viaggio di 14 giorni è solo un viaggio di 7 con la lavatrice nel mezzo, e la lavatrice non devi portarla da casa: la trovi già in vari hotel»</em>. Siate saggi anche voi!"
+    },
+    {
+      "dove": "Box «‼️ Bagaglio a mano» · Paragrafo: Se all'andata imbarcate lo zaino principale, tenete nel bagaglio a man…",
+      "testo": "Se all'andata imbarcate lo zaino principale, tenete nel bagaglio a mano almeno 3–4 cambi e un kit base per la cura personale. Meglio non sfidare la sorte 🤞🏻"
+    },
+    {
+      "dove": "Box «‼️ Bagaglio a mano» · Paragrafo: NON portate oggetti di valore NON NECESSARI.",
+      "testo": "<strong>NON portate oggetti di valore NON NECESSARI.</strong>"
     }
   ],
   "sostenibile": [
