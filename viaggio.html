@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="it"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Day by day · Karibu Tanzania</title>
+<meta name="description" content="Sintesi di viaggio giorno per giorno: cosa è incluso, le tappe e dove dormiamo.">
+<meta name="theme-color" content="#F6F0E6">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="img/icone/icona-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23A9472F'/%3E%3Cpath d='M6 22h20M16 22V12M10 13c2-3 10-3 12 0' stroke='%23F6F0E6' stroke-width='2.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/guida.css">
+<style>
+.note{display:grid;gap:10px;margin:22px 0 26px}
+.nota-box{display:flex;gap:12px;align-items:flex-start;background:var(--carta);border:1px solid var(--linea);border-radius:12px;padding:12px 16px;font-size:.96rem}
+.nota-box .em{font-size:1.3rem;line-height:1.3}
+.nota-box p{margin:0}
+.incluso{columns:2 280px;column-gap:28px;padding:0;list-style:none;margin:10px 0 0}
+.incluso li{break-inside:avoid;padding:5px 0 5px 26px;position:relative;font-size:.95rem;border-bottom:1px dotted var(--linea)}
+.incluso li::before{content:"✓";position:absolute;left:2px;color:var(--savana);font-weight:800}
+.giorni{display:grid;gap:10px;margin-top:16px}
+.giorno{background:var(--carta);border:1px solid var(--linea);border-left:6px solid var(--c);border-radius:12px;padding:0 16px}
+.giorno summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:12px 0}
+.giorno summary::-webkit-details-marker{display:none}
+.giorno .n{width:42px;height:42px;border-radius:50%;background:var(--c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font:800 1rem/1 "Source Sans 3",sans-serif}
+.giorno .n small{font-size:.58rem;font-weight:600;margin-top:2px}
+.giorno .tit{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:1.08rem;line-height:1.25}
+.giorno .tit small{display:block;font:700 .72rem "Source Sans 3",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--grigio);margin-bottom:2px}
+.giorno summary::after{content:"+";color:var(--terracotta);font-weight:800;font-size:1.2rem}
+.giorno[open] summary::after{content:"−"}
+.giorno .corpo{padding:0 0 14px 54px;font-size:.95rem}
+.giorno .corpo p{margin:0 0 8px}
+.hotel{display:inline-flex;gap:6px;align-items:center;font-size:.88rem;font-weight:600;background:var(--sabbia);border:1px solid var(--linea);border-radius:99px;padding:4px 12px;text-decoration:none;color:var(--inchiostro)}
+.tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#B0362A;color:#fff;border-radius:5px;padding:2px 7px;margin-left:6px;vertical-align:middle}
+.tab{width:100%;border-collapse:collapse;font-size:.93rem;background:var(--carta);border:1px solid var(--linea);border-radius:12px;overflow:hidden;margin-top:12px}
+.tab th,.tab td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--linea)}
+.tab th{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--grigio)}
+.tab td:first-child{white-space:nowrap;font-weight:700}
+@media(max-width:520px){.giorno .corpo{padding-left:0}}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="index.html">Karibu <span>Tanzania</span></a>
+  <div class="nav-btns">
+    <button class="btn" data-tema="" aria-label="Cambia tema chiaro o scuro">◐</button>
+    <button class="btn" data-apri-menu="" aria-haspopup="true">☰ Indice</button>
+  </div>
+</div></header>
+<nav id="menu" class="menu" aria-label="Indice della guida"></nav>
+
+<main>
+<section id="daybyday" style="padding-top:34px"><div class="wrap">
+  <p class="kicker" data-t="daybyday.0">Day by day</p>
+  <h2 data-t="daybyday.1">Sintesi di viaggio</h2>
+
+  <div class="note">
+    <div class="nota-box"><span class="em">😛</span><p data-t="daybyday.2"><strong>Nota amichevole</strong>: se amate le sorprese, <strong>fermatevi qui!</strong> Se invece preferite sapere tutto in anticipo, continuate…!</p></div>
+    <div class="nota-box"><span class="em">🚨</span><p data-t="daybyday.3">Questa è una proposta: il programma potrebbe cambiare per diversi motivi (meteo, festività, scelte del gruppo…).</p></div>
+    <div class="nota-box"><span class="em">🗺️</span><p data-t="daybyday.4">È solo una sintesi: per l'itinerario dettagliato vi rimando alla <a href="https://www.weroad.it/viaggi/tanzania-safari-volontariato-weroadx" target="_blank" rel="noopener">pagina WeRoad del viaggio</a>.</p></div>
+    <div class="nota-box"><span class="em">📷</span><p data-t="daybyday.5">Per condividere i ricordi creeremo un album Google Foto del gruppo.</p></div>
+  </div>
+
+  <h3 data-t="daybyday.6">Cosa è incluso</h3>
+  <ul class="incluso">
+    <li data-t="daybyday.7">5 giorni di volontariato in un villaggio locale</li>
+    <li data-t="daybyday.8">Safari di 2 giorni nel Ruaha in jeep 4x4 con guida certificata, ingressi inclusi</li>
+    <li data-t="daybyday.9">Visita al villaggio masai</li>
+    <li data-t="daybyday.10">Cocoa experience con degustazione</li>
+    <li data-t="daybyday.11">6 notti al villaggio, con bagno a uso esclusivo del gruppo</li>
+    <li data-t="daybyday.12">1 notte WOW nel cuore del Ruaha</li>
+    <li data-t="daybyday.13">5 notti in hotel con bagno a uso esclusivo del gruppo</li>
+    <li data-t="daybyday.14">Volo Dar es Salaam → Mbeya</li>
+    <li data-t="daybyday.15">Van privato da Iringa a Dar es Salaam, via Mikumi</li>
+    <li data-t="daybyday.16">Tutte le colazioni, e pensione completa il giorno 10</li>
+    <li data-t="daybyday.17">L'assistenza della coordinatrice</li>
+    <li data-t="daybyday.18"><a href="https://www.weroad.it/legal/assicurazione-medico-bagaglio" target="_blank" rel="noopener">Assicurazione medico-bagaglio</a></li>
+  </ul>
+
+  <h3 style="margin-top:32px" data-t="daybyday.19">Giorno per giorno</h3>
+  <p class="nota" data-t="daybyday.20">Tocca un giorno per aprirlo.</p>
+  <div class="giorni">
+    <details class="giorno" style="--c:var(--t-dar)" open="">
+      <summary><span class="n">1<small>29/11</small></span><span class="tit"><small>Domenica · Dar es Salaam</small>Karibu Tanzania!</span></summary>
+      <div class="corpo"><p data-t="daybyday.21">Arrivo con il proprio volo, ritrovo in hotel e prima cena tutti insieme.</p><a class="hotel" href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185c4d028e18fabb:0xb5777b88fcd2168a" target="_blank" rel="noopener">🛏 Hotel Golden Tulip</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mpanga)">
+      <summary><span class="n">2<small>30/11</small></span><span class="tit"><small>Lunedì · Mbeya</small>In volo verso gli altopiani</span></summary>
+      <div class="corpo"><p data-t="daybyday.22">Volo per Mbeya, cocoa experience e giro al mercato della frutta.</p><a class="hotel" href="https://maps.app.goo.gl/Q9ymCtVJe6Sxfthr7" target="_blank" rel="noopener">🛏 Beskydy Holiday Rentals</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mpanga)">
+      <summary><span class="n">3<small>1/12</small></span><span class="tit"><small>Martedì · Mpanga Kipengere → Mavanga</small>Cascate e arrivo al villaggio</span></summary>
+      <div class="corpo"><p data-t="daybyday.23">Mattina alle cascate di Mpanga Kipengere, poi la strada lunga fino a Mavanga.</p><a class="hotel" href="https://maps.app.goo.gl/BkUMpaP31rF7HLVK6" target="_blank" rel="noopener">🛏 Mavanga parish</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mavanga)">
+      <summary><span class="n">4<small>2/12</small></span><span class="tit"><small>Mercoledì · Mavanga</small>Benvenuti al villaggio</span></summary>
+      <div class="corpo"><p data-t="daybyday.24">Conosciamo Method, la scuola e la comunità.</p><a class="hotel" href="https://maps.app.goo.gl/BkUMpaP31rF7HLVK6" target="_blank" rel="noopener">🛏 Mavanga parish</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mavanga)">
+      <summary><span class="n">5–7<small>3–5/12</small></span><span class="tit"><small>Giovedì–sabato · Mavanga</small>Pole pole al villaggio</span></summary>
+      <div class="corpo"><p data-t="daybyday.25">Giornate con la comunità: attività a scuola, giochi e calcio con i ragazzi, le sere tra noi.</p><a class="hotel" href="https://maps.app.goo.gl/BkUMpaP31rF7HLVK6" target="_blank" rel="noopener">🛏 Mavanga parish</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mavanga)">
+      <summary><span class="n">8<small>6/12</small></span><span class="tit"><small>Domenica · Mavanga</small>La messa con la comunità</span></summary>
+      <div class="corpo"><p data-t="daybyday.26">Cori, danze e una mattina da ricordare. Ultima sera al villaggio.</p><a class="hotel" href="https://maps.app.goo.gl/BkUMpaP31rF7HLVK6" target="_blank" rel="noopener">🛏 Mavanga parish</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-iringa)">
+      <summary><span class="n">9<small>7/12</small></span><span class="tit"><small>Lunedì · Iringa</small>Tea field e Iringa</span></summary>
+      <div class="corpo"><p data-t="daybyday.27">Saluti al villaggio, visita alle piantagioni di tè e arrivo a Iringa.</p><a class="hotel" href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185417e98fcd48bf:0x488edfe67efbd805" target="_blank" rel="noopener">🛏 Aika Sunrise</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-ruaha)">
+      <summary><span class="n">10<small>8/12</small></span><span class="tit"><small>Martedì · Ruaha</small>Safari e notte WOW nel parco</span></summary>
+      <div class="corpo"><p data-t="daybyday.28">Partenza presto, game drive in jeep 4x4 e notte nel cuore del parco. Pensione completa.</p><a class="hotel" href="https://www.google.com/maps/place/Ruaha+National+Park/@-7.7246775,35.0091512,143903m/data=!3m1!1e3!4m10!1m2!2m1!1sRuaha+National+Park+!3m6!1s0x1854146673912775:0x6f5c496653e80696!8m2!3d-7.7246775!4d35.6188924!15sChNSdWFoYSBOYXRpb25hbCBQYXJrkgENbmF0aW9uYWxfcGFya-ABAA!16zL20vMDVsem16" target="_blank" rel="noopener">🛏 Ruaha NP</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-masai)">
+      <summary><span class="n">11<small>9/12</small></span><span class="tit"><small>Mercoledì · Ruaha → Iringa</small>Alba nel Ruaha e villaggio masai <span class="tag">Uhuru Day</span></span></summary>
+      <div class="corpo"><p data-t="daybyday.29">Game drive all'alba, visita al villaggio masai e rientro a Iringa. È la festa dell'indipendenza!</p><a class="hotel" href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185417e98fcd48bf:0x488edfe67efbd805" target="_blank" rel="noopener">🛏 Aika Sunrise</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-mikumi)">
+      <summary><span class="n">12<small>10/12</small></span><span class="tit"><small>Giovedì · Iringa → Dar es Salaam</small>Safari dal finestrino</span></summary>
+      <div class="corpo"><p data-t="daybyday.30">In van verso la costa, attraversando il Parco di Mikumi. Ultima cena insieme.</p><a class="hotel" href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185c4d028e18fabb:0xb5777b88fcd2168a" target="_blank" rel="noopener">🛏 Hotel Golden Tulip</a></div>
+    </details>
+    <details class="giorno" style="--c:var(--t-dar)">
+      <summary><span class="n">13<small>11/12</small></span><span class="tit"><small>Venerdì · Dar es Salaam</small>Kwaheri Tanzania!</span></summary>
+      <div class="corpo"><p data-t="daybyday.31">Ultimi acquisti, saluti e partenze secondo i voli.</p></div>
+    </details>
+  </div>
+
+  <h3 style="margin-top:32px" data-t="daybyday.32">Dove dormiamo</h3>
+  <table class="tab">
+    <thead><tr><th data-t="daybyday.33">Giorno</th><th data-t="daybyday.34">Città</th><th data-t="daybyday.35">Hotel</th></tr></thead>
+    <tbody>
+      <tr><td data-t="daybyday.36">1 · 29/11</td><td data-t="daybyday.37">Dar es Salaam</td><td data-t="daybyday.38"><a href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185c4d028e18fabb:0xb5777b88fcd2168a" target="_blank" rel="noopener">Hotel Golden Tulip</a></td></tr>
+      <tr><td data-t="daybyday.39">2 · 30/11</td><td data-t="daybyday.40">Mbeya</td><td data-t="daybyday.41"><a href="https://maps.app.goo.gl/Q9ymCtVJe6Sxfthr7" target="_blank" rel="noopener">Beskydy Holiday Rentals</a></td></tr>
+      <tr><td data-t="daybyday.42">3–8 · 1–6/12</td><td data-t="daybyday.43">Mavanga</td><td data-t="daybyday.44"><a href="https://maps.app.goo.gl/BkUMpaP31rF7HLVK6" target="_blank" rel="noopener">Mavanga parish</a></td></tr>
+      <tr><td data-t="daybyday.45">9 · 7/12</td><td data-t="daybyday.46">Iringa</td><td data-t="daybyday.47"><a href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185417e98fcd48bf:0x488edfe67efbd805" target="_blank" rel="noopener">Aika Sunrise</a></td></tr>
+      <tr><td data-t="daybyday.48">10 · 8/12</td><td data-t="daybyday.49">Ruaha NP</td><td data-t="daybyday.50">Nel parco</td></tr>
+      <tr><td data-t="daybyday.51">11 · 9/12</td><td data-t="daybyday.52">Iringa</td><td data-t="daybyday.53"><a href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185417e98fcd48bf:0x488edfe67efbd805" target="_blank" rel="noopener">Aika Sunrise</a></td></tr>
+      <tr><td data-t="daybyday.54">12 · 10/12</td><td data-t="daybyday.55">Dar es Salaam</td><td data-t="daybyday.56"><a href="https://www.google.com/maps/place/data=!4m2!3m1!1s0x185c4d028e18fabb:0xb5777b88fcd2168a" target="_blank" rel="noopener">Hotel Golden Tulip</a></td></tr>
+    </tbody>
+  </table>
+</div></section>
+</main>
+
+<footer class="footer"><div class="wrap">
+  <p>Karibu Tanzania · guida di viaggio non commerciale. Il programma definitivo è quello sulla pagina WeRoad del viaggio.</p>
+</div></footer>
+<button class="top-btn" aria-label="Torna su">↑</button>
+<script src="assets/guida.js"></script>
+
+
+</body></html>

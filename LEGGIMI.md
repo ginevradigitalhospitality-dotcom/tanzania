@@ -20,7 +20,7 @@ Non serve toccare codice: si compilano dei moduli.
 | 📣 Avvisi per il gruppo | in cima alla home (solo quelli con «Pubblicato» attivo) |
 | 🍲 Piatti | Informazioni pratiche → Mangiare e bere |
 | 🦁 Fauna | le 106 schede dell'atlante |
-| ✏️ Testi delle pagine | tutti i testi di Home, Informazioni pratiche, Guida per tappe e Fauna, divisi per capitolo |
+| ✏️ Testi delle pagine | tutti i testi di Home, Day by day, Informazioni pratiche, Guida per tappe e Fauna, divisi per capitolo |
 
 ### Come si salva
 Modifica i campi e clicca **Save**. Dopo 1–3 minuti il sito è aggiornato (se non vedi la modifica, ricarica la pagina).

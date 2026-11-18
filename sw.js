@@ -1,8 +1,8 @@
 /* Service worker di Karibu Tanzania: rende la guida consultabile senza connessione.
    - Testi, dati e pagine: prima la rete (così le modifiche online arrivano subito), poi la copia salvata.
    - Immagini, font, librerie e mappa: prima la copia salvata, poi la rete.
-   Versione: 20261118-1505 (generato automaticamente: per aggiornarlo rigenera il file). */
-var VERSIONE = 'kt-20261118-1505';
+   Versione: 20261118-1611 (generato automaticamente: per aggiornarlo rigenera il file). */
+var VERSIONE = 'kt-20261118-1611';
 var BASE = 'kt-base-' + VERSIONE, FOTO = 'kt-foto', EXTRA = 'kt-extra', MAPPA = 'kt-mappa';
 var ELENCO = [
   './assets/fauna.js',
@@ -20,6 +20,7 @@ var ELENCO = [
   './data/testi/index.json',
   './data/testi/info.json',
   './data/testi/tappe.json',
+  './data/testi/viaggio.json',
   './fauna.html',
   './img/altopiani-panorama.jpg',
   './img/cibo/chai.jpg',
@@ -166,7 +167,8 @@ var ELENCO = [
   './index.html',
   './info.html',
   './manifest.webmanifest',
-  './tappe.html'
+  './tappe.html',
+  './viaggio.html'
 ];
 
 self.addEventListener('install', function (e) {

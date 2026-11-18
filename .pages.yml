@@ -107,6 +107,7 @@ content:
 
 
 
+
   - name: testi
     label: "✏️ Testi delle pagine"
     type: group
@@ -156,6 +157,19 @@ content:
             label: "Lasciare tracce leggere"
             type: object
             list: { min: 35, max: 35, collapsible: { collapsed: true, summary: "{dove}" } }
+            fields:
+              - { name: dove, label: "Dove si trova", type: string, readonly: true }
+              - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
+      - name: testi_viaggio
+        label: "Day by day"
+        type: file
+        path: data/testi/viaggio.json
+        format: json
+        fields:
+          - name: daybyday
+            label: "Sintesi di viaggio"
+            type: object
+            list: { min: 57, max: 57, collapsible: { collapsed: true, summary: "{dove}" } }
             fields:
               - { name: dove, label: "Dove si trova", type: string, readonly: true }
               - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
