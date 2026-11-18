@@ -27,39 +27,6 @@ content:
           - { name: importante, label: Importante (bordo rosso), type: boolean }
           - { name: pubblicato, label: Pubblicato, type: boolean, default: true }
 
-  - name: mavanga
-    label: "🏡 Mavanga: il progetto del villaggio"
-    type: file
-    path: data/mavanga.json
-    format: json
-    fields:
-      - name: aggiornato
-        label: Aggiornato il
-        type: string
-        description: "es. 20/11/2026. ⚠️ Il sito è pubblico: niente telefoni, nomi e cognomi, indirizzi o foto di bambini."
-      - name: progetto
-        label: Il progetto
-        type: object
-        fields:
-          - { name: titolo, label: Nome del progetto, type: string }
-          - { name: associazione, label: Organizzazione o parrocchia, type: string }
-          - { name: descrizione, label: Descrizione, type: text, description: "3–5 righe: chi sono, da quanto lavorano qui, a cosa serve il nostro aiuto" }
-      - { name: attivita, label: Le attività, type: text, list: true }
-      - { name: giornata, label: Una giornata tipo, type: text }
-      - { name: alloggio, label: Dove dormiamo e mangiamo, type: text, description: "Senza indirizzo" }
-      - { name: regole, label: Le regole del villaggio, type: text, list: true }
-      - { name: portare, label: Cosa portare per il progetto, type: text, list: true }
-      - name: domande
-        label: Domande frequenti
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{d}"
-        fields:
-          - { name: d, label: Domanda, type: string }
-          - { name: r, label: Risposta, type: text }
-
   - name: piatti
     label: "🍲 Piatti (Mangiare e bere)"
     type: file
@@ -137,6 +104,7 @@ content:
 
 
 
+
   - name: testi
     label: "✏️ Testi delle pagine"
     type: group
@@ -157,7 +125,7 @@ content:
           - name: benvenuti
             label: "Benvenuti in Tanzania"
             type: object
-            list: { min: 12, max: 12, collapsible: { collapsed: true, summary: "{dove}" } }
+            list: { min: 16, max: 16, collapsible: { collapsed: true, summary: "{dove}" } }
             fields:
               - { name: dove, label: "Dove si trova", type: string, readonly: true }
               - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
@@ -203,7 +171,7 @@ content:
               - { name: dove, label: "Dove si trova", type: string, readonly: true }
               - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
           - name: muoversi
-            label: "Jeep, bus, bajaji"
+            label: "Jeep, van, bajaji"
             type: object
             list: { min: 9, max: 9, collapsible: { collapsed: true, summary: "{dove}" } }
             fields:
@@ -330,14 +298,14 @@ content:
           - name: mavanga
             label: "Mavanga"
             type: object
-            list: { min: 21, max: 21, collapsible: { collapsed: true, summary: "{dove}" } }
+            list: { min: 35, max: 35, collapsible: { collapsed: true, summary: "{dove}" } }
             fields:
               - { name: dove, label: "Dove si trova", type: string, readonly: true }
               - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }
           - name: iringa
             label: "Iringa"
             type: object
-            list: { min: 21, max: 21, collapsible: { collapsed: true, summary: "{dove}" } }
+            list: { min: 19, max: 19, collapsible: { collapsed: true, summary: "{dove}" } }
             fields:
               - { name: dove, label: "Dove si trova", type: string, readonly: true }
               - { name: testo, label: Testo, type: rich-text, options: { format: html, media: false } }

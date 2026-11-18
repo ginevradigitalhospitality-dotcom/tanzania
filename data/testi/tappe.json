@@ -151,8 +151,8 @@
       "testo": "Mbeya e Mpanga Kipengere"
     },
     {
-      "dove": "Paragrafo: Caffè, nebbia e cascate: il primo assaggio degli altopiani del sud.",
-      "testo": "Caffè, nebbia e cascate: il primo assaggio degli altopiani del sud."
+      "dove": "Paragrafo: Cacao, nebbia e cascate: il primo assaggio degli altopiani del sud.",
+      "testo": "Cacao, nebbia e cascate: il primo assaggio degli altopiani del sud."
     },
     {
       "dove": "Paragrafo: Foto: Cascate Kimani, riserva di Mpanga Kipengere · Thomas veroza · CC…",
@@ -199,8 +199,8 @@
       "testo": "Cosa vedere"
     },
     {
-      "dove": "Voce di elenco: Una piantagione di caffè intorno a Mbeya, con la degustazione.",
-      "testo": "<strong>Una piantagione di caffè</strong> intorno a Mbeya, con la degustazione."
+      "dove": "Voce di elenco: La cocoa experience: il cacao della regione di Mbeya, dalla pianta all…",
+      "testo": "<strong>La cocoa experience</strong>: il cacao della regione di Mbeya, dalla pianta alla tavoletta, con la degustazione."
     },
     {
       "dove": "Voce di elenco: Il mercato della frutta: avocado, banane, frutto della passione.",
@@ -216,7 +216,7 @@
     },
     {
       "dove": "Box «Tip» · Paragrafo: Giacca impermeabile e pile a portata di mano, non nello zaino grande: …",
-      "testo": "Giacca impermeabile e pile a portata di mano, non nello zaino grande: in quota il tempo cambia in mezz'ora. E se il caffè vi piace, compratelo alla piantagione."
+      "testo": "Giacca impermeabile e pile a portata di mano, non nello zaino grande: in quota il tempo cambia in mezz'ora. E se il cioccolato vi piace, compratelo lì: i soldi vanno direttamente a chi coltiva il cacao."
     },
     {
       "dove": "Box «Attenzione» · Voce di elenco: Rocce bagnate alle cascate: scarpe con una buona suola.",
@@ -285,32 +285,88 @@
       "testo": "La regione di Njombe è agricola e d'alta quota, conosciuta per il tè, le patate e gli avocado. Sugli altopiani vivono soprattutto i bena, i pangwa e i kinga, ognuno con la sua lingua; tra loro, e con noi, si parla swahili. Chiedete in famiglia quale lingua si parla: è un ottimo modo per iniziare una conversazione."
     },
     {
-      "dove": "Sottotitolo: Il progetto",
-      "testo": "Il progetto"
+      "dove": "Sottotitolo: Method e la sua scuola",
+      "testo": "Method e la sua scuola"
+    },
+    {
+      "dove": "Paragrafo: Method è il cuore del villaggio di Mavanga. Parla italiano ed è simpat…",
+      "testo": "<strong>Method</strong> è il cuore del villaggio di Mavanga. Parla italiano ed è simpaticissimo: quando inizia a parlare non si ferma più, ma è un piacere ascoltarlo, perché ha sempre qualcosa di interessante da raccontare. Sta facendo un lavoro straordinario per la comunità."
+    },
+    {
+      "dove": "Paragrafo: Ha creato una scuola semi-privata in cui i bambini studiano, dormono e…",
+      "testo": "Ha creato una <strong>scuola semi-privata</strong> in cui i bambini studiano, dormono e mangiano. Vengono da tutta la Tanzania per costruirsi un futuro, e le lezioni sono interamente in inglese. Con loro il nostro gruppo può organizzare momenti di svago: ne hanno bisogno."
+    },
+    {
+      "dove": "Sottotitolo: La vita al villaggio",
+      "testo": "La vita al villaggio"
+    },
+    {
+      "dove": "Voce di elenco: Si mangia benissimo! Pranzo e cena sono a km 0, con le verdure dell'or…",
+      "testo": "<strong>Si mangia benissimo!</strong> Pranzo e cena sono a km 0, con le verdure dell'orto dietro la parrocchia e la carne di allevamenti locali. Quasi nulla è industriale: sapori autentici e genuini."
+    },
+    {
+      "dove": "Voce di elenco: Dormiamo in parrocchia, con letti veri e, a volte, la doccia calda. Si…",
+      "testo": "<strong>Dormiamo in parrocchia</strong>, con letti veri e, a volte, la doccia calda. Siamo fortunati."
+    },
+    {
+      "dove": "Voce di elenco: Le condizioni igieniche sono basse. I bambini, ovviamente, non profuma…",
+      "testo": "<strong>Le condizioni igieniche sono basse.</strong> I bambini, ovviamente, non profumano di rose: è importante essere preparati a questa realtà."
+    },
+    {
+      "dove": "Voce di elenco: L'elettricità c'è: portate l'adattatore per le prese per ricaricare te…",
+      "testo": "<strong>L'elettricità c'è</strong>: portate l'adattatore per le prese per ricaricare telefoni e dispositivi."
+    },
+    {
+      "dove": "Voce di elenco: Niente lavatrici, ma c'è una lavanderia a mano dove potete lavare tutt…",
+      "testo": "<strong>Niente lavatrici</strong>, ma c'è una lavanderia a mano dove potete lavare tutto quello che volete, con sapone e olio di gomito :D"
+    },
+    {
+      "dove": "Sottotitolo: I bambini",
+      "testo": "I bambini"
+    },
+    {
+      "dove": "Voce di elenco: Non hanno l'idea del compleanno, del regalo di compleanno o del regalo…",
+      "testo": "Non hanno l'idea del compleanno, del regalo di compleanno o del regalo in generale."
+    },
+    {
+      "dove": "Voce di elenco: Non lasciate soldi direttamente ai bambini o alle persone del villaggi…",
+      "testo": "Non lasciate soldi direttamente ai bambini o alle persone del villaggio. Vi consiglio vivamente di lasciarli a Method, che farà da tramite: è una persona SUPER fidata!"
+    },
+    {
+      "dove": "Sottotitolo: Pole pole",
+      "testo": "Pole pole"
+    },
+    {
+      "dove": "Paragrafo: Alcuni dei lavori più pesanti li fanno le donne. Non cercate di cambia…",
+      "testo": "Alcuni dei lavori più pesanti li fanno le donne. Non cercate di cambiare le loro abitudini: ogni progresso avverrà <em lang=\"sw\">pole pole</em>, piano piano. Ci vorrà del tempo per capirlo, ma è giusto che il cambiamento avvenga con i loro tempi."
+    },
+    {
+      "dove": "Paragrafo: Tempi lunghissimi e vita lenta: vivete questo tempo rilassato, respira…",
+      "testo": "Tempi lunghissimi e vita lenta: vivete questo tempo rilassato, respiratelo, perché è unico. Non forzate nulla. All'inizio sarà difficile per noi weroaders, ma è la vera esperienza africana. Andrete via dal villaggio con l'idea di non aver fatto nulla, e invece avrete assorbito tantissimo, come una spugna. Ora può sembrare difficile da capire: al ritorno lo capirete."
     },
     {
       "dove": "Box «Tip» · Paragrafo: Usate tutte le parole di swahili che sapete, anche sbagliando: Shikamo…",
       "testo": "Usate tutte le parole di swahili che sapete, anche sbagliando: <em lang=\"sw\">Shikamoo</em> agli anziani, <em lang=\"sw\">mambo?</em> ai ragazzi, <em lang=\"sw\">asante sana</em> a chi cucina. Al villaggio aprono tutte le porte."
     },
     {
-      "dove": "Box «Attenzione» · Voce di elenco: Al villaggio non ci sono bancomat: vi dirò io quando prelevare.",
-      "testo": "Al villaggio non ci sono bancomat: vi dirò io quando prelevare."
+      "dove": "Box «Da portare» · Voce di elenco: Adattatore per le prese e power bank.",
+      "testo": "Adattatore per le prese e power bank."
     },
     {
-      "dove": "Box «Attenzione» · Voce di elenco: Corrente e campo vanno e vengono: power bank carico e frontale.",
-      "testo": "Corrente e campo vanno e vengono: power bank carico e frontale."
+      "dove": "Box «Da portare» · Voce di elenco: Torcia frontale.",
+      "testo": "Torcia frontale."
     },
     {
-      "dove": "Box «Attenzione» · Voce di elenco: Notti fresche e umide: sacco lenzuolo e pile.",
-      "testo": "Notti fresche e umide: sacco lenzuolo e pile."
+      "dove": "Box «Da portare» · Voce di elenco: Sacco lenzuolo e pile per le notti fresche.",
+      "testo": "Sacco lenzuolo e pile per le notti fresche."
     },
     {
       "dove": "Box «Viaggio responsabile» · Voce di elenco: Niente foto dei bambini sui social.",
       "testo": "Niente foto dei bambini sui social."
     },
     {
-      "dove": "Box «Viaggio responsabile» · Voce di elenco: Le donazioni passano dal progetto, mai dalle mani dei bambini.",
-      "testo": "Le donazioni passano dal progetto, mai dalle mani dei bambini."
+      "dove": "Box «Viaggio responsabile» · Voce di elenco: Soldi e donazioni passano da Method, mai dalle mani dei bambini.",
+      "testo": "Soldi e donazioni passano da Method, mai dalle mani dei bambini."
     },
     {
       "dove": "Box «Viaggio responsabile» · Voce di elenco: Non promettete di tornare o di mandare soldi.",
@@ -375,36 +431,28 @@
       "testo": "Cosa vedere"
     },
     {
-      "dove": "Voce di elenco: Il mercato centrale, al mattino.",
-      "testo": "<strong>Il mercato centrale</strong>, al mattino."
+      "dove": "Voce di elenco: Le tea field: visitiamo le piantagioni di tè degli altopiani, con la r…",
+      "testo": "<strong>Le tea field</strong>: visitiamo le piantagioni di tè degli altopiani, con la raccolta delle foglie a mano e una tazza di tè dove cresce."
     },
     {
-      "dove": "Voce di elenco: Gangilonga, «la pietra che parla», con la vista migliore sulla città. …",
-      "testo": "<strong>Gangilonga</strong>, «la pietra che parla», con la vista migliore sulla città. Con una guida locale."
+      "dove": "Sottotitolo: Se abbiamo tempo",
+      "testo": "Se abbiamo tempo"
     },
     {
-      "dove": "Voce di elenco: Kalenga e il museo di Mkwawa, a circa 15 km.",
-      "testo": "<strong>Kalenga</strong> e il museo di Mkwawa, a circa 15 km."
+      "dove": "Voce di elenco: Gangilonga Rock: una breve camminata fino a una roccia sacra, con una …",
+      "testo": "<strong>Gangilonga Rock</strong>: una breve camminata fino a una roccia sacra, con una bellissima vista su Iringa."
     },
     {
-      "dove": "Voce di elenco: Isimila, a circa 20 km: strumenti in pietra di decine di migliaia di a…",
-      "testo": "<strong>Isimila</strong>, a circa 20 km: strumenti in pietra di decine di migliaia di anni fa, tra pinnacoli di arenaria."
-    },
-    {
-      "dove": "Didascalia: I pinnacoli di arenaria di Isimila · Dingilai · CC BY-SA 4.0",
-      "testo": "I pinnacoli di arenaria di Isimila · Dingilai · <a href=\"https://commons.wikimedia.org/wiki/File:Isimila_stone_age_site.jpg\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>"
+      "dove": "Voce di elenco: Le pitture rupestri di Igeleke: antichissime pitture color ocra che ra…",
+      "testo": "<strong>Le pitture rupestri di Igeleke</strong>: antichissime pitture color ocra che raffigurano figure umane ed elefanti. Per visitarle potete cercare una guida in città."
     },
     {
       "dove": "Box «Tip» · Paragrafo: Se avete un'ora di luce, andate sul bordo della scarpata al tramonto: …",
       "testo": "Se avete un'ora di luce, andate sul bordo della scarpata al tramonto: la valle diventa rossa, e si capisce perché Mkwawa scelse questo posto."
     },
     {
-      "dove": "Box «Da non perdere» · Paragrafo: Isimila, se c'è mezza giornata: pochi posti al mondo vi fanno vedere d…",
-      "testo": "Isimila, se c'è mezza giornata: pochi posti al mondo vi fanno vedere da vicino strumenti di pietra così antichi."
-    },
-    {
-      "dove": "Box «Viaggio responsabile» · Paragrafo: A Isimila le pietre lavorate si guardano e si fotografano, ma non si p…",
-      "testo": "A Isimila le pietre lavorate si guardano e si fotografano, ma non si portano via: sono reperti protetti."
+      "dove": "Box «Viaggio responsabile» · Paragrafo: Le pitture rupestri si guardano e si fotografano senza flash, e non si…",
+      "testo": "Le pitture rupestri si guardano e si fotografano senza flash, e non si toccano: sono fragili e protette."
     }
   ],
   "ruaha": [
@@ -445,8 +493,8 @@
       "testo": "caldo, 20–33 °C"
     },
     {
-      "dove": "Paragrafo: Il Ruaha è più grande della Puglia, ma lo visita una piccola parte dei…",
-      "testo": "Il Ruaha è più grande della Puglia, ma lo visita una piccola parte dei turisti del Serengeti: qui un leone sdraiato sulla pista può essere tutto vostro. Colline rocciose, baobab giganti, savana di acacie e, in mezzo, il Grande Ruaha, il fiume che dà il nome al parco."
+      "dove": "Paragrafo: Il Ruaha è immenso, ma lo visita una piccola parte dei turisti del Ser…",
+      "testo": "Il Ruaha è immenso, ma lo visita una piccola parte dei turisti del Serengeti: qui un leone sdraiato sulla pista può essere tutto vostro. Colline rocciose, baobab giganti, savana di acacie e, in mezzo, il Grande Ruaha, il fiume che dà il nome al parco."
     },
     {
       "dove": "Sottotitolo: In breve",
@@ -629,8 +677,8 @@
       "testo": "<strong>Morogoro</strong>, ai piedi dei monti Uluguru, e poi la pianura sempre più calda verso la costa."
     },
     {
-      "dove": "Paragrafo: Il bus non si ferma dentro il parco: foto dal finestrino, con zoom e r…",
-      "testo": "Il bus non si ferma dentro il parco: foto dal finestrino, con zoom e raffica."
+      "dove": "Paragrafo: Sulla statale, dentro il parco, non ci si ferma: foto dal finestrino d…",
+      "testo": "Sulla statale, dentro il parco, non ci si ferma: foto dal finestrino del van, con zoom e raffica."
     },
     {
       "dove": "Box «Tip» · Paragrafo: Lato destro per la gola dei baobab, poi scambiatevi i posti prima del …",
@@ -645,8 +693,8 @@
       "testo": "Non buttate niente dal finestrino, nemmeno una buccia: abitua gli animali a cercare cibo sulla strada."
     },
     {
-      "dove": "Sottotitolo: Gli animali da cercare dal bus",
-      "testo": "Gli animali da cercare dal bus"
+      "dove": "Sottotitolo: Gli animali da cercare dal van",
+      "testo": "Gli animali da cercare dal van"
     }
   ]
 }

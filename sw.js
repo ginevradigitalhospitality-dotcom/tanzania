@@ -1,8 +1,8 @@
 /* Service worker di Karibu Tanzania: rende la guida consultabile senza connessione.
    - Testi, dati e pagine: prima la rete (così le modifiche online arrivano subito), poi la copia salvata.
    - Immagini, font, librerie e mappa: prima la copia salvata, poi la rete.
-   Versione: 20261116-1845 (generato automaticamente: per aggiornarlo rigenera il file). */
-var VERSIONE = 'kt-20261116-1845';
+   Versione: 20261118-1212 (generato automaticamente: per aggiornarlo rigenera il file). */
+var VERSIONE = 'kt-20261118-1212';
 var BASE = 'kt-base-' + VERSIONE, FOTO = 'kt-foto', EXTRA = 'kt-extra', MAPPA = 'kt-mappa';
 var ELENCO = [
   './assets/fauna.js',
@@ -15,7 +15,6 @@ var ELENCO = [
   './data/foto-crediti-3.js',
   './data/foto-crediti-4.js',
   './data/foto-crediti-5.js',
-  './data/mavanga.json',
   './data/piatti.json',
   './data/testi/fauna.json',
   './data/testi/index.json',

@@ -32,7 +32,23 @@
     },
     {
       "dove": "Paragrafo: Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli al…",
-      "testo": "Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli altopiani del sud, tra caffè, tè e nebbia. Poi una settimana in un villaggio del distretto di Ludewa, tra scuola, campi e messa della domenica. Infine la savana del Ruaha, uno dei parchi più selvaggi dell'Africa orientale, e il rientro verso la costa attraverso Mikumi."
+      "testo": "Si parte dalla costa calda e umida di Dar es Salaam e si sale sugli altopiani del sud, tra cacao, tè e nebbia. Poi una settimana in un villaggio del distretto di Ludewa, tra scuola, campi e messa della domenica. Infine la savana del Ruaha, uno dei parchi più selvaggi dell'Africa orientale, e il rientro verso la costa attraverso Mikumi."
+    },
+    {
+      "dove": "Sottotitolo: Che viaggio è",
+      "testo": "Che viaggio è"
+    },
+    {
+      "dove": "Voce di elenco: Un viaggio autentico, lontano dal turismo di massa. Per questo richied…",
+      "testo": "<strong>Un viaggio autentico</strong>, lontano dal turismo di massa. Per questo richiede più spirito di adattamento di un viaggio tradizionale."
+    },
+    {
+      "dove": "Voce di elenco: Si vive in modo molto locale, pole pole, con calma e senza fretta. I l…",
+      "testo": "<strong>Si vive in modo molto locale</strong>, <em lang=\"sw\">pole pole</em>, con calma e senza fretta. I locali non hanno fretta: non abbiatela neanche voi! La sera non ci sono bar o discoteche, ma è un'ottima occasione per rilassarsi, fare giochi di gruppo, guardare le stelle e stare insieme."
+    },
+    {
+      "dove": "Voce di elenco: È un viaggio di conoscenza culturale. Il vero volontariato lo fa chi r…",
+      "testo": "<strong>È un viaggio di conoscenza culturale.</strong> Il vero volontariato lo fa chi rimane nei villaggi per mesi e anni. Guardate, respirate il loro mood SENZA VOLER CAMBIARE NULLA: è importantissimo per capire la realtà di questa parte del mondo."
     },
     {
       "dove": "Paragrafo: Ho scritto questa guida per farvi partire preparati e vivere il viaggi…",
@@ -118,11 +134,11 @@
     },
     {
       "dove": "Voce di elenco: Bagaglio morbidoUno zaino o un borsone si incastrano meglio nelle jeep…",
-      "testo": "<b>Bagaglio morbido</b>Uno zaino o un borsone si incastrano meglio nelle jeep e nei bus, e i voli interni hanno limiti di peso bassi."
+      "testo": "<b>Bagaglio morbido</b>Uno zaino o un borsone si incastrano meglio nelle jeep e nei van, e i voli interni hanno limiti di peso bassi."
     },
     {
-      "dove": "Voce di elenco: Frontale e power bankAl villaggio e nei campi la corrente va e viene. …",
-      "testo": "<b>Frontale e power bank</b>Al villaggio e nei campi la corrente va e viene. Scaricate offline mappe, musica e questa guida."
+      "dove": "Voce di elenco: Torcia frontale e power bankNei campi tendati la corrente è a orari, e…",
+      "testo": "<b>Torcia frontale e power bank</b>Nei campi tendati la corrente è a orari, e ovunque può saltare. Scaricate offline mappe, musica e questa guida."
     },
     {
       "dove": "Voce di elenco: Contrattate con il sorrisoAl mercato è normale. Ricordate però che mil…",

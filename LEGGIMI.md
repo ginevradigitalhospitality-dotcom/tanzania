@@ -18,7 +18,6 @@ Non serve toccare codice: si compilano dei moduli.
 | Sezione del pannello | Dove compare sul sito |
 |---|---|
 | 📣 Avvisi per il gruppo | in cima alla home (solo quelli con «Pubblicato» attivo) |
-| 🏡 Mavanga: il progetto del villaggio | Guida per tappe → Mavanga |
 | 🍲 Piatti | Informazioni pratiche → Mangiare e bere |
 | 🦁 Fauna | le 106 schede dell'atlante |
 | ✏️ Testi delle pagine | tutti i testi di Home, Informazioni pratiche, Guida per tappe e Fauna, divisi per capitolo |
@@ -40,7 +39,7 @@ Nei «Testi delle pagine» ogni capitolo contiene i suoi blocchi (paragrafi, voc
 
 Ogni salvataggio resta nella **cronologia** e si può sempre tornare indietro.
 
-1. Su github.com apri il repository **tanzania** e il file da recuperare (per esempio `data/mavanga.json`).
+1. Su github.com apri il repository **tanzania** e il file da recuperare (per esempio `data/avvisi.json`).
 2. Clicca **History**, scegli la versione funzionante e copiane il contenuto.
 3. Oppure chiedi aiuto: con la cronologia si recupera qualsiasi versione.
 

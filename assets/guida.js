@@ -3,7 +3,7 @@
    Nei testi di fauna e piatti, *parola* diventa corsivo. */
 window.KT = window.KT || {};
 KT.dati = function (nomi, cb) {
-  var VAR = { mavanga: 'MAVANGA', piatti: 'PIATTI', fauna: 'FAUNA', avvisi: 'AVVISI' };
+  var VAR = { piatti: 'PIATTI', fauna: 'FAUNA', avvisi: 'AVVISI' };
   var CORSIVO = { piatti: 1, fauna: 1 };
   function em(v) {
     if (typeof v === 'string') return v.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
